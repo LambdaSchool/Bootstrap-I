@@ -1,0 +1,13 @@
+.dropdown {
+  margin: 20px 20px 20px 0;
+}
+.dropdown button {
+  background-color: black;
+  color: white;
+}
+.dropdown .dropdown-menu {
+  background-color: black;
+}
+.dropdown .dropdown-menu .dropdown-item {
+  color: white;
+}
