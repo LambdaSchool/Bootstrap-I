@@ -20,11 +20,11 @@ nav {
 }
 .btn-primary {
   background: #DD5E98;
-  border: 1px solid pink;
+  border: 1px solid white;
 }
 .btn-primary:hover {
   background: #b02564;
-  border: 1px solid pink;
+  border: 1px solid white;
 }
 .jumbotron {
   margin-top: 5%;
