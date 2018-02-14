@@ -1,0 +1,10 @@
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
+}
+.jumbotron .col {
+  text-align: center;
+}
+.jumbotron .col img {
+  border-radius: 50%;
+  min-width: 150px;
+}
