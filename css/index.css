@@ -1,0 +1,13 @@
+@media (max-width: 575px) {
+  .employment-table {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .employment-small {
+    display: none;
+  }
+}
+footer h5 {
+  background: #c0c0c0;
+}
