@@ -1,1 +1,40 @@
 // Start here!
+
+.button-creator(@width, @height, @background-color,@hover-color, @border, @border-color) {
+	width:@width;
+	height:@height;
+	background:@background-color;
+	border: @border solid @border-color;
+	&:hover{
+		background-color: darken(@hover-color, 20%);
+		color:white;
+	}
+}
+
+.button1{
+	.button-creator(190px,50px,gray,white,0.5px,black);	
+	color:white;
+	border-radius: 3px;
+	padding: 5px;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.container{
+    max-width: 900px;
+}
+
+.jumbotron{
+	img{
+		height:300px;
+	}
+}
+
+nav{
+    padding:20px 0;
+    a{
+        color:gray;
+        margin-left: 20px;
+    }
+}
