@@ -1,0 +1,17 @@
+.btn-toolbar {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.btn-group .btn-secondary {
+  background-color: black;
+  color: white;
+}
+.input-group-text {
+  background-color: #f5f5f5;
+}
+.row-footer {
+  background-color: black;
+}
+.row-footer .text-center {
+  color: white;
+}
