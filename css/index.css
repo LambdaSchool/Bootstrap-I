@@ -1,4 +1,9 @@
-.jumboPic {
-  
+.jumbotron {
+  background-image: url("../img/jumbo.jpg");
+  background-size: cover;
 
+}
+
+.nav-link {
+  color: black;
 }
