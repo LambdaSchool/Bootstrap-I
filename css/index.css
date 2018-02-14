@@ -59,3 +59,7 @@ nav {
 .row {
   margin: 4% 0;
 }
+.icon {
+  max-width: 30px;
+  margin-right: 3%;
+}
