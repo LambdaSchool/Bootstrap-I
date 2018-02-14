@@ -13,9 +13,6 @@ nav {
   margin-top: 5%;
   background: #C0F8D1;
 }
-.card {
-  margin: 5% 0;
-}
 .portfolio-section {
   border: 1px solid lightgray;
   border-radius: 5px;
@@ -28,4 +25,7 @@ nav {
 .progress-bar {
   background-color: #CC4BC2;
   background-image: linear-gradient(45deg, #DD5E98 25%, transparent 25%, transparent 50%, #DD5E98 50%, #DD5E98 75%, transparent 75%, transparent);
+}
+.row {
+  margin: 4% 0;
 }
