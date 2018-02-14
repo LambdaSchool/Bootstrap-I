@@ -2,6 +2,7 @@
   border: 1px solid lightgray;
   border-radius: 5px;
   padding: 2%;
+  background: #f8dce9;
 }
 nav {
   background: #CC4BC2;
@@ -22,11 +23,13 @@ nav {
   border: 1px solid lightgray;
   border-radius: 5px;
   padding: 2%;
+  background: #f8dce9;
 }
 .experience-section {
   border: 1px solid lightgray;
   border-radius: 5px;
   padding: 2%;
+  background: #f8dce9;
 }
 .progress {
   margin: 2%;
