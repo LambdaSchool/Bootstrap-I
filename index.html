@@ -17,11 +17,36 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+      <div class="row justify-content-center">
+        <nav class="nav">
+        <a class="nav-link" href="http://paypal.me/runranron">Home</a>
+        <a class="nav-link" href="http://paypal.me/runranron">About</a>
+        <a class="nav-link" href="http://paypal.me/runranron">Portfolio</a>
+        <a class="nav-link" href="http://paypal.me/runranron">Contact</a>
+        </nav>
       </div>
+      <div class="jumbotron">
+        <h1 class="display-4">Oh dang look out y'all it's William Pelton.</h1>
+        <img class="col-12" src="./img/work-selfie.png">
+        <p class="lead">Well, he might not look like much, but this guy right here sure is figuring some stuff out.</p>
+        <hr class="my-4">
+        <p>He's learning computer stuff, and that's going to be pretty useful to you if that's the kind of stuff you need someone to know how to do.</p>
+        <p class="lead">
+          <a href = "http://paypal.me/runranron" class="btn btn-primary btn-lg" href="#" role="button">Shut up and take my money!  <span class="badge badge-light">NEW!</span></a>
+          <input class="btn btn-primary btn-lg" onclick="change()" type="button" value="This button does nothing." id="myButton1"></input>
+          <script>
+            function change(){
+              var elem = document.getElementById("myButton1");
+              if (elem.value=="This button does nothing.") elem.value = "Seriously, it's just a placeholder.";
+              else if (elem.value=="Seriously, it's just a placeholder.") elem.value = "Why are you still clicking this?";
+              else if (elem.value=="Why are you still clicking this?") elem.value = "THIS IS GETTING RIDICULOUS BUDDY";
+              else if (elem.value=="THIS IS GETTING RIDICULOUS BUDDY") elem.value = "Beat it I'm done. Get lost.";
+              else elem.value = "This button does nothing.";
+            }
+          </script>
+        </p>
+      </div>
+    </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
