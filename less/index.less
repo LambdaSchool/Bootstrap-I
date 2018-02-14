@@ -1,1 +1,59 @@
 // Start here!
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+body{
+    background: #CDFFFF;
+}
+.container{
+    max-width: 880px;
+    font-family: cursive;
+}
+.top-logo{
+    img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+}
+nav {
+    a{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: hotpink;
+        font-size: 25px;
+        .rotate(20deg);
+        @media(max-width: 576px){
+            width: 100%;
+            flex-wrap: wrap;
+            margin-right: auto;
+            margin-right: auto;
+        }
+        &:hover {
+            font-style: italic;
+            color: darken(skyblue, 30%);
+            &:after{
+                font-size: 30px;
+                content: " ✿";
+              }//after
+    }//hover
+}//a
+}//nav
+
+.jumbotron {
+    background: pink;
+    border: 5px solid goldenrod;
+    img{
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+    }
+  }
+  .jumbotron .btn {
+    background: #CCCCFF;
+    border: 1px solid silver;
+  }
