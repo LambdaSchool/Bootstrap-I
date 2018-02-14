@@ -1,0 +1,36 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+}
+.container {
+  display: flex;
+  max-width: 1000px;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 75vh;
+}
+.img-fluid {
+  height: 55vh;
+}
+.bordered {
+  border: 1px solid red;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
