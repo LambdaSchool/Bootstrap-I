@@ -2,5 +2,10 @@
   margin-top: 5%;
 }
 .card {
-  margin-bottom: 5%;
+  margin: 5% 0;
+}
+.portfolio-section {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 2%;
 }
