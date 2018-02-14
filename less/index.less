@@ -1,2 +1,40 @@
 
 // Start here!
+@BodyColor: #236A62;
+@PageColor: #333333;
+body {
+
+    background: @BodyColor;
+
+    .specCall {
+
+        .nameTitle {
+            font-size: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: @PageColor;
+        }
+
+        .nav-link {
+            color: @PageColor;
+            font-size: 24px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .jumbotron {
+            background: @PageColor;
+
+            .btn {
+                width: 20%;
+                margin-top: 50px;
+            }
+        }
+
+        .card {
+            background: @BodyColor;
+        }
+
+        li {
+            background: @BodyColor;
+        }
+    }
+
+}

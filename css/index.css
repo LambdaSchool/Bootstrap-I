@@ -1,0 +1,26 @@
+body {
+  background: #236A62;
+}
+body .specCall .nameTitle {
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #333333;
+}
+body .specCall .nav-link {
+  color: #333333;
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body .specCall .jumbotron {
+  background: #333333;
+}
+body .specCall .jumbotron .btn {
+  width: 20%;
+  margin-top: 50px;
+}
+body .specCall .card {
+  background: #236A62;
+}
+body .specCall li {
+  background: #236A62;
+}
