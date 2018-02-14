@@ -1,0 +1,22 @@
+.container {
+  max-width: 880px;
+  border: 1px solid black;
+}
+.container .heading {
+  width: 100%;
+  text-align: center;
+}
+.container .heading .col-6 {
+  width: 100%;
+}
+.container .heading .col-6 h1 {
+  width: 100%;
+  color: white;
+  background: black;
+}
+.container .heading .row .col-12 nav {
+  background: gray;
+}
+.container .heading .row .col-12 nav a {
+  color: black;
+}
