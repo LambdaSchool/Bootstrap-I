@@ -5,8 +5,19 @@ nav{
     background: @primary-color;
 }
 
+.btn-primary{
+    background: @secondary-color;
+    border: 1px solid pink;
+
+    &:hover{
+        background: darken(@secondary-color, 20);
+        border: 1px solid pink;
+    }
+}
+
 .jumbotron{
     margin-top: 5%;
+    background: @accent-color;
 }
 
 .card{

@@ -1,8 +1,17 @@
 nav {
   background: #CC4BC2;
 }
+.btn-primary {
+  background: #DD5E98;
+  border: 1px solid pink;
+}
+.btn-primary:hover {
+  background: #b02564;
+  border: 1px solid pink;
+}
 .jumbotron {
   margin-top: 5%;
+  background: #C0F8D1;
 }
 .card {
   margin: 5% 0;
