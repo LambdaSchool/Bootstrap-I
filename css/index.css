@@ -4,6 +4,13 @@
   padding: 2%;
   background: #f8dce9;
 }
+.section a {
+  text-decoration: none;
+  color: black;
+}
+.section a:hover {
+  color: #CC4BC2;
+}
 .section h1 {
   font-family: 'Annie Use Your Telescope', cursive;
 }
@@ -41,6 +48,19 @@ nav {
   border-radius: 5px;
   padding: 2%;
   background: #f8dce9;
+}
+.experience-section a,
+.portfolio-section a,
+.education-section a,
+.contact-hobbies-section a {
+  text-decoration: none;
+  color: black;
+}
+.experience-section a:hover,
+.portfolio-section a:hover,
+.education-section a:hover,
+.contact-hobbies-section a:hover {
+  color: #CC4BC2;
 }
 .experience-section h1,
 .portfolio-section h1,
