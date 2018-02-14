@@ -30,6 +30,7 @@ Whenever you are introduced to new technology it's good to use something your fa
 </div>
 ```
 * You must use at least 4 of the following components listed here:
+
     - Jumbotron
     - List Group
     - Badge
