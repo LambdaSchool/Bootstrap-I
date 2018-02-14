@@ -11,3 +11,8 @@ nav {
 .table-row {
   margin-top: 50px;
 }
+@media (max-width: 400px) {
+  .cardClass {
+    flex-direction: column;
+  }
+}
