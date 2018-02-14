@@ -1,0 +1,169 @@
+/* Adds box-shadow mixin to cta-img */
+html,
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+.container {
+  max-width: 900px;
+}
+/* Main Content Styles */
+.main-content {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 75px 0 35px 0;
+  padding: 35px 0;
+  font-size: 16px;
+  line-height: 18px;
+}
+.main-content h4 {
+  border: 1px solid silver;
+  position: relative;
+  margin: 0.5em;
+  border: solid 5px transparent;
+  background: rgba(255, 255, 255, 0.25);
+  width: 80px;
+  text-align: center;
+}
+.main-content h4:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: dashed 5px white;
+  margin: -10px;
+  z-index: -1;
+  transition: transform 0.6s linear;
+  transform: scale(0.97, 0.93);
+}
+.main-content h4:hover::after {
+  transform: scale(1, 1);
+}
+@media (min-width: 1100px) {
+  .main-content p {
+    background: #1aa878;
+    border: 5px solid rgba(65, 225, 172, 0.4);
+  }
+}
+@media (max-width: 1100px) {
+  .main-content p {
+    background: #a81a90;
+    border: 5px solid rgba(225, 65, 199, 0.4);
+  }
+}
+@media (max-width: 768px) {
+  .main-content p {
+    background: #491aa8;
+    border: 5px solid rgba(119, 65, 225, 0.4);
+  }
+}
+@media (max-width: 400px) {
+  .main-content p {
+    background: #1a61a8;
+    border: 5px solid rgba(65, 145, 225, 0.4);
+  }
+}
+.main-content .top-content {
+  display: flex;
+  justify-content: space-around;
+}
+.main-content .top-buttons {
+  text-align: center;
+  letter-spacing: 2px;
+  display: flex;
+  flex-flow: column;
+  align-items: right;
+  margin: 0 82px 0 0;
+  padding: 5px 0px 0px 0px;
+}
+.main-content .top-buttons .main__button1 {
+  font-size: 12pt;
+  background: white;
+  border: 3px solid gray;
+  padding: 5px;
+  cursor: pointer;
+  width: 125px;
+  height: 35px;
+}
+.main-content .top-buttons .main__button1:hover {
+  background: #4e0144;
+  color: white;
+}
+.main-content .top-buttons .main__button2 {
+  font-size: 12pt;
+  background: white;
+  border: 3px solid gray;
+  padding: 5px;
+  cursor: pointer;
+  width: 120px;
+  height: 35px;
+}
+.main-content .top-buttons .main__button2:hover {
+  -webkit-opacity: 0.6;
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+  color: black;
+}
+.main-content .middle-img {
+  display: block;
+  margin: 30px auto;
+}
+.main-content .bottom-content {
+  display: flex;
+  justify-content: space-around;
+}
+.main-content .bottom-content p {
+  padding-right: 20px;
+}
+.main-content .bottom-buttons {
+  text-align: center;
+  letter-spacing: 2px;
+  display: flex;
+  flex-flow: column;
+  align-items: right;
+  margin: 0 82px 0 0;
+  padding: 5px 0px 0px 0px;
+}
+.main-content .bottom-buttons .main__button3 {
+  font-size: 12pt;
+  background: white;
+  border: 3px solid gray;
+  padding: 5px;
+  justify-content: right;
+  cursor: pointer;
+  width: 125px;
+  height: 35px;
+}
+.main-content .bottom-buttons .main__button3:hover {
+  background: #666666;
+  color: white;
+}
+.main-content .bottom-buttons .main__button4 {
+  font-size: 12pt;
+  background: white;
+  border: 3px solid gray;
+  padding: 5px;
+  cursor: pointer;
+  width: 125px;
+  height: 35px;
+}
+.main-content .bottom-buttons .main__button4:hover {
+  background: #f7f16d;
+  color: #ff9a01;
+}
+.main-content .bottom-buttons .main__button5 {
+  font-size: 12pt;
+  background: white;
+  border: 3px solid gray;
+  padding: 5px;
+  cursor: pointer;
+  width: 125px;
+  height: 35px;
+  box-shadow: 10px 5px 5px beige;
+}
+.main-content .bottom-buttons .main__button5:hover {
+  background: #4e0101;
+  color: #f4d6a2;
+}
