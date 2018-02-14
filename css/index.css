@@ -16,3 +16,9 @@ nav {
     flex-direction: column;
   }
 }
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: lightgray;
+  color: white;
+}
