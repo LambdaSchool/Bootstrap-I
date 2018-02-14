@@ -1,12 +1,6 @@
-.container .nav-link {
-  color: #334451;
-}
 .container .jumbotron {
-  background: #d4a0ff;
+  background: #D6D8DB;
 }
-.container .jumbotron .h1 {
-  color: #334451;
-}
-.container .employment {
-  color: #334451;
+.container .card {
+  background-color: #D6D8DB;
 }
