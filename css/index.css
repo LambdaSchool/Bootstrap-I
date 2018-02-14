@@ -1,0 +1,16 @@
+body {
+  background: darkgray;
+}
+nav a {
+  color: teal;
+  font-size: 20px;
+}
+nav a:hover {
+  color: black;
+}
+.jumbotron {
+  background: #fce1bd;
+}
+.jumbotron h1 {
+  color: teal;
+}
