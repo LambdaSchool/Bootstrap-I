@@ -1,0 +1,29 @@
+body {
+  background-color: #808080;
+}
+.nav {
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+.nav a {
+  color: black;
+}
+.jumbotron {
+  background-color: goldenrod;
+  max-width: 800px;
+}
+.blurb-button {
+  border: 2px solid gray;
+  width: 40px;
+  height: 10px;
+  color: black;
+}
+.blurb-button:hover {
+  color: orange;
+  background: lightslategrey;
+}
+.recents {
+  padding: 0 40px ;
+  border: goldenrod;
+}
