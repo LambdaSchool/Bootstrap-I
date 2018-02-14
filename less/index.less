@@ -1,1 +1,31 @@
 // Start here!
+
+.button-creator(@width, @height, @background){
+	width: @width;
+	height: @height;
+    background: @background;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 16px;
+     &:hover{
+        color:blue;
+    }
+}
+
+.container {
+    max-width: 700px;
+    .nav {
+      a {
+       color:black;
+         &:hover {
+           color:blue;
+         }
+      }
+    }
+    .row2 {
+    text-align: center;
+    }
+    .readmore{
+        .button-creator(178px, 30px,white)
+    }
+}
