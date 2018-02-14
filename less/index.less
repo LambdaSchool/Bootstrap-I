@@ -2,7 +2,18 @@
 .body{
 	font-size:62.5%;
 }
-#skills{
+.skillsList{
+	ul{
+		li{
+			&:hover{
+				background-color:orange;
+			}
+		}
+	}
+}
+#skillsHeader{
+
+	margin-top:40px;
 		
 		@media(max-width:768px){
 			font-size:1.5rem;
@@ -12,13 +23,22 @@
 		}
 }
 .jumbotron{
+	#contact{
+		padding-top:10px;
+	}
 	ul{
 		li{
 			height:150px;
 		}
 		height:400px;
 		button{
-			padding:0;
+			height:50px;
+			width:100%;
+		}
+		.buttonLi{
+			background-color:transparent;
+			border:none;
+			padding:0
 		}
 	}
 	
