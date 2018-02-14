@@ -1,7 +1,6 @@
 body {
-  background-color: lightgrey;
+  background-color: grey;
 }
-body .container {
-  border: 1px solid black;
+body .container .nav {
   background-color: lightgrey;
 }
