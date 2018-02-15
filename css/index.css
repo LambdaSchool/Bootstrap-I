@@ -1,0 +1,62 @@
+.nav {
+  background-color: black;
+}
+.nav p {
+  display: flex;
+  justify-content: flex-start;
+}
+.nav .nav-link {
+  color: grey;
+  padding: 20px;
+  font-family: futura-pt;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-decoration: overline;
+}
+.nav .nav-link:hover {
+  color: #044b61;
+}
+.top-img {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.top-img .top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.top-img .top-left button {
+  font-family: futura-pt;
+  font-size: 20px;
+}
+.top-img .top-left button:hover {
+  background-color: transparent;
+  color: #6c757d;
+}
+.top-img .centered {
+  font-family: futura-pt;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1em;
+  color: #050000;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer {
+  background-color: #050000;
+}
+.footer .container .btn {
+  color: grey;
+  padding: 20px;
+  width: 20%;
+}
+.footer .container .btn:hover {
+  color: #044b61;
+  transform: scale(2);
+}
