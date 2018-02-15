@@ -27,6 +27,13 @@
 .container #jumbo .background .bg-overlay {
   background: rgba(255, 255, 255, 0.5);
 }
+.container #jumbo2 {
+  display: none;
+}
+.container #skillz {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
 .container #skillz #top-heading {
   margin: 10px 2% 20px 2%;
 }
