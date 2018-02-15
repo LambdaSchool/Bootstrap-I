@@ -1,0 +1,11 @@
+.container {
+  max-width: 900px;
+}
+.container .jumbotron img {
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+}
+.container .jumbotron .imgText {
+  width: 80%;
+}
