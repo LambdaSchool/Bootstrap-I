@@ -1,0 +1,12 @@
+.container {
+  max-width: 900px;
+}
+.container .footer {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.171);
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+.container #accordion {
+  margin-top: 10px;
+}
