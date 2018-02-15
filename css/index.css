@@ -42,6 +42,9 @@ body {
   background-color: #e95b5b;
   border-color: #e95b5b;
 }
+.info-tabs .list-group-item {
+  background: burlywood;
+}
 .badge .btn {
   border-radius: 2rem;
 }
@@ -52,6 +55,7 @@ body {
 }
 .card {
   margin-top: 30px;
+  background: burlywood;
 }
 .card .card-img-top {
   width: 50%;
