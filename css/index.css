@@ -1,8 +1,3 @@
 .special-card {
   background-color: rgba(32, 32, 32, 0.6);
 }
-@media (max-width: 990px) {
-  .table thead .hide-th {
-    display: none;
-  }
-}
