@@ -1,6 +1,6 @@
-.container .jumbotron {
-  background: #D6D8DB;
+.container {
+  max-width: 1100px;
 }
-.container .card {
-  background-color: #D6D8DB;
+.container ul li a {
+  color: black;
 }
