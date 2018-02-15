@@ -1,1 +1,59 @@
 // Start here!
+@background-color: #bfb7e6;
+@skills-color: #91a3f5;
+@list-group: #7d86c1;
+@border-color: #403874;
+
+body {
+  background: @background-color;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.img-fluid {
+  border-radius: 2%;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  color: black;
+}
+.jumbotron {
+  background-image: url("/home/agentzero/lambdaSchool/CS8/Bootstrap-I/img/homeBackground.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid @border-color;
+}
+.jumbotron .btn {
+  background: gray;
+  border: 1px solid white;
+}
+.table-row {
+  margin-top: 20px;
+}
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: gray;
+  color: white;
+  border-radius: 1%;
+  border: 1px solid @border-color;
+}
+
+.row .col-sm-6 {
+  background: @skills-color;
+  border: 1px solid @border-color;
+  border-radius: 2%;
+
+  .list-group li {
+    background: @background-color;
+  }
+}
+
+.display-4 {
+  color: white;
+}
+

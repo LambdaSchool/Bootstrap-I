@@ -1,0 +1,47 @@
+body {
+  background: #bfb7e6;
+}
+.container {
+  max-width: 900px;
+}
+.img-fluid {
+  border-radius: 2%;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  color: black;
+}
+.jumbotron {
+  background-image: url("/home/agentzero/lambdaSchool/CS8/Bootstrap-I/img/homeBackground.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #403874;
+}
+.jumbotron .btn {
+  background: gray;
+  border: 1px solid white;
+}
+.table-row {
+  margin-top: 20px;
+}
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: gray;
+  color: white;
+  border-radius: 1%;
+  border: 1px solid #403874;
+}
+.row .col-sm-6 {
+  background: #91a3f5;
+  border: 1px solid #403874;
+  border-radius: 2%;
+}
+.row .col-sm-6 .list-group li {
+  background: #bfb7e6;
+}
+.display-4 {
+  color: white;
+}
