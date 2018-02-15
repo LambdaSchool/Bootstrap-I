@@ -1,3 +1,21 @@
-.container {
-  background: #564179;
+.container #top-nav .nav {
+  margin-right: 15px;
+}
+.container #top-nav .nav button {
+  background: #3481C8;
+}
+.container #top-nav .nav button a {
+  color: #fff;
+}
+.container #jumbo {
+  height: 100%;
+}
+.container #jumbo .background {
+  background: url('../neil-rosenstech-467457.jpg') no-repeat center fixed;
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+}
+.container #jumbo .background .bg-overlay {
+  background: rgba(255, 255, 255, 0.5);
 }
