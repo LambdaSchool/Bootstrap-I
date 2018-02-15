@@ -1,0 +1,19 @@
+.container {
+  width: 1100px;
+}
+.jumbotron {
+  display: flex;
+  background: lightcoral;
+  width: 100%;
+  justify-content: flex-start;
+}
+.nav {
+  font-size: 20px;
+}
+nav a {
+  color: black;
+}
+nav a:hover {
+  background: lightgreen;
+  color: purple;
+}
