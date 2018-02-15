@@ -1,0 +1,73 @@
+.jumbotron {
+  background-image: url('https://images.unsplash.com/photo-1492892132812-a00a8b245c45?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=58aeac540226daf88bd141baba89171f&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+.display-3 {
+  text-align: center;
+}
+.lead1 {
+  margin-top: -10px;
+  text-align: center;
+  color: #fff;
+}
+p {
+  text-align: center;
+}
+.btn-lg {
+  border: 0 solid #49c5b6;
+  background-color: #49c5b6;
+}
+.btn-lg:hover {
+  background: #0D854C;
+  border: 0 solid #000;
+}
+.firstHeader {
+  text-align: center;
+}
+.badge-default {
+  color: tomato;
+}
+.badge-default:hover {
+  color: springgreen;
+  text-transform: uppercase;
+}
+.list-group-item.active {
+  background: #49c5b6;
+  border: none;
+}
+.selectedOne {
+  background: #49c5b6;
+}
+.third-row {
+  margin-top: 100px;
+}
+.nav,
+a {
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 10px 10px;
+  color: #49c5b6;
+}
+.nav:hover,
+a:hover {
+  color: #0D854C;
+}
+.display-3 {
+  font-family: 'Covered By Your Grace', cursive;
+  color: #fff;
+}
+.display-3:hover {
+  color: #49c5b6;
+}
+.display-3:hover:after {
+  content: 'ther';
+}
+.Ayrbnb:hover {
+  text-decoration: line-through;
+}
+.card-title {
+  text-align: center;
+}
