@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -8,6 +9,7 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,16 +18,57 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <!-- full width navbar -->
+        <nav class="navbar nav-pills fixed-top bg-dark">
+          <a class="nav-item nav-link text-light rounded" href="#">Home</a>
+          <a class="nav-item nav-link text-light rounded" href="#">Portfolio</a>
+          <a class="nav-item nav-link text-light rounded" href="#">About</a>
+          <a class="nav-item nav-link text-light rounded" href="#">Contact</a>
+        </nav>
       </div>
-    </div><!-- container -->
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="jumbotron">
+          <img class="img-fluid justify-content-center shades" src="./img/shizuo.jpg" alt="profile pic">
+          <h1 class="display-4">Luis Diaz</h1>
+          <h5>Aspiring Software Engineer</h5>
+          <hr>
+          <p>They say the world is your oyster... Now that I have your attention, Hire me!</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <!-- 6 column sized card -->
+        <div class="card">
+          <div class="card-body">
+            <h4>Fun Facts</h4>
+            <p>This ipsum dolor amet, consectetur adipisicing elit. Is a beatae excepturi tenetur, earum veritatis! Card, eum, quia!</p>
+            <a href="https://google.com" target="_blank" class="btn btn-primary shades">Press for more</a>
+          </div>
+        </div>
+      </div>
+      <!-- another card -->
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h4>Some Stuff</h4>
+            <p>This ipsum dolor amet, consectetur adipisicing elit. Is a beatae excepturi tenetur, earum veritatis! Card, eum, quia!</p>
+            <button type="button" class="btn btn-dark shades">Where does this go</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- container -->
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
