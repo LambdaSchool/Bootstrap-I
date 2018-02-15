@@ -1,26 +1,53 @@
 body {
   background: #236A62;
 }
+body .specCall {
+  margin-bottom: 40px;
+}
 body .specCall .nameTitle {
   font-size: 60px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #333333;
+  color: #FFFFFF;
 }
 body .specCall .nav-link {
-  color: #333333;
+  color: #FFFFFF;
   font-size: 24px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body .specCall .jumbotron {
   background: #333333;
 }
 body .specCall .jumbotron .btn {
-  width: 20%;
+  width: 35%;
   margin-top: 50px;
+  font-size: 80%;
 }
 body .specCall .card {
-  background: #236A62;
+  background: #FFFFFF;
+  width: 90%;
 }
-body .specCall li {
-  background: #236A62;
+@media (max-width: 768px) {
+  body .specCall .card {
+    margin: 0 auto;
+  }
+}
+body .specCall .card .card-body {
+  background: #333333;
+}
+body .specCall h2,
+body .specCall h3,
+body .specCall p {
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  body .specCall .AwardsTitle {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  body .specCall ul {
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+}
+body .specCall ul li {
+  background: #FFFFFF;
 }
