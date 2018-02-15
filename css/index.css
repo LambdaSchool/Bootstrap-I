@@ -1,22 +1,75 @@
+.background-custom {
+  background: #4c4c4c;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1);
+}
 .container {
   max-width: 800px;
+}
+.container-custom {
+  box-shadow: -8px 0 6px -6px black;
+}
+.nav-custom {
+  background: #3C5FB0;
+}
+.nav-custom a {
+  color: white;
+}
+.jumbotron-custom {
+  background: #5F7DC3;
+  color: white;
 }
 .jumbotron-custom img {
   height: 150px;
   width: 120px;
   border-radius: 50%;
+  padding: 8% 5%;
+}
+.header-custom {
+  background: #6b6b72;
+  color: white;
+}
+.header-custom p {
+  margin: 2% 2%;
+}
+.header-custom .skills-custom h4 {
+  font-size: 0.8em;
+}
+.main-custom {
+  background: white;
+}
+.main-custom h4 {
+  text-align: center;
 }
 .main-custom img {
   display: block;
-  height: 90px;
-  width: 90px;
+  height: 70px;
+  width: 70px;
 }
 .main-custom img:nth-child(3) {
-  height: 60px;
+  height: 40px;
 }
 .main-custom img:nth-child(4) {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
+  padding-top: 1%;
+}
+.main-custom .table-custom {
+  box-shadow: 8px 0 6px -6px black;
+}
+.main-custom .skills-custom h4 {
+  font-size: 1.0em;
+  font-weight: bold;
+}
+.contact-custom {
+  background: #5F7DC3;
+  padding: 1% 1%;
 }
 .contact-custom img {
   height: 30px;
@@ -25,6 +78,18 @@
 .contact-custom p {
   font-size: 0.8rem;
 }
+.contact-custom .btn {
+  height: 60px;
+  background: #5F7DC3;
+  border: none;
+  color: black;
+}
+.footer-custom {
+  background: #3C5FB0;
+  padding-top: 10px;
+}
 .footer-custom p {
   text-align: center;
+  font-size: 0.8em;
+  color: white;
 }
