@@ -1,24 +1,193 @@
 .container {
-    max-width: 880px;
-    border: 1px solid black;
+    max-width: 1280px;
+    border: 2px solid black;
+
     .heading {
         width: 100%;
         text-align: center;
-        .col-6 {
-            width: 100%;
-            h1 {
+
+        .heading-top {
+            background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+
+            .col-5 {
                 width: 100%;
-                color: white;
-                background: black;
+
+                h1 {
+                    width: 100%;
+                    background-image: linear-gradient(to right, red, orange 50%, brown);
+                    color: transparent;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                }
+            }
+
+            .col-2 {
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            .col-5 {
+                h4 {
+                    background-image: linear-gradient(to right, red, orange 50%, brown);
+                    color: transparent;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    text-align: right;
+                    margin-top: 15px;
+                }
             }
         }
-        .row {
-           .col-12 {
+
+        .navbar {
+            background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+
+            .col-12 {
                 nav {
-                    background: gray;
+
                     a {
                         color: black;
                     }
+
+                    a:hover {
+                        color: darkred;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .jumbotron {
+        padding: 1.5rem 2rem 3rem 2rem;
+        box-shadow: 10px 10px 5px grey;
+        margin-top: 30px;
+
+        .row {
+            .col-12 {
+                p {
+                    text-align: center;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .row {
+            .col-4 {
+                p {
+                }
+            }
+
+            .myImgDiv {
+                .myImg {
+                    margin: 0 0 0 40px;
+                }
+            }
+
+            .col-4 {
+                ul {
+                }
+            }
+        }
+    }
+
+    .row {
+
+        .col-12 {
+
+            .employment {
+
+                caption {
+                    caption-side: top;
+                    text-align: center;
+                }
+
+                thead {
+
+                    tr {
+
+                        .position {
+                            text-align: center;
+                        }
+
+                        .years {
+                            text-align: center;
+                        }
+
+                        th {
+                        }
+                    }
+                }
+
+                tbody {
+
+                    tr {
+
+                        .position {
+                            text-align: center;
+                        }
+
+                        .years {
+                            text-align: center;
+                        }
+
+                        td {
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .row {
+
+        .col-12 {
+
+            .references {
+
+                caption {
+                    caption-side: top;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .footer {
+        width: 100%;
+        background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+        color: white;
+
+        .col-6 {
+
+            h3 {
+                padding: 10px 0 0 20px;
+                font-size: 23px;
+                color: blue
+            }
+
+            p {
+                padding-left: 20px;
+            }
+        }
+
+        .social {
+            padding: 170px 0 0 300px;
+
+            a {
+                margin-left: 10px;
+            }
+        }
+
+        .row {
+            width: 100%;
+
+            .col-12 {
+                width: 100%;
+
+                p {
+                    text-align: center;
                 }
             }
         }
