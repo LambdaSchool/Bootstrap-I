@@ -1,0 +1,103 @@
+.container {
+  max-width: 1280px;
+  border: 2px solid black;
+}
+.container .heading {
+  width: 100%;
+  text-align: center;
+}
+.container .heading .heading-top {
+  background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+}
+.container .heading .heading-top .col-5 {
+  width: 100%;
+}
+.container .heading .heading-top .col-5 h1 {
+  width: 100%;
+  background-image: linear-gradient(to right, red, orange 50%, brown);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.container .heading .heading-top .col-2 img {
+  width: 50px;
+  height: 50px;
+}
+.container .heading .heading-top .col-5 h4 {
+  background-image: linear-gradient(to right, red, orange 50%, brown);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: right;
+  margin-top: 15px;
+}
+.container .heading .navbar {
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}
+.container .heading .navbar .col-12 nav a {
+  color: black;
+}
+.container .heading .navbar .col-12 nav a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+.container .jumbotron {
+  padding: 1.5rem 2rem 3rem 2rem;
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 30px;
+}
+.container .jumbotron .row .col-12 p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container .jumbotron .row .myImgDiv .myImg {
+  margin: 0 0 0 40px;
+}
+.container .row .col-12 .employment caption {
+  caption-side: top;
+  text-align: center;
+}
+.container .row .col-12 .employment thead tr .position {
+  text-align: center;
+}
+.container .row .col-12 .employment thead tr .years {
+  text-align: center;
+}
+.container .row .col-12 .employment tbody tr .position {
+  text-align: center;
+}
+.container .row .col-12 .employment tbody tr .years {
+  text-align: center;
+}
+.container .row .col-12 .references caption {
+  caption-side: top;
+  text-align: center;
+}
+.container .footer {
+  width: 100%;
+  background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+  color: white;
+}
+.container .footer .col-6 h3 {
+  padding: 10px 0 0 20px;
+  font-size: 23px;
+  color: blue;
+}
+.container .footer .col-6 p {
+  padding-left: 20px;
+}
+.container .footer .social {
+  padding: 170px 0 0 300px;
+}
+.container .footer .social a {
+  margin-left: 10px;
+}
+.container .footer .row {
+  width: 100%;
+}
+.container .footer .row .col-12 {
+  width: 100%;
+}
+.container .footer .row .col-12 p {
+  text-align: center;
+}
