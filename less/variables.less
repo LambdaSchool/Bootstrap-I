@@ -1,0 +1,27 @@
+@primary-color: #CC4BC2;
+@secondary-color: #DD5E98;
+@accent-color: #C0F8D1;
+
+.section{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 2%;
+    background: lighten(@secondary-color, 30);
+
+    a{
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+            color: @primary-color;
+        }
+    }
+
+    h1{
+        .handwriting();
+    }
+}
+
+.handwriting{
+    font-family: 'Annie Use Your Telescope', cursive;
+}
