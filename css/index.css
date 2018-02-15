@@ -39,19 +39,40 @@ nav a:hover:after {
 h1 {
   color: goldenrod;
   text-align: center;
-  margin-bottom: 6%;
+  margin-bottom: 4%;
+}
+h2 {
+  color: #737373;
+}
+h3 {
+  color: #4d4d4d;
+}
+p {
+  color: #737373;
 }
 .jumbotron {
   background: pink;
   border: 5px solid goldenrod;
 }
 .jumbotron img {
+  margin-top: -15px;
   margin-right: 25%;
   margin-left: 20%;
   margin-bottom: 4%;
   width: 60%;
 }
+.lead2 {
+  margin-bottom: -20px;
+}
 .jumbotron .btn {
+  margin-bottom: -10px;
   background: #CCCCFF;
-  border: 1px solid silver;
+  border: 3px solid silver;
+  color: hotpink;
+}
+.jumbotron .btn:hover {
+  background: #bdbdff;
+}
+.sum {
+  font-size: 30px;
 }
