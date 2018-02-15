@@ -8,3 +8,11 @@ h5 {
 .shades {
   box-shadow: 0 1px 4px gray;
 }
+.maarg {
+  margin-top: 15px;
+}
+.footer {
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+}
