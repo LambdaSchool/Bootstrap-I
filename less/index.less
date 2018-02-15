@@ -1,1 +1,72 @@
+
 // Start here!
+@SoftColor: #FFFFFF;
+@BodyColor: #236A62;
+@PageColor: #333333;
+body {
+
+    background: @BodyColor;
+
+    .specCall {
+
+        margin-bottom: 40px;
+        .nameTitle {
+            font-size: 60px;
+            color: @SoftColor;
+        }
+
+        .nav-link {
+            color: @SoftColor;
+            font-size: 24px;
+        }
+        .jumbotron {
+            background: @PageColor;
+
+            .btn {
+                width: 35%;
+                margin-top: 50px;
+                font-size: 80%;
+            }
+        }
+
+
+
+        .card {
+            background: @SoftColor;
+            width: 90%;
+
+            @media (max-width: 768px){
+                margin: 0 auto;
+            }
+
+            .card-body{
+                background: @PageColor;
+            }
+        }
+
+
+
+
+        h2, h3, p {
+            color: @SoftColor;
+        }
+
+        .AwardsTitle {
+            @media (max-width: 768px){
+                text-align: center;
+            }
+        }
+
+        ul {
+            @media (max-width: 768px){
+                margin-bottom: 30px;
+                margin-top: 15px;
+            }
+        
+            li {
+            background: @SoftColor;
+            }
+        }
+    }
+
+}
