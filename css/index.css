@@ -6,22 +6,30 @@
   border-bottom: 10px solid #007bff;
 }
 .timeline {
-  border: 8px solid gray;
+  border: .3rem solid gray;
 }
 .timeline1 {
   border-radius: 50%;
 }
-span {
+.timeline1:hover {
+  border-radius: 10%;
+}
+p.education {
   display: none;
-  padding: 5px;
   text-transform: uppercase;
 }
 .timeline2 {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  padding: 1.5rem;
+}
+.timeline2:hover p {
+  display: none;
+}
+.timeline2:hover p.education {
+  display: block;
 }
 .timeline3 {
-  width: 2px;
-  height: 2px;
-  border: 5px solid gray;
+  width: .2rem;
+  height: .2rem;
+  border: .2rem solid gray;
 }
