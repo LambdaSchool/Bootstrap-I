@@ -32,6 +32,7 @@ nav a {
   background: gray;
   color: white;
   border-radius: 1%;
+  border: 1px solid #403874;
 }
 .row .col-sm-6 {
   background: #91a3f5;
