@@ -70,59 +70,99 @@
   border: 5px groove #316285;
 }
 .container #skillz {
-  padding-bottom: 20px;
-  margin-bottom: 15px;
+  height: 800px;
+  max-width: 100%;
 }
 .container #skillz #top-heading {
-  margin: 10px 2% 20px 2%;
+  margin: 10px 5% 20px 2%;
+}
+.container #skillz .background {
+  background: url('../advicegiver.png') no-repeat center fixed;
+  height: 730px;
+  max-width: 100%;
+  overflow: auto;
+  margin-left: 7%;
+}
+.container #skillz .background .bg-overlay {
+  background: rgba(255, 255, 255, 0.7) fixed;
+  font-size: large;
 }
 @media (max-width: 767.98px) {
-  .container #skillz .list-group {
-    max-width: 100%;
+  .container #skillz .background .bg-overlay .list-group {
+    max-width: 87%;
+    max-height: 50%;
     margin: 2%;
     padding: 5%;
   }
 }
-.container #skillz .list-group #bard {
+.container #skillz .background .bg-overlay .list-group #bard {
   text-align: center;
   background: #8A326F;
   color: #ccc;
   border: 2px ridge #AE3685;
 }
-.container #skillz .list-group #bard:hover {
+@media (max-width: 767.98px) {
+  .container #skillz .background .bg-overlay .list-group #bard {
+    min-width: 85%;
+    margin: 2%;
+    padding: 5%;
+  }
+}
+.container #skillz .background .bg-overlay .list-group #bard:hover {
   background: #000;
   color: #fff;
 }
-.container #skillz .list-group #poet {
+.container #skillz .background .bg-overlay .list-group #poet {
   text-align: center;
   background: #8A326F;
   color: #000;
   border: 2px ridge #AE3685;
 }
-.container #skillz .list-group #poet:hover {
+@media (max-width: 767.98px) {
+  .container #skillz .background .bg-overlay .list-group #poet {
+    min-width: 85%;
+    margin: 2%;
+    padding: 5%;
+  }
+}
+.container #skillz .background .bg-overlay .list-group #poet:hover {
   background: #000;
   color: #fff;
 }
-.container #skillz .list-group #prof {
+.container #skillz .background .bg-overlay .list-group #prof {
   text-align: center;
   background: #8A326F;
   color: #ccc;
   border: 2px ridge #AE3685;
 }
-.container #skillz .list-group #prof:hover {
+@media (max-width: 767.98px) {
+  .container #skillz .background .bg-overlay .list-group #prof {
+    min-width: 85%;
+    margin: 2%;
+    padding: 5%;
+  }
+}
+.container #skillz .background .bg-overlay .list-group #prof:hover {
   background: #000;
   color: #fff;
 }
-.container #skillz .list-group #spy {
+.container #skillz .background .bg-overlay .list-group #spy {
   text-align: center;
   background: #8A326F;
   color: #000;
   border: 2px ridge #AE3685;
 }
-.container #skillz .list-group #spy:hover {
+@media (max-width: 767.98px) {
+  .container #skillz .background .bg-overlay .list-group #spy {
+    min-width: 90%;
+    margin: 2%;
+    padding: 5%;
+  }
+}
+.container #skillz .background .bg-overlay .list-group #spy:hover {
   background: #000;
   color: #fff;
 }
-.container #skillz .tab-content #two ul {
+.container #skillz .background .bg-overlay .tab-content #two ul {
   list-style-type: none;
 }

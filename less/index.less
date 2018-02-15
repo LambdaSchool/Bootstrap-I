@@ -26,6 +26,7 @@
     #jumbo {
         height: 100%;
 
+
         .background {
             background: url('../neil-rosenstech-467457.jpg') no-repeat center fixed;
             height: auto;
@@ -106,78 +107,115 @@
     }
 
     #skillz {
-        padding-bottom: 20px;
-        margin-bottom: 15px;
+        height: 800px;
+        max-width: 100%;
 
         #top-heading {
-            margin: 10px 2% 20px 2%;
+            margin: 10px 5% 20px 2%;
         }
 
-        .list-group {
+        .background {
+            background: url('../advicegiver.png') no-repeat center fixed;
+            height: 730px;
+            max-width: 100%;
+            overflow: auto;
+            margin-left: 7%;
 
-            @media (max-width: 767.98px) {
-                max-width: 100%;
-                margin: 2%;
-                padding: 5%;
-            }
+            .bg-overlay {
+                background: rgba(255,255,255, 0.7) fixed;
+                font-size: large;
 
-            #bard {
-                text-align: center;
-                background: #8A326F;
-                color: #ccc;
-                border: 2px ridge #AE3685;
+                .list-group {
 
-                &:hover {
-                    background: #000;
-                    color: #fff;
+                    @media (max-width: 767.98px) {
+                        max-width: 87%;
+                        max-height: 50%;
+                        margin: 2%;
+                        padding: 5%;
+                    }
+
+                    #bard {
+                        text-align: center;
+                        background: #8A326F;
+                        color: #ccc;
+                        border: 2px ridge #AE3685;
+
+                        @media (max-width: 767.98px) {
+                            min-width: 85%;
+                            margin: 2%;
+                            padding: 5%;
+                        }
+
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
+                    }
+
+                    #poet {
+                        text-align: center;
+                        background: #8A326F;
+                        color: #000;
+                        border: 2px ridge #AE3685;
+
+                        @media (max-width: 767.98px) {
+                            min-width: 85%;
+                            margin: 2%;
+                            padding: 5%;
+                        }
+
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
+                    }
+
+                    #prof {
+                        text-align: center;
+                        background: #8A326F;
+                        color: #ccc;
+                        border: 2px ridge #AE3685;
+
+                        @media (max-width: 767.98px) {
+                            min-width: 85%;
+                            margin: 2%;
+                            padding: 5%;
+                        }
+
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
+                    }
+
+                    #spy {
+                        text-align: center;
+                        background: #8A326F;
+                        color: #000;
+                        border: 2px ridge #AE3685;
+
+                        @media (max-width: 767.98px) {
+                            min-width: 90%;
+                            margin: 2%;
+                            padding: 5%;
+                        }
+
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
+                    }
                 }
-            }
 
-            #poet {
-                text-align: center;
-                background: #8A326F;
-                color: #000;
-                border: 2px ridge #AE3685;
+                .tab-content {
 
-                &:hover {
-                    background: #000;
-                    color: #fff;
+                    #two {
+
+                        ul {
+                            list-style-type: none;
+                        }
+                    }
                 }
-            }
-
-            #prof {
-                text-align: center;
-                background: #8A326F;
-                color: #ccc;
-                border: 2px ridge #AE3685;
-
-                &:hover {
-                    background: #000;
-                    color: #fff;
-                }
-            }
-
-            #spy {
-                text-align: center;
-                background: #8A326F;
-                color: #000;
-                border: 2px ridge #AE3685;
-
-                &:hover {
-                    background: #000;
-                    color: #fff;
-                }
-            }
-        }
-
-        .tab-content {
-
-            #two {
-
-                ul {
-                list-style-type: none;
-                 }
-
             }
         }
     }
