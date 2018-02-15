@@ -26,3 +26,7 @@ body {
 .card {
   background-color: #8b86cf;
 }
+.carousel-item img {
+  height: 246px;
+  width: 246px;
+}
