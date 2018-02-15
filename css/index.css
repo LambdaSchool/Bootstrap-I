@@ -1,0 +1,35 @@
+.jumbotron {
+  height: 85%;
+  background-image: url("/Users/MyMacBook/Desktop/Lambda school/Bootstrap-I/img/pexels-photo-285814.jpeg");
+  background-size: 100%;
+  background-position: center;
+  border-bottom: 10px solid #007bff;
+}
+.timeline {
+  border: .3rem solid gray;
+}
+.timeline1 {
+  border-radius: 50%;
+}
+.timeline1:hover {
+  border-radius: 10%;
+}
+p.education {
+  display: none;
+  text-transform: uppercase;
+}
+.timeline2 {
+  width: 100%;
+  padding: 1.5rem;
+}
+.timeline2:hover p {
+  display: none;
+}
+.timeline2:hover p.education {
+  display: block;
+}
+.timeline3 {
+  width: .2rem;
+  height: .2rem;
+  border: .2rem solid gray;
+}
