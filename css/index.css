@@ -84,9 +84,24 @@ nav {
   margin-right: 3%;
 }
 .carousel-inner {
+  width: 100%;
   margin-top: 5%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 2%;
+  background: #f8dce9;
+}
+.carousel-inner a {
+  text-decoration: none;
+  color: black;
+}
+.carousel-inner a:hover {
+  color: #CC4BC2;
+}
+.carousel-inner h1 {
+  font-family: 'Annie Use Your Telescope', cursive;
 }
 .carousel-inner img {
-  width: auto;
-  max-height: 200px;
+  height: 200px;
+  object-fit: contain;
 }
