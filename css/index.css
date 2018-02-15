@@ -1,0 +1,64 @@
+html,
+body {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 90rem;
+  width: 100%;
+  margin: auto;
+}
+.container .row1 {
+  justify-content: flex-end;
+}
+.container .row1 nav {
+  padding: 2rem 0;
+}
+.container .row1 nav a {
+  color: #d2b887;
+  font-size: 1.4rem;
+  padding: 0 2.5rem;
+}
+.container .row .col-xs-12 .jumbotron {
+  background: #d2b887;
+  border-radius: 4rem;
+}
+.container .row .col-xs-12 .jumbotron img {
+  max-width: 100%;
+  width: 32rem;
+  height: 32rem;
+  margin: 0 0 0 3rem;
+}
+.container .row .col-xs-12 .jumbotron .display-4 {
+  font-size: 4.8rem;
+  margin: 0 3rem 0 3rem;
+  padding: 1rem 0 0 0;
+}
+.container .row .col-xs-12 .jumbotron .lead {
+  font-size: 2.5rem;
+  margin: 0 3rem 0 3rem;
+  padding: .8rem 0 1rem 0;
+}
+.container .row .col-xs-12 .jumbotron .my-4 {
+  border-top: 1px solid #a4a5ad;
+  font-size: 1.8rem;
+  margin: 0 3rem 0 3rem;
+  padding: 2rem 0 0 0;
+  border-radius: 8%;
+}
+.container .row .col-xs-12 .jumbotron .btn-lg {
+  background: #a4a5ad;
+  color: white;
+  font-size: 1.8rem;
+  width: 16rem;
+  height: 4rem;
+  border-radius: 3%;
+}
+.container .row {
+  border: none;
+}
+.container .row .col-xs-6 {
+  font-size: 3.5rem;
+}
+.container .row .col-xs-6 h4 {
+  font-size: 4.5rem;
+}
