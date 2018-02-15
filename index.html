@@ -16,12 +16,117 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Hobbies</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav> 
+    
+
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+  
+      <div class="row justify-content-start">
+          <div class="col-sm-12 col-lg-5 about">
+              <h1 class="display-3">Brett Sullivan</h1>
+              <br>
+              <img class="img-fluid" src="bootstrappic1.png">
+              <h5>I am a current student at Lambda,<br>
+                Where I am studying to be a<br> 
+                Future Web Dev and Programmer.<br> 
+               </h5>
+               <br>
           </div>
       </div>
+
+      <div class="row justify-content-around">
+          <div class="col-sm-12 col-lg-5 hobby">
+            <h1 class="display-3">Hobbies</h1>
+            <br>
+            <br>
+            <h5>Outside of coding, 
+            I am a musician, as well as a bit of a photographer.<br>
+            <br>
+            I have taught myself:<br> 
+            <br>
+            Guitar, bass, drums,<br>
+            How to use DAWs such as Ableton and Reaper,<br>
+            and Media design tools such as Photoshop, Gimp, and Premiere.
+          </h5>
+          <a href="https://deadsplitegos.bandcamp.com/" class="btn btn-secondary btn-lg active" role="button" target="_blank" aria-pressed="true">Click For <br> Music</a>
+          <br>
+          </div>
+      </div>
+      <div class="row justify-content-end">
+          <div class="col-sm-12 col-lg-5 contact">
+            <h1 class="display-4">Contact Me At:</h1>
+            <br>
+            <h5 class="contact-list">
+                <a href="https://www.linkedin.com/in/brett-sullivan-aa4930154" target="_blank" contact="contact-item">Brett Sullivan</a>
+                <br>
+                <br>
+                <a href="mailto:swedishgoodbye@gmail.com" class="contact-item" id="gmail">Email Me</a>
+                <br>
+                <br>
+                 <a href="tel:(708)-971-9389" class="contact-item cellcontact" id="webcell">(708)-971-9389</a>
+                
+                
+                 <br>
+                 <br><br>
+                 <br>
+            </h5>
+          </div>
+      </div>
+
+      <div class="jumbotron">
+          <h1 class="display-4">How's My Progress?</h1>
+          <p class="lead">Below you will find a list of coding languages I have learned, and am in the process of learning.</p>
+          <hr class="my-4">
+          <p>Just click the button below to reveal the list. (You may need to click the button twice!)</p>
+          <p class="lead">
+            <!-- <a class="btn btn-primary btn-lg"role="button"></a>-->
+            <button type="button" class="btn btn-secondary btn-sm" onclick="myFunction()">This one</button>
+          </p>
+        </div>
+
+        <table class="table table-striped table-dark" id="myDiv">
+            <thead>
+              <tr>
+                <th scope="col">Est. Progress</th>
+                <th scope="col">Language</th>
+                <th scope="col">Variations</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">100%</th>
+                <td>Html</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <th scope="row">60%</th>
+                <td>CSS</td>
+                <td>LESS, Bootstrap</td>
+              </tr>
+              <tr>
+                <th scope="row">5%</th>
+                <td>Javascript</td>
+                <td>N/A</td>
+              </tr>
+            </tbody>
+          </table>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>

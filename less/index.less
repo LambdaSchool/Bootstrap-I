@@ -1,1 +1,129 @@
-// Start here!
+// Start here
+.main-content-style(@background, @color, @margin-top, @margin-bottom){
+    background: @background;
+    color: @color;
+    margin-top: @margin-top;
+    margin-bottom: @margin-bottom;
+
+    border: 2px solid black;
+    text-align: left;
+
+    &:hover{
+        background: #64707c;
+        color: rgb(53, 53, 53);
+    }
+
+}
+
+body{
+    background: #e1f0fd
+}
+// Nav
+
+.navbar{
+
+
+ .nav-item{
+     padding: 0 15px;
+ }
+
+}
+
+
+// Content
+
+.container{
+
+
+ .row{
+    text-align: center;
+ }
+
+    .about{
+        border: 2px solid black;
+        .main-content-style(#343a40, whitesmoke, 10px, 10px);
+        font-size: 2rem;
+
+         &:hover{
+                opacity: .9;
+        }
+        
+        h5{
+            font-size: 2rem;
+        }
+
+    } // .about
+
+    .hobby{
+        border: 2px solid black;
+       .main-content-style(#343a40, whitesmoke, 10px, 10px);
+       text-align: center;
+       
+       h5{
+        font-size: 1.6rem;
+
+
+    }
+
+    .btn{
+        margin: 20px 0;
+
+        &:hover{
+            color: rgb(32, 32, 32);
+        }
+    }
+
+
+    } // .hobby
+
+    .contact{
+    
+        .main-content-style(#343a40, whitesmoke, 10px, 10px);
+
+        &:hover{
+            background: whitesmoke;
+            color:black;
+        }
+       
+        text-align: right;
+
+        a{
+            text-decoration: none;
+            color: rgb(160, 156, 156);
+            font-size: 2rem;
+
+            &:hover{
+                color: black;
+                border: 3px solid rgb(61, 60, 60)
+            }
+
+        
+
+        } // a
+
+        
+        
+    
+    } // .contact
+
+    
+// Jumbotron
+
+.jumbotron{
+    background: #7b8a99;
+    margin-top: 10px;
+    text-align: center;
+
+    &:hover{
+        background:#35485a;
+        color: whitesmoke;
+    }
+}
+
+.table{
+    display: none;
+    
+}
+
+} // .container
+

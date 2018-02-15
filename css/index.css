@@ -1,0 +1,88 @@
+body {
+  background: #e1f0fd;
+}
+.navbar .nav-item {
+  padding: 0 15px;
+}
+.container .row {
+  text-align: center;
+}
+.container .about {
+  background: #343a40;
+  color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  text-align: left;
+  font-size: 2rem;
+}
+.container .about:hover {
+  background: #64707c;
+  color: #353535;
+}
+.container .about:hover {
+  opacity: .9;
+}
+.container .about h5 {
+  font-size: 2rem;
+}
+.container .hobby {
+  background: #343a40;
+  color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  text-align: left;
+  text-align: center;
+}
+.container .hobby:hover {
+  background: #64707c;
+  color: #353535;
+}
+.container .hobby h5 {
+  font-size: 1.6rem;
+}
+.container .hobby .btn {
+  margin: 20px 0;
+}
+.container .hobby .btn:hover {
+  color: #202020;
+}
+.container .contact {
+  background: #343a40;
+  color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  text-align: left;
+  text-align: right;
+}
+.container .contact:hover {
+  background: #64707c;
+  color: #353535;
+}
+.container .contact:hover {
+  background: whitesmoke;
+  color: black;
+}
+.container .contact a {
+  text-decoration: none;
+  color: #a09c9c;
+  font-size: 2rem;
+}
+.container .contact a:hover {
+  color: black;
+  border: 3px solid #3d3c3c;
+}
+.container .jumbotron {
+  background: #7b8a99;
+  margin-top: 10px;
+  text-align: center;
+}
+.container .jumbotron:hover {
+  background: #35485a;
+  color: whitesmoke;
+}
+.container .table {
+  display: none;
+}
