@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <script src="js/index.js"></script>
+
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -18,18 +20,21 @@
 <body>
 
     <div class="container">
-      <div class="heading">
-        <div class="row">
-          <div class="col-6">
+       <div class="heading">
+        <div class="heading-top row">
+          <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
               <h1>Brendan Meredith</h1>
-          </div><!--col-->
-          <div class="col-6">
-              <img src="#" alt="logo" />
+          </div><!--col-5-->
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFJSURBVDhP3dRNKARxGMfx8Vbkpbhoi1xclRxcJOXgItqSFEXESUk5OLgoNw5KSpLktClJceTk4uSqpOSivLQt0q63+P6e2Wm32MyMi3zrU/P8D7P/eVvnL1aCIZTZ9IuqMIIzfKAGoevCBW6wA52wAqHqwwtmkIceJBGqYbxi0ia3NRy6h8Eah042ZpNbNR4waFOApqGT9duUaRsnKLDJZ3N4RtSmTBPQveu1yUe64Yt4QocWsurGG1awrwU/LUCvwxXqtZCuHSnMYh564pXImXa2BO2sE3u4RC2akYB2rgZwgGKbvikfq7hHqxYoAu3iHHqR16Ef/TE9qU3EoZ14beAUR9iC90T1UHLurAgxXKNRC+na8I4WlKMQXsdocg+/Vgddzi60g1KM4g7LCFUDbqGPXu/dI/S9Zu8qcLqEKei90//cv8txPgFNTj8xSACE+AAAAABJRU5ErkJggg==">
+          </div>
+          <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+              <h4>...bleeding edge design</h4>
           </div>
       </div><!--row-->
-      <div class="row">
-          <div class="col-12">
-              <nav>
+      <div class="navbar row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <nav class="d-flex flex-row justify-content-between">
                   <a href="#">Home</a>
                   <a href="#">About Me</a>
                   <a href="#">References</a>
@@ -40,28 +45,76 @@
       </div><!--heading-->
       <div class="jumbotron">
           <div class="row">
-            <div class="col-12">
-              <h1>About Me</h1>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <p>About Me</p>
             </div><!--col-12-->
-            <div class="col-4">
-                <p>Some Text</p>
+          </div><!--row-->
+          <div class="row">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <p>
+                    Some text about me. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+                    sed urna et ipsum interdum rutrum sit amet sit amet eros. Donec vestibulum erat justo,
+                    non lobortis erat consectetur quis. Fusce ut elit eu ante auctor sagittis. Ut ultricies
+                    pulvinar arcu, sed lacinia nibh feugiat id. Sed at pulvinar mi. Suspendisse consectetur
+                    venenatis risus placerat gravida. Etiam nisl ex, laoreet id libero vel, viverra mollis 
+                    nulla. Morbi lacinia, augue in commodo ultrices, erat orci lobortis est, sed molestie 
+                    elit odio eget odio. Aenean dolor sem, accumsan fermentum magna iaculis, egestas 
+                    ullamcorper metus. Aenean rutrum purus ante, nec posuere orci viverra ac. Duis varius sit
+                    amet ex eget hendrerit. Nullam metus ex, dictum vel massa in, euismod fringilla mauris. 
+                    Duis maximus lacinia turpis.
+                 </p>
             </div><!--col-4-->
-            <div class="col-4">
-                <img src="#" alt="Me" />
+            <div class="myImgDiv col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <img class="myImg"src="img/Me.jpg" alt="Me" />
             </div><!--col-4-->
-            <div class="col-4">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <ul>
-                    <li>skill1</li>
-                    <li>skill2</li>
-                    <li>skill3</li>
+                    <li>UI/UX Design</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Flexbox</li>
+                    <li>LESS</li>
+                    <li>Bootstrap</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
                 </ul>
             </div><!--col-4-->
           </div><!--row-->
       </div><!--jumbotron-->
-      <div class="references">
           <div class="row">
               <div class="col-12">
-                  <table class="table">
+                  <table class="table employment">
+                      <caption>Employment History</caption>
+                      <thead>
+                          <tr>
+                              <th scope="col">Employer</th>
+                              <th scope="col" class="position">Position</th>
+                              <th scope="col" class="years">Years Worked</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                            <td>Job1</td>
+                            <td class="position">Position1</td>
+                            <td class="years">10</td>
+                        </tr>
+                        <tr>
+                            <td>Job2</td>
+                            <td class="position">Position2</td>
+                            <td class="years">83</td>
+                        </tr>
+                        <tr>
+                            <td>Job3</td>
+                            <td class="position">Position3</td>
+                            <td class="years">1</td>
+                        </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                  <table class="table references">
                       <caption>References</caption>
                       <thead>
                           <tr>
@@ -99,9 +152,7 @@
 
               </div><!--col-12-->
           </div><!--row-->
-      </div><!--references-->
-      <div class="footer">
-          <div class="row">
+          <div class="row footer">
               <div class="col-6">
                   <h3>Contact Info</h3>
                   <p>Brendan Meredith</p>
@@ -109,7 +160,7 @@
                   <p>Middle-Earth</p>
                   <p>myemail@idk.com</p>
               </div>
-              <div class="col-6">
+              <div class="col-6 social">
                   <a href="#" class="fa fa-facebook"></a>
                   <a href="#" class="fa fa-twitter"></a>
                   <a href="#" class="fa fa-linkedin"></a>
@@ -117,8 +168,13 @@
                   <a href="#" class="fa fa-youtube"></a>
                   <a href="#" class="fa fa-google"></a>
               </div>
+              <div class="row">
+                  <div class="col-12">
+                      <p>Designed by Brendan Meredith</p>
+                  </div>
+              </div>
+              
           </div>
-      </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
