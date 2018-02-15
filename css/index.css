@@ -1,0 +1,41 @@
+.container{
+    max-width: 75%;
+   color: grey;
+}
+nav :hover{
+    padding: 1rem;
+    color: bisque;
+    border-radius: 60%;
+    background-color: burlywood;
+        
+}
+.jumbotron button{
+   background: darkkhaki;
+}
+
+.carousel{
+    color: blueviolet;
+    background-color: silver;
+}
+
+
+.badge{
+    color:wheat;
+}
+.row footer
+{
+    align-items: baseline;
+}
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: skyblue;
+  color:white;
+}
+.list-group{
+    width:75%;
+
+}
+*.box{
+    flex-direction: row;
+}
