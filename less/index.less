@@ -1,1 +1,95 @@
-// Start here!
+@primary-color: rgb(233, 91, 91);
+
+html, body {
+    padding: none;
+    margin: none;
+    background: black;
+}
+
+.container {
+    max-width: 880px;
+    width: 100%;
+    background: black;
+    padding-left: 0px;
+    padding-right: 0px
+}
+
+.nav-link {
+    color:whitesmoke;
+}
+
+.banner {
+    width: 100%;
+}
+.main-content {
+    .jumbotron {
+        padding: 0rem 0rem;
+        width: 100%;
+        border-radius: 0;
+        background: black;
+        color: whitesmoke;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: @primary-color;
+        border: 5px solid black;
+    }
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.25rem .5rem;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    border-radius: 0rem;
+}
+
+
+.info-tabs {
+    .list-group-item.active {
+        z-index: 2;
+        color: #fff;
+        background-color: @primary-color;
+        border-color: @primary-color;
+    }
+    .list-group-item {
+        background: burlywood;
+    }
+
+}
+
+.badge {
+    .btn {
+        border-radius: 2rem;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: @primary-color;
+        border-color: @primary-color;
+    }
+    
+}
+.card {
+    margin-top: 30px;
+    background: burlywood;
+    .card-img-top {
+        width: 50%;
+        height: 50%;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: @primary-color;
+        border-color: @primary-color;
+    }
+}
+
+.col-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    color: white;
+}
+
+.contact {
+    background: black;
+}
