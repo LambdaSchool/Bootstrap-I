@@ -1,5 +1,12 @@
-.navbar-expand-md .navbar-collapse {
-  justify-content: flex-end;
+nav ul {
+  flex-grow: 0.25;
+}
+nav ul li {
+  flex-grow: 0.25;
+  text-align: center;
+}
+.jumbotron {
+  margin-bottom: 0;
 }
 .jumbotron .col {
   text-align: center;
@@ -7,4 +14,40 @@
 .jumbotron .col img {
   border-radius: 50%;
   min-width: 150px;
+  margin-bottom: 2rem;
+}
+.main-content {
+  margin: 0;
+}
+.main-content .my-col-v1 {
+  background: lightgray;
+  height: 150px;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+}
+.main-content .my-col-v2 {
+  background: darkgray;
+  height: 150px;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+}
+.main-content h2 {
+  margin-bottom: 2rem;
+}
+.main-content .skills img {
+  border-radius: 50%;
+  max-width: 200px;
+}
+.main-content h4 {
+  margin-top: 2rem;
+}
+.main-content .projects {
+  margin: 0;
+  justify-content: space-evenly;
+}
+.main-content .projects .card {
+  margin-bottom: 2rem;
+}
+.main-content .projects .card .btn {
+  margin-left: 25%;
 }

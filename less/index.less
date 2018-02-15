@@ -2,16 +2,63 @@
 
 //Header styling
 
-.navbar-expand-md .navbar-collapse {
-    justify-content:flex-end;
+nav ul {
+    flex-grow:0.25;
+    li {
+        flex-grow:0.25;
+        text-align:center;
+    }
 }
 
 //Jumbotron styling
 
-.jumbotron .col {
-    text-align:center;
-    img {
-        border-radius:50%;
-        min-width:150px;
+.jumbotron {
+    margin-bottom:0;
+    .col {
+        text-align:center;
+        img {
+            border-radius:50%;
+            min-width:150px;
+            margin-bottom:2rem;
+        }
     }
-}    
+}
+
+// Main-content styling
+
+.main-content {
+    margin:0;
+    .my-col-v1 {
+        background:lightgray;
+        height:150px;
+        border:1px solid gray;
+        border-radius:0.25rem;
+    }
+    .my-col-v2 {
+        background:darkgray;
+        height:150px;
+        border:1px solid gray;
+        border-radius:0.25rem;
+    }
+    h2 {
+        margin-bottom:2rem;
+    }
+    .skills img {
+        border-radius:50%;
+        max-width:200px;
+    }
+    h4 {
+        margin-top:2rem;
+    }
+    .projects {
+        margin:0;
+        justify-content:space-evenly;
+        .card {
+            margin-bottom:2rem;
+            .btn {
+                margin-left:25%;    
+            }
+        }
+    }
+
+}
