@@ -1,12 +1,20 @@
 .container {
     //background: rgba(118,101,146, 0.1);
     #top-nav {
-        //  background: rgba(118,101,146, 0.6);
-        .nav {
+
+        .bg-light {
             margin-right: 15px;
+
+            @media (max-width: 767.98px) {
+                justify-content: center;
+                background: rgba(118,101,146, 0.6);
+                max-width: 70%;
+                margin-left: 15%;
+            }
 
             button {
                 background: #3481C8;
+
 
                 a {
                     color: #fff;
@@ -26,6 +34,26 @@
 
             .bg-overlay {
                 background: rgba(255,255,255, 0.5);
+            }
+        }
+    }
+
+    #skillz {
+
+        #top-heading {
+            margin: 10px 2% 20px 2%;
+        }
+
+        .col-4 {
+
+            .list-group-item {
+                text-align: center;
+
+                @media (max-width: 767.98px) {
+                    max-width: 100%;
+                    margin: 12%;
+                    padding: 20%;
+                }
             }
         }
     }
