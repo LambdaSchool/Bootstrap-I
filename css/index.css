@@ -1,0 +1,27 @@
+.navbar-light {
+  background-color: #008d92;
+}
+h1 {
+  text-align: center;
+}
+.jumbotron {
+  margin: 0 auto;
+  background-color: #e7e9e9;
+}
+.navbar .navbar-nav .btn-group .nav-item .btn {
+  background: green;
+  border: none;
+}
+.navbar .navbar-nav .btn-group .nav-item .btn:hover {
+  background: #00a000;
+}
+.navbar .navbar-nav .btn-group .nav-item .btn a {
+  color: white;
+}
+.btn-primary {
+  background: green;
+  border: none;
+}
+.btn-primary:hover {
+  background: #00a000;
+}
