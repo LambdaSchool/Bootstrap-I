@@ -1,23 +1,79 @@
-//Container
 
 //Navigation Bar
 
-.dropdown {
-    margin: 20px 20px 20px 0;
+.nav {
+    background-color: black;
 
-    button {
-        background-color: black;
-        color: white;
+    p {
+        display: flex;
+        justify-content: flex-start;
     }
 
-    .dropdown-menu {
-        background-color: black;
-        
-        .dropdown-item {
-            color: white;
+    .nav-link {
+        color: grey;
+        padding: 20px;
+        font-family: futura-pt;
+        font-size: 15px;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: 1px;
+        text-decoration: overline;
+
+
+        &:hover {
+            color: rgb(4, 75, 97)
         }
     }
 }
 
+//JUMBO IMG
 
-//Jumbotron
+.top-img {
+    position: relative;
+    text-align: center;
+    color: black;
+
+    .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+
+        button {
+            font-family: futura-pt;
+            font-size: 20px;
+
+            &:hover {
+                background-color: transparent;
+                color: #6c757d;
+            }
+        }
+    }
+        
+    .centered {
+        font-family: futura-pt;
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 1em;
+        color: #050000;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+    .footer {
+        background-color: #050000;
+
+       .container  .btn {
+            color: grey;
+            padding: 20px;
+            width: 20%;
+          
+            &:hover {
+                color: rgb(4, 75, 97);
+                transform: scale(2);
+            }
+        }
+    }

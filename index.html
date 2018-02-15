@@ -8,6 +8,9 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+  
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,30 +19,43 @@
 
 <body>
 
-    <div class="container-fluid">
+    <div class="container- no-gutters">
+      <div class="row no-gutter">
+        <div class="col-sm-12">
+            <nav class="nav justify-content-end">
+              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#">Testimonies</a>
+              <a class="nav-link" href="#">Just for Fun</a>
+              <a class="nav-link" href="#">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="top-img">
+        <img src="img/me-two.jpg" class="img-fluid" alt="Responsive image">
+        <div class="top-left">
+          <button type="button" class="btn btn-secondary">Lets Team Up!</button> 
+        </div>
+        <div class="centered display-4 ">Johnathan Huggett</div>          
+      </div>
+
       <div class="row">
           <div class="col-sm-12">
-              <div class="dropdown d-flex justify-content-end dropleft btn-lg">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Nav
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Home</button>
-                    <button class="dropdown-item" type="button">About</button>
-                    <button class="dropdown-item" type="button">Portfolio</button>
-                    <button class="dropdown-item" type="button">Contact</button>
+              <footer class="footer">
+                  <div class="container text-center">
+                    <nav>
+                        <a class="btn btn-social-icon btn-lg btn-github">
+                          <span class="fa fa-github"></span>
+                          </a>
+                        <a class="btn btn-social-icon btn-instagram">
+                          <span class="fa fa-instagram"></span>
+                          </a>
+                        <a class="btn btn-social-icon btn-linkedin">
+                          <span class="fa fa-linkedin"></span>
+                          </a>
+                    </nav>
                   </div>
-          </div>
-      </div>
-      <div class="row container-fluid">
-          <div class="col-sm-12">
-              <div "col-sm-12">
-                  <div class="jumbotron jumbotron-fluid">
-                      <div class="container">
-                        <h1 class="display-4">Johnathan Huggett - Web Development</h1>
-                        <img src="img/me.jpg" class="w-50 h-auto" alt="Responsive image">
-                      </div>
-                  </div> 
+                </footer> 
           </div>
       </div>
     </div><!-- container -->
