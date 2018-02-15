@@ -34,32 +34,150 @@
 
             .bg-overlay {
                 background: rgba(255,255,255, 0.5);
+
+                #exampleModal {
+
+                    .modal-footer {
+
+                        #foreverGeralt {
+
+                            &:hover {
+                                color: #fff;
+                                background: #3F060E;
+                                display: none;
+                            }
+                        }
+
+                        #dandy {
+                            color: #CC51A0;
+                            background: #8A326F;
+                            border: 5px inset #CC51A0;
+
+                            &:hover {
+                                width: 80%;
+                            }
+                        }
+                    }
+                }
+
+                p {
+
+                    .btn-primary {
+                        background: #AFA9A5;
+                        border: none;
+
+                        &:hover {
+                            color: #3F060E;
+                            background: #090909;
+                        }
+                    }
+                }
             }
         }
     }
 
     #jumbo2 {
         display: none;
+
+        .background {
+            background: url('../neil-rosenstech-467457.jpg') no-repeat center fixed;
+            height: auto;
+            max-width: 100%;
+            background-size: cover;
+
+            .bg-overlay {
+                background: rgba(255,255,255, 0.5);
+
+                .badge-secondary {
+                    color: #CC51A0;
+                    background: #8A326F;
+                }
+
+                p {
+
+                    .btn-primary {
+                        background: #8A326F;
+                        color: #4FC0DC;
+                        border: 5px groove #316285;
+                    }
+                }
+            }
+        }
     }
 
     #skillz {
-        padding-bottom:20px;
+        padding-bottom: 20px;
         margin-bottom: 15px;
 
         #top-heading {
             margin: 10px 2% 20px 2%;
         }
 
-        .col-4 {
+        .list-group {
 
-            .list-group-item {
+            @media (max-width: 767.98px) {
+                max-width: 100%;
+                margin: 2%;
+                padding: 5%;
+            }
+
+            #bard {
                 text-align: center;
+                background: #8A326F;
+                color: #ccc;
+                border: 2px ridge #AE3685;
 
-                @media (max-width: 767.98px) {
-                    max-width: 100%;
-                    margin: 12%;
-                    padding: 20%;
+                &:hover {
+                    background: #000;
+                    color: #fff;
                 }
+            }
+
+            #poet {
+                text-align: center;
+                background: #8A326F;
+                color: #000;
+                border: 2px ridge #AE3685;
+
+                &:hover {
+                    background: #000;
+                    color: #fff;
+                }
+            }
+
+            #prof {
+                text-align: center;
+                background: #8A326F;
+                color: #ccc;
+                border: 2px ridge #AE3685;
+
+                &:hover {
+                    background: #000;
+                    color: #fff;
+                }
+            }
+
+            #spy {
+                text-align: center;
+                background: #8A326F;
+                color: #000;
+                border: 2px ridge #AE3685;
+
+                &:hover {
+                    background: #000;
+                    color: #fff;
+                }
+            }
+        }
+
+        .tab-content {
+
+            #two {
+
+                ul {
+                list-style-type: none;
+                 }
+
             }
         }
     }

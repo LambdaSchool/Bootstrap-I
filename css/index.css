@@ -27,8 +27,47 @@
 .container #jumbo .background .bg-overlay {
   background: rgba(255, 255, 255, 0.5);
 }
+.container #jumbo .background .bg-overlay #exampleModal .modal-footer #foreverGeralt:hover {
+  color: #fff;
+  background: #3F060E;
+  display: none;
+}
+.container #jumbo .background .bg-overlay #exampleModal .modal-footer #dandy {
+  color: #CC51A0;
+  background: #8A326F;
+  border: 5px inset #CC51A0;
+}
+.container #jumbo .background .bg-overlay #exampleModal .modal-footer #dandy:hover {
+  width: 80%;
+}
+.container #jumbo .background .bg-overlay p .btn-primary {
+  background: #AFA9A5;
+  border: none;
+}
+.container #jumbo .background .bg-overlay p .btn-primary:hover {
+  color: #3F060E;
+  background: #090909;
+}
 .container #jumbo2 {
   display: none;
+}
+.container #jumbo2 .background {
+  background: url('../neil-rosenstech-467457.jpg') no-repeat center fixed;
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+}
+.container #jumbo2 .background .bg-overlay {
+  background: rgba(255, 255, 255, 0.5);
+}
+.container #jumbo2 .background .bg-overlay .badge-secondary {
+  color: #CC51A0;
+  background: #8A326F;
+}
+.container #jumbo2 .background .bg-overlay p .btn-primary {
+  background: #8A326F;
+  color: #4FC0DC;
+  border: 5px groove #316285;
 }
 .container #skillz {
   padding-bottom: 20px;
@@ -37,13 +76,53 @@
 .container #skillz #top-heading {
   margin: 10px 2% 20px 2%;
 }
-.container #skillz .col-4 .list-group-item {
-  text-align: center;
-}
 @media (max-width: 767.98px) {
-  .container #skillz .col-4 .list-group-item {
+  .container #skillz .list-group {
     max-width: 100%;
-    margin: 12%;
-    padding: 20%;
+    margin: 2%;
+    padding: 5%;
   }
+}
+.container #skillz .list-group #bard {
+  text-align: center;
+  background: #8A326F;
+  color: #ccc;
+  border: 2px ridge #AE3685;
+}
+.container #skillz .list-group #bard:hover {
+  background: #000;
+  color: #fff;
+}
+.container #skillz .list-group #poet {
+  text-align: center;
+  background: #8A326F;
+  color: #000;
+  border: 2px ridge #AE3685;
+}
+.container #skillz .list-group #poet:hover {
+  background: #000;
+  color: #fff;
+}
+.container #skillz .list-group #prof {
+  text-align: center;
+  background: #8A326F;
+  color: #ccc;
+  border: 2px ridge #AE3685;
+}
+.container #skillz .list-group #prof:hover {
+  background: #000;
+  color: #fff;
+}
+.container #skillz .list-group #spy {
+  text-align: center;
+  background: #8A326F;
+  color: #000;
+  border: 2px ridge #AE3685;
+}
+.container #skillz .list-group #spy:hover {
+  background: #000;
+  color: #fff;
+}
+.container #skillz .tab-content #two ul {
+  list-style-type: none;
 }
