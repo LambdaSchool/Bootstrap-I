@@ -1,0 +1,168 @@
+.container #top-nav .bg-light {
+  margin-right: 15px;
+}
+@media (max-width: 767.98px) {
+  .container #top-nav .bg-light {
+    justify-content: center;
+    background: rgba(118, 101, 146, 0.6);
+    max-width: 70%;
+    margin-left: 15%;
+  }
+}
+.container #top-nav .bg-light button {
+  background: #3481C8;
+}
+.container #top-nav .bg-light button a {
+  color: #fff;
+}
+.container #jumbo {
+  height: 100%;
+}
+.container #jumbo .background {
+  background: url('../neil-rosenstech-467457.jpg') no-repeat center fixed;
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+}
+.container #jumbo .background .bg-overlay {
+  background: rgba(255, 255, 255, 0.5);
+}
+.container #jumbo .background .bg-overlay #exampleModal .modal-footer #foreverGeralt:hover {
+  color: #fff;
+  background: #3F060E;
+  display: none;
+}
+.container #jumbo .background .bg-overlay #exampleModal .modal-footer #dandy {
+  color: #CC51A0;
+  background: #8A326F;
+  border: 5px inset #CC51A0;
+}
+.container #jumbo .background .bg-overlay #exampleModal .modal-footer #dandy:hover {
+  width: 80%;
+}
+.container #jumbo .background .bg-overlay p .btn-primary {
+  background: #AFA9A5;
+  border: none;
+}
+.container #jumbo .background .bg-overlay p .btn-primary:hover {
+  color: #3F060E;
+  background: #090909;
+}
+.container #jumbo2 {
+  display: none;
+}
+.container #jumbo2 .background {
+  background: url('../neil-rosenstech-467457.jpg') no-repeat center fixed;
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+}
+.container #jumbo2 .background .bg-overlay {
+  background: rgba(255, 255, 255, 0.5);
+}
+.container #jumbo2 .background .bg-overlay .badge-secondary {
+  color: #CC51A0;
+  background: #8A326F;
+}
+.container #jumbo2 .background .bg-overlay p .btn-primary {
+  background: #8A326F;
+  color: #4FC0DC;
+  border: 5px groove #316285;
+}
+.container #skillz {
+  height: 800px;
+  max-width: 100%;
+}
+.container #skillz #top-heading {
+  margin: 10px 5% 20px 2%;
+}
+.container #skillz .background {
+  background: url('../advicegiver.png') no-repeat center fixed;
+  height: 730px;
+  max-width: 100%;
+  overflow: auto;
+  margin-left: 7%;
+}
+.container #skillz .background .bg-overlay {
+  background: rgba(255, 255, 255, 0.7) fixed;
+  font-size: large;
+}
+@media (max-width: 767.98px) {
+  .container #skillz .background .bg-overlay .list-group {
+    max-width: 87%;
+    max-height: 50%;
+    margin: 2%;
+    padding: 5%;
+  }
+}
+.container #skillz .background .bg-overlay .list-group #bard {
+  text-align: center;
+  background: #8A326F;
+  color: #ccc;
+  border: 2px ridge #AE3685;
+}
+@media (max-width: 767.98px) {
+  .container #skillz .background .bg-overlay .list-group #bard {
+    min-width: 85%;
+    margin: 2%;
+    padding: 5%;
+  }
+}
+.container #skillz .background .bg-overlay .list-group #bard:hover {
+  background: #000;
+  color: #fff;
+}
+.container #skillz .background .bg-overlay .list-group #poet {
+  text-align: center;
+  background: #8A326F;
+  color: #000;
+  border: 2px ridge #AE3685;
+}
+@media (max-width: 767.98px) {
+  .container #skillz .background .bg-overlay .list-group #poet {
+    min-width: 85%;
+    margin: 2%;
+    padding: 5%;
+  }
+}
+.container #skillz .background .bg-overlay .list-group #poet:hover {
+  background: #000;
+  color: #fff;
+}
+.container #skillz .background .bg-overlay .list-group #prof {
+  text-align: center;
+  background: #8A326F;
+  color: #ccc;
+  border: 2px ridge #AE3685;
+}
+@media (max-width: 767.98px) {
+  .container #skillz .background .bg-overlay .list-group #prof {
+    min-width: 85%;
+    margin: 2%;
+    padding: 5%;
+  }
+}
+.container #skillz .background .bg-overlay .list-group #prof:hover {
+  background: #000;
+  color: #fff;
+}
+.container #skillz .background .bg-overlay .list-group #spy {
+  text-align: center;
+  background: #8A326F;
+  color: #000;
+  border: 2px ridge #AE3685;
+}
+@media (max-width: 767.98px) {
+  .container #skillz .background .bg-overlay .list-group #spy {
+    min-width: 90%;
+    margin: 2%;
+    padding: 5%;
+  }
+}
+.container #skillz .background .bg-overlay .list-group #spy:hover {
+  background: #000;
+  color: #fff;
+}
+.container #skillz .background .bg-overlay .tab-content #two ul {
+  list-style-type: none;
+}

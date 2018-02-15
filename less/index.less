@@ -1,1 +1,222 @@
-// Start here!
+.container {
+    //background: rgba(118,101,146, 0.1);
+    #top-nav {
+
+        .bg-light {
+            margin-right: 15px;
+
+            @media (max-width: 767.98px) {
+                justify-content: center;
+                background: rgba(118,101,146, 0.6);
+                max-width: 70%;
+                margin-left: 15%;
+            }
+
+            button {
+                background: #3481C8;
+
+
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    #jumbo {
+        height: 100%;
+
+
+        .background {
+            background: url('../neil-rosenstech-467457.jpg') no-repeat center fixed;
+            height: auto;
+            max-width: 100%;
+            background-size: cover;
+
+            .bg-overlay {
+                background: rgba(255,255,255, 0.5);
+
+                #exampleModal {
+
+                    .modal-footer {
+
+                        #foreverGeralt {
+
+                            &:hover {
+                                color: #fff;
+                                background: #3F060E;
+                                display: none;
+                            }
+                        }
+
+                        #dandy {
+                            color: #CC51A0;
+                            background: #8A326F;
+                            border: 5px inset #CC51A0;
+
+                            &:hover {
+                                width: 80%;
+                            }
+                        }
+                    }
+                }
+
+                p {
+
+                    .btn-primary {
+                        background: #AFA9A5;
+                        border: none;
+
+                        &:hover {
+                            color: #3F060E;
+                            background: #090909;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #jumbo2 {
+        display: none;
+
+        .background {
+            background: url('../neil-rosenstech-467457.jpg') no-repeat center fixed;
+            height: auto;
+            max-width: 100%;
+            background-size: cover;
+
+            .bg-overlay {
+                background: rgba(255,255,255, 0.5);
+
+                .badge-secondary {
+                    color: #CC51A0;
+                    background: #8A326F;
+                }
+
+                p {
+
+                    .btn-primary {
+                        background: #8A326F;
+                        color: #4FC0DC;
+                        border: 5px groove #316285;
+                    }
+                }
+            }
+        }
+    }
+
+    #skillz {
+        height: 800px;
+        max-width: 100%;
+
+        #top-heading {
+            margin: 10px 5% 20px 2%;
+        }
+
+        .background {
+            background: url('../advicegiver.png') no-repeat center fixed;
+            height: 730px;
+            max-width: 100%;
+            overflow: auto;
+            margin-left: 7%;
+
+            .bg-overlay {
+                background: rgba(255,255,255, 0.7) fixed;
+                font-size: large;
+
+                .list-group {
+
+                    @media (max-width: 767.98px) {
+                        max-width: 87%;
+                        max-height: 50%;
+                        margin: 2%;
+                        padding: 5%;
+                    }
+
+                    #bard {
+                        text-align: center;
+                        background: #8A326F;
+                        color: #ccc;
+                        border: 2px ridge #AE3685;
+
+                        @media (max-width: 767.98px) {
+                            min-width: 85%;
+                            margin: 2%;
+                            padding: 5%;
+                        }
+
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
+                    }
+
+                    #poet {
+                        text-align: center;
+                        background: #8A326F;
+                        color: #000;
+                        border: 2px ridge #AE3685;
+
+                        @media (max-width: 767.98px) {
+                            min-width: 85%;
+                            margin: 2%;
+                            padding: 5%;
+                        }
+
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
+                    }
+
+                    #prof {
+                        text-align: center;
+                        background: #8A326F;
+                        color: #ccc;
+                        border: 2px ridge #AE3685;
+
+                        @media (max-width: 767.98px) {
+                            min-width: 85%;
+                            margin: 2%;
+                            padding: 5%;
+                        }
+
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
+                    }
+
+                    #spy {
+                        text-align: center;
+                        background: #8A326F;
+                        color: #000;
+                        border: 2px ridge #AE3685;
+
+                        @media (max-width: 767.98px) {
+                            min-width: 90%;
+                            margin: 2%;
+                            padding: 5%;
+                        }
+
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .tab-content {
+
+                    #two {
+
+                        ul {
+                            list-style-type: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
