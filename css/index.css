@@ -4,3 +4,10 @@
 .container ul li a {
   color: black;
 }
+.container h3 {
+  text-align: center;
+  margin: 7% 0 0 2%;
+}
+.container a {
+  color: #939496;
+}
