@@ -4,6 +4,9 @@ body {
 .container {
   max-width: 900px;
 }
+.img-fluid {
+  border-radius: 2%;
+}
 nav {
   padding: 20px 0;
 }
@@ -25,6 +28,7 @@ nav a {
   padding: 20px 0;
   background: gray;
   color: white;
+  border-radius: 1%;
 }
 .row .col-sm-6 {
   background: #91a3f5;
