@@ -52,13 +52,25 @@ nav{
     margin-right: 3%;
 }
 
-.carousel-inner{
-    width: 100%;
-    margin-top: 5%;
-    .section();
+#hobby-carousel{
+    height: 300px;
 }
 
 .carousel-inner img{
-    height: 200px;
+    background: darken(@primary-color,20);
+    border-radius: 5px;
+    height: 300px;
     object-fit: contain;
+    margin: auto;
+}
+
+.contact-hobbies-section .col-sm-6{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.contact-hobbies-section .list-group{
+    width: 100%;
 }
