@@ -1,0 +1,11 @@
+.container .jumbotron .row .firstRow {
+  display: flex;
+  justify-content: space-between;
+}
+.container .jumbotron .row .firstRow img {
+  width: 38%;
+  height: 103%;
+}
+.container .jumbotron .row .firstRow ul {
+  align-content: flex-end;
+}
