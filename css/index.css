@@ -1,0 +1,33 @@
+.jumbotron {
+  padding: 20px;
+  background: #dcdcff;
+}
+.nav {
+  margin: 10px 0 30px 4%;
+}
+.nav-link {
+  margin: 0 20px;
+  color: black;
+}
+.right-col {
+  margin-top: 50px;
+}
+.list-group-item {
+  background: #b9b9d6;
+}
+.bottom-content {
+  margin-left: 2%;
+}
+.btn {
+  margin: 15px 0 20px 5%;
+}
+.work-exp-table {
+  margin: 20px 0 20px 4%;
+}
+.theend {
+  height: 60px;
+  width: 100%;
+  background: #dcdcff;
+  text-align: center;
+  padding: 20px 0;
+}
