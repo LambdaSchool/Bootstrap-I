@@ -1,1 +1,87 @@
 // Start here!
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+body{
+    background: #CDFFFF;
+}
+.container{
+    max-width: 880px;
+    font-family: cursive;
+}
+.top-logo{
+    img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+}
+nav {
+    a{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: hotpink;
+        font-size: 25px;
+        .rotate(20deg);
+        @media(max-width: 576px){
+            width: 100%;
+            flex-wrap: wrap;
+            margin-right: auto;
+            margin-right: auto;
+        }
+        &:hover {
+            font-style: italic;
+            color: darken(skyblue, 30%);
+            &:after{
+                font-size: 30px;
+                content: " ✿";
+              }//after
+    }//hover
+}//a
+}//nav
+
+    h1{
+        color: goldenrod;
+        text-align: center;
+        margin-bottom: 4%;
+    }//h1
+    h2{
+        color:lighten(black, 45%);
+    }//h2
+    h3{
+        color:lighten(black, 30%);
+    }//h3
+    p{
+        color:lighten(black, 45%);
+    }//p
+
+.jumbotron {
+    background: pink;
+    border: 5px solid goldenrod;
+    img{margin-top: -15px;
+        margin-right: 25%;
+        margin-left: 20%;
+        margin-bottom: 4%;
+        width: 60%;
+    }//jumbotron img
+  }//jumbotron
+  .lead2{
+      margin-bottom: -20px;
+  }
+    .jumbotron .btn {
+        margin-bottom: -10px;
+    background: #CCCCFF;
+    border: 3px solid silver;
+    color: hotpink;
+    &:hover {
+        background: darken(#ccccff, 3%);
+    }
+    }//jumbotron btn
+
+    .sum{
+        font-size: 30px;
+    }
