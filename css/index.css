@@ -79,6 +79,10 @@ body {
   margin-top: 10px;
   text-align: center;
 }
+.container .jumbotron:hover {
+  background: #35485a;
+  color: whitesmoke;
+}
 .container .table {
   display: none;
 }
