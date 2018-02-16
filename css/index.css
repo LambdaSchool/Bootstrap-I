@@ -1,0 +1,12 @@
+.container {
+  width: 880px;
+}
+.jumbotron {
+  background: gray;
+}
+nav a {
+  color: black;
+}
+.button1 {
+  background: gray;
+}
