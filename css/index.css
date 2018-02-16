@@ -1,15 +1,18 @@
 html,
 body {
-  padding: none;
-  margin: none;
   background: black;
+}
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .container {
   max-width: 880px;
   width: 100%;
   background: black;
-  padding-left: 0px;
-  padding-right: 0px;
+}
+.header {
+  background: purple;
 }
 .nav-link {
   color: whitesmoke;
@@ -45,6 +48,9 @@ body {
 .info-tabs .list-group-item {
   background: burlywood;
 }
+.info-tabs .col-8 {
+  color: white;
+}
 .badge .btn {
   border-radius: 2rem;
 }
@@ -66,11 +72,28 @@ body {
   background-color: #e95b5b;
   border-color: #e95b5b;
 }
-.col-8 {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 66.666667%;
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%;
+.card .btn-link {
+  color: black;
+  font-size: 2rem;
+}
+.card .btn-link:hover {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+.card .card-body {
+  background: #ffd49b;
+}
+.carousel {
+  margin-top: 30px;
+  background: black;
+  border-radius: .25rem;
+}
+form {
+  margin-top: 30px;
+}
+form label {
   color: white;
 }
 .contact {

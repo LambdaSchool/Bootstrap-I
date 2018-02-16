@@ -1,22 +1,28 @@
 @primary-color: rgb(233, 91, 91);
 
 html, body {
-    padding: none;
-    margin: none;
     background: black;
 }
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .container {
     max-width: 880px;
     width: 100%;
     background: black;
-    padding-left: 0px;
-    padding-right: 0px
+   
+}
+
+.header {
+    background: purple;
 }
 
 .nav-link {
     color:whitesmoke;
 }
+
 
 .banner {
     width: 100%;
@@ -53,6 +59,10 @@ html, body {
     }
     .list-group-item {
         background: burlywood;
+        
+    }
+    .col-8 {
+        color: white;
     }
 
 }
@@ -80,14 +90,36 @@ html, body {
         background-color: @primary-color;
         border-color: @primary-color;
     }
+    .btn-link {
+        color: black;
+        font-size: 2rem;
+    }
+    .btn-link:hover {
+        color: white;
+        text-decoration: none;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .card-body {
+        background: burlywood * 1.15;
+    }
 }
 
-.col-8 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-    color: white;
+
+
+.carousel {
+    margin-top: 30px; // What is going on here??? When I add this, BOTH margin and padding increase???
+    background: black;
+    border-radius: .25rem;
+    
+}
+
+form {
+    margin-top: 30px;
+
+    label {
+        color: white;
+    }
 }
 
 .contact {
