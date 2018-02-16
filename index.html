@@ -3,11 +3,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Digital Resume</title>
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/lux-bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,12 +18,135 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+    <div class="container justify-content-center">
+      <div class="row ">
+          <div class="col">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <a class="navbar-brand" href="#">Navigation</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                  </div>
+                </nav>
           </div>
       </div>
+      <div class="row mt-3 justify-content-center">
+        <div class="jumbotron">
+          <h1 class="display-4">Tieshia Francis</h1>
+          <img src="img/Personal Photo.jpg" class="img-fluid" alt="Professional headshot.">  
+            <p class="lead">Recovering scientist looking to experiment with new ideas in software engineering.</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Hire me.</a>
+            </p>
+        </div>
+      </div>
+      <div class="row mt-4 justify-content-center">
+        <div class = "col">
+            <div class="card">
+              <div class="card-body">
+                  <h3 class="card-header">Honors and Awards</h3>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Sandia National Labs Excellence in Engineering Fellowship</li>
+                      <li class="list-group-item">Dean's Excellence in Leadership Award</li>
+                      <li class="list-group-item">Crimson Scholar</li>
+                    </ul>
+                </div>
+              </div>
+          </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-header">Qualifications</h3>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Active NASD Series 66 and 7 Certifications</li>
+                  <li class="list-group-item">MATLAB, Javascript, Python</li>
+                  <li class="list-group-item">Expert technical communicator</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="row mt-5 justify-content-center">
+        <div class="col">
+          <div class="table-responsive">
+          <h2>Employment History</h2>
+          <table class="table table-row no-gutter table-striped mt-3">
+              <thead-dark>
+                <tr>
+                  <th scope="col">Date</th>
+                  <th scope="col">Employer</th>
+                  <th scope="col">Title</th>
+                </tr>
+              </thead-dark>
+              <tbody>
+                <tr>
+                  <th scope="row">2016-2018</th>
+                  <td>Thornburg Investment Management, Inc.</td>
+                  <td>Business Development Analyst</td>
+                </tr>
+                <tr>
+                  <th scope="row">2012-2015</th>
+                  <td>Sandia National Laboratories</td>
+                  <td>Paid Consultant</td>
+                </tr>
+                <tr>
+                  <th scope="row">2012</th>
+                  <td>Southwest Center for Microsystems Education</td>
+                  <td>Project Assistant</td>
+                </tr>
+                <tr>
+                    <th scope="row">2011</th>
+                    <td>Arizona Public Services</td>
+                    <td>Environmental Engineer</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div> 
+      <div class="row mt-3 justify-content-center">
+        <div class="col">
+          <footer>
+            Copyright Francis Productions 2018
+          </footer>
+        </div>
+      </div>
+      <div class="row mt-1 d-flex justify-content-end">
+        <div class="col">
+          <div class="btn-group just" role="group" aria-label="Basic example">
+                <a class="btn btn-secondary" style="font-size:24px" href="https://github.com/Tieshia" role="button">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="#"></a></button>
+                <a class="btn btn-secondary" style="font-size:24px" href="#" role="button">
+                    <i class="fa fa-wordpress"></i>
+                </a>
+                <a class="btn btn-secondary" style="font-size:24px" href="https://www.linkedin.com/in/francistie/" role="button">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </button>
+          </div>
+        </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
