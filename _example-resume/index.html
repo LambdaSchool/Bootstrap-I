@@ -15,15 +15,25 @@
 </head>
 
 <body>
-
-    <div class="container">
-        <div class="row justify-content-end">
-            <nav class="nav">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">Contact</a>
             </nav>
+            <h2>Tabs</h2>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#mainpage" aria-controls="home" role="tab" data-toggle="tab"> main page</a></li>
+              <li role="presentation"><a href="#account" aria-controls="account" role="tab" data-toggle="tab">account</a></li>
+              <li role="presentation"><a href="#inbox" aria-controls="inbox" role="tab" data-toggle="tab">inbox</a></li>
+              <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+            </ul>
+            <br>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="main page">mainpage.</div>
+              <div role="tabpanel" class="tab-pane" id="account">This is my account.</div>
+              <div role="tabpanel" class="tab-pane" id="inbox">There are no emails.</div>
+              <div role="tabpanel" class="tab-pane" id="settings">We are at the settings page.</div>
+            </div>
+            
+
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -99,4 +109,20 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
 </body>
-</html>
+</html> 
+
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#main" aria-controls="main" role="tab" data-toggle="tab">Main</a></li>
+    <li role="presentation"><a href="#account" aria-controls="account" role="tab" data-toggle="tab">Account</a></li>
+    <li role="presentation"><a href="#inbox" aria-controls="inbox" role="tab" data-toggle="tab">Inbox</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+  <br>
+  <!-- Tab panes -->
+  <div class="tab-content"div role="tabpanel" class="tab-pane active" id=>mainpage.</div>
+    <div role="tabpanel" class="tab-pane" id="account">This is my account.</div>
+    <div role="tabpanel" class="tab-pane" id="inbox">There are no emails.</div>
+    <div role="tabpanel" class="tab-pane" id="settings">We are at the settings page.</div>
+  </div>  
