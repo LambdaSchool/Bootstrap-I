@@ -1,6 +1,11 @@
 .nav {
   background: whitesmoke;
 }
+@media (max-width: 450px) {
+  .nav {
+    font-size: 68%;
+  }
+}
 .nav-link:hover {
   background: #157EFB;
   color: white;

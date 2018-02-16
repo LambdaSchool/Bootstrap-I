@@ -1,9 +1,14 @@
 @bckg-color: whitesmoke;
 @h-bckg-color: #157EFB;
 @h-txt-color: white;
+@max-450: ~"(max-width: 450px)";
 
 .nav {
     background: @bckg-color;
+    
+    @media @max-450 {
+        font-size: 68%;
+    }
 }
 
 .nav-link:hover {
