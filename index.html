@@ -19,86 +19,102 @@
   <div class="container">
 
     <div class="row justify-content-center justify-content-md-end">
+      <div class="col-auto">
         <nav class="nav border border-primary rounded">
-          <a class="nav-link" href="#">Home</a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Portfolio</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link border" href="#">Home</a>
+          <a class="nav-link border" href="#">Portfolio</a>
+          <a class="nav-link border" href="#">Services</a>
+          <a class="nav-link border" href="#">Contact</a>
         </nav>
-    </div><!-- nav row -->
+      </div><!-- col nav -->
+    </div><!-- row nav -->
 
-    <div class="row">
-      <div class="col-md-12 col-lg-6 border">
-        <div class="jumbotron mt-3 border border-primary rounded myjumbo">
-          <img src="img/headshot.jpg" class="img-fluid headshot" alt="Responsive Headshot">
-            <h1 class="display-4">César Mejia</h1>
-            <h2>Web Dev</h2>
-            <p class="lead">Lambda School CS8 Cohort</p>
-              
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p class="lead"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    <div class="row mt-3 main-ad-row">
+      <div class="col main-ad-column">
+        <div class="jumbotron border border-primary">
+          <div class="row">
+            <div class="col-md-12 col-lg-7 border d-flex flex-column">
+              <img src="img/headshot.jpg" class="img-fluid" alt="Responsive Headshot">
+              <button type="button" class="btn btn-primary d-none d-sm-none d-md-none d-lg-block mt-lg-4 d-xl-none btn-rates-img">Competitive Rates</button>
+            </div><!-- jumbotron left-column -->
 
-        </div>
-      </div> <!-- jumbotron left -->
+            <div class="col-md-12 col-lg-5 border">
+              <h1 class="display-4">César Mejia</h1>
+              <p class="job-title">Full-Stack Web Developer</p>
+              <hr>
 
-      <div class="col-md-12 col-lg-6 border">
-          <div class="jumbotron mt-3 border border-primary rounded">
-              <div class="row table-row no-gutters">
-                  <h4>Work History</h4>
-                  <table class="table table-striped">
-                  <thead>
-                      <tr>
-                      <th scope="col">Yrs</th>
-                      <th scope="col">Company</th>
-                      <th scope="col">Title</th>
-                      <th scope="col">Tech Used</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                      <th scope="row">1</th>
-                      <td>Apple</td>
-                      <td>Software Engineer</td>
-                      <td>Swift</td>
-                      </tr>
-                      <tr>
-                      <th scope="row">2</th>
-                      <td>Microsoft</td>
-                      <td>Computer Scientist</td>
-                      <td>.NET</td>
-                      </tr>
-                      <tr>
-                      <th scope="row">3</th>
-                      <td>Amazon</td>
-                      <td>Dev Ops</td>
-                      <td>AWS</td>
-                      </tr>
-                  </tbody>
-                  </table>
-              </div>
-              </div><!-- jumbotron right -->
-         <div class="jumbotron mt-3 border border-primary rounded">
+              <p class="lead">Seeking to establish your web presence? Ready to take your business to the next level? You've come the right place!</p>
+              <p class="lead">With over two weeks of experience in Front-End Web Development and an emphasis on building Fully Responsive Web Designs, your project is guaranteed to impress!</p>
+              <button type="button" class="btn btn-primary btn-rates d-block d-lg-none d-xl-block">Competitive Rates</button>
+            </div><!-- jumbotron right-column -->
+          </div><!-- jumbotron row -->
+        </div><!-- jumbotron -->
+      </div><!-- main-ad-column -->
+    </div><!-- main-ad-row -->
 
-              <h4>Talents:</h4>
-              <div class="list-group">
-                  <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
-                  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                  <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
-                  <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
-                </div>
-          </div><!-- jumbotron right -->
-        </div>
-        
-    </div><!-- main content-->
-    <div class="row footer border border-primary">
-        <div class="col-12 pt-2">
-        <p class="text-center">Copyright 2018</p>
+  <div class="row talents-work border border-primary rounded mx-1 py-3">
+    <div class="col-md-4">
+        <h4>Experience With:</h4>
+        <ul class="list-group">
+        <li class="list-group-item">HTML5 and CSS3</li>
+        <li class="list-group-item">Responsive Web Design</li>
+        <li class="list-group-item">Bootstrap 4</li>
+        <li class="list-group-item">Flexbox</li>
+        <li class="list-group-item">Media Queries</li>
+        <li class="list-group-item">Code Challenges</li>
+
+        </ul>
+    </div>
+    <div class="col-md-8 mt-4 mt-md-0">
+        <div class="row table-row no-gutters">
+            <h4>Work History:</h4>
+            <table class="table table-striped">
+            <thead>
+                <tr>
+                <th scope="col">Yrs</th>
+                <th scope="col">Company</th>
+                <th scope="col">Title</th>
+                <th scope="col">Tech Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">2</th>
+                <td>Santa Monica College</td>
+                <td>Adjunct Professor - Chemistry</td>
+                <td>MS Office</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td>Pasadena City College</td>
+                <td>Lead Laboratory Technician - Chemistry</td>
+                <td>Wet Lab</td>
+                </tr>
+                <tr>
+                <th scope="row">1</th>
+                <td>Medtronic MiniMed</td>
+                <td>Associate Researcher</td>
+                <td>HPLC, UV-Vis</td>
+                </tr>
+                <tr>
+                <th scope="row">1</th>
+                <td>NASA AMES</td>
+                <td>Intern</td>
+                <td>Spartan</td>
+                </tr>
+            </tbody>
+            </table>
         </div>
     </div>
-  </div><!-- container -->
+  </div>
+
+  <div class="row footer border border-primary rounded mt-4">
+      <div class="col-sm-12 d-flex justify-content-center">
+      <p class="pt-2">Copyright 2018</p>
+      </div>
+  </div><!-- footer -->
+
+</div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

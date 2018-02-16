@@ -1,18 +1,29 @@
-.container {
-  border: 1px solid red;
-}
 .nav {
   background: whitesmoke;
 }
-.headshot {
-  height: auto;
+.nav-link:hover {
+  background: #157EFB;
+  color: white;
+}
+.job-title {
+  font-size: 2.0rem;
+  font-style: monospace;
 }
 .jumbotron {
   background: whitesmoke;
 }
-.myjumbo {
-  height: 95%;
+.btn-rates-img {
+  height: 50px;
+}
+.talents-work {
+  background: whitesmoke;
+}
+.list-group-item:hover {
+  background: #157EFB;
+  color: white;
+  cursor: pointer;
 }
 .footer {
   background: whitesmoke;
+  font-weight: bold;
 }

@@ -1,25 +1,40 @@
-// Start here!
-
-.container {
-    border: 1px solid red;
-}
-
+@bckg-color: whitesmoke;
+@h-bckg-color: #157EFB;
+@h-txt-color: white;
 .nav {
-    background: whitesmoke;
-}
-.headshot {
-    height: auto;
+    background: @bckg-color;
 }
 
+.nav-link:hover {
+    background: @h-bckg-color;
+    color: @h-txt-color;
+}
+
+.job-title {
+    font-size: 2.0rem;
+    font-style: monospace;
+}
 .jumbotron {
-    background: whitesmoke;
+    background: @bckg-color;
 }
 
-.myjumbo {
-    height: 95%;
+.btn-rates {
 }
 
+.btn-rates-img {
+    height: 50px;
+}
+
+.talents-work {
+    background: @bckg-color;
+}
+
+.list-group-item:hover {
+    background: @h-bckg-color;
+    color: @h-txt-color;
+    cursor: pointer;
+}
 .footer {
-    background: whitesmoke;
-
+    background: @bckg-color;
+    font-weight: bold;
 }
