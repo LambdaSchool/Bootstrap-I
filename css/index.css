@@ -1,0 +1,32 @@
+.jumbotron img {
+  max-height: 250px;
+  width: auto;
+}
+body {
+  background-color: rgba(176, 176, 226, 0.794);
+}
+.jumbotron {
+  background-color: #8b86cf;
+  color: white;
+}
+.custom-footer {
+  background-color: #8b86cf;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+}
+#custom-card-image {
+  border-radius: 50px;
+}
+.list-group-item:hover {
+  background-color: rgba(176, 176, 226, 0.794);
+}
+.card {
+  background-color: #8b86cf;
+}
+.carousel-item img {
+  height: 246px;
+  width: 246px;
+}
