@@ -16,10 +16,10 @@
 
 <body>
 
-  <div class="container border">
+  <div class="container">
 
-    <div class="row justify-content-center justify-content-sm-end">
-        <nav class="nav nav-pills border border-primary rounded">
+    <div class="row justify-content-center justify-content-md-end">
+        <nav class="nav border border-primary rounded">
           <a class="nav-link" href="#">Home</a>
           <a class="nav-link" href="#">About</a>
           <a class="nav-link" href="#">Portfolio</a>
@@ -28,19 +28,76 @@
     </div><!-- nav row -->
 
     <div class="row">
-      <div class="col-sm12 border">
-        <div class="jumbotron mt-3">
+      <div class="col-md-12 col-lg-6 border">
+        <div class="jumbotron mt-3 border border-primary rounded myjumbo">
           <img src="img/headshot.jpg" class="img-fluid headshot" alt="Responsive Headshot">
-            <h1 class="display-4">César Napoléon Mejia-Leiva</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <h1 class="display-4">César Mejia</h1>
+            <h2>Web Dev</h2>
+            <p class="lead">Lambda School CS8 Cohort</p>
               
             <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
             <p class="lead"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-          </div>
-          </div><!-- jumbotron row-->
 
+        </div>
+      </div> <!-- jumbotron left -->
 
+      <div class="col-md-12 col-lg-6 border">
+          <div class="jumbotron mt-3 border border-primary rounded">
+              <div class="row table-row no-gutters">
+                  <h4>Work History</h4>
+                  <table class="table table-striped">
+                  <thead>
+                      <tr>
+                      <th scope="col">Yrs</th>
+                      <th scope="col">Company</th>
+                      <th scope="col">Title</th>
+                      <th scope="col">Tech Used</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                      <th scope="row">1</th>
+                      <td>Apple</td>
+                      <td>Software Engineer</td>
+                      <td>Swift</td>
+                      </tr>
+                      <tr>
+                      <th scope="row">2</th>
+                      <td>Microsoft</td>
+                      <td>Computer Scientist</td>
+                      <td>.NET</td>
+                      </tr>
+                      <tr>
+                      <th scope="row">3</th>
+                      <td>Amazon</td>
+                      <td>Dev Ops</td>
+                      <td>AWS</td>
+                      </tr>
+                  </tbody>
+                  </table>
+              </div>
+              </div><!-- jumbotron right -->
+         <div class="jumbotron mt-3 border border-primary rounded">
+
+              <h4>Talents:</h4>
+              <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                  <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                </div>
+          </div><!-- jumbotron right -->
+        </div>
+        
+    </div><!-- main content-->
+    <div class="row footer border border-primary">
+        <div class="col-12 pt-2">
+        <p class="text-center">Copyright 2018</p>
+        </div>
+    </div>
   </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
