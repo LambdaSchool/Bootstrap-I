@@ -1,0 +1,16 @@
+.container-fluid {
+  background: #eeeea3;
+}
+.container-fluid .jumbotron {
+  background: #ec9494;
+}
+.container-fluid .mx-auto {
+  font-family: Book Antiqua’, Georgia, Garamond, ‘Times New Roman’, Times, serif, rgb(236, 148, 148) ;
+  text-decoration: underline  rgb(236, 148, 148);
+}
+.container-fluid .card {
+  background:rgb(238, 238, 163)
+}
+.container-fluid .figure img {
+  border: 2.5rem rgb(236, 148, 148);
+}
