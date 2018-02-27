@@ -1,0 +1,35 @@
+.jumbotron {
+    @media @tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-pic {
+        @media @tablet {
+            align-self: center;
+            margin-bottom: 20px;
+        }
+        .opacity(6);
+        max-width: 250px;
+        height: auto;
+    }
+    h1 {
+        @media @tablet {
+            font-size: 30px;
+        }
+    }
+    hr {
+        @media @tablet {
+            display: none;
+        }
+    }
+    p.lead {
+        @media @tablet {
+            margin-top: 20px;
+        }
+    }
+    &:hover {
+        .opacity(0.8);
+    }
+}
