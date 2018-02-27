@@ -1,0 +1,22 @@
+.container {
+  border: 1px solid black;
+}
+.container nav {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.container nav .nav-link {
+  color: red;
+}
+.container nav .nav-link:hover {
+  color: blue;
+}
+.card {
+  margin-bottom: 10px;
+}
+.card button {
+  background-color: green;
+}
+.card button .btn-danger {
+  margin-bottom: 5px;
+}

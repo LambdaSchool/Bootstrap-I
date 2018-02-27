@@ -1,1 +1,40 @@
-// Start here!
+@color1: black;
+@color2: yellow;
+@color3: red;
+@color4: white;
+@color5: blue;
+@color6: green;
+
+
+.container {
+
+    border: 1px solid @color1;
+
+    nav {
+        margin-top: 10px;
+        font-size: 20px;
+
+        .nav-link {
+            color: @color3;
+
+            &:hover {
+                color: @color5;
+            }
+        }
+
+    }
+
+}
+
+.card {
+    margin-bottom: 10px;
+
+    button {
+        background-color: @color6;
+
+        .btn-danger {
+
+            margin-bottom: 5px;
+        }
+    }
+}
