@@ -1,0 +1,59 @@
+.container-fluid {
+  max-width: 1200px;
+}
+@media (max-width: 768px) {
+  .jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.jumbotron .profile-pic {
+  -webkit-opacity: 6;
+  -moz-opacity: 6;
+  opacity: 6;
+  max-width: 250px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .jumbotron .profile-pic {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .jumbotron hr {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .jumbotron p.lead {
+    margin-top: 20px;
+  }
+}
+.jumbotron:hover {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+@media (max-width: 576px) {
+  .skills {
+    margin: 15px 0;
+  }
+}
+.footer {
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: grey;
+}
+.footer a:hover {
+  color: #b3b3b3;
+}
