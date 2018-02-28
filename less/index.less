@@ -3,9 +3,21 @@
 @lt-blue: #b1d0ca;
 @silver: #dddddd;
 @seafoam: #62b0a5;
-@test: #1B798F;
+@royal: #1B798F;
+@grey: #737778;
+
 
 @tablet: ~ '(max-width: 768px)';
+
+body {
+    padding-bottom: 3%;
+}
+.nav {
+    li a {
+        text-decoration: none;
+        color: @grey;
+    }
+}
 
 h1 {
     text-transform: uppercase;
@@ -14,16 +26,39 @@ h1 {
     background: @jumbotron;
     h1 {
         font-size: 5rem;
-        color: @lt-blue;
+        color: @nav;
         @media @tablet {
             font-size: 3rem;
         }
     }
+    button {
+        justify-content: center;
+    }
 }
 
 #about h1 {
+    color: @royal;
+}
+
+#projects h1 {
     color: @seafoam;
 }
 #carouselExampleControls {
     padding: 3%;
+}
+
+#experience h1 {
+    color: @lt-blue;
+}
+
+#contact {
+    h1 {
+        color: @jumbotron;
+    }
+}
+
+#icons {
+    .fa-2x {
+        color: @seafoam;
+    }
 }
