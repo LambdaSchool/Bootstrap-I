@@ -1,0 +1,45 @@
+.container {
+  max-width: 1000px;
+  border: 1px solid black;
+}
+.container .nav {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.container .nav .nav-link {
+  color: red;
+}
+.container .nav .nav-link:hover {
+  color: blue;
+}
+.container #table-text {
+  margin: 10px;
+}
+.container table {
+  border: 1px solid black;
+  color: black;
+  margin-top: 10px;
+}
+#btn-new {
+  background-color: red;
+}
+#btn-new:hover {
+  background-color: #000000;
+}
+.middle-content {
+  margin-left: 10px;
+}
+.card {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.card button {
+  background-color: green;
+}
+.card button .btn-danger {
+  margin-bottom: 5px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
