@@ -2,7 +2,7 @@ h3 {
   text-align: center;
 }
 .jumbotron .bully {
-  width: 325px;
+  width: 300px;
   margin: auto;
 }
 .jumbotron h1 {
@@ -13,4 +13,7 @@ h3 {
 }
 .mesa {
   margin-top: 25px;
+}
+.lista {
+  padding-left: 15px;
 }
