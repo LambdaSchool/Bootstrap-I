@@ -1,3 +1,10 @@
+.jumbotron {
+  background: #2C6E7C;
+}
+.jumbotron h1 {
+  font-size: 6rem;
+  color: #b1d0ca;
+}
 #carouselExampleControls {
   padding: 3%;
 }
