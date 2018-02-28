@@ -11,6 +11,14 @@
 .container nav .nav-link:hover {
   color: blue;
 }
+.container #table-text {
+  margin: 10px;
+}
+.container table {
+  border: 1px solid black;
+  color: black;
+  margin-top: 10px;
+}
 .card {
   margin-bottom: 10px;
 }
