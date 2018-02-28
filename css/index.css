@@ -1,0 +1,43 @@
+body {
+  padding-bottom: 3%;
+}
+.nav li a {
+  text-decoration: none;
+  color: #737778;
+}
+h1 {
+  text-transform: uppercase;
+}
+.jumbotron {
+  background: #2C6E7C;
+}
+.jumbotron h1 {
+  font-size: 5rem;
+  color: #c8cfd0;
+}
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 3rem;
+  }
+}
+.jumbotron button {
+  justify-content: center;
+}
+#about h1 {
+  color: #1B798F;
+}
+#projects h1 {
+  color: #62b0a5;
+}
+#carouselExampleControls {
+  padding: 3%;
+}
+#experience h1 {
+  color: #b1d0ca;
+}
+#contact h1 {
+  color: #2C6E7C;
+}
+#icons .fa-2x {
+  color: #62b0a5;
+}

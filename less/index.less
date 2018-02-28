@@ -1,1 +1,64 @@
-// Start here!
+@nav : #c8cfd0;
+@jumbotron: #2C6E7C;
+@lt-blue: #b1d0ca;
+@silver: #dddddd;
+@seafoam: #62b0a5;
+@royal: #1B798F;
+@grey: #737778;
+
+
+@tablet: ~ '(max-width: 768px)';
+
+body {
+    padding-bottom: 3%;
+}
+.nav {
+    li a {
+        text-decoration: none;
+        color: @grey;
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+}
+.jumbotron {
+    background: @jumbotron;
+    h1 {
+        font-size: 5rem;
+        color: @nav;
+        @media @tablet {
+            font-size: 3rem;
+        }
+    }
+    button {
+        justify-content: center;
+    }
+}
+
+#about h1 {
+    color: @royal;
+}
+
+#projects h1 {
+    color: @seafoam;
+}
+#carouselExampleControls {
+    padding: 3%;
+}
+
+#experience h1 {
+    color: @lt-blue;
+}
+
+#contact {
+    h1 {
+        color: @jumbotron;
+    }
+}
+
+#icons {
+    .fa-2x {
+        color: @seafoam;
+    }
+}

@@ -7,6 +7,8 @@
   <title>Digital Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,900i" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -15,17 +17,171 @@
 </head>
 
 <body>
-
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+  <div class = 'container'>
+    <div class = 'row'>
+      <div class = 'col'>
+        <nav class="navbar navbar-expand-md navbar-light bg-faded">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Lisa Cee Design</a>
+        
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Experiences</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
           </div>
+        </nav>
+      </div>
+    </div>    
+
+
+    <div class="jumbotron" id = "jumbotron">
+      <div class = 'row'>
+        <div class = 'col-6'>
+          <h1 class="headline">Hi.  I'm Lisa Cee.</h1>
+          <button type="button" class="btn btn-secondary">Learn More</button>
+        </div>  
+        <div class = 'col-6'>
+          <img src = 'img/img_0105.jpg' class = 'img-fluid' alt = 'Web Designer, Lisa Cee' />
+        </div>
+      </div>
+    </div>
+  
+
+      <div class = 'row' id = 'about'>
+        <div class = 'col  justify-content-center'>
+          <h1>About</h1>
+          <div class = "col-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque a elit id hendrerit. Vivamus laoreet mi orci, at pulvinar magna laoreet sed. </p>  
+          
+          <p>Aenean venenatis elit efficitur purus euismod eleifend. Sed ut orci et turpis posuere cursus. Donec laoreet justo quis dapibus rhoncus. Ut placerat tortor sit amet ligula eleifend, a rutrum odio eleifend. Aliquam erat volutpat. Nulla viverra hendrerit tristique. Pellentesque non erat id ex eleifend vestibulum. </p>
+          
+          <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus ullamcorper mi vitae sem finibus, ac lobortis odio facilisis. Sed laoreet tempus mi a cursus. Pellentesque ac ornare odio. Nulla facilisi. Pellentesque cursus, odio non pulvinar fermentum, mauris augue consectetur nunc, in hendrerit sapien justo vitae lacus. Sed a mauris placerat, condimentum ex et, ullamcorper urna. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class = 'row' id = 'projects'>
+        <div class = 'col-12'>
+          <h1>Projects</h1>
+        </div>
+        <div class = 'col-10 offset-1'>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href = 'http://jakobiartworks.com' target = '_blank'>
+                    <h5><span class="badge badge-secondary">Check It Out!</span></h5>
+                    <img class="d-block w-100" src="./img/jaw.png" alt="Multimedia artist portfolio">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href = 'https://codepen.io/LisaCee/full/dzxoMo/' target = '_blank'>
+                    <img class="d-block w-100" src="https://lh3.googleusercontent.com/-Up-_KSayIWE/WbcSmYA5CLI/AAAAAAAAogc/mVCuLNGIrr831ca6ACptxPc_KeVh5uMKgCL0BGAs/w663-d-h415-n-rw/screencapture-file-E-tribute-master-index-html-1505168465382.png" alt="Prince Tribute Page">
+                  </a>  
+                </div>
+                <div class="carousel-item">
+                  <a href = "https://codepen.io/LisaCee/full/YrPmmj/" target = "_blank">
+                    <img class="d-block w-100" src="https://lh3.googleusercontent.com/-Y6veAw30jfc/WcWYI70Yi_I/AAAAAAAAokE/PUS2JRQFt7Al8ZA1yodWQ40WYi6sTFiIQCJoC/s800/weather_app.png" alt = 'Weather App'>
+                  </a>  
+                </div>
+                <div class="carousel-item">
+                    <a href = "https://codepen.io/LisaCee/full/qmxqQe/" target = "_blank">
+                      <img class="d-block w-100" src="https://lh3.googleusercontent.com/-Qw_HvlWDjrA/WdwZ586q7UI/AAAAAAAAoog/72nzv2ONW0A1D32zB_kOiIxyAhfuf1nBQCJoC/s800/Picture1.png" alt = 'Javascript Classroom'>
+                    </a>  
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        </div> 
+        </div>
+
+        <div class = 'row justify-content-center' id = 'experience'>
+        <div class = 'col-12'>
+          <h1>Experiences</h1>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Focus</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Lambda School</td>
+                    <td>2018-</td>
+                    <td>Computer Science</td>
+                  </tr>
+                  <tr>
+                    <td>King County Library</td>
+                    <td>2005-</td>
+                    <td>Professional</td>
+                  </tr>
+                  <tr>
+                    <td>Free Code Camp</td>
+                    <td>2013-2017</td>
+                    <td>Coding School</td>
+                  </tr>
+                  <tr>
+                    <td>University of WA</td>
+                    <td>2001-2003</td>
+                    <td>BA - English</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+
+      <div class = 'row' id = 'contact'>
+        <div class = 'col'>
+          <h1>Contact</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eros aliquet, ultrices purus sit amet, fermentum purus. Aenean placerat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eros aliquet, ultrices purus sit amet, fermentum purus. Aenean placerat.</p>
+        </div>
+      </div>
+      <div class = 'row' id = 'icons'>
+        <div class = 'col-8 offset-sm-2 d-flex justify-content-between'>
+          <a href = 'https://github.com/LisaCee' target = "_blank">
+            <i class="fab fa-github-square fa-2x"></i>
+          </a>
+        
+          <a href = 'https://codepen.io/LisaCee/' target = '_blank'>
+              <i class="fab fa-codepen fa-2x"></i>
+          </a>
+        
+          <a href = 'https://twitter.com/PrinceGeek' target = '_blank'>
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </a>
+        
+          <a href = 'mailto:lisaceedesign@gmail.com' target = "_top">
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+        </div>  
+        </div>  
       </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
+    
 </body>
 </html>
