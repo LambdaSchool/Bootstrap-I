@@ -5,12 +5,12 @@
 @color5: blue;
 @color6: green;
 
-
 .container {
 
+    max-width: 1000px;
     border: 1px solid @color1;
 
-    nav {
+    .nav {
         margin-top: 10px;
         font-size: 20px;
 
@@ -35,8 +35,20 @@
     }
 }
 
+#btn-new {
+    background-color: @color3;
+    
+    &:hover {
+        background-color: darken(@color3, percentage(10%));
+    }
+}
+
+.middle-content {
+    margin-left: 10px;
+}
 
 .card {
+    margin-left: 50px;
     margin-bottom: 10px;
 
     button {

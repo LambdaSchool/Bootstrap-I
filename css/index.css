@@ -1,14 +1,15 @@
 .container {
+  max-width: 1000px;
   border: 1px solid black;
 }
-.container nav {
+.container .nav {
   margin-top: 10px;
   font-size: 20px;
 }
-.container nav .nav-link {
+.container .nav .nav-link {
   color: red;
 }
-.container nav .nav-link:hover {
+.container .nav .nav-link:hover {
   color: blue;
 }
 .container #table-text {
@@ -19,7 +20,17 @@
   color: black;
   margin-top: 10px;
 }
+#btn-new {
+  background-color: red;
+}
+#btn-new:hover {
+  background-color: #000000;
+}
+.middle-content {
+  margin-left: 10px;
+}
 .card {
+  margin-left: 50px;
   margin-bottom: 10px;
 }
 .card button {
