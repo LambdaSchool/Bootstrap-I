@@ -5,12 +5,24 @@
 @seafoam: #62b0a5;
 @test: #1B798F;
 
+@tablet: ~ '(max-width: 768px)';
+
+h1 {
+    text-transform: uppercase;
+}
 .jumbotron {
     background: @jumbotron;
     h1 {
-        font-size: 6rem;
+        font-size: 5rem;
         color: @lt-blue;
+        @media @tablet {
+            font-size: 3rem;
+        }
     }
+}
+
+#about h1 {
+    color: @seafoam;
 }
 #carouselExampleControls {
     padding: 3%;
