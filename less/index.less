@@ -1,23 +1,30 @@
+@background-color: white;
+
 .container {
-    margin-top: 50px;
+
+    .nav .nav-link {
+        background: darken(@background-color, 10%);
+        &:hover {
+            color: black;
+            background: gold;
+        }
+    }
+    .jumbotron {
+        background: darken(@background-color, 20%);
+    }
 }
 
-.jumbotron {
-    background: white;
-}
-
-.img-fluid {
-    max-width: 600px;
-    width: 50%;
-    height: auto;
-}
-
-.nav {
-    justify-content: center;
+.card-deck {
+    background: darken(@background-color, 20%);
+    padding: 20px 0;
+    margin: 30px 0;
 }
 
 .list-group {
-    margin: 30px 0;
+    background: darken(@background-color, 20%);
+    .list-group-item {
+        margin: 20px;
+    }
 }
 
 footer {

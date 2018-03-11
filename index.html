@@ -15,34 +15,23 @@
 </head>
 
 <body>
-
     <div class="container">
-
-      <div class="row">
-          <div class="col-sm-12">
-            <div class="jumbotron">
-              <div class="text-center">
-                <img src="https://wallscover.com/images/cool-6.jpg" class="img-fluid rounded-circle" alt="Responsive image">
-              </div>
-              <h1 class="display-4 text-center">Megan Williamson</h1>
-              <p class="lead text-center">This is my digital resume. I'm going to populate it with cats.</p>
-              <hr class="my-4">
-              <div class="row">
-                  <div class="col-sm-12">
-                      <nav class="nav">
-                          <a class="nav-link" href="#">About</a>
-                          <a class="nav-link" href="#">Projects</a>
-                          <a class="nav-link" href="#">Cats</a>
-                          <a class="nav-link" href="#">Contact</a>
-                        </nav>
-                  </div>
-              </div>
-
+      <!-- Nav -->
+        <nav class="nav flex-column text-center flex-md-row justify-content-end">
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Projects</a>
+            <a class="nav-item nav-link" href="#">Cats</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+        </nav>
+      <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <p class="lead">Welcome to my web resume!</p>
+              <h1 class="display-4">Hello, my name is Megan.</h1>
             </div>
           </div>
-      </div>
-
-      <div class="card-deck">
+      <!-- Projects Card-deck -->
+      <div class="card-deck rounded">
           <div class="card">
             <img class="card-img-top" src="https://wallscover.com/images/cool-6.jpg" alt="Card image cap">
             <div class="card-body">
@@ -64,25 +53,28 @@
               <p class="card-text">Later I will add a description of my fake project when I have time. This cat image is not mine. I stole it from the internet.</p>
             </div>
           </div>
+      </div>
+
+      <!-- Testimonials List-group -->
+        <div class="testimonials">
+          <ul class="list-group rounded">
+              <li class="list-group-item rounded">
+                  <blockquote class="blockquote">
+                      <h5 class="mb-1">Testimony of Awesomeness A</h5
+                      <!-- <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p> -->
+                      <footer class="blockquote-footer">A swell friend of mine, <cite title="Source Title">Profession</cite></footer>
+                    </blockquote>
+              </li>
+              <li class="list-group-item">
+                  <blockquote class="blockquote">
+                      <h5 class="mb-1">Testimony of Awesomeness B</h5
+                      <!-- <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p> -->
+                      <footer class="blockquote-footer">Another swell friend of mine, <cite title="Source Title">Profession</cite></footer>
+                    </blockquote>
+              </li>
+          </ul>
         </div>
-
-        <ul class="list-group">
-            <li class="list-group-item">
-                <blockquote class="blockquote">
-                    <h5 class="mb-1">Testimony of Awesomeness A</h5
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">A swell friend of mine, <cite title="Source Title">Profession</cite></footer>
-                  </blockquote>
-            </li>
-            <li class="list-group-item">
-                <blockquote class="blockquote">
-                    <h5 class="mb-1">Testimony of Awesomeness B</h5
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Another swell friend of mine, <cite title="Source Title">Profession</cite></footer>
-                  </blockquote>
-            </li>
-        </ul>
-
+      <!-- Footer -->
       <footer class="text-center">
         <h5>This is my footer for now.</h5>
       </footer>
