@@ -15,21 +15,44 @@
 </head>
 
 <body>
-
-    <div class="container">
-      <div class="row header">
-          <div class="col-12">
-            <div class="jumbotron">
-              <h1 class="display-4">Devon Bacon</h1>
-              <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-              <hr class="my-4">
-              <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-              </p>
+    <!-- stretch container to fit width of page -->
+    <div class="container-fluid">
+        <!-- top fixed nav -->
+        <div class="row">
+            <nav class="col-12 nav-top nav nav-pills nav-fill p-3 position-fixed">
+                <a class="nav-item nav-link" href="#">Blog</a>
+                <a class="nav-item nav-link" href="#">About</a>
+                <a class="nav-item nav-link" href="#">Code</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+            </nav>
+        </div>
+        <!-- main content -->
+        <div class="row main-content text-center justify-content-around">
+            <div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
             </div>
-          </div>
-      </div>
+            <div class="card border-0 mb-5" style="width: 25rem;">
+                <img class="card-img-top rounded-circle" src="./img/self.jpg" alt="Card image cap">
+                <div class="card-body mt-3">
+                    <h4 class="card-title">Devon Bacon</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </div>
 
     </div><!-- container -->
 

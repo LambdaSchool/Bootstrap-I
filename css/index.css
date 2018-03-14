@@ -1,3 +1,16 @@
-.container {
-  margin-top: 20px;
+.nav {
+  background-color: black;
+  z-index: 1030;
+}
+.nav .nav-item {
+  color: #007bff;
+}
+.nav .nav-item:hover {
+  color: white;
+}
+.main-content {
+  margin-top: 150px;
+}
+.main-content .list-group-item {
+  padding: 50px;
 }
