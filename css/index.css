@@ -7,6 +7,10 @@
 .mb-20 {
   margin-bottom: 20px;
 }
+.ptpb-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .font-rem {
   font-size: 62.5%;
 }
