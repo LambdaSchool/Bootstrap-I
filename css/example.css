@@ -1,0 +1,12 @@
+.nav {
+	border: 1px solid red;
+	width: 100%;
+}
+
+.main-content {
+	border: 1px solid red;
+}
+
+.aboutMe {
+	border: 1px solid blue;
+}
