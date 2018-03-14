@@ -15,6 +15,14 @@ span {
   display: inline-block;
   margin-top: 20px;
 }
+footer {
+  width: 100%;
+  text-align: center;
+}
+footer p {
+  font-size: 1.4rem;
+  color: white;
+}
 header .nav {
   background-color: #88D317;
   color: red;
@@ -57,6 +65,7 @@ header .nav li a {
   padding: 6%;
   margin-left: 4%;
   border: 2px solid #88D317;
+  text-align: center;
 }
 #about h2 {
   font-size: 3rem;
@@ -92,4 +101,19 @@ header .nav li a {
   height: 20px;
   background: #1A0315;
   max-width: 80%;
+}
+.table-row {
+  margin-top: 40px;
+  max-width: 100%;
+  color: #88D317;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: #1A0315;
+  border: 2px solid #88D317;
+}
+.table-row h4 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
