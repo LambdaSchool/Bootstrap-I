@@ -1,0 +1,142 @@
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  background-color: #b9b9b9;
+}
+span {
+  color: #88D317;
+  font-weight: bold;
+}
+.horizontal {
+  border: 1px solid #88D317;
+  width: 55%;
+  display: inline-block;
+  margin-top: 20px;
+}
+.btn-info {
+  width: 32%;
+  font-size: 1.6rem;
+  background-color: #88D317;
+}
+.btn-info:hover {
+  background-color: #6aa512;
+}
+header .nav {
+  background-color: #88D317;
+  color: red;
+}
+header .nav li a {
+  color: #1A0315;
+  font-size: 1.6rem;
+}
+.container {
+  width: 100%;
+}
+.container .jumbotron {
+  background-size: right;
+  background-color: #6E3667;
+  padding: 4%;
+  -webkit-box-shadow: 4px 6px 8px;
+  -moz-box-shadow: 4px 6px 8px;
+  box-shadow: 4px 6px 8px;
+}
+.container .jumbotron h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 6rem;
+  margin-top: 20px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.container .jumbotron h1 span {
+  color: #88D317;
+}
+.container .jumbotron p {
+  font-size: 2.6rem;
+  margin-top: 20px;
+  color: white;
+}
+.container .jumbotron img {
+  border: 2px solid #88D317;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 80%;
+}
+#about {
+  background-color: white;
+  padding: 4.6%;
+  margin-left: 4%;
+  border: 2px solid #88D317;
+  text-align: center;
+}
+#about h2 {
+  font-size: 3rem;
+  color: #6E3667;
+}
+#about p {
+  font-size: 2rem;
+}
+#skills {
+  background-color: #1A0315;
+  margin-right: 4%;
+  padding: 5.5%;
+  border: 2px solid #88D317;
+}
+#skills .front,
+#skills .backend {
+  text-align: center;
+}
+#skills .front h2,
+#skills .backend h2 {
+  font-size: 2.5rem;
+  color: #88D317;
+}
+#skills .front p,
+#skills .backend p {
+  font-size: 1.6rem;
+  color: white;
+}
+#skills .front progress,
+#skills .backend progress {
+  appearance: none;
+  width: 200px;
+  height: 20px;
+  background: #1A0315;
+  max-width: 80%;
+}
+.table-row {
+  margin-top: 40px;
+  max-width: 100%;
+  color: #88D317;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: #1A0315;
+  border: 2px solid #88D317;
+  margin-bottom: 40px;
+}
+.table-row h4 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.secret {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.secret .btn-primary {
+  background-color: red;
+  font-size: 1.2rem;
+}
+.footer {
+  text-align: center;
+  padding: 3%;
+  width: 100%;
+}
+.footer p {
+  font-size: 1.4rem;
+  color: white;
+  background-color: #535353;
+}

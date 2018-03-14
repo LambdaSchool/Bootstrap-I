@@ -16,16 +16,170 @@
 
 <body>
 
+  <header>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+  </header>
+
     <div class="container">
       <div class="row">
           <div class="col-sm-12">
-              <h1>Start Here!</h1>
+                  <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 col-sm-6 col-md-8 col-lg-8">
+                      <h1 class="text-center">Lukasz Busk <span class="highlight">Resume</span></h1>
+                      <p class="lead text-center">Aspiring Full Stack Web <span class="highlight">Developer</span> full of passion and <span class="highlight">determination</span> to reach his goal.</p>
+
+                        <div class="ruler text-center">
+                          <hr class="horizontal"></hr>
+                        </div> <!-- ruler -->
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+                      <img src="https://pbs.twimg.com/profile_images/616657941383487488/9mtVYPBR.jpg" class="img-fluid img-circle"></div>
+                    </div>
+                </div> <!-- row -->
           </div>
       </div>
+    </div>
+
+    <div class="row table-row no-gutters">
+            <h4>Work History</h4>
+            <table class="table table-striped">
+            <thead>
+                <tr>
+                <th scope="col">Yrs</th>
+                <th scope="col">Company</th>
+                <th scope="col">Title</th>
+                <th scope="col">Tech Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>NetInspire</td>
+                <td>Flash Developer</td>
+                <td>Actionscrip</td>
+                </tr>
+                <tr>
+                <th scope="row">1</th>
+                <td>Ministry of Environment</td>
+                <td>IT Support</td>
+                <td>Action Directory</td>
+                <td></td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Praski Hospital</td>
+                <td>IT Specialist</td>
+                <td>Various</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+      <section>
+      <div class="row">
+        <div class="col-12 col-sm-5">
+          <div id="about">
+            <h2>About</h2>
+            <p>The name is Luke and I'm an aspiring web deveoper and designer, with extensive practical experience in brand strategy and UX/UI; devoted to Functional Programming and Information Architecture. Also a huge fan of semantics and futuristic interfaces.</p>
+            <button type="button" class="btn btn-info">Info</button>
+          </div><!-- about -->
+        </div>
+        <div class="col-12 col-sm-7">
+          <div id="skills">
+            <div class="row">
+              <div class="col-6 front">
+            <h2> Front End Development</h2>
+            <div>
+              <p>HTML5</p>
+              <progress max="100" value="90"></progress>
+          </div>
+          <div>
+              <p>CSS3</p>
+              <progress max="100" value="80"></progress>
+          </div>
+          <div>
+              <p>jQuery</p>
+              <progress max="100" value="60"></progress>
+          </div>
+        </div>
+          <div class="col-6 backend">
+            <h2> Back End Development</h2>
+            <div>
+              <p>Ruby</p>
+              <progress max="100" value="70"></progress>
+          </div>
+          <div>
+              <p>Javascript</p>
+              <progress max="100" value="60"></progress>
+          </div>
+          <div>
+              <p>Node.js</p>
+              <progress max="100" value="40"></progress>
+          </div>
+          </div>
+          </div><!-- inner row -->
+
+          </div><!-- skills -->
+        </div>
+      </div><!-- row -->
+    </section>
+
+        <!-- Button trigger modal -->
+        <div class="secret">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Secret Message
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Urget Message</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                This website is NOWHERE FINISHED!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+
+    <div class="row footer">
+            <div class="col-12">
+            <p>Copyright Lukasz <span class="highlight">"Velsu"</span> Busk 2018</p>
+            </div>
+        </div>
+
+
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </body>
 </html>
