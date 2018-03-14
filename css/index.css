@@ -14,3 +14,6 @@
 .jumbotron p {
   color: white;
 }
+.row-button button {
+  background-color: black;
+}
