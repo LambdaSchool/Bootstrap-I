@@ -1,0 +1,28 @@
+.container {
+  background-color: #1f1b1b;
+}
+.container .jumbotron {
+  background-color: #1f1b1b;
+  color: white;
+}
+.container .jumbotron .display-4 {
+  display: flex;
+  justify-content: center;
+  padding: 11% 0;
+  border: 1px dotted white;
+  margin-bottom: 1%;
+}
+.container .jumbotron .lead {
+  margin-top: 10%;
+  text-align: center;
+}
+.container .jumbotron h1 {
+  display: flex;
+  justify-content: center;
+}
+.container .jumbotron .my-4 {
+  border-top: 1px dashed white;
+}
+.container .row .table2 {
+  margin: 6.6%;
+}
