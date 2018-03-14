@@ -15,14 +15,88 @@
 </head>
 
 <body>
-
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+<div class="container-fluid nav-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav navbar-dark bg-dark">
+      <a class="nav-item nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link text-light" href="#">Skills</a>
+      <a class="nav-item nav-link text-light" href="#">Portfolio</a>
+      <a class="nav-item nav-link text-light" href="#">Contact</a>
+      <a class="nav-item nav-link text-light" href="#">About</a>
       </div>
-    </div><!-- container -->
+    </div>
+  </nav>
+</div>
+
+<div class="container picture">
+  <div class="row">
+    <div class="col-5">
+        <img src=img/me.jpg class="img-fluid"></img>
+    </div>
+    <div class="col-7">
+      <p class="h4">
+        Inspiration comes from all aspects of like, whether it be from nature, art, events. They all give us an image of what something could be. Web design isn't as simple s plopping a few colors and calling it a day. It's about symmetry, typography, and balance. </p>
+        <p class="h2 margin-10">
+        Let's work to achieve that together.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-light skills">
+  <h2 class="text-center">Skills</h2>
+
+<div class="d-flex justify-content-center">
+  <div class="row">
+    <div class="col-6 ">
+      <ul>
+        <li>Design</li>
+        <li>Javascript</li>
+        <li>Node</li>
+        <li>React</li>
+      </ul>
+    </div>
+
+    <div class="col-6">
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>C++</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="container form contact"></div>
+    <form>
+        <div class="form-group d-flex justify-content-center row">
+            <label for="colFormLabel" class="col-sm-1 col-form-label">*Name</label>
+            <div class="col-4">
+              <input type="email" class="form-control" id="colFormLabel" placeholder="Joe Smith">
+            </div>
+          </div>
+
+          <div class="form-group d-flex justify-content-center row">
+            <label for="colFormLabel" class="col-sm-1 col-form-label ">*Email</label>
+            <div class="col-4">
+                <input type="email" class="form-control" id="colFormLabel" placeholder="fizzbuzz@email.com">
+            </div>
+          </div>
+
+          <div class="form-group mx-auto col-5">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <button type="button" class="btn btn-success">Success</button>
+
+      </form>
+</div>
+
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
