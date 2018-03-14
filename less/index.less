@@ -13,7 +13,8 @@
 }
 
 .main-content {
-  margin-top: 80px;
+  max-width: 980px;
+  margin: 80px auto 0;
 
   .list-group-item {
     padding: 45px;
@@ -45,27 +46,58 @@
   }
 }
 
+// Rearange main content card to the front in order to display properly
 @media (max-width: 830px) {
   .main-content {
     .card {
       order: -1;
     }
+
+    .list-group-item {
+      padding: 45px 20px;
+    }
   } 
 }
 
+// Shrink carousel and adjust main content sizes to fit smaller screens
 @media (max-width: 775px) {
   .main-content {
     .card {
-      width: 75%;
-      margin: 0 50px;
+      width: 60%;
     }
 
     .black-border {
       margin-top: 10px;
     }
+
+    .list-group-item {
+      padding: 55px;
+      margin: 0 50px;
+    }
   }
 
   .carousel-item {
     height: 300px;
+  }
+}
+
+@media (max-width: 650px) {
+  .main-content {
+    .card {
+      width: 75%;
+    }
+
+    .list-group-item {
+      padding: 35px;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .main-content {
+    .list-group-item {
+      padding: 25px;
+    }
   }
 }

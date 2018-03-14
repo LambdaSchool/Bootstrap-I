@@ -17,8 +17,9 @@
 <body>
     <!-- stretch container to fit width of page -->
     <div class="container-fluid">
-        <!-- top fixed nav -->
+        <!-- top nav -->
         <div class="row">
+          <!-- add padding and fixed positions to nav -->
             <nav class="col-12 nav-top nav nav-pills nav-fill p-3 position-fixed">
                 <a class="nav-item nav-link" href="#">Blog</a>
                 <a class="nav-item nav-link" href="#">About</a>
@@ -28,7 +29,7 @@
         </div>
         <!-- main content -->
         <div class="row main-content text-center justify-content-around">
-            <div>
+            <div> <!-- used div to avoid border bug -->
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">HTML</li>
                     <li class="list-group-item">CSS</li>
@@ -37,7 +38,8 @@
                     <li class="list-group-item">Javascript</li>
                 </ul>
             </div>
-            <div class="card border-0 order-0">
+            <div class="card border-0">
+                <!-- double border around card img -->
                 <div class="rounded-circle black-border">
                     <img class="card-img-top rounded-circle" src="./img/self.jpg" alt="Card image cap">
                 </div>
@@ -59,6 +61,7 @@
         <!-- jumbotron  -->
         <div class="row">
             <div class="col-12 text-center">
+              <!-- eliminated background colo and border radius -->
               <div class="jumbotron bg-white border-top rounded-0 pb-1">
                   <h1 class="display-4">Web Developer</h1>
                   <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
