@@ -15,13 +15,13 @@ span {
   display: inline-block;
   margin-top: 20px;
 }
-footer {
-  width: 100%;
-  text-align: center;
+.btn-info {
+  width: 32%;
+  font-size: 1.6rem;
+  background-color: #88D317;
 }
-footer p {
-  font-size: 1.4rem;
-  color: white;
+.btn-info:hover {
+  background-color: #6aa512;
 }
 header .nav {
   background-color: #88D317;
@@ -62,7 +62,7 @@ header .nav li a {
 }
 #about {
   background-color: white;
-  padding: 6%;
+  padding: 4.6%;
   margin-left: 4%;
   border: 2px solid #88D317;
   text-align: center;
@@ -77,7 +77,7 @@ header .nav li a {
 #skills {
   background-color: #1A0315;
   margin-right: 4%;
-  padding: 6%;
+  padding: 5.5%;
   border: 2px solid #88D317;
 }
 #skills .front,
@@ -117,6 +117,14 @@ header .nav li a {
   color: white;
   font-weight: bold;
   font-size: 1.8rem;
+}
+.secret {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.secret .btn-primary {
+  background-color: red;
+  font-size: 1.2rem;
 }
 .footer {
   text-align: center;
