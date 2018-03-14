@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+}
+.jumbotron {
+  background-color: teal;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.jumbotron h1,
+.jumbotron p {
+  margin-top: 30px;
+}
+.jumbotron img {
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  border-radius: 80%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  width: 50%;
+}
+.jumbotron button {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}

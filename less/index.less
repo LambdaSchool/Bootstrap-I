@@ -1,1 +1,40 @@
 // Start here!
+
+// Mixins
+
+.border-radius (@radius: 15px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+// Code Below
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.jumbotron {
+    background-color: teal;
+    .border-radius;
+    
+    h1,p {
+        margin-top: 30px;
+    }
+
+    img {
+        .border-radius(80%);
+        width: 50%;
+    }
+
+    
+
+    button {
+        .border-radius(50px);
+    }
+}
