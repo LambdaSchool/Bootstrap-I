@@ -3,36 +3,7 @@ html {
 }
 html,
 body {
-  background-color: #a0a0a0;
-}
-.container-fluid {
-  width: 100%;
-}
-.container-fluid .jumbotron {
-  background-size: right;
-  background-color: rgba(110, 54, 103, 0.8);
-  padding: 4%;
-}
-.container-fluid .jumbotron h1 {
-  color: white;
-  font-weight: bold;
-  font-size: 6rem;
-  margin-top: 20px;
-}
-.container-fluid .jumbotron h1 span {
-  color: #88D317;
-}
-.container-fluid .jumbotron p {
-  font-size: 2.6rem;
-  margin-top: 20px;
-  color: white;
-}
-.container-fluid .jumbotron img {
-  border: 2px solid #88D317;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  max-width: 80%;
+  background-color: #b9b9b9;
 }
 span {
   color: #88D317;
@@ -52,6 +23,73 @@ header .nav li a {
   color: white;
   font-size: 1.6rem;
 }
-.jumbtron-fluid {
+.container {
+  width: 100%;
+}
+.container .jumbotron {
+  background-size: right;
   background-color: #6E3667;
+  padding: 4%;
+}
+.container .jumbotron h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 6rem;
+  margin-top: 20px;
+}
+.container .jumbotron h1 span {
+  color: #88D317;
+}
+.container .jumbotron p {
+  font-size: 2.6rem;
+  margin-top: 20px;
+  color: white;
+}
+.container .jumbotron img {
+  border: 2px solid #88D317;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 80%;
+}
+#about {
+  background-color: white;
+  padding: 6%;
+  margin-left: 4%;
+  border: 2px solid #88D317;
+}
+#about h2 {
+  font-size: 3rem;
+  color: #6E3667;
+}
+#about p {
+  font-size: 2rem;
+}
+#skills {
+  background-color: #1A0315;
+  margin-right: 4%;
+  padding: 6%;
+  border: 2px solid #88D317;
+}
+#skills .front,
+#skills .backend {
+  text-align: center;
+}
+#skills .front h2,
+#skills .backend h2 {
+  font-size: 2.5rem;
+  color: #88D317;
+}
+#skills .front p,
+#skills .backend p {
+  font-size: 1.6rem;
+  color: white;
+}
+#skills .front progress,
+#skills .backend progress {
+  appearance: none;
+  width: 200px;
+  height: 20px;
+  background: #1A0315;
+  max-width: 80%;
 }
