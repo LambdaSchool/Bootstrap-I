@@ -1,0 +1,7 @@
+header .nav {
+  background-color: #88D317;
+  color: red;
+}
+header .nav li a {
+  color: white;
+}
