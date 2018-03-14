@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #002b36;
+  color: #002b36 !important;
+}
+a {
+  color: #d33682;
+}
+a:hover {
+  color: #6c71c4;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 768px;
+  background-color: #fdf6e3;
+  border: 3px solid #d33682;
+  border-top: 0;
+  border-bottom: 0;
+}
+.jumbotron {
+  background-color: #eee8d5;
+}
+.btn-custom {
+  background-color: #002b36;
+  color: #eee8d5;
+}
+.btn-custom.active-custom {
+  background-color: #6c71c4;
+}
+.card {
+  background-color: #eee8d5;
+}
+.card h5 {
+  color: #6c71c4;
+}
+.list-group {
+  width: 50%;
+}
+.list-group .list-group-item {
+  background-color: #eee8d5;
+}
+section {
+  width: 100%;
+}
+section h3 {
+  text-align: center;
+}

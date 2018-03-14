@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -11,21 +12,116 @@
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+    <![endif]-->
 </head>
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+  <div class="container pt-3 pb-3">
+    <div class="jumbotron mt-2">
+      <img class="img-fluid mb-2" src="../img/banner.jpg" alt="">
+      <h1>Jared Cuffe
+        <small>Software Developer</small>
+      </h1>
+      <p class="mb-0">
+        <a href="mailto:jcuffe@gmail.com">jcuffe@gmail.com</a>
+        <br /><a href="http://github.com/jcuffe">github.com/jcuffe</a>
+        <br />916-764-4943</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="btn-group mt-1 mb-4">
+        <button id="skills" class="btn btn-custom active-custom">Skills</button>
+        <button id="experience" class="btn btn-custom">Experience</button>
+        <button id="references" class="btn btn-custom">References</button>
       </div>
-    </div><!-- container -->
+    </div>
+    <section class="skills">
+      <h3 class="mb-4">Skills</h3>
+      <div class="row ml-1 mr-1">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Javascript</h5>
+              <p>3 years of experience
+                <br />Preferred language</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+              <p>1 year of experience
+                <br />Mostly shell scripts</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Ruby (on Rails)</h5>
+              <p>2 years of experience
+                <br />My first REST</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experience" style="display:none">
+      <h3 class="mb-4">Experience</h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Company</th>
+            <th scope="col">Role</th>
+            <th scope="col">Technologies</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Flywheel Software</th>
+            <td>Dev Ops</td>
+            <td>Node, Bash, Jenkins</td>
+          </tr>
+          <tr>
+            <th scope="row">GMTS</th>
+            <td>Full-stack</td>
+            <td>Ruby on Rails</td>
+          </tr>
+          <tr>
+            <th scope="row">Roseville Shoe</th>
+            <td>Cobbler</td>
+            <td>Hammer and Nails</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="references" style="display:none">
+      <h3 class="mb-4">References</h3>
+      <div class="row justify-content-center">
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Ashley Patser<span>867-5309</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Bryce Knotts
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Mike Senuty
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            David Smith
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  </div>
+  <!-- container -->
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>

@@ -1,1 +1,62 @@
 // Start here!
+@import "colors";
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: @background-dark;
+    color: @font-color !important; // Don't feel like digging in the bootstrap source right now
+}
+
+a {
+    color: @magenta;
+    &:hover {
+        color: @violet;
+    }
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 768px;
+    background-color: @background-light;
+    border: 3px solid @magenta;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.jumbotron {
+    background-color: @background-light-accent;
+}
+
+.btn-custom {
+    background-color: @background-dark;
+    color: @background-light-accent;
+    &.active-custom {
+        background-color: @violet;
+    }
+}
+
+.card {
+    background-color: @background-light-accent;
+    h5 {
+        color: @violet;
+    }
+}
+
+.list-group {
+    width: 50%;
+    .list-group-item {
+        background-color: @background-light-accent;
+    }
+}
+
+section {
+    width: 100%;
+    h3 {
+        text-align: center;
+    }
+}
