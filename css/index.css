@@ -5,7 +5,7 @@
   flex-flow: column wrap;
 }
 .jumbotron {
-  background-color: #7ED643;
+  background-color: #778899;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -33,6 +33,16 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.jumbotron .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.jumbotron .fa:hover {
+  opacity: 0.7;
 }
 .para p {
   width: 100%;
