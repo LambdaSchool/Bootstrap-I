@@ -5,3 +5,6 @@
 .my-custom-btn:hover {
   background-color: gray;
 }
+.dropped-item:hover {
+  background-color: lightgray;
+}
