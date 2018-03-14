@@ -1,0 +1,24 @@
+.nav {
+	/*border: 1px solid red;*/
+	width: 100%;
+}
+
+.jumbotron {
+	margin: 0px;
+}
+
+.row {
+	margin-bottom: 40px;
+}
+
+.card-group {
+	margin-bottom: 40px;
+}
+
+.quote {
+	width: 100%;
+}
+
+.card-header {
+	font-size: 2rem;
+}
