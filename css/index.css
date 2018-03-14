@@ -4,6 +4,9 @@
 .nav a {
   color: white;
 }
+.nav:hover {
+  background-color: red;
+}
 .jumbotron {
   background-color: grey;
 }
@@ -14,6 +17,17 @@
 .jumbotron p {
   color: white;
 }
+.jumbotron p a {
+  background-color: black;
+  border-color: black;
+}
+.jumbotron p a:hover {
+  background-color: red;
+}
 .row-button button {
   background-color: black;
+  border-color: black;
+}
+.row-button button:hover {
+  background-color: red;
 }
