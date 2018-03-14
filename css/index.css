@@ -1,4 +1,6 @@
 .container {
+  max-width: 900px;
+  width: 100%;
   display: flex;
   flex-flow: column wrap;
 }
@@ -31,4 +33,9 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.para p {
+  width: 100%;
+  padding: 15px 0;
+  border: 1px solid black;
 }
