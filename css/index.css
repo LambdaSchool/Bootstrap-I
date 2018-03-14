@@ -4,6 +4,12 @@
   display: flex;
   flex-flow: column wrap;
 }
+.nav {
+  font-size: 20px;
+}
+.nav a:link {
+  color: black;
+}
 .jumbotron {
   background-color: teal;
   -webkit-border-radius: 15px;
@@ -15,7 +21,7 @@
 }
 .jumbotron h1,
 .jumbotron p {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .jumbotron img {
   -webkit-border-radius: 25%;
@@ -36,6 +42,5 @@
 }
 .para p {
   width: 100%;
-  padding: 15px 0;
   border: 1px solid black;
 }
