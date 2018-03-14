@@ -1,0 +1,96 @@
+/* Row 1 */
+.row1 .col-12 {
+    margin-top: 1rem;
+}
+
+a {
+    color: green;
+}
+
+/* Row 2 */
+.row2 {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.col-12 {
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+/* //get this fucker to go center */
+img {
+    border: 1px solid blue;
+    width: 10rem;
+    height: 10rem;
+}
+
+
+
+/* Get the text to align on the left */
+.row2 .col-6 { 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+   
+
+}
+
+/* Row 3 */
+.row3 h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+    color: green;
+}
+
+/* Row 4 */
+.row4 .col-12 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.row4 .card {
+    text-align: center; 
+    margin-bottom: 1rem;
+    color: green;
+    
+}
+.row .card-text {
+    color: black;
+    padding: 0 1rem;
+    
+}
+.row .btn {
+    margin-bottom: 1rem;
+    background-color: green;
+}
+
+
+
+/* Row 5 - None*/
+
+/* Row 6 */
+.row6 {
+    border-bottom: 2px solid black;
+}
+
+/* Row 7 */
+
+.row7 {
+    text-align;
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.row7 h1 {
+    font-size: 2rem;
+}
+/* clean up and put in LEss file to compile */
+/* slideshow of github projects */
