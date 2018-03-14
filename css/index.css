@@ -1,0 +1,9 @@
+.jumbotron {
+  background-color: silver;
+  border: 2px solid black;
+  font-size: 40px;
+}
+.col-3 {
+  display: flex;
+  align-items: center;
+}
