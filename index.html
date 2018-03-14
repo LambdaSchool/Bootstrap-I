@@ -4,11 +4,12 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Digital Resume</title>
+  <title>Morris Blaustein's Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
-
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <script src="js/index.js"></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -17,12 +18,98 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+      <div class="row heading">
+            <div class="col-8 name">
+                <h1 class ="display-1"> Morris Blaustein</h1>
+                <h1 class ="display-6"> Morrisblaustein@gmail.com</h1>
+            </div>
+            <div class = "col-4 menu display-4">
+                <div class ="dropdown">
+                    <button   class ="btn btn-primary dropdown-toggle " type ="button" data-toggle="dropdown"></button>
+                    <span class = "caret "></span></button>
+                    <ul class ="dropdown-menu">
+                        <li><a onclick = "dispObj()"  > Objective </a></li>
+                        <li><a onclick = "dispExp()"  > Experience </a></li>
+                        <li><a  onclick = "dispSkills()"   > Skills </a></li>
+                    </ul>
+                </div>
+            </div>
       </div>
-    </div><!-- container -->
+    <div id = "objective" class = "row objective">
+        <div class="jumbotron thesis">
+            <h1 class="display-5">
+                Computer related job or intership with creative experiences to expand my knowledge and interests
+            </h1>
+            <img src="profile.jpg" class = "profile">
+        </div> 
+    </div>
+      <div id = "experience" class ="row experience">
+        <table class = "table">
+            <thead class = "thead-dark">
+                <tr>
+                    <th > Experience </th>
+                    <th> Knowledge Acquired </th>
+                    <th> Duration </th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <th> Electronic Music Production </th>
+                    <th> Digital audio fundamentals, manipulating and creating sounds to form songs </th>
+                    <th> 6 years </th>              
+                </tr>
+                    <th> Whole Foods </th>
+                    <th> Customer and food service, business </th>
+                    <th> 3 months </th>
+                </tr>
+                </tr>
+                    <th> Upward Bound Tutor </th>
+                    <th> Teaching math and physics in high school </th>
+                    <th> 6 months </th>
+                </tr>
+                </tr>
+                    <th> Aura Cycle </th>
+                    <th> Customer service in fitness industry </th>
+                    <th> 4 months </th>
+                </tr>
+                </tr>
+                    <th> Abercrombie & Fitch </th>
+                    <th> Cashiering and organizing retail </th>
+                    <th> 3 months </th>
+                </tr>
+                </tr>
+                    <th> Lithographix Design Internship </th>
+                    <th> Large scale commercial business, color perfectging, and IT services </th>
+                    <th> 3 months </th>
+                </tr>
+                </tr>
+                    <th> Cansat Competition </th>
+                    <th> Team work, basic circuity and electronics </th>
+                    <th> 4 months </th>
+                </tr>
+
+                </tr>
+                    <th> California Pizza Kitchen </th>
+                    <th> Serving food and multi-tasking </th>
+                    <th> 4 months </th>
+                </tr>
+            </tbody>
+          
+        </table>
+      </div>
+    <div id ="skills" class ="row skills">
+        <ul class ="list-group">
+            <li class ="list-group-item skill"> Theory of programming websites and applications</li>
+            <li class ="list-group-item skill"> Techincal writing</li>
+            <li class ="list-group-item skill"> Project management </li>
+            <li class ="list-group-item skill"> Image and video editing</li>
+            <li class ="list-group-item skill"> Team work</li>
+        </ul>
+    </div>
+
+    </div><!-- container>
+-->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

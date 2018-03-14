@@ -1,0 +1,57 @@
+.container {
+  font-family: 'PT Sans', sans-serif;
+}
+.name {
+  background-color: #89FFF9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu {
+  background-color: #7B54E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  height: 200px;
+}
+.nav {
+  background-color: #E8C165;
+}
+.objective {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: #E8C165;
+}
+.experience {
+  display: none;
+  height: 800px;
+  background-color: #E8C165;
+}
+.thesis {
+  width: 80%;
+  height: 80%;
+  background-color: #89FFF9;
+  text-align: center;
+}
+.profile {
+  width: 300px;
+}
+table {
+  height: 800px;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E8C165;
+  height: 800px;
+}
+.skill {
+  margin-top: 40px;
+  background-color: #89FFF9;
+}
