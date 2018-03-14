@@ -1,1 +1,77 @@
 // Start here!
+@import "variables";
+@import "mixins";
+
+*{
+  font-family: 'Poiret One', cursive;
+}
+
+.nav-container{
+  background-color: @nav-color;
+}
+.custom-nav{
+  padding: 1rem 0 0.2rem 4rem;
+  a{
+    color: white;
+    &:hover{
+      border-bottom: 2px solid white;
+    }
+  }
+}
+.heading{
+  height: 300px;
+  align-items: center;
+  background-color: @background;
+  div{
+    color: white;
+    h1{
+      padding-left: 3rem;
+      margin-bottom: 1rem;
+    }
+    h5{
+      padding-left: 3rem;
+      color: lightgray;
+    }
+    img{
+      width: 40%;
+      border-radius: 10px;
+    }
+  }
+}
+.summary{
+  height: 150px;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  .col-12{
+    p{
+      padding: 0 2rem;
+      color: black;
+    }
+  }
+}
+.skills-overview{
+  h4{
+    margin: 2rem 0;
+  }
+  .subsection{
+    border-right: 1px solid lightgray;
+  }
+  .main-section{
+    .education{
+      .dates{
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+.footer{
+  height: 50px;
+  background-color: @nav-color;
+  color: white;
+  align-items: center;
+  .col-12{
+    p{
+      text-align:center;
+    }
+  }
+}

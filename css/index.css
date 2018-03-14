@@ -1,0 +1,62 @@
+* {
+  font-family: 'Poiret One', cursive;
+}
+.nav-container {
+  background-color: #640404;
+}
+.custom-nav {
+  padding: 1rem 0 0.2rem 4rem;
+}
+.custom-nav a {
+  color: white;
+}
+.custom-nav a:hover {
+  border-bottom: 2px solid white;
+}
+.heading {
+  height: 300px;
+  align-items: center;
+  background-color: #801515;
+}
+.heading div {
+  color: white;
+}
+.heading div h1 {
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+}
+.heading div h5 {
+  padding-left: 3rem;
+  color: lightgray;
+}
+.heading div img {
+  width: 40%;
+  border-radius: 10px;
+}
+.summary {
+  height: 150px;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.summary .col-12 p {
+  padding: 0 2rem;
+  color: black;
+}
+.skills-overview h4 {
+  margin: 2rem 0;
+}
+.skills-overview .subsection {
+  border-right: 1px solid lightgray;
+}
+.skills-overview .main-section .education .dates {
+  justify-content: flex-end;
+}
+.footer {
+  height: 50px;
+  background-color: #640404;
+  color: white;
+  align-items: center;
+}
+.footer .col-12 p {
+  text-align: center;
+}
