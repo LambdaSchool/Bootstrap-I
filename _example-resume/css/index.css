@@ -9,6 +9,7 @@ nav a {
 }
 .jumbotron {
   background: offwhite;
+  border: 1px solid red;
 }
 .jumbotron .btn {
   background: gray;

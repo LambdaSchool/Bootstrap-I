@@ -16,13 +16,152 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Some janky website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+    </div><!-- nav bar -->
+
+    <div class="jumbotron">
+      <h1 class="display-3">Welcome!</h1>
+      <p class="lead">You may see that there's not much going on on this site. And you're proabably right. (for now)</p>
+      <hr class="my-4">
+      <div class="about-me h1">About me</div>
+        <div class="row">
+          <div class="col-sm-3">
+              <img src="img/mypicture.png" class="img-fluid" alt="Responsive image">
           </div>
+
+          <div class="col-sm-9">
+              <p>This is me. And this is a rather small photo. (This was the only thing I could find. Sorry. :sadface:) <br> <br>Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all.
+
+                Good news, everyone! I've taught the toaster to feel love! Why, those are the Grunka-Lunkas! They work here in the Slurm factory. Now, now. Perfectly symmetrical violence never solved anything. I suppose I could part with 'one' and still be feared…
+                Also Zoidberg. Why not indeed! And when we woke up, we had these bodies. A true inspiration for the children. They're like sex, except I'm having them!
+                
+                Who am I making this out to?
+                
+                Kids have names? And I'd do it again! And perhaps a third time! But that would be it. That's not soon enough! As an interesting side note, as a head without a body, I envy the dead. You, minion. Lift my arm. AFTER HIM!
+                
+                But I know you in the future. I cleaned your poop.
+                I meant 'physically'. Look, perhaps you could let me work for a little food? I could clean the floors or paint a fence, or service you sexually?
+                These old Doomsday Devices are dangerously unstable. I'll rest easier not knowing where they are.
+                You wouldn't. Ask anyway! - Somewhere from Futurama</p>
+              <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more about me</a>
+                </p>
+            </div>
+        </div>
+
+    </div><!-- jumbotron -->
+
+    <div class="row">
+      <div class="col-sm-3">
+          <table class="table table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Education / Past experience</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>University graduate</td>
+              </tr>
+              <tr>
+                <td>Front-desk / Office Assistant</td>
+              </tr>
+              <tr>
+                <td>Drum tutor</td>
+              </tr>
+              <tr>
+                <td>Expert 'Mississippi' speller</td>
+              </tr>
+            </tbody>
+          </table><!-- past experience table -->
       </div>
-    </div><!-- container -->
+
+      <div class="col-sm-9">
+          <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Previous / Current Affiliation
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="row">
+        
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 15rem;">
+                          <img class="card-img-top" src="https://avatars2.githubusercontent.com/u/24780114?s=200&v=4" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Lambda School</h5>
+                            <p class="card-text">Currently student of Lambda School<br><br></p>
+                            <a href="https://lambdaschool.com/" class="btn btn-primary">Go to Lambda School</a>
+                          </div>
+                        </div>
+                      </div> <!-- col-sm-4 card -->
+        
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 15rem;">
+                          <img class="card-img-top" src="https://www.blog.google/static/blog/images/google-200x200.7714256da16f.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Google  <span class="badge badge-warning">JOKE</span></h5>
+                            <p class="card-text">I was a Software Engineer. <br> No, I'm just kidding. I wish I was. Google, hire me pls</p>
+                            <a href="https://www.google.com" class="btn btn-primary">Goooooooooogle</a>
+                            </div>
+                          </div>
+                      </div> <!-- col-sm-4 card -->
+                    </div>
+                  </div>
+                </div> <!-- collapseOne -->
+          </div>
+        </div>
+      </div>
+    </div>  
+      <div class="footer">
+          <h6>Copyright Henry Kim 2018 ©</h6>
+      </div>
+
+  </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
