@@ -16,6 +16,9 @@
   font-size: 20px;
   font-weight: bold;
 }
+.main-content .card {
+  width: 25rem;
+}
 .main-content .black-border {
   margin-top: 50px;
   border: 5px solid black;
@@ -28,4 +31,21 @@
 }
 .carousel .carousel-item img {
   height: 500px;
+}
+@media (max-width: 830px) {
+  .main-content .card {
+    order: -1;
+  }
+}
+@media (max-width: 775px) {
+  .main-content .card {
+    width: 75%;
+    margin: 0 50px;
+  }
+  .main-content .black-border {
+    margin-top: 10px;
+  }
+  .carousel-item {
+    height: 300px;
+  }
 }
