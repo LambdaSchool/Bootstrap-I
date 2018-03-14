@@ -1,3 +1,21 @@
-.Container .custom-btn {
-  background: red;
+.container .custom-nav {
+  font-size: 1.6rem;
+  color: #d596d1;
+}
+.container .custom-nav .custom-nav-font {
+  color: #d596d1;
+}
+.container .custom-jumbo .cust-jumbo-fld {
+  background: #8beb9a;
+}
+.container .custom-jumbo .cust-jumbo-fld .cust-jumbo-container {
+  background: #8beb9a;
+}
+.container .custom-group {
+  background: #8beb9a;
+  font-size: 1.2rem;
+}
+.container .custom-group .custom-btn {
+  background: #d596d1;
+  font-size: 1.6rem;
 }
