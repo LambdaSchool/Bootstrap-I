@@ -1,5 +1,6 @@
 .container {
   max-width: 900px;
+  align-content: center; 
 }
 nav {
   padding: 20px 0;
