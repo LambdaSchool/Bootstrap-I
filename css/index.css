@@ -5,7 +5,7 @@
   flex-flow: column wrap;
 }
 .jumbotron {
-  background-color: teal;
+  background-color: #7ED643;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -18,13 +18,9 @@
   margin-top: 30px;
 }
 .jumbotron img {
-  -webkit-border-radius: 25%;
-  -moz-border-radius: 25%;
-  border-radius: 25%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  width: 50%;
+  zoom: 80%;
+  padding-left: 3.5%;
+  border-radius: 50%;
 }
 .jumbotron button {
   -webkit-border-radius: 50px;
@@ -37,5 +33,4 @@
 .para p {
   width: 100%;
   padding: 15px 0;
-  border: 1px solid black;
 }
