@@ -8,3 +8,6 @@
 .dropped-item:hover {
   background-color: lightgray;
 }
+.dates {
+  float: right;
+}
