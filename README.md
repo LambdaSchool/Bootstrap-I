@@ -30,17 +30,16 @@ Whenever you are introduced to new technology it's good to use something your fa
 </div>
 ```
 * You must use at least 4 of the following components listed here:
-    - Jumbotron
-    - List Group
+    - Jumbotron DONE
+    - List Group DONE
     - Badge
     - Buttons
-    - Button group
+    - Button group DONE
     - Card
-    - Jumbotron
-    - Navs
+    - Navs DONE
 
-* Incorporate a responsive image of yourself somewhere on the site. (See example for ideas)
+* Incorporate a responsive image of yourself somewhere on the site. (See example for ideas) DONE
 
-* Introduce a table somewhere in your site that would be relevent to a resume. (See example for ideas)
+* Introduce a table somewhere in your site that would be relevant to a resume. (See example for ideas) DOME
 
 ## Stretch Task - Implement a JavaScript based component in your site
