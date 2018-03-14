@@ -1,0 +1,69 @@
+html,
+body {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  border: 1px dotted red;
+  background: lightgrey;
+}
+.header {
+  background: none;
+}
+.header .row {
+  padding: 1.0rem;
+}
+.header .row h2 {
+  color: darkred;
+}
+.header .row h1 {
+  text-align: center;
+  font-size: 4.0rem;
+  color: darkred;
+}
+.main-content {
+  font-size: 2.0rem;
+}
+.main-content .img-fluid {
+  display: flex;
+  justify-content: end;
+}
+.rounded {
+  border-radius: 50% !important;
+}
+.bottom-content {
+  font-size: 2.0rem;
+}
+.bottom-content .nav {
+  display: flex;
+  flex-direction: column;
+}
+.fa {
+  padding: 1.0rem;
+  font-size: 3.0rem;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-size: auto;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
