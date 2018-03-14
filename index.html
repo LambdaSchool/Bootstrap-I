@@ -6,7 +6,9 @@
 
   <title>Digital Resume</title>
 
+  
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -16,11 +18,136 @@
 
 <body>
 
-    <div class="container">
+    <div class="container bg-light">
+      <div class="row my-3"> <!--Navbar-->
+        <div class="col-12 d-flex justify-content-end font-weight-bold">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link text-dark bg-light" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-dark bg-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item text-dark dropped-item font-italic" href="#">Bootstrap Project</a>
+                    <a class="dropdown-item text-dark dropped-item font-italic" href="#">Restaurant Website</a>
+                    <a class="dropdown-item text-dark dropped-item font-italic" href="#">Timer</a>
+                    <a class="dropdown-item text-dark dropped-item font-italic" href="#">Camping Website</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark bg-light" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark bg-light" href="#">Contact</a>
+                </li>
+              </ul>
+        </div>
+      </div>
       <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+          <div class="col-sm-12"> <!--Jumbotron-->
+            <div class="jumbotron bg-dark rounded-bottom"> 
+                <img src="./img/Iqra_Realtor photo.jpeg" class="img-fluid" alt="my linkedin profile img"/>
+              <h1 class="display-4 font-weight-bold text-light">Iqra Javed</h1>
+              <p class="lead text-light">Full Stack Web Developer</p>
+              <hr class="my-4">
+              <p class="text-light">I am Iqra, a front-end web developer based in Dallas, TX. I like to make cool and creative designs, regardless of what medium I'm working in. I specialize in HTML5, CSS3, jQuery, PHP, MySQL, Mobile Website Development but also have experience with SEO and SEM.</p>
+              <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Linkedin</a>
+              </p>
+            </div>
           </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-7"> <!--List-Group & Button & Badge-->
+            <ul class="list-group">
+                <button type="button" class="btn btn-primary btn-lg my-custom-btn">Experience</button>
+                <li class="list-group-item">
+                    <h5>Real Estate Agent <span class="badge badge-secondary dates">2016-2017</span></h5>
+                    <p>Creekview Realty, Plano Texas</p>
+                </li>
+                <li class="list-group-item">
+                    <h5>Pharmacy Assistant <span class="badge badge-secondary dates">2015-2016</span></h5>
+                    <p>Imagine Health Pharmacy, Calgary Alberta</p>
+                </li>
+                <li class="list-group-item">
+                    <h5>Pharmacy Technician <span class="badge badge-secondary dates">2011-2012</span></h5>
+                    <p>Brookshire's Pharmacy, Kilgore Texas</p>
+                </li>
+              </ul>
+        </div>
+        <div class="col-12 col-md-5 skills"> <!--Progress Bar-->
+          <h3 class="font-weight-bold">Relevant Skills</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>Wordpress</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>HTML</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>CSS</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>Javascript</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>Java</p>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-12 col-md-8"> <!--Table-->
+            <button type="button" class="btn btn-primary col-12 btn-lg my-custom-btn">Education</button>
+            <table class="table table-light">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">School</th>
+                    <th scope="col">Dates Attended</th>
+                    <th scope="col">Degree</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Lambda School</td>
+                    <td>2018-Present</td>
+                    <td>Full Stack Web Developer Certificate</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Baylor University</td>
+                    <td>2007-2011</td>
+                    <td>Bachelor of Science, Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Kilgore High School</td>
+                    <td>2003-2007</td>
+                    <td>High School Diploma</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="col-12 col-md-4 d-flex align-items-end justify-content-around">
+            <a class="btn btn-social-icon btn-twitter">
+                <span class="fa fa-twitter"></span>
+            </a>
+            <a class="btn btn-social-icon btn-instagram">
+                <span class="fa fa-instagram"></span>
+            </a>
+            <a class="btn btn-social-icon btn-facebook bg-primary text-white">
+                <span class="fa fa-facebook"></span>
+            </a>
+            <a class="btn btn-social-icon btn-github">
+                <span class="fa fa-github"></span>
+            </a>
+           
+        </div>
       </div>
     </div><!-- container -->
 

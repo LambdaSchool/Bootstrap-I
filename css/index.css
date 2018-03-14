@@ -1,0 +1,21 @@
+.container {
+  max-width: 880px;
+}
+.my-custom-btn {
+  background-color: gray;
+  border: none;
+}
+.my-custom-btn:hover {
+  background-color: gray;
+}
+.dropped-item:hover {
+  background-color: lightgray;
+}
+.dates {
+  float: right;
+}
+@media (max-width: 400px) {
+  .skills {
+    margin-top: 35px;
+  }
+}
