@@ -1,47 +1,5 @@
-*{
-    list-style: none;
-}
-
-.margin-10 {
-    margin-top: 10%;
-}
-
-.nav-fluid {
-    padding-right: 0;
-    padding-left: 0;
-
-    a {
-        font-size: 1.8rem;
-    }
-}
-
-.picture {
-    .margin-10;
-}
-
-.skills {
-    .margin-10;
-    ul {
-        padding-right: 20vw;
-        padding-left: 20vw;
-
-        li {
-            font-size: 1.8rem;
-
-            &::before {
-                content: "~";
-            }
-        }
-    }
-}
-
-.contact {
-    .margin-10;
-}
-
-
-.btn-success {
-    display: block;
-    margin: 0 auto;
-    width: 10%;
-}
+@import "general";
+@import "nav";
+@import "picture";
+@import "skills";
+@import "contact";
