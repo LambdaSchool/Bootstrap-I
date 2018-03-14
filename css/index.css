@@ -1,0 +1,27 @@
+.container .imageHere {
+  padding: 0;
+}
+.container .imageHere img {
+  max-width: 100%;
+  max-height: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.jumbo {
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: lightgrey;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.jobTable {
+  font-size: .9rem;
+}
