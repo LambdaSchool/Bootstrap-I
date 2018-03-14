@@ -1,0 +1,22 @@
+.nav a {
+  color: black;
+}
+.nav a:hover {
+  color: gray;
+}
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.jumbotron .btn {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.jumbotron a {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: gray;
+}
+.jumbotron a:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.footer {
+  margin: 15px auto;
+}
