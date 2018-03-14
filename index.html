@@ -16,13 +16,91 @@
 
 <body>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
           <div class="col-sm-12">
               <h1>Start Here!</h1>
           </div>
       </div>
-    </div><!-- container -->
+    </div> -->
+
+    <!-- nav -->
+    <ul class="nav nav-pills justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <img src="img/IMG_4401.jpg">
+      <div class="container">
+        <h1 class="display-4">Jeffrey Flynn</h1>
+        <p class="lead">Welcome to my (below average) resume!</p>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="row about">
+      <div class="col-4 titles">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Education</a>
+          <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Experience</a>
+          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Leadership</a>
+        </div>
+      </div>
+      <div class="col-8 content">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Insert education history here.</div>
+          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Insert notable experience here.</div>
+          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Insert examples of personal leadership here.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- projects -->
+    <div class='row projects'>
+      <div class='col-4'>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://images.pexels.com/photos/447329/pexels-photo-447329.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="Card image cap">
+          <div class="img-description">
+            <p class="card-text">Hover for project description.</p>
+          </div>
+        </div>
+      </div>
+      <div class='col-4'>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="Card image cap">
+          <div class="img-description">
+            <p class="card-text">Hover for project description.</p>
+          </div>
+        </div>
+      </div>
+      <div class='col-4'>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://images.pexels.com/photos/39662/silhouette-beach-sun-sunset-39662.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="Card image cap">
+          <div class="img-description">
+            <p class="card-text">Hover for project description.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-dark">email</button>
+      <button type="button" class="btn btn-dark">github</button>
+      <button type="button" class="btn btn-dark">linkedin</button>
+    </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
