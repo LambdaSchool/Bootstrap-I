@@ -28,7 +28,7 @@ header .nav {
   color: red;
 }
 header .nav li a {
-  color: white;
+  color: #1A0315;
   font-size: 1.6rem;
 }
 .container {
@@ -110,10 +110,21 @@ header .nav li a {
   text-align: center;
   background-color: #1A0315;
   border: 2px solid #88D317;
+  margin-bottom: 40px;
 }
 .table-row h4 {
   text-align: center;
   color: white;
   font-weight: bold;
   font-size: 1.8rem;
+}
+.footer {
+  text-align: center;
+  padding: 3%;
+  width: 100%;
+}
+.footer p {
+  font-size: 1.4rem;
+  color: white;
+  background-color: #535353;
 }
