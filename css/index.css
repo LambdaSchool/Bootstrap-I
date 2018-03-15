@@ -8,12 +8,12 @@
 .container .jumbotron .display-4 {
   display: flex;
   justify-content: center;
-  padding: 11% 0;
+  padding: 7% 0;
   border: 1px dotted white;
-  margin-bottom: 1%;
+  margin-bottom: 7%;
 }
 .container .jumbotron .lead {
-  margin-top: 10%;
+  margin-top: 7%;
   text-align: center;
 }
 .container .jumbotron h1 {
