@@ -19,18 +19,18 @@
 	<div class="container">
 		<div class="row"> <!-- navs -->
 			<div class="col-sm-12">
-				<ul class="nav justify-content-end">
+				<ul class="nav justify-content-end" id="page">
 					<li class="nav-item">
-					    <a class="nav-link active" href="#">About</a>
+					    <a class="nav-link active" href="#aboutMe">About</a>
 					</li>
 					<li class="nav-item">
-			    		<a class="nav-link" href="#">Projects</a>
+			    		<a class="nav-link" href="#portfolio">Projects</a>
 				    </li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Skills</a>
+						<a class="nav-link" href="#workHistory">Work History</a>
 					</li>
 					<li class="nav-item">
-				    	<a class="nav-link" href="#">Contact</a>
+				    	<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -48,7 +48,7 @@
 						I frequently work on side projects. If you're interested in sharing your idea with me, please let me know.
 					</p>
 					<p class="lead">
-						<a class="btn btn-primary btn-lg" href="#" role="button">
+						<a class="btn btn-primary btn-lg" href="#contact" role="button">
 							Let's Talk <i class="fas fa-envelope fa-sm"></i>
 						</a>
 					</p>
@@ -56,7 +56,7 @@
 			</div>
       </div> <!-- jumbotron -->
 
-      <div class="row aboutMe"> <!-- About Me -->
+      <div class="row aboutMe" id="aboutMe"> <!-- About Me -->
       	<div class="col-sm-12 col-md-6"> 
       		<h2 class="text-center">About Me</h2>
       		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -78,7 +78,7 @@
       	</div>
       </div>  <!-- About Me -->
 
-      <div class="row">  <!-- Portfolio -->
+      <div class="row" id="portfolio">  <!-- Portfolio -->
       	<div class="col-md-12">
       		<h2 class="text-center">Projects(TBA)</h2>
       	</div>
@@ -113,7 +113,7 @@
   		</div>
       </div> <!-- Portfolio -->
 
-      <div class="row workHistory"> <!-- Work History -->
+      <div class="row workHistory" id="workHistory"> <!-- Work History -->
       	<div class="col-md-12">
       		<table class="table table-hover">
 				<thead class="thead-dark">
@@ -144,7 +144,7 @@
       	</div>
       </div> <!-- Work History -->
 
-      <div class="row contact"> <!-- contact -->
+      <div class="row contact" id="contact"> <!-- contact -->
       	<div class="col-md-4">
       		<img class="img-fluid lambdaSchool" src="https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_400x400.jpg" alt="LambdaSchool">
       	</div>
@@ -167,7 +167,7 @@
 			  		<button type="submit" class="btn btn-primary">Submit</button>	
 			  	</div>
 				<div class="col-sm-6 text-right">
-					<button type="submit" class="btn btn-primary backHome"><i class="fas fa-arrow-up fa-lg"></i></button>	
+					<button type="submit" class="btn btn-primary backHome"><i class="fas fa-arrow-up fa-lg"></i><a href="#page"></a></button>	
 				</div>
 			  </div>
 			  
@@ -178,7 +178,19 @@
    <div class="row">
    	<div class="col-12">
 	   	<footer class="text-center">
-   			<p>Copyright Justin Hong <i class="far fa-copyright"></i> 2018</p>
+	   		<div class="row">
+	   			<div class="col-sm-6">
+	   				<a href="https://github.com/JustinSHong"> <i class="fab fa-github fa-2x"></i></a>
+	   			</div>
+	   			<div class="col-sm-6">
+	   				<p>Copyright Justin Hong <i class="far fa-copyright"></i> 2018</p>
+	   			</div>
+   			</div>
+	   			
+	   			
+   			
+   			
+   			
    		</footer>
    	</div>
    </div>
