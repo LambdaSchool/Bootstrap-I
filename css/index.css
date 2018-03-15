@@ -1,0 +1,11 @@
+html,
+body {
+  background-color: #1D2744;
+  color: #4490AB;
+}
+#home,
+#AboutMe,
+#Hobbies,
+#Footer {
+  padding-top: 65px;
+}
