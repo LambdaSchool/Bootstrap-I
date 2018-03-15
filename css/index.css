@@ -1,3 +1,6 @@
+.container {
+  min-width: 500px;
+}
 .nav {
   justify-content: space-around;
   font-size: 1.25rem;
@@ -24,6 +27,12 @@
   border-top-right-radius: 10px;
 }
 .jumbo {
+  background-color: #F2F2F2;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: 0;
   text-align: center;
   font-size: 1.4rem;
 }
@@ -82,4 +91,5 @@
   border-bottom-right-radius: 10px;
   height: 15px;
   background-color: #dfdfdf;
+  margin-bottom: 50px;
 }
