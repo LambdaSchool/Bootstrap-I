@@ -7,3 +7,6 @@
 .jumbotron h1 {
   margin-top: 50%;
 }
+.github {
+  background-image: url('../img/GitHub-small.png');
+}
