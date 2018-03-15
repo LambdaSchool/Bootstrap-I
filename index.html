@@ -1,11 +1,13 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Digital Resume</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Limelight|Lobster|Monoton|Rammetto+One" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
 
@@ -15,17 +17,129 @@
 </head>
 
 <body>
+  <div class="container">
+    <!-- nav panel  -->
+    <!-- <nav>
+        <div class="row d-flex justify-content-between">
+            <a class="btn btn-default" href="#">Home</a>
+            <a class="btn btn-default" href="#">About</a>
+            <a class="btn btn-default" href="#">Portfolio</a>
+            <a class="btn btn-default" href="#">Contact</a>
+        </div>
+      </nav> -->
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#"><span class="color-me">Home</span></a>
+      <a class="navbar-brand" href="#"><span class="color-me">About</span></a>
+      <a class="navbar-brand" href="#"><span class="color-me">Portfolio</span></a>
+      <a class="navbar-brand" href="#"><span class="color-me">Contact</span></a>
+      <a href="https://lambdaschool.com/"><img src="lambda.jpg" width="50" height="50" alt="lambda-logo"></a>
+    </nav>
+    <!-- end navbar -->
+
+
+    <div class="row">
+
+      <!-- main picture -->
+      <img src="cat.png" class="img-circle" alt="Cinque Terre">
+
+      <!-- jumbotron start -->
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h1 class="display-3">Imran Ahmed</h1>
+          <p>Eat Sleep Code Repeat..</p>
+          <p>Computer science student at Lambda School CS9</p>
+          <a href="https://www.facebook.com/Imran203203"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+          <a href="https://twitter.com/drgreen203"><i class="fa fa-twitter" style="font-size:36px"></i></a>
+          <a href="https://www.linkedin.com/in/imran-bronx/"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+          <a href="https://github.com/imsdhk"><i class="fa fa-github" style="font-size:36px"></i></a>
+          <p class="color-me">or</p>
+          <p>
+            <button type="button" class="btn btn-primary">Email</button>
+          </p>
+        </div>
+        <!-- end jumbotron -->
       </div>
-    </div><!-- container -->
+    </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+    <div class="row">
+      <div class="para col-sm-12">
+        <h2>About Me</h2>
+        <p>I want to be a programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn
+          faster and much more. As the saying goes: 'two heads are better than one'</p>
+      </div>
+    </div>
+
+    <!-- list-group -->
+    <div class="row">
+      <div class="col-sm-6">
+        <h4>Skills</h4>
+        <ul class="list-group">
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">CSS</li>
+          <li class="list-group-item"> Javascript</li>
+          <li class="list-group-item">LESS</li>
+          <li class="list-group-item">Bootstrap</li>
+        </ul>
+      </div>
+
+      <!-- table -->
+      <div class="col-sm-6 table-row">
+        <h4>Work History</h4>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Yrs</th>
+              <th scope="col">Company</th>
+              <th scope="col">Title</th>
+              <th scope="col">Tech Used</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Ibnsina Pharma</td>
+              <td>Pharmacist</td>
+              <td>R&D</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>someCompany</td>
+              <td>some des</td>
+              <td>someTech</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>someCompany</td>
+              <td>some des</td>
+              <td>someTech</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>someCompany</td>
+              <td>some des</td>
+              <td>someTech</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!--[ footer ] -->
+    <div class="footer">
+
+      <p class="footer-block">made with <span><i class="fa fa-coffee"></i></span> and <span><i class="fa fa-music"></i></span>.</p>
+
+    </div>
+  </div>
+  <!-- container-->
+
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>

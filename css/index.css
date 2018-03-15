@@ -1,0 +1,36 @@
+.color-me {
+  font-family: "Lobster", cursive;
+  color: #82181d;
+  font-weight: bold;
+}
+body {
+  font-family: "Limelight", cursive;
+}
+body h1 {
+  font-family: "Monoton", cursive;
+}
+.fa {
+  color: #82181d;
+}
+.fa:hover {
+  color: #1c0506;
+}
+.btn-primary {
+  background-color: #82181d;
+  color: white;
+}
+.btn-primary:hover {
+  background: #1c0506;
+}
+.footer {
+  height: 50px;
+  width: 100%;
+  padding: 2% 0;
+  background-color: #f8f9fa;
+  color: #708090;
+  text-align: center;
+}
+.footer p {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+}
