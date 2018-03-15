@@ -16,7 +16,7 @@
 
 <body>
    <!-- _____________________JUMBO HEADER_____________________-->
-   <div class="jumbotron img-fluid jumbotron-fluid jumbo-header">        
+   <div class="jumbotron img-fluid jumbotron-fluid jumbo-header" id="home">        
       <div class="container">            
         <h1 class="display-4 text-light text-center text-weight-bold">Hello</h1>
         <p class="text-center text-light ">This is me on bootstrap.</p>
@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-top-0">
 
       <!-- BRAND // my name -->
-      <a class="navbar-brand" href="#">CLAUDIO GONZALEZ</a>
+      <a class="navbar-brand" href="#home">CLAUDIO GONZALEZ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>   
@@ -37,16 +37,16 @@
       <!-- NAV LINKS // About, Contact -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Meow</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#meow">Meow</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
         </div>
       </div>
     </nav>   
     
     <!-- _____________________ABOUT_____________________-->
     <!--Add "About" nav section container-->    
-    <div class="container d-flex scroll">
+    <div class="container d-flex scroll" id="about">
       <div class="row">
 
         <div class="col-sm-6 m-auto">
@@ -112,9 +112,9 @@
       </div>
     </div>  <!-- end .container "About' section -->
     
-    <!-- _____________________ABOUT_____________________-->
+    <!-- _____________________MEOW_____________________-->
     <!--Add "Meow" nav section container-->  
-    <div class="container d-flex scroll">
+    <div class="container d-flex scroll" id="meow">
     
       <div class="row m-auto">
 
@@ -162,7 +162,7 @@
   <!-- _____________________CONTACT_____________________-->
   <!-- _____________________JUMBO FOOTER_____________________-->
   <div class="jumbotron img-fluid jumbotron-fluid jumbo-footer">        
-      <div class="container mx-auto">            
+      <div class="container mx-auto" >            
         <h1 class="display-4 text-light text-center text-weight-bold">Contact</h1>
         <p class="text-center text-light">Let's get in touch!</p>
 
@@ -177,17 +177,19 @@
       </div>
   </div>
 
+  <!--Footer-->
+    <footer class="page-footer font-small" >
+      <div class="py-2 text-center text-light bg-dark" id="contact">
+        Made in Los Angeles
+      </div>
+    </footer>
+  <!--/.Footer-->
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>    
     <script src="js/index.js"></script>
 </body>
 
-<!--Footer-->
-<footer class="page-footer font-small">
-    <div class="py-2 text-center text-light bg-dark">
-        Made in Los Angeles
-    </div>
-</footer>
-<!--/.Footer-->
+
 
 </html>
