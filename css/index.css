@@ -1,0 +1,46 @@
+.container {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.nav {
+  font-size: 20px;
+}
+.nav a:link {
+  color: black;
+}
+.jumbotron {
+  background-color: teal;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.jumbotron h1,
+.jumbotron p {
+  margin-top: 40px;
+}
+.jumbotron img {
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  border-radius: 25%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  width: 50%;
+}
+.jumbotron button {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.para p {
+  width: 100%;
+  border: 1px solid black;
+}

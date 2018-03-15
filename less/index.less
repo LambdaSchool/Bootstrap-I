@@ -1,1 +1,55 @@
 // Start here!
+
+// Mixins
+
+.border-radius (@radius: 15px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+// Code Below
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.nav {
+    font-size: 20px;
+
+    a:link {
+        color: black;
+    }
+}
+
+.jumbotron {
+    background-color: teal;
+    .border-radius;
+
+    h1,p {
+        margin-top: 40px;
+    }
+
+    img {
+        .border-radius(25%);
+        width: 50%;
+    }
+
+
+
+    button {
+        .border-radius(50px);
+    }
+}
+.para p {
+	width: 100%;
+	border: 1px solid black;
+
+}
