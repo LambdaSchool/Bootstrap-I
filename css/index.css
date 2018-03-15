@@ -1,18 +1,13 @@
-.container-fluid {
-  border: 1px solid blue;
-}
 .nav {
-  border: 1px solid red;
-  margin: 20px 20px;
+  margin: 20px 0;
 }
-.jumbotron {
-  margin: 0 20px;
+.nav a {
+  color: black;
+  font-size: 1.2rem;
 }
 .aboutMe {
   margin: 0 10px 20px 10px;
-}
-.portfolio {
-  border: 1px solid green;
+  background-color: white;
 }
 .portfolio div {
   margin: 0;
@@ -36,8 +31,8 @@
   background-color: black;
 }
 .workHistory {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .workHistory .table {
   width: 90%;
@@ -45,6 +40,10 @@
 }
 .contact {
   margin: 0 20px;
+}
+.lambdaSchool {
+  margin-top: 30px;
+  margin-left: 20px;
 }
 .lambdaSchool,
 .backHome {
@@ -54,7 +53,6 @@
   resize: none;
 }
 footer {
-  border: 1px solid red;
   margin-top: 40px;
   padding-left: 5%;
 }
