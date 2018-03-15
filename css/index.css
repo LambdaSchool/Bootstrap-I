@@ -1,11 +1,23 @@
 * {
   font-family: 'Poiret One', cursive;
 }
+.container-fluid {
+  max-width: 80rem;
+}
 .nav-container {
   background-color: #640404;
 }
 .custom-nav {
   padding: 1rem 0 0.2rem 4rem;
+}
+@media (max-width: 768px) {
+  .custom-nav {
+    justify-content: space-around;
+    padding-left: 0;
+  }
+}
+.custom-nav .selected {
+  border-bottom: 2px solid white;
 }
 .custom-nav a {
   color: white;
@@ -14,7 +26,7 @@
   border-bottom: 2px solid white;
 }
 .heading {
-  height: 300px;
+  min-height: 300px;
   align-items: center;
   background-color: #801515;
 }
@@ -22,19 +34,33 @@
   color: white;
 }
 .heading div h1 {
-  padding-left: 3rem;
+  padding-left: 4rem;
   margin-bottom: 1rem;
 }
+@media (max-width: 768px) {
+  .heading div h1 {
+    text-align: center;
+    padding: 0;
+    margin-top: 2rem;
+  }
+}
 .heading div h5 {
-  padding-left: 3rem;
+  padding-left: 4rem;
   color: lightgray;
 }
+@media (max-width: 768px) {
+  .heading div h5 {
+    text-align: center;
+    padding: 0;
+  }
+}
 .heading div img {
-  width: 40%;
-  border-radius: 10px;
+  width: 50%;
+  max-width: 10rem;
+  border-radius: 50%;
 }
 .summary {
-  height: 150px;
+  min-height: 150px;
   align-items: center;
   border-bottom: 1px solid lightgray;
 }
@@ -43,16 +69,60 @@
   color: black;
 }
 .skills-overview h4 {
-  margin: 2rem 0;
+  margin: 3rem 0 1rem;
 }
 .skills-overview .subsection {
   border-right: 1px solid lightgray;
+}
+@media (max-width: 76.8rem) {
+  .skills-overview .subsection {
+    border: none;
+  }
+}
+.skills-overview .subsection .personal ul:last-child {
+  border-bottom: 1px solid lightgray;
+}
+.skills-overview .subsection .professional-skills ul:last-child {
+  border-bottom: 1px solid lightgray;
+}
+.skills-overview .subsection .professional-skills ul .skills-container {
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+}
+.skills-overview .subsection .professional-skills ul .skills-container .skills {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: right;
+  padding-right: 1rem;
+}
+.skills-overview .subsection .professional-skills ul .skills-container .html {
+  width: 95%;
+  background-color: #226666;
+}
+.skills-overview .subsection .professional-skills ul .skills-container .css {
+  width: 99%;
+  background-color: #5e6f98;
+}
+.skills-overview .subsection .professional-skills ul .skills-container .js {
+  width: 60%;
+  background-color: #2e4172;
+}
+.skills-overview .subsection .professional-skills ul .skills-container .python {
+  width: 50%;
+  background-color: #aa3939;
+}
+.skills-overview .subsection .professional-skills ul .skills-container .django {
+  width: 20%;
+  background-color: #1e7d93;
+  font-size: 0.9rem;
 }
 .skills-overview .main-section .education .dates {
   justify-content: flex-end;
 }
 .footer {
-  height: 50px;
+  min-height: 50px;
   background-color: #640404;
   color: white;
   align-items: center;

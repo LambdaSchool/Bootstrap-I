@@ -8,8 +8,7 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> 
-
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -21,18 +20,18 @@
       <div class="row nav-container">
           <div class="col-12">
               <nav class="nav custom-nav">
-                <a class="nav-link"; href="#">Home</a>
+                <a class="nav-link selected"; href="#">Home</a>
                 <a class="nav-link"; href="#">Portfolio</a>
                 <a class="nav-link"; href="#">Contact</a>
               </nav>
           </div>
       </div>
       <div class="row heading">
-        <div class="col-8 justify-content-center">
-          <h1>Lorem Ipsum</h1>
+        <div class="col-sm-12 col-lg-8">
+          <h1>Eric Gomez</h1>
           <h5>CS9 Lambda School Student.</h5>
         </div>
-        <div class="col-4 image">
+        <div class="col-sm-12 col-lg-4 text-center">
           <img src="./img/img.jpg" alt="image goes here">
         </div>
       </div>
@@ -42,42 +41,35 @@
         </div>
       </div>
       <div class="row skills-overview">
-        <div class="col-4 subsection">
-          <div class="col-12">
+        <div class="col-sm-12 col-lg-4 subsection">
+          <div class="col-12 personal">
             <h4>Personal</h4>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
+              <li class="list-group-item"><strong>Name</strong>: Eric Gomez</li>
+              <li class="list-group-item"><strong>Date Of Birth</strong>: 04/13/1993</li>
+              <li class="list-group-item"><strong>Languages</strong>: English, Spanish</li>
             </ul>
           </div>
-          <div class="col-12">
-            <h4>Software</h4>
+          <div class="col-12 professional-skills">
+            <h4>Professional Skills</h4>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">HTML ++</li>
-              <li class="list-group-item">CSS ++</li>
-              <li class="list-group-item">Javascript +++</li>
-              <li class="list-group-item">Python ++</li>
-              <li class="list-group-item">Django +</li>
+              <div class="list-group-item"><div class="col-12 skills-container"><div class="skills html">HTML 95%</div></div></div>
+              <div class="list-group-item"><div class="col-12 skills-container"><div class="skills css">CSS 99%</div></div></div>
+              <div class="list-group-item"><div class="col-12 skills-container"><div class="skills js">JavaScript 60%</div></div></div>
+              <div class="list-group-item"><div class="col-12 skills-container"><div class="skills python">Python 50%</div></div></div>
+              <div class="list-group-item"><div class="col-12 skills-container"><div class="skills django">Django 20%</div></div></div>
             </ul>
           </div>
           <div class="col-12">
             <h4>Hobbies</h4>
             <div class="row">
-              <div class="col-4"><img src="#" alt=""><p>gaming</p></div>
-              <div class="col-4"><img src="#" alt=""><p>skating</p></div>
-              <div class="col-4"><img src="#" alt=""><p>weight-lifting</p></div>
-            </div>
-            <div class="row">
-              <div class="col-4"><img src="#" alt=""><p>reading</p></div>
-              <div class="col-4"><img src="#" alt=""><p>Lorem</p></div>
-              <div class="col-4"><img src="#" alt=""><p>Ipsum-ing</p></div>
+              <div class="col-4"><img src="#" alt=""><p>Gaming</p></div>
+              <div class="col-4"><img src="#" alt=""><p>Coding</p></div>
+              <div class="col-4"><img src="#" alt=""><p>Reading</p></div>
             </div>
           </div>
         </div>
-        <div class="col-8 main-section">
+        <div class="col-sm-12 col-lg-8 main-section">
           <div class="col-12">
             <h4>Work <span class="badge badge-secondary">New!</span></h4>
             <table class="table table-striped">
@@ -107,14 +99,6 @@
               </tbody>
             </table>
           </div>
-          <div class="col-12">
-            <h4>Professional Skills</h4>
-            <div class="row">
-              <div class="col-4">HTML</div>
-              <div class="col-4">CSS</div>
-              <div class="col-4">JS</div>
-            </div>
-          </div>
           <div class="col-12 education">
             <h4>Education</h4>
             <table class="table table-striped">
@@ -127,19 +111,14 @@
               </thead>
               <tbody>
                 <tr>
+                  <td>Aviation Tech. N/A</td>
+                  <td>College Of Southern Nevada</td>
+                  <td>04/2011 - 05/2012</td>
+                </tr>
+                <tr>
                   <td>GED</td>
-                  <td>Virgin Valley</td>
-                  <td>04/2018 - 04/2018</td>
-                </tr>
-                <tr>
-                  <td>lorem</td>
-                  <td>ipsum</td>
-                  <td>2018</td>
-                </tr>
-                <tr>
-                  <td>lorem</td>
-                  <td>ipsum</td>
-                  <td>2018</td>
+                  <td>VirginValley</td>
+                  <td>2009 - 11/2010</td>
                 </tr>
               </tbody>
             </table>
@@ -156,6 +135,7 @@
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="./fontawsome/svg-with-js/js/fontawesome-all.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
