@@ -3,17 +3,11 @@
   color: #82181d;
   font-weight: bold;
 }
-body h1 {
-  font-family: "Monoton", cursive;
-}
-body h2 {
-  font-family: "Limelight", cursive;
-}
 body {
   font-family: "Limelight", cursive;
 }
-p {
-  font-family: "Limelight", cursive;
+body h1 {
+  font-family: "Monoton", cursive;
 }
 .fa {
   color: #82181d;
@@ -38,4 +32,5 @@ p {
 }
 .footer p {
   font-family: "Lobster", cursive;
+  font-size: 25px;
 }
