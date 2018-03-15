@@ -1,0 +1,40 @@
+.container {
+  background: linear-gradient(to right, darkgrey, white);
+}
+.jumbotron {
+  display: flex;
+  justify-content: space-around;
+  background: inherit;
+}
+.jumbotron nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0;
+  border: solid 2px red;
+}
+.jumbotron nav a:hover {
+  cursor: pointer;
+  color: black;
+}
+.contact {
+  margin: 0 2%;
+}
+.contact h4 {
+  font-size: 2rem;
+}
+.contact p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@media (max-width: 400px) {
+  .contact p {
+    -webkit-transform: skew(-30deg, 0);
+    -moz-transform: skew(-30deg, 0);
+    -ms-transform: skew(-30deg, 0);
+    -o-transform: skew(-30deg, 0);
+  }
+}
+footer {
+  text-align: center;
+  margin: 40px 0 20px;
+}
