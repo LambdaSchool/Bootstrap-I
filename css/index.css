@@ -85,6 +85,9 @@
   .main-content .list-group-item {
     padding: 25px;
   }
+  .main-content .card {
+    width: 80%;
+  }
   .carousel {
     margin: 10px auto 50px;
   }
