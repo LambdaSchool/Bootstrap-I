@@ -11,3 +11,12 @@
   background-color: #F2F2F2;
   justify-content: flex-end;
 }
+.me-image {
+  justify-content: flex-end;
+  background-color: #CDBB79;
+  height: 100px;
+}
+.me-image img {
+  margin-top: 30px;
+  border: white 8px solid;
+}
