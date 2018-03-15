@@ -1,0 +1,58 @@
+body {
+  background: rgba(92, 86, 86, 0.247);
+}
+body .nav {
+  background: rgba(0, 0, 0, 0.651);
+  font-size: 3.0rem;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: navy;
+}
+.list-group .list-group-item {
+  display: flex;
+  justify-content: center;
+  background: rgba(128, 128, 128, 0.274);
+  font-size: 2.0rem;
+  color: navy;
+}
+.Past-Project {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.Past-Project .card-body {
+  background: #bdb8b8;
+  color: navy;
+}
+.Past-Project .card-body a {
+  justify-content: center;
+  display: flex;
+}
+.picture {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.picture .card-body {
+  background: #bdb8b8;
+  color: navy;
+}
+.picture .card-body a {
+  justify-content: center;
+  display: flex;
+}
+.Current-Project {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.Current-Project .card-body {
+  background: #bdb8b8;
+  color: navy;
+}
+.Current-Project .card-body a {
+  justify-content: center;
+  display: flex;
+}
