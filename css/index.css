@@ -1,6 +1,17 @@
+.container-fluid {
+    box-sizing: border-box;
+    display: block;
+    height: 3168px;
+    max-width: 1920px;
+}
+
 .nav-link {
     color: white;
     font-weight: bold;
     font-family: 'Trebuchet MS';
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+}
+
+.col-4 {
+    margin: 18px 0;
 }
