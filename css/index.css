@@ -1,6 +1,6 @@
 .header-1 {
   background-color: #51A39D;
-  color: #CDBB79;
+  color: #F2F2F2;
 }
 .header-2 {
   background-color: #B7695C;
@@ -16,7 +16,36 @@
   background-color: #CDBB79;
   height: 100px;
 }
+.me-image .jumbotron {
+  background-color: #F2F2F2;
+  color: #06425C;
+}
 .me-image img {
   margin-top: 30px;
   border: white 8px solid;
+}
+.biography .biography-title {
+  background-color: #51A39D;
+  color: #F2F2F2;
+}
+.biography-content {
+  margin: 20px 0;
+}
+.biography-content .stats {
+  color: grey;
+}
+.biography-content .info {
+  color: grey;
+}
+.proficiencies .proficiencies-title {
+  background-color: #51A39D;
+  color: #F2F2F2;
+}
+.portfolio .portfolio-title {
+  background-color: #51A39D;
+  color: #F2F2F2;
+}
+.contact .contact-title {
+  background-color: #51A39D;
+  color: #F2F2F2;
 }
