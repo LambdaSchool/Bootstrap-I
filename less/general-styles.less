@@ -1,0 +1,21 @@
+body{
+    //background-position: center;
+    background-repeat: repeat;
+}
+
+
+.card-body{
+    display: none;
+    @media (min-width: 576px){
+        display:inline;
+        .card-title{display:none;}
+        .card-text{display: none;}
+    }
+    @media (min-width: 768px) {
+        .card-title{display:block;font-size:1.0rem;}
+        .card-text{display: block;}
+    }
+    @media (min-width: 992px) {
+        .card-title{display:block;font-size:1.6rem;}
+    }
+}
