@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Digital Resume</title>
+  <title>Justin Hong</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
-
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -16,13 +16,171 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+	<div class="container">
+		<div class="row "> <!-- navs -->
+			<nav class="col-md-12 nav" id="page">
+			    <a class="nav-link nav-item" href="#aboutMe">About</a>
+		   		<a class="nav-link nav-item" href="#portfolio">Projects</a>
+				<a class="nav-link nav-item" href="#workHistory">Work History</a>
+		    	<a class="nav-link nav-item" href="#contact">Contact</a>
+			</nav>
+		</div> <!-- navs -->
+
+    	<div class="row"> <!-- jumbotron -->
+    		<div class="col-md-12">
+		        <div class="jumbotron">
+					<h1 class="display-2">Hi I'm Justin.</h1>
+					<p class="lead">
+						I'm a front-end developer. I create user interfaces, web apps, and landing pages.
+					</p>
+					<hr class="my-4">
+					<p>
+						I frequently work on side projects. If you're interested in sharing your idea with me, please let me know.
+					</p>
+					<p class="lead">
+						<a class="btn btn-primary btn-lg" href="#contact" role="button">
+							Let's Talk <i class="fas fa-envelope fa-sm"></i>
+						</a>
+					</p>
+				</div>
+			</div>
+      </div> <!-- jumbotron -->
+
+      <div class="row aboutMe" id="aboutMe"> <!-- About Me -->
+      	<div class="col-xs-12 col-sm-6"> 
+      		<h2 class="text-center">About Me</h2>
+      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      	</div> 
+
+      	<div class="col-xs-12 col-sm-6">
+      		<h2 class="text-center">Tech I Use:</h2>
+      		<ul class="list-group list-group-flush">
+				<li class="list-group-item list-group-item-action">HTML/CSS</li>
+				<li class="list-group-item list-group-item-action">Bootstrap 4</li>
+				<li class="list-group-item list-group-item-action">JavaScript</li>
+				<li class="list-group-item list-group-item-action">Git/Github</li>
+			</ul>
+      	</div>
+      </div>  <!-- About Me -->
+
+      <div class="row" id="portfolio">  <!-- Portfolio -->
+      	<div class="col-md-12">
+      		<h2 class="text-center">Projects(TBA)</h2>
+      	</div>
       </div>
-    </div><!-- container -->
+      <div class="row portfolio">
+      	<div class= "col-sm-6 col-md-3">
+      		<div class="box box1"></div>
+  		</div>
+      	<div class= "col-sm-6 col-md-3">
+      		<div class="box box2"></div>
+  		</div>
+      	<div class= "col-sm-6 col-md-3">
+      		<div class="box box3"></div>
+  		</div>
+      	<div class= "col-sm-6 col-md-3">
+      		<div class="box box4"></div>
+  		</div>
+      </div> <!-- Portfolio -->
+
+      <div class="row portfolio">
+      	<div class= "col-sm-6 col-md-3">
+      		<div class="box box5"></div>
+  		</div>
+      	<div class= "col-sm-6 col-md-3">
+      		<div class="box box6"></div>
+  		</div>
+      	<div class= "col-sm-6 col-md-3">
+      		<div class="box box7"></div>
+  		</div>
+      	<div class= "col-sm-6 col-md-3">
+      		<div class="box box8"></div>
+  		</div>
+      </div> <!-- Portfolio -->
+
+      <div class="row workHistory" id="workHistory"> <!-- Work History -->
+      	<div class="col-md-12">
+      		<table class="table table-hover">
+				<thead class="thead-dark">
+				    <tr>
+				      <th scope="col">Place</th>
+				      <th scope="col">Title</th>
+				      <th scope="col">Tech</th>
+				    </tr>
+				</thead>
+				<tbody>
+				    <tr>
+				      <th scope="row">Lambda School CS Academy</th>
+				      <td>Student</td>
+				      <td>Front-end Stack</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">UC Davis Health Promotion</th>
+				      <td>Student Assistant</td>
+				      <td>NA</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">UC Davis MARBLES Study</th>
+				      <td>Student Assitant</td>
+				      <td>NA</td>
+			    	</tr>
+				</tbody>
+			</table>
+      	</div>
+      </div> <!-- Work History -->
+
+      <div class="row contact" id="contact"> <!-- contact -->
+      	<div class="col-xs-12 col-sm-6 col-lg-3">
+      		<img class="img-fluid lambdaSchool" src="https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_400x400.jpg" alt="LambdaSchool">
+      	</div>
+      	<div class="col-xs-12 col-sm-6 col-lg-9">
+      		<form>
+  			  <div class="form-group">
+			    <label for="fullName">Your Name</label>
+			    <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="fullName">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Your Email</label>
+			    <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleInputEmail1">
+			  </div>
+			  <div class="form-group">
+			  	<label for="message">How can I help?</label>
+			  	<textarea class="form-control border-top-0 border-right-0 border-left-0" id="message"></textarea>
+			  </div>
+			  <div class="row">
+			  	<div class="col-sm-6">
+			  		<button type="submit" class="btn btn-primary">Submit</button>	
+			  	</div>
+				<div class="col-sm-6 text-right">
+					<button type="submit" class="btn btn-primary backHome"><i class="fas fa-arrow-up fa-lg"></i><a href="#page"></a></button>	
+				</div>
+			  </div>
+			  
+			</form>
+      	</div>
+      </div> <!-- contact -->
+   
+   <div class="row">
+   	<div class="col-12">
+	   	<footer class="text-center">
+	   		<div class="row">
+	   			<div class="col-xs-12 col-sm-6">
+	   				<a href="https://github.com/JustinSHong"> <i class="fab fa-github fa-2x"></i></a>
+	   			</div>
+	   			<div class="col-xs-12 col-sm-6">
+	   				<p>Copyright Justin Hong <i class="far fa-copyright"></i> 2018</p>
+	   			</div>
+   			</div>
+   		</footer>
+   	</div>
+   </div>
+
+    </div> <!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
