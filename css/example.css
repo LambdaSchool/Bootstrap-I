@@ -1,0 +1,32 @@
+.jumbotron {
+	margin: 0px;
+}
+
+.col-12 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.btn-outline-danger {
+	font-weight: bold;
+	background-color: white;
+	font-size: 2rem;
+}
+
+.text-center {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.nav {
+	font-weight: bold;
+	width: 100%;
+}
+
+.card-group {
+	margin-bottom: 40px;
+}
+
+.card-header {
+	font-size: 2rem;
+}
