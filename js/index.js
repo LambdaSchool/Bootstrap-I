@@ -1,3 +1,4 @@
+//Scrollify nav links code
 $(function() {
     $.scrollify({
       section : ".scrollify",
