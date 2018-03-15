@@ -5,6 +5,9 @@
   border: 1px solid red;
   margin: 20px 0;
 }
+.aboutMe {
+  margin-bottom: 20px;
+}
 .portfolio {
   border: 1px solid green;
 }
@@ -28,4 +31,18 @@
 .portfolio div .box6,
 .portfolio div .box8 {
   background-color: black;
+}
+.workHistory {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.workHistory .table {
+  width: 90%;
+  margin: 0 auto;
+}
+.lambdaSchool {
+  border-radius: 100%;
+}
+.form-control {
+  resize: none;
 }
