@@ -1,0 +1,30 @@
+.container {
+  max-width: 880px;
+  width: 100%;
+}
+.img-fluid {
+  width: 25%;
+}
+.display-3 {
+  font-size: 50px;
+  color: teal;
+}
+.nav-link {
+  color: teal;
+}
+.nav-link:hover {
+  color: turquoise;
+}
+.btn-primary {
+  background-color: teal;
+}
+.jumbotron .btn {
+  border-color: turquoise;
+  background: teal;
+}
+.row-footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: teal;
+  color: white;
+}
