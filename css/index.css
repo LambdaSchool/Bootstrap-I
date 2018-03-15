@@ -1,0 +1,38 @@
+* {
+  list-style: none;
+}
+.margin-10 {
+  margin-top: 10%;
+}
+.nav-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.nav-fluid a {
+  font-size: 1.8rem;
+}
+.picture {
+  margin-top: 10%;
+}
+.skills {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.skills ul {
+  padding-right: 20vw;
+  padding-left: 20vw;
+}
+.skills ul li {
+  font-size: 1.8rem;
+}
+.skills ul li::before {
+  content: "~";
+}
+.contact {
+  margin-top: 10%;
+}
+.btn-success {
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+}
