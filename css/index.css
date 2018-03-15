@@ -5,3 +5,27 @@
   border: 1px solid red;
   margin: 20px 0;
 }
+.portfolio {
+  border: 1px solid green;
+}
+.portfolio div {
+  margin: 0;
+  padding: 0;
+}
+.portfolio div figure {
+  margin: 0;
+  padding: 0;
+}
+.portfolio div .box {
+  width: 100%;
+  height: 200px;
+  background-color: salmon;
+}
+.portfolio div .box1,
+.portfolio div .box3 {
+  background-color: black;
+}
+.portfolio div .box6,
+.portfolio div .box8 {
+  background-color: black;
+}
