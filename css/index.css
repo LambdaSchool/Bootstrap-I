@@ -4,7 +4,7 @@
 .jumbotron {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(to right, darkgrey, white);
+  background: inherit;
 }
 .jumbotron nav {
   display: flex;
@@ -15,14 +15,6 @@
 .jumbotron nav a:hover {
   cursor: pointer;
   color: black;
-}
-.main-content {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  margin: 4% 1%;
-  padding: 3% 0;
-  font-size: 1.6rem;
-  line-height: 18px;
 }
 .contact {
   margin: 0 2%;
