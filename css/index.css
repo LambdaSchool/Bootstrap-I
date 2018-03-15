@@ -1,10 +1,21 @@
-.jumbotron {
+.jumbo-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/trail.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
+  margin: 0;
 }
-.jumbotron h1 {
+.jumbo-header h1 {
+  margin-top: 50%;
+}
+.jumbo-footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tree.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+.jumbo-footer h1 {
   margin-top: 50%;
 }
 .github {
