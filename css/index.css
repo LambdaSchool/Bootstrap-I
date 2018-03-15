@@ -1,15 +1,13 @@
-.container {
-  width: 100%;
-  background-color: #F2F2F2;
-}
-.container .row-header .col-sm-12 .display-3 {
-  background-color: #CDBB79;
-  color: #06425C;
-}
-.container .row-header .col-sm-12 p {
+.header-1 {
   background-color: #51A39D;
-  color: #F2F2F2;
+  color: #CDBB79;
 }
-.container .row-header img {
-  margin-top: 10px;
+.header-2 {
+  background-color: #B7695C;
+  justify-content: center;
+  color: #814374;
+}
+.header-3 {
+  background-color: #F2F2F2;
+  justify-content: flex-end;
 }
