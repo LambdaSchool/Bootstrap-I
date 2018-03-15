@@ -1,5 +1,6 @@
 .container {
   background: #373f30;
+  max-width: 100%;
 }
 .navbar {
   border: 10px solid #31251c;
@@ -57,6 +58,7 @@
 }
 .card {
   border: none;
+  margin-left: 15px;
 }
 .card .card-body {
   background-color: #5b615c;
@@ -71,4 +73,22 @@
 }
 .btn-block {
   margin-top: 10px;
+}
+.progress {
+  width: 100%;
+  margin-top: 5px;
+  height: 30px;
+  background-color: #7a7474;
+  font-size: 1.4rem;
+}
+.col-11 h2 {
+  color: white;
+  text-align: center;
+}
+.list-group-item {
+  background-color: gray;
+  color: white;
+}
+.list-group-item .button {
+  background-color: black;
 }
