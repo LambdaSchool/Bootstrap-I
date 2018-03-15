@@ -1,41 +1,51 @@
 .color-me {
-	font-family: 'Lobster', cursive;
-  color: #483d8b;
+  font-family: "Lobster", cursive;
+  // color: #483d8b;
+  // color:#9e1c22;
+  color: #82181d;
   font-weight: bold;
 }
 
 body h1 {
-	font-family: 'Monoton', cursive;
+  font-family: "Monoton", cursive;
 }
 
 body h2 {
-	font-family: 'Limelight', cursive;
+  font-family: "Limelight", cursive;
 }
 
 body {
-	font-family: 'Limelight', cursive;
+  font-family: "Limelight", cursive;
 }
 
 p {
-	font-family: 'Limelight', cursive;
+  font-family: "Limelight", cursive;
 }
 
-
 .fa {
-  color: #483d8b;
+  // color: #483d8b;
+  // color:#9e1c22;
+
+  color: #82181d;
+  &:hover {
+    // opacity: 0.7;
+    color: darken(#9e1c22, 30%);
+  }
 }
 
 .btn-primary {
-  background-color: #483d8b;
+  background-color: #82181d;
   color: white;
+  &:hover {
+    background: darken(#9e1c22, 30%);
+  }
 }
 
-.fa:hover {
-  opacity: 0.7;
-}
+// .fa:hover {
+//   opacity: 0.7;
+// }
 
 .footer {
-
   height: 50px;
   width: 100%;
   padding: 2% 0;
@@ -44,7 +54,6 @@ p {
   text-align: center;
 }
 
-
 .footer p {
-	font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }

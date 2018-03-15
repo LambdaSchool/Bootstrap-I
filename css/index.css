@@ -1,29 +1,32 @@
 .color-me {
-  font-family: 'Lobster', cursive;
-  color: #483d8b;
+  font-family: "Lobster", cursive;
+  color: #82181d;
   font-weight: bold;
 }
 body h1 {
-  font-family: 'Monoton', cursive;
+  font-family: "Monoton", cursive;
 }
 body h2 {
-  font-family: 'Limelight', cursive;
+  font-family: "Limelight", cursive;
 }
 body {
-  font-family: 'Limelight', cursive;
+  font-family: "Limelight", cursive;
 }
 p {
-  font-family: 'Limelight', cursive;
+  font-family: "Limelight", cursive;
 }
 .fa {
-  color: #483d8b;
-}
-.btn-primary {
-  background-color: #483d8b;
-  color: white;
+  color: #82181d;
 }
 .fa:hover {
-  opacity: 0.7;
+  color: #1c0506;
+}
+.btn-primary {
+  background-color: #82181d;
+  color: white;
+}
+.btn-primary:hover {
+  background: #1c0506;
 }
 .footer {
   height: 50px;
@@ -34,5 +37,5 @@ p {
   text-align: center;
 }
 .footer p {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
