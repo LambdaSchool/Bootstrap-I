@@ -10,3 +10,6 @@
 .github {
   background-image: url('../img/GitHub-small.png');
 }
+.container .about {
+  height: 100vh;
+}
