@@ -1,0 +1,94 @@
+.container {
+  background: #373f30;
+  max-width: 100%;
+}
+.navbar {
+  border: 10px solid #31251c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.navbar .navbar-nav {
+  display: flex;
+  max-width: 70%;
+  min-width: 70%;
+}
+.jumbotron-fluid {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  color: white;
+}
+.jumbotron-fluid .display-4 {
+  text-align: center;
+}
+.jumbotron-fluid .lead {
+  justify-content: center;
+  margin-top: 5px;
+  border-bottom: 2px solid #000000;
+  border-top: 2px solid #000000;
+  padding: 5px 0 5px 0;
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+.jumbotron-fluid .lead .img-fluid {
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.buttons .btn-lg {
+  width: 240px;
+  background-color: #494848;
+}
+.buttons .btn-lg:hover {
+  background-color: #161515;
+}
+.table {
+  margin-left: 15px;
+}
+.about-me {
+  margin-left: 15px;
+  color: #e7e7e7;
+}
+.card {
+  border: none;
+  margin-left: 15px;
+}
+.card .card-body {
+  background-color: #5b615c;
+}
+.card .card-text {
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+}
+.card .card-text .card-img-top {
+  width: 100%;
+}
+.btn-block {
+  margin-top: 10px;
+}
+.progress {
+  width: 100%;
+  margin-top: 5px;
+  height: 30px;
+  background-color: #7a7474;
+  font-size: 1.4rem;
+}
+.col-11 h2 {
+  color: white;
+  text-align: center;
+}
+.list-group-item {
+  background-color: gray;
+  color: white;
+}
+.list-group-item .button {
+  background-color: black;
+}
