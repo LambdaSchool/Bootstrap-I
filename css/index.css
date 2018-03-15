@@ -1,0 +1,37 @@
+body,
+html {
+  height: 100%;
+}
+.bg {
+  background-image: url("../img/main-bg.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main {
+  margin-top: 200px;
+}
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+.listTitle {
+  margin-top: 100px;
+}
+.listItem {
+  color: #555555;
+}
+.card {
+  margin-top: 50px;
+}
+@media (min-width: 768px) {
+  .nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .btn-space {
+    margin-right: 10px;
+  }
+}
