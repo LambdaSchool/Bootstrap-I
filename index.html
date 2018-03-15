@@ -16,7 +16,7 @@
 
 <body>
    <!-- _____________________JUMBO HEADER_____________________-->
-   <div class="jumbotron img-fluid jumbotron-fluid jumbo-header scrollify" id="home">        
+   <div class="jumbotron img-fluid jumbotron-fluid jumbo-header scrollify" id="home" data-section-name='panel1'>        
       <div class="container">            
         <h1 class="display-4 text-light text-center text-weight-bold">Hello</h1>
         <p class="text-center text-light ">This is me on bootstrap.</p>
@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-top-0">
 
       <!-- BRAND // my name -->
-      <a class="navbar-brand " href="#home">CLAUDIO GONZALEZ</a>
+      <a class="navbar-brand nav-home" href="#home">CLAUDIO GONZALEZ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>   
@@ -37,16 +37,16 @@
       <!-- NAV LINKS // About, Contact -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#about">About</a>
-          <a class="nav-item nav-link" href="#meow">Meow</a>
-          <a class="nav-item nav-link" href="#contact">Contact</a>
+          <a class="nav-item nav-link nav-about" href="#">About</a>
+          <a class="nav-item nav-link nav-meow" href="#">Meow</a>
+          <a class="nav-item nav-link nav-contact" href="#">Contact</a>
         </div>
       </div>
     </nav>   
     
     <!-- _____________________ABOUT_____________________-->
     <!--Add "About" nav section container-->    
-    <div class="container d-flex scroll scrollify" id="about">
+    <div class="container d-flex scroll scrollify" id="about" data-section-name='panel2'>
       <div class="row">
 
         <div class="col-sm-6 m-auto">
@@ -114,7 +114,7 @@
     
     <!-- _____________________MEOW_____________________-->
     <!--Add "Meow" nav section container-->  
-    <div class="container d-flex scroll scrollify" id="meow">
+    <div class="container d-flex scroll scrollify" id="meow" data-section-name='panel3'>
     
       <div class="row m-auto">
 
@@ -179,7 +179,7 @@
 
   <!--Footer-->
     <footer class="page-footer font-small scrollify foot">
-      <div class="py-2 text-center text-light bg-dark" id="contact">
+      <div class="py-2 text-center text-light bg-dark" id="contact" data-section-name='panel4'>
         Made in Los Angeles
       </div>
     </footer>
@@ -188,16 +188,7 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>    
     <script src="js/index.js"></script>
-    <script src="jquery-scrollify/jquery.scrollify.js"></script>
-    <script>
-        $(function() {
-          $.scrollify({
-            section : ".scrollify",
-          });
-        });
-    </script>
+    <script src="jquery-scrollify/jquery.scrollify.js"></script>    
 </body>
-
-
 
 </html>
