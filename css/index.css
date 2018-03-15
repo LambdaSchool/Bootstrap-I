@@ -1,0 +1,12 @@
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/trail.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.jumbotron h1 {
+  margin-top: 50%;
+}
+.github {
+  background-image: url('../img/GitHub-small.png');
+}

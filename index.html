@@ -15,17 +15,153 @@
 </head>
 
 <body>
+   <!-- _____________________JUMBO_____________________-->
+   <div class="jumbotron  img-fluid jumbotron-fluid darken">        
+      <div class="container">            
+        <h1 class="display-4 text-light text-center text-weight-bold">Hello</h1>
+        <p class="text-center text-light ">This is me on bootstrap.</p>
+      </div>
+    </div>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+  <div class="container">
+
+    <!-- _____________________NAVBAR_____________________-->    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-top-0">
+
+      <!-- BRAND // my name -->
+      <a class="navbar-brand" href="#">CLAUDIO GONZALEZ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>   
+              
+      <!-- NAV LINKS // About, Contact -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>   
+    
+    <!-- _____________________ABOUT_____________________-->
+       
+    <div class="row">
+      <div class="col-sm-6 m-auto">
+        <h5 class='text-center'>ABOUT</h5>
+      </div>
+
+      <!-- FLUSH LIST GROUP // About Me -->
+      <div class="col-sm-6 ">
+          <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item">Computer Science student</li>
+            <li class="list-group-item">Former IT wizard</li>
+            <li class="list-group-item">Wannabe developer</li>
+            <li class="list-group-item">Skier</li>
+            <li class="list-group-item">Cat dad</li>
+          </ul>
+      </div>
+    </div>
+
+    <!--  LIST GROUP // Current Projects -->
+    <div class="row mt-5">
+      <div class="col-sm-6">
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            HTML
+            <span class="badge badge-primary badge-pill">2</span>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            CSS
+            <span class="badge badge-primary badge-pill">4</span>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+              Javascript
+            <span class="badge badge-primary badge-pill">1</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-sm-6 m-auto">
+          <h5 class='text-center'>CURRENT PROJECTS</h5>
+      </div>
+    </div>  
+    
+    <!-- TABLES // Experience-->
+    <div class="row">
+        <div class="col-sm-12 mt-5">
+  
+          <h5 class='text-center m-4'>EXPERIENCE</h5>
+          
+            <table class="table table-hover">                
+                <tbody>
+                  <tr>                    
+                    <td>AtGames Digital Media</td>
+                    <td>Field Application Engineer</td>
+                    <td>DevOps</td>
+                  </tr>
+
+                  <tr>                    
+                    <td>Lambda School</td>
+                    <td>CS9 Padawan</td>
+                    <td>CS</td>
+                  </tr>                
+                </tbody>
+              </table>
+        </div>
+      </div>
+
+    <!-- CARDS // gifs of my cat -->
+    <div class="row">
+      <div class="col-sm-12 d-flex justify-content-between mt-5">
+
+          <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="https://lh3.googleusercontent.com/lCeobaf6bgOcKXMt4pvTsQRHty4tYHb8nVPC6j5D6_hKHZTyKWwCQhHzqO7-QdtREssyFMEMSC4ALwo3zzNGkHb78-PTIHinMJeNM5jLA2Zrbjh3wE5co-nKKhLP-9W8OZu7UlQQ66Shtj9cbKJ6rg86-TAdDvGG4gS45FMR82ycmYB0go8V5mueC236V8qQgRKHQoyreEfVpD7rWz3wuLNgukDtv_p2bV1fyqievUybSDvsClFXNSo2WpObvewmKlbOQuwaXNofgQHhzm8i1DOQKFgVkydjUTquMxlnd7ENOPsFUbJiElLfDWY3Nc2shV6xP7DBEuKHBODO6ra1vB-ikSUEU_sakYnrHI-Nw7zJJcg9IuM8fe-eCQgwSZB3nrTaloWAVMdwY-wvHL732PDBPCmdvnelEhrP9qCDHX72COY6z2CvSjfx-YnxMmpgRuGi3_otZwt6x_nyf9GJrhxFPxwcZcEQQH1djzo0EyQF2SXzrT6sqNyQMmssq8ulm_VPjCiYY0IXON9oWuR6O_boNojyplLunEVqk2Iu2tiYAt_IQxk5r_yeGJXh_3k2VrKXGt3w0lCmLM1KompZFjm11BITG_ZPFCIfBSZlHY8ixf6bxnmQbP5zJp-Ga87w_ZarzW2Xegk7BfQkl7sg9X673aLWzEu1=w450-h620-no?.gif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text text-center">This is Boog.</p>
+              </div>
+          </div>
+
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="https://lh3.googleusercontent.com/NrlDfLWQAVfSx46Cx_HuG9YJmyVC7YAdEtdN2cnJSpZ-7wEQGGeCTDaU1NaEdxsjC0G3pnuJHziH92DH7cLjro5qEUfk-ZcqfDp-BL2Jv2KF2U6NOJw9l1-MNY7O7Gtbme_YZW8dVNvSk6jv4AgRssLIys7QE0Rvj6C1RBkUpdXazwRB50WE_wV56UXEBWqFDuMKkIyLtA4fsY-holJwcmpJZTkvgMcnzT7AB23BagmrocYDB_YkhRbrZAL7_y4P4yA35Q-yLyxcDkKO90RCckBThzgHSmIr_TklzqawpUw0DFsrvv0RBpipfFyX9sKzz0YOFFk4s3Rk5-B5lFzbxYRkACwzU66N8LuuzeKZkRWd9euLIdBxglURVxvoW197ZTqJYPd3mEFSVOD0f0QgS07VMbkuDo41j8nTzppAINW3rXOAFvEBJU4dcZP0TZtj1704WAwg2XqCfVJ9lLrZcYMu0wE0mXbAeeYXRC7JMhzD_i_yiuw1MtHUO-e4BsNLkhUaTfiekvuLFz1MlfClsKVhafj9MtTndziyaxjdDWe1z9OEsUdrElZLZNn0XPosn1AkTBT1a1YfYVp1dIvbVJpGUX9yKPO489Qax8CH2hSp1Tl6UVmbCXScwDpHgZSwrtXbpu19J04WKUZk-zPC992MRo78Bv6z=w450-h620-no?.gif" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text text-center">He sleeps a lot.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="https://lh3.googleusercontent.com/to8y9AIJVBYTR6iYZsSYlmgrrpswe1nO_VjEIUK6n2VCSIN_IpAYEX_8P1GKZza8G6Y1N5FPgHG-9QUpMynE0exTJjcdKvq7_bViVKJffETDGWDOg7C7vrcYOChPZoFW3zOHjotF64YF41Bp49rN-cmAaCMierPuPdq8KcgBPA8-nQN_vupYQGXpFjKWlW8mIbu5X2gj988DSoqfPaYS1vuXeBN9MsaHIrKEp7Yr9D9lldwXw-9KMk1Jz5IErleURtSG8qYUDn0MkLLs2oy4Vxvjpyf9PyODsZViqpzwX_TwuEiIoun5eEiSic8Wc4ljXh9XDAdYKcXErssvhQzgzFvYRjZEOgOU6VEM_4BCXhYgAmfj7aUgxgMIVSc1pLHS5NaJC9K5Sm235rPGQ22FWIx_ZCto9ufo8ISSncD09jR1733fcaqj1i669U2LRl2H-O_ycS8u1UbX53YxS7vSvYElV7jeq95ymwEnG0GoMDp-Y--B5u47D14vc6lqCQ4C1QS5q70zCpxd82kDasdEGqXJ0Timz0A2GNN89rDDsEgHqBqnDPv5D-wit9oem5dFbCypWac0li01_8Aj5yAVVFQI-LDo8_kgi2d7AYITA8Y1gsh-bngHzUJ1abWqy4-dQlFODZIsbIHUJ1N6MOVElwBsMTTe7Fji=w450-h620-no?.gif" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text text-center">His name fits.</p>
+            </div>
           </div>
       </div>
-    </div><!-- container -->
+    </div>
+
+    
+
+    <!-- _____________________CONTACT_____________________-->
+    <div class="row">
+      <div class="col-sm-12 mt-5">
+        <h5 class='text-center'>CONTACT</h5>
+        <p class='text-center'>Let's get in touch!</p>
+      </div>
+    </div>
+    
+
+    <!-- BUTTONS -->
+    
+    <a class="btn btn-primary" href="#" role="button"><img src='../img/GitHub-small.png'/> GitHub</a>
+
+    <button type="button" class="btn btn-lg btn-dark"><img src='../img/GitHub-small.png'/>Dark</button>
+
+
+
+  </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>    
     <script src="js/index.js"></script>
 </body>
 </html>
