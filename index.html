@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -15,17 +16,134 @@
 </head>
 
 <body>
-
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+  <header>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="https://picsum.photos/200" alt="Image of myself" class="rounded-circle img-fluid">
           </div>
+          <div class="col-md-4 info">
+            <h1 class="display-5">Nedu Robert</h1>
+            <h3 class="display-6">Full Stack Developer</h3>
+          </div>
+          <div class="col-md-4">
+            <nav class="nav">
+              <a class="nav-link active" href="#">Github</a>
+              <a class="nav-link" href="#">Email</a>
+              <a class="nav-link" href="#">Portfolio</a>
+            </nav>
+          </div>
+        </div>
       </div>
-    </div><!-- container -->
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+    </div>
+  </header>
+  <div class="container">
+    <h2> Projects</h2>
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img class="card-img-top" src="https://picsum.photos/200" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- end of col-md-4 -->
+      <div class="col-12 col-md-4">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img class="card-img-top" src="https://picsum.photos/200" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- end of col-md-4 -->
+      <div class="col-12 col-md-4">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img class="card-img-top" src="https://picsum.photos/200" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- end of col-md-4 -->
+    </div>
+
+    <div class="row skills">
+      <div class="col-sm-6">
+        <h2>About Me</h2>
+        <p>Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst. Curabitur ornare dolor eu sem interdum posuere. Etiam vehicula sem ut nisi vulputate, eu feugiat diam facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed nec tempor nisl. Suspendisse et tristique ligula, non commodo ex. Praesent a vulputate nibh. Nulla ligula diam, molestie sed vestibulum sit amet, consectetur nec nulla. Etiam nec egestas sapien, ac volutpat mi.</p>
+      </div>
+      <div class="col-sm-6">
+        <ul class="list-group">
+          <h2>Skills</h2>
+          <li class="list-group-item">HTML5</li>
+          <li class="list-group-item">CSS3</li>
+          <li class="list-group-item">Bootstrap</li>
+          <li class="list-group-item">Git</li>
+          <li class="list-group-item">JavaScript</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row table-row no-gutters">
+      <h2>Work History</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Number of Years</th>
+            <th scope="col">Company</th>
+            <th scope="col">Job Title</th>
+            <th scope="col">Technologies Used</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Apple</td>
+            <td>Software Engineer</td>
+            <td>Swift</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Microsoft</td>
+            <td>Computer Scientist</td>
+            <td>.NET</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Amazon</td>
+            <td>Dev Ops</td>
+            <td>AWS</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- container -->
+  <footer class="container-fluid">
+    <div class="row footer">
+      <div class="col-sm-6">
+        <p>Copyright 2018</p>
+      </div>
+      <div class="col-sm-6">
+        <button type="button" class="btn btn-primary custom-button">Hire me</button>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
