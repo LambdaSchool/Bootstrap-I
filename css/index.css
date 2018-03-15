@@ -21,6 +21,12 @@
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+@media (max-width: 991px) {
+  .container .imageHere img {
+    height: 100%;
+    width: 100%;
+  }
+}
 .top-content {
   background-color: #dfdfdf;
   border-top-left-radius: 10px;
@@ -35,6 +41,11 @@
   margin-left: 0;
   text-align: center;
   font-size: 1.4rem;
+}
+@media (max-width: 991px) {
+  .jumbo {
+    font-size: 1.05rem;
+  }
 }
 .jobTable {
   font-size: .9rem;
