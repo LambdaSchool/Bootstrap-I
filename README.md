@@ -36,7 +36,6 @@ Whenever you are introduced to new technology it's good to use something you're 
     - Buttons
     - Button group
     - Card
-    - Jumbotron
     - Navs
 
 * Incorporate a responsive image of yourself somewhere on the site. (See example for ideas)
