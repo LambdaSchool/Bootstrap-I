@@ -1,12 +1,15 @@
-.container {
+.container-fluid {
   border: 1px solid blue;
 }
 .nav {
   border: 1px solid red;
-  margin: 20px 0;
+  margin: 20px 20px;
+}
+.jumbotron {
+  margin: 0 20px;
 }
 .aboutMe {
-  margin-bottom: 20px;
+  margin: 0 10px 20px 10px;
 }
 .portfolio {
   border: 1px solid green;
@@ -40,7 +43,11 @@
   width: 90%;
   margin: 0 auto;
 }
-.lambdaSchool {
+.contact {
+  margin: 0 20px;
+}
+.lambdaSchool,
+.backHome {
   border-radius: 100%;
 }
 .form-control {

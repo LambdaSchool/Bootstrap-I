@@ -16,7 +16,7 @@
 
 <body>
 
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row"> <!-- navs -->
 			<div class="col-sm-12">
 				<ul class="nav justify-content-end">
@@ -71,7 +71,7 @@
       		<h2 class="text-center">Tech I Use:</h2>
       		<ul class="list-group list-group-flush">
 				<li class="list-group-item list-group-item-action">HTML/CSS</li>
-				<li class="list-group-itemem-action">Bootstrap 4</li>
+				<li class="list-group-item list-group-item-action">Bootstrap 4</li>
 				<li class="list-group-item list-group-item-action">JavaScript</li>
 				<li class="list-group-item list-group-item-action">Git/Github</li>
 			</ul>
@@ -80,7 +80,7 @@
 
       <div class="row">  <!-- Portfolio -->
       	<div class="col-md-12">
-      		<h2>Projects(TBA)</h2>
+      		<h2 class="text-center">Projects(TBA)</h2>
       	</div>
       </div>
       <div class="row portfolio">
@@ -162,7 +162,15 @@
 			  	<label for="message">How can I help?</label>
 			  	<textarea class="form-control border-top-0 border-right-0 border-left-0" id="message"></textarea>
 			  </div>
-			  <button type="submit" class="btn btn-primary">Submit</button>
+			  <div class="row">
+			  	<div class="col-sm-6">
+			  		<button type="submit" class="btn btn-primary">Submit</button>	
+			  	</div>
+				<div class="col-sm-6 text-right">
+					<button type="submit" class="btn btn-primary backHome"><i class="fas fa-arrow-up fa-lg"></i></button>	
+				</div>
+			  </div>
+			  
 			</form>
       	</div>
       </div> <!-- contact -->
