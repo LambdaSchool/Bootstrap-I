@@ -9,6 +9,8 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <script defer src="js/fontawesome-all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -18,19 +20,28 @@
 <body>
 
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <nav class="nav">
-          <a class="nav-link active" href="#">About Me</a>
-          <a class="nav-link" href="#">Experience</a>
-          <a class="nav-link" href="#">Portfolio</a>
-          <a class="nav-link" href="#">Contact</a>
-        </nav>
-      </div>
-    </div>
+
     <div class="row">
       <div class="col-sm-12">
         <div class="jumbotron">
+          <div class="row">
+            <div class="col-sm-12">
+
+              <nav class="nav">
+
+                <a class="nav-link active" href="#">
+                  <i class="fas fa-user"></i> About Me</a>
+                <a class="nav-link" href="#">
+                  <i class="far fa-keyboard"></i> Experience</a>
+                <a class="nav-link" href="#">
+                  <i class="far fa-folder-open"></i> Portfolio</a>
+                <a class="nav-link" href="#">
+                  <i class="fas fa-phone-square"></i> Contact</a>
+              </nav>
+            </div>
+            <!-- col-sm-12 -->
+          </div>
+          <!-- row -->
           <h1 class="display-4">Justin M. Rigler
             <span class="badge badge-secondary">Updated</span>
           </h1>
@@ -41,14 +52,43 @@
           <p>Feel free to use the navigation bar at the top of this page to navigate through the sections we have conveniently
             outlined for your perusal.</p>
         </div>
+        <!-- jumbotron -->
       </div>
       <!-- col-sm-12 -->
     </div>
     <!-- row -->
+
+    <div class="top-content">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>
+          <i class="fas fa-user"></i> Developer</h2>
+        <p>Being a developer is about the thrill of the build, the passion that's needed to commit to project after project.
+          The mindset to wrap your head around one fact: all of your limitations, you will systematically overcome each and
+          every one of them. Then you find out the only limits imposed on you are of your own machination. Congrats, you're
+          a developer!</p>
+        <p>Of course, I could never truly pen what it means to be a developer within one paragraph. The journey, the knowledge,
+          the experiences and the friendships formed transcend anything I could come up with. So hopefully I can convey it
+          over the one medium I know and love: web development!</p>
+      </div>
+      <div class="col-sm-4">
+        <h4>You might find me...</h4>
+        <ul class="list-group">
+          <li class="list-group-item">Writing / Creating Content</li>
+          <li class="list-group-item">Developing with UE4 / Unity</li>
+          <li class="list-group-item">Building houses</li>
+          <li class="list-group-item">Playing ultimate frisbee</li>
+          <li class="list-group-item">Enjoying indie games</li>
+        </ul>
+      </div> <!-- col-sm-4 -->
+    </div> <!-- row -->
+  </div> <!-- top-content -->
+
     <div class="row">
       <div class="col-sm-12">
         <div class="row table-row no-gutters">
-          <h4>My Professional Experience</h4>
+          <h4>
+            <i class="far fa-keyboard"></i> My Professional Experience</h4>
           <table class="table table-striped">
             <thead>
               <tr>
@@ -82,6 +122,26 @@
           </table>
         </div>
         <!-- table row -->
+      </div>
+      <!-- col-sm-12 -->
+    </div>
+    <!-- row -->
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card text-center">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Check out my previous work!</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
       </div>
       <!-- col-sm-12 -->
     </div>

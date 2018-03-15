@@ -1,0 +1,25 @@
+.nav a {
+  color: #E0F2F1;
+}
+h1 {
+  color: #E0F2F1;
+  font-family: 'Oswald', sans-serif;
+}
+.badge-secondary {
+  color: #009688;
+  background-color: #B2DFDB;
+}
+.jumbotron {
+  background-color: #009688;
+}
+.top-content {
+  background-color: #009688;
+}
+ul .list-group-item {
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: #009688;
+}
+.card-header {
+  background-color: #009688;
+}
