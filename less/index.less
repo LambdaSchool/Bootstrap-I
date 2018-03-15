@@ -1,11 +1,27 @@
 // Start here!
 
+
+
+
 .nav {
 	margin: 20px 0;
 
 	a {
 		color: black;
 		font-size: 1.2rem;
+	}
+
+	@media (min-width: 769px) {
+		justify-content: flex-end;
+	}
+
+	@media (max-width: 768px) {
+		justify-content: center;
+	}
+
+	@media (max-width: 500px) {
+		flex-direction: column;
+		align-items: center;
 	}
 }
 
@@ -26,6 +42,7 @@
 		}
 
 		.box {
+			border: 1px solid white;
 			width: 100%;
 			height: 200px;
 			background-color: salmon;
@@ -56,8 +73,14 @@
 }
 
 .lambdaSchool {
-	margin-top: 30px;
-	margin-left: 20px;
+
+	margin: 0 auto;
+
+	@media (max-width: 576px) {
+		display: block;
+		margin: 20px auto;
+	}
+
 }
 
 .lambdaSchool, .backHome {
@@ -70,6 +93,7 @@
 
 footer {
 	margin-top: 40px;
+	margin-bottom: 40px;
 	padding-left: 5%;
 }
 

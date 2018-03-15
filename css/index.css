@@ -5,6 +5,22 @@
   color: black;
   font-size: 1.2rem;
 }
+@media (min-width: 769px) {
+  .nav {
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .aboutMe {
   margin: 0 10px 20px 10px;
   background-color: white;
@@ -18,6 +34,7 @@
   padding: 0;
 }
 .portfolio div .box {
+  border: 1px solid white;
   width: 100%;
   height: 200px;
   background-color: salmon;
@@ -42,8 +59,13 @@
   margin: 0 20px;
 }
 .lambdaSchool {
-  margin-top: 30px;
-  margin-left: 20px;
+  margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .lambdaSchool {
+    display: block;
+    margin: 20px auto;
+  }
 }
 .lambdaSchool,
 .backHome {
@@ -54,5 +76,6 @@
 }
 footer {
   margin-top: 40px;
+  margin-bottom: 40px;
   padding-left: 5%;
 }
