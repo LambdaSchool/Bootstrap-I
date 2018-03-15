@@ -1,7 +1,12 @@
 // Start here!
 @import "mixins";
-.container{
-    
+
+.nav {
+    justify-content: space-around;
+    font-size: 1.25rem;
+    a{
+       color: black;
+    }
 }
 .container .imageHere{
     padding:0;
@@ -19,4 +24,17 @@
 }
 .jobTable{
     font-size: .9rem;
+}
+.cardsGroup{
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    max-width:100%;
+    height:100%;
+    align-items: center;
+}
+.lambda{
+    width: 50%;
 }
