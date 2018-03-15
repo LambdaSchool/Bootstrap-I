@@ -31,8 +31,8 @@
     .lead {
         justify-content: center;
         margin-top: 5px;
-        border-bottom: 2px solid black;
-        border-top: 2px solid black;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        border-top: 2px solid rgb(0, 0, 0);
         padding: 5px 0 5px 0;
         font-size: 1.6rem;
         color: whitesmoke;
@@ -53,20 +53,25 @@
         padding-bottom: 20px;
         .btn-lg {
             width: 240px;
+            background-color: rgb(73, 72, 72);
+            &:hover {
+                background-color: darken(rgb(73, 72, 72), 20%)
         }
     }
-
-    .about-me {
-        margin-left: 15px;
-        color: white;
     }
+
     .table{
         margin-left: 15px;
     }
 
+
+    .about-me {
+        margin-left: 15px;
+        color: rgb(231, 231, 231);
+    }
     .card {
         border: none;
-        margin-left: 15px;
+       
         .card-body {
             background-color: rgb(91, 97, 92);
         }
@@ -81,4 +86,7 @@
             }
         }
 
+        .btn-block {
+            margin-top: 10px;
+        }
     

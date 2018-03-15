@@ -26,8 +26,8 @@
 .jumbotron-fluid .lead {
   justify-content: center;
   margin-top: 5px;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
+  border-bottom: 2px solid #000000;
+  border-top: 2px solid #000000;
   padding: 5px 0 5px 0;
   font-size: 1.6rem;
   color: whitesmoke;
@@ -43,17 +43,20 @@
 }
 .buttons .btn-lg {
   width: 240px;
+  background-color: #494848;
 }
-.about-me {
-  margin-left: 15px;
-  color: white;
+.buttons .btn-lg:hover {
+  background-color: #161515;
 }
 .table {
   margin-left: 15px;
 }
+.about-me {
+  margin-left: 15px;
+  color: #e7e7e7;
+}
 .card {
   border: none;
-  margin-left: 15px;
 }
 .card .card-body {
   background-color: #5b615c;
@@ -65,4 +68,7 @@
 }
 .card .card-text .card-img-top {
   width: 100%;
+}
+.btn-block {
+  margin-top: 10px;
 }
