@@ -11,6 +11,9 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.pl-10 {
+  padding-left: 10px;
+}
 .font-rem {
   font-size: 62.5%;
 }
