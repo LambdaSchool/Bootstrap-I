@@ -15,13 +15,123 @@
 </head>
 
 <body>
-
+<!--Grid System Order: Container, row, column (12 col per row)-->
     <div class="container">
       <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+          <div class="col-12">
+              <!--Nav Section-->
+              <nav class="nav">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link disabled" href="#">My Portfolio</a>
+              </nav>
           </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+
+            <img src="https://media.licdn.com/dms/image/C4D03AQG6Nxwk9ncmnQ/profile-displayphoto-shrink_200_200/0?e=1526245200&v=alpha&t=T5jZ6HpI69BI88ckO6HAYy0IZjHGZdRVPdG-9rPDbV0" alt="my pic" class="img-fluid" alt="Responsive image">
+
+            <h1 class="display-3">Kaitlyn Flynn - Web Dev</h1>
+            <p class="lead">Lambda Student - Passionate About Coding</p>
+            <hr class="my-4">
+            <p>Currently enrolled in Lambda Schools Computer Science Program and learning to code! I have over 10 years of administrative & team lead experience, intimately familiar 
+              with project prioritization, business development and ops management needs. Extremely organized, detail oriented, friendly, responsible, motivated, outgoing team-oriented, 
+              problem solver. Passionate about building team rapport. Advanced knowledge of Microsoft Office Suite and Adobe Creative Cloud.<br><br>Need help with a project?</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role ="button">Contact Me</a>
+            </p>
+          </div> <!--Jumbotron-->
+        </div> <!--col-md-12-->
+      </div> <!--row-->
+      
+      
+      <div class="card mb-3"> <!--Card-->
+          <img class="card-img-top" src="http://codelikeagirl.penguin.com.au/img/clg-logo.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Recent Project</h5>
+            <p class="card-text">Check out my latest project! <a href="http://mobilegamepartners.com">Mobile Game Partners Website</a></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+          </div>
+        </div>
+        <br>
+
+        <h2>My Experience <span class="badge badge-secondary">With Code</span></h2>
+
+        <div class="row">
+            <div class="col-4">
+             <div class="card" style="width: 18rem;">
+               <img class="card-img-top" src="https://bibliophilewannabe.files.wordpress.com/2018/01/lambda.png?w=300&h=300" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Current Lambda Student</h5>
+                 <p class="card-text">Joined Lambda School CS9 class for their full-time Computer Science Program.</p>
+                 <a href="https://github.com/kaitlynflynn" class="btn btn-primary">GitHub Profile</a>
+               </div>
+             </div>
+           </div><!-- end of col-4 -->
+            <div class="col-4">
+             <div class="card" style="width: 18rem;">
+               <img class="card-img-top" src="http://media.pocketgamer.biz/2015/2/24952/mobile-game-partners-logo-r225x.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Marketing & BD</h5>
+                 <p class="card-text">Maintains routine updates for MGP website and creates various marketing collateral.</p>
+                 <a href="http://mobilegamepartners.com" class="btn btn-primary">MGP Website</a>
+               </div>
+             </div>
+           </div><!-- end of col-4 -->
+            <div class="col-4">
+             <div class="card" style="width: 18rem;">
+               <img class="card-img-top" src="https://waracle.com/wp-content/uploads/2016/11/JLL.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Manager, BD</h5>
+                 <p class="card-text">Assisted Managing Director and created marketing collateral for inner/outer office events.</p>
+                 <a href="https://www.linkedin.com/in/kaitlynflynn/" class="btn btn-primary">My LinkedIn</a>
+               </div>
+             </div>
+           </div><!-- end of col-4 -->
+         </div>
+
+         <br><br>
+      <!--Badge-->   
+      <h3>About My <span class="badge badge-secondary">Skills</span></h3>
+      <table class="table"><!--Table-->
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Program</th>
+            <th scope="col">Years</th>
+            <th scope="col">Skill Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>HTML</td>
+            <td>3</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>CSS</td>
+            <td>Present</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>JavaScript</td>
+            <td>Present</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="row-footer"> <!--footer-->
+          <div class="col-12">
+              <p class="text-center">Copyright Kaitlyn Flynn 2018</p>
+          </div>
+        </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
