@@ -36,11 +36,18 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  margin-bottom: 0;
 }
 .cardsGroup {
   padding: 15px;
   flex-wrap: wrap;
+  width: 100%;
   justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  .cardsGroup {
+    flex-direction: column;
+  }
 }
 .cardsGroup .lambda {
   width: 50%;
@@ -63,4 +70,16 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+@media (max-width: 768px) {
+  .card {
+    min-width: 370%;
+    margin-bottom: 20px;
+  }
+}
+.bottom-wrap {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 15px;
+  background-color: #dfdfdf;
 }
