@@ -1,0 +1,36 @@
+.nav a {
+  color: #E0F2F1;
+}
+h1 {
+  color: #E0F2F1;
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  color: #B2DFDB;
+  margin-left: 15px;
+}
+.badge-secondary {
+  color: #009688;
+  background-color: #B2DFDB;
+}
+.jumbotron {
+  background-color: #009688;
+}
+.top-content {
+  background-color: #009688;
+  border-radius: 25px;
+}
+ul .list-group-item {
+  color: #B2DFDB;
+  border: 1px solid #B2DFDB;
+  background-color: #009688;
+}
+.table {
+  background-color: #009688;
+}
+.card-header {
+  background-color: #009688;
+}
+.card-body {
+  background-color: #009688;
+}
