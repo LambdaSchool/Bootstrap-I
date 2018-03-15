@@ -1,0 +1,13 @@
+.body {
+  color: #C4CED2
+}
+
+.jumbotron {
+  background-color: #ACD3E6;
+  border: 2px solid grey;
+  font-size: 40px;
+}
+.col-3 {
+  display: flex;
+  align-items: center;
+}
