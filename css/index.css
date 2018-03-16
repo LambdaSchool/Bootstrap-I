@@ -1,0 +1,63 @@
+.nav .nav-item .nav-link:hover {
+  background: #007bff;
+  color: white;
+}
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron img {
+  margin-left: 10%;
+  height: 100px;
+}
+.jumbotron .container {
+  width: 80%;
+  align-self: flex-end;
+}
+.about {
+  width: 85%;
+  margin: auto;
+}
+.about .titles {
+  display: flex;
+  align-items: center;
+}
+.about .titles .list-group {
+  width: 100%;
+}
+.about .content {
+  display: flex;
+  align-items: center;
+}
+.projects {
+  margin: 5% auto;
+}
+.projects .col-4 {
+  display: flex;
+  justify-content: center;
+}
+.projects .col-4 .card {
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.projects .col-4 .card .img-description {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.projects .col-4 .card:hover > .img-description {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  font-weight: bold;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin: 5% auto 3%;
+}
