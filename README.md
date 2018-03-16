@@ -30,14 +30,13 @@ Whenever you are introduced to new technology it's good to use something your fa
 </div>
 ```
 * You must use at least 4 of the following components listed here:
-    - Jumbotron
+    - Jumbotron //done
     - List Group
-    - Badge
-    - Buttons
+    - Badge //done
+    - Buttons // done
     - Button group
-    - Card
-    - Jumbotron
-    - Navs
+    - Card //done
+    - Navs //done
 
 * Incorporate a responsive image of yourself somewhere on the site. (See example for ideas)
 
