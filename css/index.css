@@ -1,0 +1,31 @@
+.container {
+  max-width: 900px;
+  background: lightsalmon;
+}
+.container nav {
+  padding: 20px 0;
+}
+.container nav nav a {
+  color: black;
+}
+.container .jumbotron {
+  background: lightblue;
+}
+.container .jumbotron h1 {
+  display: flex;
+  justify-content: center;
+}
+.container .jumbotron p {
+  display: flex;
+  justify-content: center;
+}
+.container .btn img {
+  display: none;
+}
+.container .btn:active img {
+  display: flex;
+}
+.container .col-3 p {
+  color: blue;
+  font-size: 1.0rem;
+}
