@@ -4,9 +4,23 @@
 .nav {
   justify-content: space-around;
   font-size: 1.25rem;
+  min-height: 25px;
 }
 .nav a {
+  transition: all 250ms ease;
+  padding-top: 0;
+  height: 40px;
+  margin-top: 10px;
   color: black;
+}
+.nav a:hover {
+  border-top: 3px solid lightgrey;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .container .imageHere {
   padding: 0;

@@ -6,8 +6,17 @@
 .nav {
     justify-content: space-around;
     font-size: 1.25rem;
-    a{
-       color: black;
+    min-height: 25px;
+        a{
+        transition: all 250ms ease; 
+        padding-top:0;
+        height:40px;
+        margin-top:10px;
+        color: black;
+        &:hover {
+           border-top: 3px solid lightgrey;
+           .border-radius(5px);
+        }
     }
 }
 .container .imageHere{
