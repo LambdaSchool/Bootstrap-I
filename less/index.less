@@ -20,6 +20,9 @@
             height:100%;
             width:100%;
         }
+        @media (max-width: 768px) {
+            width:70%;
+        }
     }
 }
 .top-content{
@@ -41,19 +44,24 @@
     }
 }
 .jobTable{
-    font-size: .9rem;
+    font-size: 1.2rem;
     border:1px solid rgb(223, 223, 223);
     .border-radius(10px);
     margin-bottom: 0;
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 .cardsGroup{
     padding: 15px;
+    margin-right: 0;
+    margin-left: 0;
     flex-wrap: wrap;
     @media (max-width: 768px) {
         flex-direction: column;
     }
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     .lambda{
         width: 50%;
     }
@@ -67,10 +75,11 @@
     }
 }
 .card{
-    max-width:100%;
     @media (max-width: 768px) {
-        min-width:370%;
+        width: 100%;
         margin-bottom: 20px;
+        min-width: 300%;
+        margin-left: 30px;
     }
     height:100%;
     align-items: center;
