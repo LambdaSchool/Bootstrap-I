@@ -2,6 +2,10 @@
 
 //note:make variable for headers w/ less?
 
+body {
+    padding-top: 56px; //prevent nav overlapping content
+}
+
 .jumbo-header {
     background-image:linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -9,13 +13,8 @@
         ),
         url(../img/trail.jpg); // darkens background image
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-position: center;    
     margin: 0;
-
-    h1 {
-        margin-top: 50%; //vertical align 
-    }
 }
 
 .jumbo-footer {
@@ -25,17 +24,15 @@
         ),
         url(../img/tree.jpg); // darkens background image
     background-size: cover;
-    background-position: center;
-    height: 100vh;  
-    margin: 0;  
-
-    h1 {
-        margin-top: 50%; //vertical align 
-    }
-
-    
+    background-position: center; 
+    margin: 0;      
 }
 
-.container .scroll {
-    height: 100vh;
+//center jumbo elements
+.vert-center {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
 }
