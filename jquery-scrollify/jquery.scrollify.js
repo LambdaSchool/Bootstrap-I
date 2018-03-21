@@ -87,7 +87,11 @@ if touchScroll is false - update index
       overflowScroll:true,
       updateHash: true,
       touchScroll:true,
-      before:function() {},
+      before:function() {
+        var currentSection=$.scrollify.current().data('section');
+        $('.navbar-nav').find('.active').removeClass('active');
+        $(currentSection).addClass('active');
+      },
       after:function() {},
       afterResize:function() {},
       afterRender:function() {}

@@ -6,17 +6,22 @@ $(function() {
   });
 
   $('.nav-home').click(function(){
-      $.scrollify.move('#panel1');
+      $.scrollify.move('#home');
   });
 
   $('.nav-about').click(function(){
-      $.scrollify.move('#panel2');
+      $.scrollify.move('#about');
   });
 
   $('.nav-meow').click(function(){
-      $.scrollify.move('#panel3');
+      $.scrollify.move('#meow');
   });
 
   $('.nav-contact').click(function(){
       $.scrollify.move('#4');
   });
+
+$(".navbar-nav .nav-link").on("click", function(){
+    $(".navbar-nav").find(".active").removeClass("active");
+    $(this).addClass("active");
+});
