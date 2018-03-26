@@ -1,0 +1,77 @@
+.container {
+  max-width: 700px;
+}
+.container .nav a {
+  color: black;
+}
+.container .nav a:hover {
+  color: lightblue;
+}
+.container img {
+  width: 200px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.container .readmore {
+  width: 178px;
+  height: 30px;
+  background: white;
+  border: 1px solid black;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.container .readmore:hover {
+  color: #00bfff;
+}
+.container .strong {
+  margin-bottom: 20px;
+}
+.container .goals {
+  margin-bottom: 20px;
+}
+.container .YouTube {
+  width: 120px;
+  height: 20px;
+  background: white;
+  border: 1px solid black;
+  margin-top: 10px;
+  font-size: 10px;
+  align-self: center;
+}
+.container .YouTube:hover {
+  color: #00bfff;
+}
+.container .Team {
+  width: 120px;
+  height: 20px;
+  background: white;
+  border: 1px solid black;
+  margin-top: 10px;
+  font-size: 10px;
+  align-self: center;
+}
+.container .Team:hover {
+  color: #00bfff;
+}
+.container .coding {
+  width: 120px;
+  height: 20px;
+  background: white;
+  border: 1px solid black;
+  margin-top: 10px;
+  font-size: 10px;
+  align-self: center;
+}
+.container .coding:hover {
+  color: #00bfff;
+}
+.container .footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: #00bfff;
+  color: white;
+}

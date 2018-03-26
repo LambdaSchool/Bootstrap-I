@@ -1,1 +1,74 @@
 // Start here!
+
+.button-creator1(@width, @height, @background){
+	width: @width;
+	height: @height;
+    background: @background;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 16px;
+     &:hover{
+        color:rgb(0, 191, 255);
+    }
+}
+.button-creator2(@width, @height, @background){
+	width: @width;
+	height: @height;
+    background: @background;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 10px;
+    align-self: center;
+     &:hover{
+        color:rgb(0, 191, 255);
+    }
+}
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+.container {
+    max-width: 700px;
+    .nav {
+      a {
+       color:black;
+         &:hover {
+           color:lightblue;
+         }
+      }
+    }
+    img {
+        width: 200px;
+        .rotate(90deg);
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .readmore {
+        .button-creator1(178px, 30px,white)
+    }
+
+    .strong {
+     margin-bottom: 20px;
+    }
+    .goals {
+     margin-bottom: 20px;    
+    }
+    
+    .YouTube {
+     .button-creator2(120px, 20px,white)
+    }
+    .Team {
+      .button-creator2(120px, 20px,white)
+    }
+    .coding {
+        .button-creator2(120px, 20px,white) 
+    }
+    .footer {
+        margin-top: 20px;
+        padding: 20px 0;
+        background: rgb(0, 191, 255);
+        color: white;
+    }
+}   
