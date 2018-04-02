@@ -44,3 +44,5 @@ Whenever you are introduced to new technology it's good to use something your fa
 * Introduce a table somewhere in your site that would be relevent to a resume. (See example for ideas)
 
 ## Stretch Task - Implement a JavaScript based component in your site
+
+elizabeth mckenzie bragg present :)
