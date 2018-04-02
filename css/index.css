@@ -1,0 +1,16 @@
+.container {
+  max-width: 880px;
+}
+nav {
+  font-size: 1.5rem;
+}
+nav a {
+  color: black;
+}
+.about {
+  background: offwhite;
+}
+.img {
+  width: 200px;
+  border-radius: 5%;
+}
