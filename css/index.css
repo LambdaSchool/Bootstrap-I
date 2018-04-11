@@ -1,5 +1,7 @@
 .main-heading {
-  background: black;
-  color: white;
+  color: black;
   font-family: 'Helvetica';
+}
+.nav-inactive {
+  color: white;
 }
