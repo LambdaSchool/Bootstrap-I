@@ -1,1 +1,81 @@
-// Start here!
+//Start Mixins
+.box-shadow {
+    box-shadow: 0 4px 4px 0 rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.primary-button {
+    background-color: @primary;
+    border: none;
+    &:hover {
+        background-color: lighten(@primary, 10%);
+        .box-shadow;
+    }
+}
+
+//End Mixins
+//Start Themes
+@primary: #3498DB;
+@link: #1F618D;
+//End Themes
+.container {
+    max-width: 1100px;
+}
+
+.row {
+    margin: 14vh 0 0 0;
+}
+
+header {
+    .nav {
+        padding: 1rem 0;
+        margin: 1rem 0;
+        background: white;
+        max-width: 1100px;
+        flex-grow: 1;
+        .box-shadow;
+    }
+    a {
+        color: @link;
+        &:hover {
+            color: lighten(@link, 20%);
+        }
+    }
+}
+
+.jumbotron {
+    margin-top: 6vh;
+    .btn {
+        .primary-button;
+    }
+}
+
+.main-content {
+    .card-flush {
+        .box-shadow;
+    }
+    .list-group-flush {
+        padding: 0;
+    }
+}
+
+.cv {
+    .card {
+        .box-shadow;
+    }
+}
+
+
+footer {
+    background: darken(@primary, 40%);
+    nav {
+        flex-grow: 1;
+        max-width: 1100px;
+        padding: 1rem;
+        a {
+            color: lighten(@link, 30%);
+            &:hover {
+                color: @link;
+            }
+        }
+    }
+}
