@@ -1,0 +1,21 @@
+.jumbotron {
+  background-color: grey;
+}
+.jumbotron h2 {
+  color: white;
+}
+.jumbotron h3 {
+  color: white;
+}
+.main-content {
+  height: 400px;
+}
+#boombabi1 {
+  width: 20px;
+}
+.col-12 custom {
+  border: 1px solid black;
+}
+.nav a {
+  color: grey;
+}
