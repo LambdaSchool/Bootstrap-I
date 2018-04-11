@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+  .avatar {
+    height: 40vh;
+    overflow: hidden;
+  }
+}
+@media (max-width: 992px) {
+  .avatar img {
+    width: 100%;
+  }
+}
+.main-content {
+  background: white;
+}
+.main-content .header {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .main-content .header {
+    flex-direction: column;
+  }
+}
