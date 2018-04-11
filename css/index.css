@@ -1,0 +1,32 @@
+body {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("http://nrmm.london/sites/default/files/london-skyline_1.jpg");
+}
+
+.mb-0 {
+    color: white;
+}
+
+.blockquote-footer {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+h4, li, th, td {
+    color: white;
+}
+
+.col-12 {
+    color: white;
+}
+
+.col-sm-6 h2 {
+    color: white;
+}
