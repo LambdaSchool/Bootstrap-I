@@ -24,3 +24,28 @@
   color: white;
   border-color: #a4978e;
 }
+.tech-skills {
+  background-color: #edebdf;
+  margin-bottom: 40px;
+  padding: 15px;
+}
+.tech-skills h4 {
+  color: #766e6b;
+}
+.tech-skills li {
+  background-color: #d7b4b0;
+  color: white;
+}
+h2,
+p {
+  color: #766e6b;
+}
+.my-table {
+  background-color: #edebdf;
+  padding: 15px;
+}
+.my-table h4,
+.my-table th,
+.my-table td {
+  color: #766e6b;
+}
