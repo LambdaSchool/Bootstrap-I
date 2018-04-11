@@ -42,9 +42,9 @@
         </p>
       </div>
       <div class="row">
-          <div class="col-4">
-      <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="img/joe.jpg" alt="Card image cap">
+          <div class="col-sm-8 col-md-6 col-lg-4">
+      <div class="card" style="width: 100%;">
+          <img class="card-img-top" "img-fluid" src="img/joe.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Some info about Me</h5>
             <p class="card-text">Ex-Computer Support Specialist, now Web App Developer in the making, thanks to Lambda School.</p>
@@ -61,9 +61,9 @@
           </div>
         </div>
         </div>
-        <div class="col-8">
-          <div class="justify-content-center"><h2>Musical Geniuses Past and Present</h2></div>
-            <table class="table table-striped">
+        <div class="col-sm-4 col-md-6 col-lg-8">
+          <div class="d-flex justify-content-between"><h2>Musical Geniuses Past and Present</h2></div>
+            <table class= "table table-striped" style="width: 100%;">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -118,7 +118,26 @@
                 my own projects that I would like to bring to fruition as a software developer.
               </p>
         </div> 
-      </div>   
+      </div>
+      <nav aria-label="Page navigation example">
+          <ul class="pagination" style="justify-content: center;">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav> 
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
