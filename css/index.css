@@ -16,8 +16,11 @@
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .main-content .header {
     flex-direction: column;
   }
+}
+.main-content .history .table-without-border td {
+  border-top: none;
 }

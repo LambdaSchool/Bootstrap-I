@@ -3,15 +3,16 @@
     .header {
         display: flex;
         justify-content: space-between;
-        @media @medium-screen {
+        @media @small-screen {
             flex-direction: column;
         }
-        // .contact {
-        //     display: flex;
-        //     justify-content: space-around;
-        //     @media @under992 {
-        //         justify-content: space-around;
-        //     }
-        // }
+    }
+    .history {
+        .table-without-border {
+            td {
+                border-top: none;
+            }
+        }
+        
     }
 }
