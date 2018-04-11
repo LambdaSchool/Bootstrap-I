@@ -1,0 +1,15 @@
+.container {
+  border: 1px darkblue dotted;
+}
+.customClass1 {
+  background: green;
+  justify-content: center;
+}
+.customClass2 {
+  background: yellow;
+  justify-content: center;
+}
+.customClass3 {
+  background: red;
+  justify-content: center;
+}
