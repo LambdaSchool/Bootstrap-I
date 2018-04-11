@@ -7,8 +7,14 @@
 }
 
 .img-thumbnail {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+}
+
+.card {
+  margin-top: 40px;
+  align-content: flex-end;
 }
 
 .sentence {
