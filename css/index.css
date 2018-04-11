@@ -1,0 +1,15 @@
+.container .img-erinc {
+  border-radius: 50%;
+}
+.container .h1-erinc {
+  margin-top: 0;
+}
+.container .card-erinc {
+  background-color: #e9ecef;
+  border: none;
+  width: 50%;
+}
+.container .card-title-erinc {
+  margin-top: 3%;
+  font-style: italic;
+}
