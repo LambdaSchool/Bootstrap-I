@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -16,16 +17,148 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Resume</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+          <div class="jumbotron">
+              <h1 class="display-4">A Star is Born!</h1>
+              <h4 class="lead">Resume and Portfolio of Max Washington </h4>
+              <hr class="my-4">
+                <div class = text-center>
+                  <img src="img/DrunkMax.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h2>Professional Profile</h2>
+        <p>Mr. Washington is a motivated college student with a focus in computer science. 
+          Max has a strong computer programming language abilities. 
+          He has a demonstrated ability to apply critical thinking skills and multi-task under pressure of deadlines, 
+          while maintaining accuracy and meeting timelines. Max is an effective communicator with the ability to connect and work with diverse cultural and ethnic communities.</p>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <h2>Select Compentencies</h2>
+        <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Communication 
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    Interpersonal communication, active and empathetic listening
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Technology 
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    Windows/MacOS, SharePoint, Citrix, Active Directory, ManageEngine, VPN                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Programming Language
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    Python, CSS, HTML, JavaScript, R, Java and C/C++                
+                  </div>
+              </div>
+            </div>
           </div>
       </div>
-    </div><!-- container -->
+    </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+    <div class="row Education">
+        <div class="col-sm-6">
+            <h2>Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item">B.S. Computer Science, DePaul University</li>
+                <li class="list-group-item">A.A., Minneapolis Community and Technical College</li>
+              </ul>
+        </div>
+      </div>
+
+      <div class="row Experience">
+          <div class="col-sm-12">
+              <h2>Work Experience</h2>
+              <table class="table">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Employer</th>
+                      <th scope="col">Role</th>
+                      <th scope="col">Dates</th>
+                      <th scope="col">City</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Coeur Mining</th>
+                      <td>IT Intern</td>
+                      <td>May 2016 – June 2017</td>
+                      <td>Chicago</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Designer Shoe Warehouse</th>
+                      <td>Lead Sales Associate</td>
+                      <td>January 2012 – March 2014</td>
+                      <td>Minneapolis</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Minnesota Technical College</th>
+                      <td>IT Helpdesk</td>
+                      <td>2012 - 2013</td>
+                      <td>Minneapolis</td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+        </div>
+        <div class="row footer">
+            <div class="col-sm-12">
+            <p class="text-center">Copyright BearNecessities Ink. 2018</p>
+            </div>
+        </div>
+  </div>
+  <!-- container -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
