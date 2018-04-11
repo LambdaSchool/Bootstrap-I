@@ -1,0 +1,22 @@
+
+.header {
+  background-image: url('../img/busan-night-scene-1747130_960_720.jpg');
+  height: 30em;
+  width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 3em;
+}
+
+.title {
+  margin: 2em;
+}
+
+.about {
+  margin-bottom: 3em;
+}
