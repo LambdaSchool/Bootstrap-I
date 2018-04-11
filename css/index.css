@@ -6,15 +6,15 @@
     width: 90%;
   }
 }
-header .kelnav {
+.kelnav {
   margin-top: 20px;
 }
-header .kelnav a {
+.kelnav a {
   text-decoration: none;
   color: black;
-  padding: 10px;
+  padding: 20px;
 }
-header .kelnav a:hover {
+.kelnav a:hover {
   text-decoration: underline;
   color: red;
 }
@@ -26,17 +26,16 @@ header .kelnav a:hover {
   padding: 5px;
   top-margin: 20px;
 }
-.aboutme {
-    background: green;
-
-    button {
-	.border-radius(10px);
-    }
-
+.aboutme button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
-.skills {
-  background: pink;
+.aboutme button.hover {
+  background: white;
 }
-.projects {
-  background: gray;
+@media (max-width: 400px) {
+  .skills {
+    margin-top: 20px;
+  }
 }

@@ -16,20 +16,19 @@
 		  }
 }
 
-header .kelnav {
+.kelnav {
 
        margin-top: 20px;
        
-     a {
+       a {
        text-decoration: none;
        color: black;
-       padding: 10px;
+       padding: 20px;
        
-       
-     &:hover {
-       text-decoration: underline;
-       color: red;
-       }
+       &:hover {
+       	       text-decoration: underline;
+       	       color: red;
+       	       }
      }
 }
 
@@ -42,17 +41,16 @@ header .kelnav {
 
 
 .aboutme {
-     background: green;
-     }
+     button {
+     	    .border-radius(10px);
+		&.hover {
+			background: white;
+			}
+	    }
+}
 
 .skills {
-     background: pink;
-     }
-
-.projects {
-     background: gray;
-     }
-
-.footer {
-     background: yellow;
-     }
+	@media @phone {
+	       margin-top: 20px;
+	}
+}
