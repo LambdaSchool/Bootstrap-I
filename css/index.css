@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+}
+nav #navbarNav {
+  display: none;
+  justify-content: flex-end;
+}
+.text-content {
+  width: 50%;
+  padding: 15px;
+}
