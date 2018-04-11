@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10px at a default browser font size of 16px */
+}
+.my-head .my-head__nav {
+  border-bottom: 1px solid black;
+}
+.my-head .my-head__nav a {
+  font-size: 1.7rem;
+  color: black;
+}
+.my-head .my-head__nav a:hover {
+  background-color: black;
+  color: hotpink;
+}
+.cta .cta__img {
+  -webkit-filter: grayscale(95%);
+  filter: grayscale(95%);
+}
+.cta .cta__img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.cta .cta__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 16px 16px;
+}
