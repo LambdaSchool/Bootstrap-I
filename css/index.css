@@ -1,0 +1,26 @@
+.my-nav {
+  margin-bottom: 50px;
+}
+.my-nav a {
+  color: #a4978e;
+  text-decoration: none;
+}
+.my-nav a:hover {
+  color: #766e6b;
+}
+.jumbo-class {
+  background-color: #edebdf;
+}
+.jumbo-class .name-title,
+.jumbo-class p {
+  color: #766e6b;
+}
+.jumbo-class .profile-pic {
+  height: 300px;
+  border-radius: 10px;
+}
+.jumbo-class .my-btn {
+  background-color: #d7b4b0;
+  color: white;
+  border-color: #a4978e;
+}
