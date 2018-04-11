@@ -1,3 +1,10 @@
 .nav-inactive {
   color: white;
 }
+.contain-image {
+  justify-content: center;
+}
+.contain-image .main-photo {
+  max-width: 50%;
+  margin: 0 auto;
+}
