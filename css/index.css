@@ -1,0 +1,16 @@
+/* RGB New */
+nav {
+  padding: 20px 0;
+}
+nav a {
+  color: rebeccapurple;
+}
+.jumbotron {
+  background: #cce4d7;
+}
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: #0d5c63;
+  color: white;
+}
