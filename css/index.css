@@ -1,0 +1,34 @@
+.container {
+  max-width: 900px;
+  background: royalblue;
+ 
+  
+}
+.rotate90{
+max-height: 100%;
+max-width: 100%;
+
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  color: black;
+}
+.jumbotron {
+  background: offgrey;
+}
+.jumbotron .btn {
+  background: lightcoral;
+  border: 1px solid white;
+}
+.table-row {
+  margin-top: 20px;
+  color: black;
+}
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: gray;
+  color: darkblue;
+}
