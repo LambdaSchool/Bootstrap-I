@@ -1,1 +1,58 @@
 // Start here!
+
+@tablet: ~"(max-width: 768px)";
+@phone: ~"(max-width: 400px)";
+
+.border-radius (@radius: 10px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+}
+
+.container {
+	   width: 80%;
+	   @media @tablet {
+	   	  width: 90%;
+		  }
+}
+
+header .kelnav {
+
+       margin-top: 20px;
+       
+     a {
+       text-decoration: none;
+       color: black;
+       padding: 10px;
+       
+       
+     &:hover {
+       text-decoration: underline;
+       color: red;
+       }
+     }
+}
+
+.jumbo-class {
+     width: 100%;
+     .border-radius;
+     padding: 5px;
+     top-margin: 20px;
+}
+
+
+.aboutme {
+     background: green;
+     }
+
+.skills {
+     background: pink;
+     }
+
+.projects {
+     background: gray;
+     }
+
+.footer {
+     background: yellow;
+     }

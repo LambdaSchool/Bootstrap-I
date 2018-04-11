@@ -17,11 +17,74 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+
+      <header class="row justify-content-center">
+          <nav class "kelnav">
+            <a href="#">Home</a>
+	    <a href="#">About</a>
+	    <a href="#">Contact</a>
+          </nav>
+      </header>
+    
+    <div class="row">
+      <div class="jumbotron jumbo-class">
+	<img src="img/cat.jpg" class="img-fluid" alt="cat">
       </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="aboutme">
+	  <h1>About Me</h1>
+	  <button>Click Me</button>
+        </div><!--about-->
+      </div><!--col-6-->
+      <div class="col-sm-6">
+	<div class="skills">
+	  <h1>Skills</h1>
+	     <ul>
+	       <li>Skill 1</li>
+	       <li>Skill 2</li>
+	       <li>Skill 3</li>
+	       <li>Skill 4</li>
+	     </ul>
+	</div> <!--skills-->
+      </div> <!--col-6-->
+    </div> <!--row-->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="projects">
+	  <h1>Projects</h1>
+	    <table class="projects-table">
+	      <thead>
+		<tr>
+		  <th scope="col">Title</th>
+		  <th scope="col">Year</th>
+		</tr>
+	      </thead>
+	      <tbody>
+		<tr>
+		  <th scope="row">Project 1</th>
+		  <td>2016</td>
+		</tr>
+		<tr>
+		  <th scope="row">Project 2</th>
+		  <td>2017</td>
+		</tr>
+	      </tbody>
+	    </table>
+        </div><!--projects-->
+      </div><!--col-12-->
+    </div><!--row-->
+
+    <div class="row justify-content-center">
+      <footer>
+      	<p>hand coded just for you</p>
+      </footer>
+    </div><!--row-->
+
+      
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
