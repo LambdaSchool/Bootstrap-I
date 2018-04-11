@@ -17,6 +17,9 @@
 @primary: #3498DB;
 @link: #1F618D;
 //End Themes
+//Start media queries
+@phone: ~"(max-width: 576px)";
+//End media queries
 .container {
     max-width: 1100px;
 }
@@ -47,9 +50,20 @@ header {
     .btn {
         .primary-button;
     }
+    .container {
+        @media @phone {
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
 }
 
 .main-content {
+    h3 {
+        @media @phone {
+            margin-bottom: 10vh;
+        }
+    }
     .card-flush {
         .box-shadow;
     }
@@ -63,7 +77,6 @@ header {
         .box-shadow;
     }
 }
-
 
 footer {
     background: darken(@primary, 40%);

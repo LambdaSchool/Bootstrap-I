@@ -40,6 +40,17 @@ header a:hover {
   background-color: #5faee3;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 576px) {
+  .jumbotron .container {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .main-content h3 {
+    margin-bottom: 10vh;
+  }
+}
 .main-content .card-flush {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
 }
