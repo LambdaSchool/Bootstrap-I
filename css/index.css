@@ -1,0 +1,27 @@
+.nav-link {
+  color: black;
+}
+
+.jumbotron {
+  background-color: grey;
+}
+
+.img-thumbnail {
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+}
+
+.card {
+  margin-top: 40px;
+  align-content: flex-end;
+}
+
+.sentence {
+  font-size: 30px;
+}
+
+.footer {
+  background-color: grey;
+  align-items: center;
+}
