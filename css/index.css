@@ -1,0 +1,76 @@
+.container {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.nav {
+    border: 1px solid black;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.nav a {
+    color: white;
+}
+
+.body {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    color: white;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: black;
+    /* display: flex; */
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+/* .body .jumbotron img .image {
+    height: 40%;
+    width: 30%;
+    justify-content: center;
+} */
+
+.jumbotron a {
+    background-color: black !important;
+    border-color: white !important;
+    color: white;
+}
+
+.jumbotron div {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.jumbotron p {
+    display: flex;
+    justify-content: center;
+    /* border-top: 1px solid white; */
+    /* padding-top: 20px; */
+}
+
+.jumbotron .list-group {
+    padding-top: 20px;
+}
+
+.jumbotron .list-group-item {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 47, 47) !important;
+    color: white !important;
+}
+
+.footer p {
+    display: flex;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    border-top: 1px solid white;
+    padding-top: 15px;
+    justify-content: center;
+}
