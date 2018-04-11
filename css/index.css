@@ -1,0 +1,41 @@
+.container {
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+.kelnav {
+  margin-top: 20px;
+}
+.kelnav a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.kelnav a:hover {
+  text-decoration: underline;
+  color: red;
+}
+.jumbo-class {
+  width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  top-margin: 20px;
+}
+.aboutme button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.aboutme button.hover {
+  background: white;
+}
+@media (max-width: 400px) {
+  .skills {
+    margin-top: 20px;
+  }
+}
