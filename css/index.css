@@ -1,0 +1,12 @@
+.container {
+  -webkit-border-radius: 11px 100px;
+     -moz-border-radius: 11px 100px;
+          border-radius: 11px 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL2J1aWxkL2luZGV4LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtDQUEwQjtLQUExQiwrQkFBMEI7VUFBMUIsMEJBQTBCO0VBQzFCLHFCQUFjO0VBQWQsc0JBQWM7RUFBZCxrQkFBYztFQUFkLHFCQUFjO0VBQWQsY0FBYztDQUNmIiwiZmlsZSI6ImluZGV4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXIge1xuICBib3JkZXItcmFkaXVzOiAxMXB4IDEwMHB4O1xuICBkaXNwbGF5OiBmbGV4O1xufVxuIl19 */
