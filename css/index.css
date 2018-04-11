@@ -10,9 +10,8 @@
 }
 .jumbotron .profilephoto {
   display: flex;
+  justify-content: center;
   width: 250px;
-  margin-left: 410px;
-  margin-bottom: 20px;
 }
 .container-virtualcard {
   display: flex;
