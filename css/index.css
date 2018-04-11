@@ -22,3 +22,13 @@
 .container .table {
   background: #f5f2f2;
 }
+.container button {
+  width: 400px;
+  height: 32px;
+  color: #5e4f4f;
+  background: gray;
+}
+.container button:hover {
+  background: ghostwhite;
+  color: gray;
+}
