@@ -1,0 +1,24 @@
+img {
+  padding-top: 10px;
+}
+@media (max-width: 768px) {
+  img {
+    display: none;
+  }
+}
+.jumbotron {
+  background-color: #0da533;
+}
+.jumbotron h1,
+.jumbotron p {
+  color: white;
+}
+.skills {
+  display: block;
+}
+.skills .skills-title {
+  margin-top: 25px;
+}
+.skills .btn {
+  margin: 3px;
+}
