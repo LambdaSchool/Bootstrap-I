@@ -15,14 +15,80 @@
 </head>
 
 <body>
-
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
-      </div>
-    </div><!-- container -->
+
+      <!-- nav -->
+        <div class="row justify-content-center">
+            <nav class="my-nav nav">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#">Contact</a>
+            </nav>  
+        </div>  <!-- End nav -->
+
+      <!-- jumbotron -->    
+      <div class="row jumbotron jumbo-class">
+          <h1 class="col-12 name-title">Anne's Resume</h1>
+          <img class="d-flex justify-content-center profile-pic" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/29432590_10213166659333752_7031987019558810061_n.jpg?_nc_cat=0&oh=ab025e41da82b8e23a3f639c95c4b783&oe=5B667CDD" alt="img anne">
+          <hr class="col-12 pagebreak">
+          <p class="col-12">Anne is currently a Software Engineering student with The Lambda School.</p>
+          <a class="col-2 my-btn btn btn-primary" href="#" role="button">Learn more</a>
+        </div> <!-- End jumbotron -->
+        
+        <!-- List -->
+        <div class="row">
+            <div class="tech-skills col-sm-6">
+                <h4>Technical Skills:</h4>
+                <ul class="list-group">
+                <li class="list-group-item list-group-item-light">HTML5</li>
+                <li class="list-group-item list-group-item-light">CSS3</li>
+                <li class="list-group-item list-group-item-light">JavaScript</li>
+                <li class="list-group-item list-group-item-light">bootstrap</li>
+            </ul>
+            </div><!--End List -->
+
+            <!-- About Me -->
+            <div class="about-me col-sm-6">
+                <h2>About Me...</h2>
+                <p>Anne is a Software Engineer with a background in art and strong interest in projects that require both conceptual and analytical thinking. She is fully committed to designing and developing innovative web-based materials that users will love. Always eager to learn more!</p>
+                </div> 
+              </div><!-- End About Me -->
+
+       <!-- table -->       
+        <div class="my-table row table-row no-gutters">
+            <h4>Work History:</h4>
+            <table class="table table-striped">
+            <thead>
+                <tr>
+                <th scope="col">Yrs</th>
+                <th scope="col">Company</th>
+                <th scope="col">Title</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">2</th>
+                <td>Hutch App</td>
+                <td>Design Operations Manager</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Saks Off Fifth, TJ Maxx</td>
+                <td>HQ E-commerce Photo Stylist</td>
+                </tr>
+                <tr>
+                <th scope="row">1</th>
+                <td>Anthropologie</td>
+                <td>HQ E-commerce Stylist</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>  <!-- End table -->    
+   
+
+        
+    </div><!-- End container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
