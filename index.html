@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -15,17 +16,73 @@
 </head>
 
 <body>
+  <div class="container">
+
+    <nav class="navbar sticky-top navbar-dark bg-primary custom-nav">
+      <div class="name">Nando Theeßen</div>
+      <div class="row custom-row">
+        <!-- Navbar content -->
+        <a class="nav-item nav-link custom-link" href="#">Home</a>
+        <a class="nav-item nav-link custom-link" href="#">Portfolio</a>
+        <a class="nav-item nav-link custom-link" href="#">About</a>
+        <a class="nav-item nav-link custom-link" href="#">Contact</a>
+      </div>
+    </nav>
+
+    <div class="jumbotron mambo">
+      <div class="row">
+        <div class="col-8 cta-text">
+          <h1 class="display-4">Nando Theeßen</h1>
+          <p class="lead">Berlin based, ambitious up and coming full-stack Web-Developer
+          </p>
+          <hr class="my-4">
+          <p>Enthusiastic Developer, Entrepreneur and Sales Professional in one person.</p>
+          <p>Master of the JS Stack, aswell as additional knowledge in computer architecture,
+            <br> relational and unrelational databases and Python + Django</p>
+          <p>For business enquiries feel free to contact me!</p>
+          <p class="lead cta-button">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </p>
+        </div>
+        <div class="col-4">
+          <img src="./img/face-first.jpg" alt="My Face" class="img-fluid face">
+        </div>
+      </div>
+
+    </div>
 
     <div class="container">
       <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+        <div class="content col-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
           </div>
+        </div>
+        <div class="strength col-6">
+          <div class="card">
+            <div class="card-header">
+              Featured
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div><!-- container -->
+    </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
+  </div>
 </body>
+
 </html>

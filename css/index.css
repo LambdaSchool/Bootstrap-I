@@ -1,0 +1,31 @@
+.custom-nav {
+  justify-content: space-between;
+  padding-right: 7%;
+  display: flex;
+}
+.custom-link {
+  color: white;
+  text-align: center;
+}
+.custom-link:hover {
+  color: white;
+  font-weight: bold;
+}
+.mambo {
+  background: #E3EBF7;
+  margin-top: 10px;
+}
+.custom-row {
+  display: flex;
+  justify-content: flex-end;
+}
+.name {
+  color: white;
+  padding-left: 5%;
+}
+.face {
+  border: 2px solid white;
+}
+.cta-button {
+  margin-top: 20px;
+}
