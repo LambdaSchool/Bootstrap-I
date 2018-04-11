@@ -1,0 +1,21 @@
+.nav-link {
+  color: black;
+}
+
+.jumbotron {
+  background-color: grey;
+}
+
+.img-thumbnail {
+  width: 200px;
+  height: 200px;
+}
+
+.sentence {
+  font-size: 30px;
+}
+
+.footer {
+  background-color: grey;
+  align-items: center;
+}
