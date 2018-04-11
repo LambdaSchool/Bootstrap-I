@@ -70,6 +70,7 @@ header nav a:hover {
   color: white;
   margin-bottom: 6rem;
   background: rgba(0, 0, 0, 0.5);
+  border-width: medium;
 }
 .teacher {
   background-image: url(https://reformedforum.org/wp-content/blogs.dir/1/files/2016/06/best-books-book-youll-ever-read.jpg);
@@ -112,9 +113,15 @@ header nav a:hover {
 .main-content .main-text p {
   color: #0066cc;
 }
+/*Table*/
+.table {
+  margin: 4rem 0;
+  background: #39f;
+}
 /*BannerTwo*/
 .banner-two {
   display: flex;
+  flex-wrap: wrap;
 }
 .card-img-top {
   height: 300px;
