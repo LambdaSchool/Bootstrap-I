@@ -20,3 +20,15 @@
 .about {
   margin-bottom: 3em;
 }
+
+.projects {
+  margin-bottom: 3em;
+}
+
+.projects ul li {
+  list-style: none;
+}
+
+.contact {
+  margin-bottom: 3em;
+}
