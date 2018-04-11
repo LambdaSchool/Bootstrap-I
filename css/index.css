@@ -13,12 +13,15 @@ img {
 .jumbotron p {
   color: white;
 }
-.skills {
+.main-content .skills {
   display: block;
 }
-.skills .skills-title {
+.main-content .skills .skills-title {
   margin-top: 25px;
 }
-.skills .btn {
+.main-content .skills .btn {
   margin: 3px;
+}
+.main-content .education .education-title {
+  width: 100%;
 }
