@@ -106,6 +106,13 @@ header nav a:hover {
   display: flex;
   align-items: center;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .main-content .main-text {
+    flex-direction: column;
+  }
 }
 .main-content .main-text img {
   height: 30rem;

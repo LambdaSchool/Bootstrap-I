@@ -143,6 +143,12 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+
+    @media (max-width: 800px){
+      flex-direction: column;
+    }
 
     img{
       height: 30rem;
