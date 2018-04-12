@@ -17,12 +17,128 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+       <header class="d-flex justify-content-around align-items-center">
+        <img src="img/logo.png" class="logo" alt="xang's logo" />
+        <nav>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+          </ul>
+        </nav>
+       </header>        <!-- end header -->
+    </div>      <!-- container -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" id="caro-pix1" src="img/pix1.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Testing</h5>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" id="caro-pix2" src="img/pix2new.jpeg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Testing</h5>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" id="caro-pix3" src="img/pix3new.jpeg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Testing</h5>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+        </div>
       </div>
-    </div><!-- container -->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div> <!-- end carousel -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 skills">
+        <h1>Skills</h1>
+        <p>These are some of my Web Development Skills</p>
+      </div>
+    </div> <!-- end skill jumbo  -->
+
+    <div class="row">
+      <div class="card col-12 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+        <img class="card-img-top" src="img/html.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card card col-12 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+        <img class="card-img-top" src="img/css3.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card card col-12 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+        <img class="card-img-top" src="img/less.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card card col-12 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+        <img class="card-img-top" src="img/bootstrap.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card card col-12 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+        <img class="card-img-top" src="img/javascripts.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card card col-12 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+        <img class="card-img-top" src="img/reactjs.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>  <!-- container -->
+
+
+  <footer>
+    <p>&copy; Xang Thao 2018</p>
+  </footer> <!-- end footer -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
