@@ -1,8 +1,10 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Digital Resume</title>
 
@@ -16,16 +18,143 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+  <div class="container">
+    <header class="row">
+      <div class="d-flex col-12 fixed-top justify-content-center">
+        <nav class="nav nav-pills rounded">
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#work">Work</a>
+          <a class="nav-item nav-link" href="#cv">CV</a>
+          <div class="progress col-10 align-self-center">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100" style="width: 75%"></div>
           </div>
+        </nav>
       </div>
-    </div><!-- container -->
+    </header>
+    <!-- header -->
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+    <div class="row justify-content-center align-items-center jumbotron" id="about">
+      <div class="col-6 col-sm-3">
+        <img class="img-fluid rounded-circle" src="img/profile.jpg">
+      </div>
+      <div class="col-12 col-sm-6">
+        <div class="container">
+          <h1 class="h1">Mason Morrow</h1>
+          <p class="lead">I work as a programmer, designer, and generally enjoy extensive use of emoji and alliteration.</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Hire me!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- jumbotron -->
+
+
+    <div class="main-content" id="work">
+      <div class="row">
+        <div class="col-12 col-sm-4 d-flex justify-content-center align-items-center">
+          <h3>
+            "I mean, he's done a lot."
+            <small class="text-muted">-Said a stranger he just met.</small>
+          </h3>
+        </div>
+        <div class="col-12 col-sm-8">
+          <div class="card-flush">
+            <div class="card-header bg-dark text-white">
+              Languages & Frameworks
+            </div>
+            <div class="card-body">
+              <ul class="list-group-flush">
+                <a href="#" class="list-group-item d-flex justify-content-between align-items-center">
+                  HTML5/CSS3
+                  <span class="badge badge-primary badge-pill">14</span>
+                </a>
+                <a href="#" class="list-group-item d-flex justify-content-between align-items-center">
+                  LESS Projects
+                  <span class="badge badge-primary badge-pill">2</span>
+                </a>
+                <a href="#" class="list-group-item d-flex justify-content-between align-items-center">
+                  <p>The
+                    <strong>great</strong> JavaScript.</p>
+                  <span class="badge badge-primary badge-pill">1</span>
+                </a>
+                <a href="#" class="list-group-item d-flex justify-content-between align-items-center">
+                  <p>Sad :( jQuery</p>
+                  <span class="badge badge-primary badge-pill">3</span>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main-content end -->
+
+
+    <div class="row cv" id="cv">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Experience</h5>
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Year</th>
+                    <th scope="col">Job Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Contact</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">2016-present</th>
+                    <td>Web Developer</td>
+                    <td>Developing websites for clients on freelance basis</td>
+                    <td>
+                      <a href="https://www.lambdaschool.com/" target="blank">Lambda</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2012-2014</th>
+                    <td>Business Designer</td>
+                    <td>Designing business processes and UX for both digital and physical products.</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2011-2012</th>
+                    <td>Lead Development Specialist</td>
+                    <td>Working to develop business models and also managing a team of remote developers working on a file-sharing
+                      service and electronic health records.</td>
+                    <td>N/A</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- table-content -->
+
+  </div>
+  <!-- container -->
+
+  <div class="row">
+    <footer class="d-flex col-12 justify-content-center">
+      <nav class="nav">
+        <a class="nav-link" href="#">Tweeter</a>
+        <a class="nav-link" href="#">Github</a>
+        <a class="nav-link" href="#">Blog</a>
+      </nav>
+    </footer>
+  </div>
+  <!-- footer -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
