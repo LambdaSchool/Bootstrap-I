@@ -1,6 +1,28 @@
 // Start here!
 .container {
-    width: 900px;    
+    max-width: 900px;    
+}
+
+.tabs {
+    border: none;
+    @media(max-width:437px){
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.tabs .ni {
+    @media (max-width:437px){
+        width: 100%;
+        text-align:center;
+        padding: 5px;
+    }
+}
+
+.tabs .ni .nla {
+    background-color: rgb(65, 63, 63);
+    color: white;
 }
 
 .jumbotron {
@@ -9,11 +31,6 @@
 
 .middle-content {
     width: 100%
-}
-
-.tabs .ni .nla {
-    background-color: rgb(65, 63, 63);
-    color: white;
 }
 
 .btn-secondary {
