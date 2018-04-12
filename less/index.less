@@ -1,9 +1,38 @@
 // Start here!
-.container1 {
-  .row1 {
-    //border: 2px solid red;
+body {
+  background: #d2eaea;
+}
+
+.container {
+  max-width: 990px;
+
+  .navbar {
+    flex-wrap: nowrap;
   }
-  .row2 {
-    // border: 2px solid blue;
+
+  @media (min-width: 576px) {
+    .navbar {
+      justify-content: flex-end;
+    }
+  }
+
+  a .nav-link {
+    text-align: center;
+  }
+  .row2 .jumbo .main-contain {
+    background: #cbd7d7;
+  }
+
+  .jumbotron {
+    padding: 2rem 2rem;
+  }
+
+  img {
+    width: 50%;
+    max-width: 300px;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 }

@@ -1,0 +1,30 @@
+body {
+  background: #d2eaea;
+}
+.container {
+  max-width: 990px;
+}
+.container .navbar {
+  flex-wrap: nowrap;
+}
+@media (min-width: 576px) {
+  .container .navbar {
+    justify-content: flex-end;
+  }
+}
+.container a .nav-link {
+  text-align: center;
+}
+.container .row2 .jumbo .main-contain {
+  background: #cbd7d7;
+}
+.container .jumbotron {
+  padding: 2rem 2rem;
+}
+.container img {
+  width: 50%;
+  max-width: 300px;
+}
+.container h1 {
+  font-size: 3rem;
+}
