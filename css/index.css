@@ -1,0 +1,10 @@
+.container {
+  margin: 30px auto;
+}
+.profile-img {
+  width: 300px;
+}
+.main-content {
+  margin-left: 5%;
+  height: 1000px;
+}
