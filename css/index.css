@@ -1,0 +1,120 @@
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10px at a default browser font size of 16px */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 12px 0;
+}
+.my-head .my-head__nav {
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+}
+.my-head .my-head__nav .my-head__nav-left {
+  padding: 0;
+}
+.my-head .my-head__nav .my-head__nav-left a {
+  font-size: 4vw;
+  color: black;
+}
+@media (min-width: 576px) {
+  .my-head .my-head__nav .my-head__nav-left a {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 768px) {
+  .my-head .my-head__nav .my-head__nav-left a {
+    font-size: 2rem;
+  }
+}
+.my-head .my-head__nav .my-head__nav-left a:hover {
+  background-color: black;
+  color: hotpink;
+}
+.my-head .my-head__nav .my-head__nav-right img {
+  height: auto;
+  width: 100%;
+  max-width: 107px;
+}
+@media (min-width: 768px) {
+  .my-head .my-head__nav .my-head__nav-right img {
+    height: 107px;
+    width: 107px;
+    margin-right: 10px;
+  }
+}
+.cta .cta__img {
+  -webkit-filter: grayscale(95%);
+  filter: grayscale(95%);
+}
+.cta .cta__img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.cta .cta__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 16px 0;
+  font-family: 'Poppins', sans-serif;
+}
+.cta .cta__text h1 {
+  font-size: 3.6rem;
+}
+#about {
+  font-size: 1.6rem;
+}
+#about h4 {
+  text-align: center;
+  font-size: 5.6rem;
+}
+#vanity {
+  margin: 24px 0;
+}
+#vanity .vanity__img {
+  border-radius: 15%;
+  margin-bottom: 24px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#vanity .vanity__img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+#vanity .vanity__list {
+  text-align: center;
+  font-size: 2.4rem;
+}
+#education .my-table td,
+#education .my-table th {
+  font-size: 2vw;
+}
+#contact {
+  font-size: 2rem;
+  margin: 12px 0;
+}
+#contact h6 {
+  font-size: 2rem;
+  text-align: center;
+}
+#contact .contact__buttons {
+  display: flex;
+  justify-content: center;
+}
+#contact .contact__buttons button {
+  font-size: 5vw;
+}
+@media (min-width: 576px) {
+  #contact .contact__buttons button {
+    font-size: 4vw;
+  }
+}
+@media (min-width: 768px) {
+  #contact .contact__buttons button {
+    font-size: 2.4rem;
+  }
+}

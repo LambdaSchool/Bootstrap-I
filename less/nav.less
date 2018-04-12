@@ -1,0 +1,40 @@
+.my-head {
+    .my-head__nav {  
+        border-bottom: 1px solid black;
+        justify-content: space-between;
+
+        .my-head__nav-left {
+            padding: 0;
+        
+            a {
+                font-size: 4vw;
+                color: black;
+            
+                @media (min-width: @BP-sm) {
+                    font-size: 1.6rem;
+                }
+
+                @media (min-width: @BP-md) {
+                    font-size: 2rem;
+                }
+
+                &:hover {
+                    background-color: black;
+                    color: hotpink;
+                }
+            }
+        }
+
+        .my-head__nav-right img {
+            height: auto;
+            width: 100%;
+            max-width: 107px;
+
+            @media (min-width: @BP-md) {
+                height: 107px;
+                width: 107px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

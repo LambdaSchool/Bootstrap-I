@@ -4,10 +4,15 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Digital Resume</title>
+  <title>Ronald's Digital Résumé</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" async> 
+   
+  <script src="js/jquery-3.3.1.min.js" async></script>
+  <script src="js/bootstrap.bundle.min.js" async></script>
+  <script src="js/index.js" async></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -15,17 +20,95 @@
 </head>
 
 <body>
-
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+<div class="container">
+  <header class="my-head">
+    <nav class="nav my-head__nav d-flex align-items-center">
+      <div class="col-10 d-flex my-head__nav-left">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
       </div>
-    </div><!-- container -->
+      <div class="col-2 my-head__nav-right">
+        <img class="my-head__img" src="./img/logo.png" alt="A Mysterious and Corny Icon">
+      </div><!--col-2-logo-->
+    </nav>
+  </header>
+  
+  <div class="main-content">
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+    <div class="cta">
+      <img class="cta__img img-fluid" src="./img/jumbotron_img.jpg" alt="Sky in Fading Sunset">
+      <div class="cta__text">
+        <h1>Ronald Libago</h1>
+        <p>Apsiring Front-End Web Dev</p>
+      </div>
+    </div><!--cta-->
+
+    <div id="about">
+      <h5>Ronald in <span class="about--fontstyle">one</span> sentence:</h5>
+      <h4>I am a walrus.</h4>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ad, dolor, adipisci ducimus cupiditate, autem cumque deleniti perferendis nobis fugit excepturi veniam magni recusandae odit numquam doloribus in minima placeat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, quas? Sunt illo necessitatibus sapiente impedit rem nemo ad est minus voluptate neque dolorem suscipit eos, cum a delectus reprehenderit fugiat.</p>
+    </div><!--about-->
+
+    <div id="vanity">
+      <div class="row">
+        <img class="vanity__img col-12 col-md-6" src="./img/upload_vanity.jpg" alt="Vanity Picture of Ronald">
+        <div class="vanity__list col-12 col-md-6">
+          <ul class="list-group vanity_list--group">
+              <li class="list-group-item">Team Player</li>
+              <li class="list-group-item">Loves Discovering<br>New Things</li>
+              <li class="list-group-item">Passionate</li>
+              <li class="list-group-item">Excited</li>
+              <li class="list-group-item">Enjoys Revelry</li>
+            </ul>
+        </div><!--vanity__list-->
+      </div><!--row-->
+    </div><!--vanity-->
+
+    <div id="education">
+      <h1>Education</h1>
+      <table class="table my-table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">University</th>
+            <th scope="col">Degree</th>
+            <th scope="col">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>Lambda Computer Academy</td>
+              <td>Full Stack Web Development</td>
+              <td>2018</td>
+            </tr>
+          <tr>
+            <td>Get'muh Edumacation University</td>
+            <td>B.S. Business Administration (<em>Option Accounting</em>)</td>
+            <td>2012</td>
+          </tr>
+          <tr>
+            <td>Lost Knowledge Tech</td>
+            <td>A.S. Electronics</td>
+            <td>2006</td>
+          </tr>
+        </tbody>
+      </table>
+    </div><!--education-->
+
+    <div id="contact">
+      <h1>Contact</h1>
+      <h6>Get in touch with me!</h6>
+      <div class="contact__buttons btn-group btn-group-justified" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary"><a href="https://github.com/mister-corn">Github</a></button>
+          <button type="button" class="btn btn-secondary">LinkedIn</button>
+          <button type="button" class="btn btn-secondary">Instagram</button>
+          <button type="button" class="btn btn-secondary">Reddit</button>
+      </div><!--btn-group-->
+    </div><!--contact-->
+  </div><!--main-content-->
+</div><!-- container -->
 </body>
+
 </html>
