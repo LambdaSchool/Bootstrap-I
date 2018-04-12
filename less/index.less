@@ -1,1 +1,200 @@
 // Start here!
+
+/*Universal Styles*/
+
+
+
+html {
+  font-size: 62.5%;
+}
+
+.container-fluid{
+  font-size: 1.6rem;
+  padding: 0;
+}
+
+.jumbotron{
+  background: #39f;
+}
+
+
+/*Header*/
+
+header {
+  height: 8rem;
+  background: black;
+  width: 100%;
+
+  nav {
+
+    .logo{
+    height: 70px;
+    border-radius: 100px;
+    }//logo
+
+    .my-name {
+      font-size: 2.5rem;
+      font-style: italic;
+      font-weight: bold;
+      color: #39f;
+      box-shadow: 3px 3px;
+      padding-right: 1%;
+    }//my-name
+
+    a {
+      color: #39f;
+      text-decoration: none;
+      padding-right: 1rem;
+
+      &:hover{
+        color: darken(#39f, 20%);
+        text-decoration: none;
+        font-size: 2rem;
+        transition: color 0.25s linear 0s, font-size 0.25s linear 0s;
+      }//hover
+    }//a
+  }//nav
+}//header
+
+/*Banner*/
+
+.banners{
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  .teacher{
+    align-items: flex-end;
+    padding-bottom: 4rem;
+  }
+
+  .leader{
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .programmer{
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .img{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    color: white;
+
+    button{
+      width: 80%;
+      font-size: 300%;
+      color: white;
+      margin-bottom: 6rem;
+      background: rgba(0, 0, 0, 0.5);
+      border-width: medium;
+    }//button
+  }//img
+}//banners
+
+
+
+.teacher{
+  background-image: url(https://reformedforum.org/wp-content/blogs.dir/1/files/2016/06/best-books-book-youll-ever-read.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.leader{
+  background-image: url(https://www.nationalservice.gov/sites/default/files/upload/ac_landing_programs2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pianist{
+  background-image: url(http://www.saiedmusic.com/wp-content/uploads/2014/08/piano-keyboard-1427715038-hero-wide-0.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.programmer{
+  background-image: url(http://imuscomputercollege.net.ph/wp-content/uploads/2014/09/programming.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*Main Content*/
+
+.main-content{
+
+  h1{
+    color: #39f;
+    font-weight: bold;
+    font-size: 8rem;
+  }//h1
+
+  .main-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+
+    @media (max-width: 800px){
+      flex-direction: column;
+    }
+
+    img{
+      height: 30rem;
+    }//img
+
+    p{
+      color: darken(#39f, 20%);
+    }//p
+  }//main-text
+}//main-content
+
+/*Table*/
+
+.table{
+  margin: 4rem 0;
+  background: #39f;
+}
+
+/*BannerTwo*/
+
+.banner-two{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-img-top{
+  height: 300px;
+}
+
+/*Footer*/
+
+footer {
+  height: 8rem;
+  background: black;
+  width: 100%;
+
+  nav {
+
+    a {
+      color: #39f;
+      text-decoration: none;
+      padding-right: 1rem;
+
+      &:hover{
+        color: darken(#39f, 20%);
+        text-decoration: none;
+        font-size: 2rem;
+        transition: color 0.25s linear 0s, font-size 0.25s linear 0s;
+      }//hover
+    }//a
+  }//nav
+}//header
