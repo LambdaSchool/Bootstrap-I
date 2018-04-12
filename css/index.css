@@ -13,9 +13,14 @@
   margin-bottom: 3em;
 }
 
-header .card img {
-  height: 25em;
+header card {
+  height: 10em;
+  width: 10em;
 }
+
+/* header .card img {
+  height: 25em;
+} */
 
 .card {
   margin: 5em auto;
