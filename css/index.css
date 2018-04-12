@@ -16,7 +16,7 @@
   margin: 14vh 0 0 0;
 }
 header .nav {
-  padding: 1rem 0;
+  padding: 1rem;
   margin: 1rem 0;
   background: white;
   max-width: 1100px;
@@ -28,6 +28,10 @@ header a {
 }
 header a:hover {
   color: #3e98d4;
+}
+header .progress {
+  margin: 0.5rem 0 0;
+  height: 0.5rem;
 }
 .jumbotron {
   margin-top: 6vh;
