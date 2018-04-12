@@ -1,0 +1,47 @@
+
+.header {
+  background-image: url('../img/busan-night-scene-1747130_960_720.jpg');
+  height: 30em;
+  width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 3em;
+}
+
+header card {
+  height: 10em;
+  width: 10em;
+}
+
+/* header .card img {
+  height: 25em;
+} */
+
+.card {
+  margin: 5em auto;
+}
+
+.about {
+  margin-bottom: 3em;
+}
+
+.projects {
+  margin-bottom: 3em;
+}
+
+.projects ul li {
+  list-style: none;
+}
+
+.contact {
+  margin-bottom: 3em;
+}
+
+.table-text-center th, .table-text-center td {
+  text-align: center;
+}
