@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -17,11 +18,167 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+
+        <!-- nav -->
+        <div class="row">
+          <div class="col-12">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
           </div>
-      </div>
+        </div>
+
+        <!-- jumbotron -->
+        <div class="row section">
+            <div class="col-sm-12">
+                <div class="jumbotron text-center">
+                    <h1 class="display-4 name">Cassandra Lamendola</h1>
+                    <span class="title">software developer</span>
+                    <img class="portrait img-fluid" alt="My photo" src="img/portrait.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- about me -->
+        <div class="row section" id="about">
+            <div class="col-6">
+                <h3>Hi, I'm Cass.</h3>
+                <p>I'm a software developer from Pasco, Washington. I like to write software for the web and for self-driving cars.</p>
+                
+                
+            </div>
+            <!-- list group -->
+            <div class="col-6">
+                <h3>Skills</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">Bootstrap</li>
+                    <li class="list-group-item">Python</li>
+                    <li class="list-group-item">C++</li>
+                    <li class="list-group-item">Ruby</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- projects -->
+        <div class="row section" id="projects">
+            <h3>Projects</h3>
+        </div>
+        <div class="row">
+            <!-- 1 of 6 cards -->
+            <div class="col-lg-4 col-md-6 project">
+                <div class="card">
+                    <img class="card-img-top project-img" src="img/Behavior-Cloning.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Behavior Cloning</h5>
+                        <p class="card-text">Create and train a deep neural network to predict steering angles in order to drive a car around a virtual track autonomously.</p>
+                        <a href="https://github.com/CassLamendola/behavior-cloning" class="btn btn-primary github">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project">
+                <div class="card">
+                    <img class="card-img-top project-img" src="img/MPC.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Model Predictive Control</h5>
+                        <p class="card-text">Implement a model predictive controller (MPC) to drive a vehicle along a desired path. Challenge: Reach a top speed of > 70mph.</p>
+                        <a href="https://github.com/CassLamendola/Model-Predictive-Control" class="btn btn-primary github">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project">
+                <div class="card">
+                    <img class="card-img-top project-img" src="img/Path-Planning.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Path Planning</h5>
+                        <p class="card-text">Safely navigate a car around a virtual highway with other vehicles driving +- 10mph of the speed limit.</p>
+                        <a href="https://github.com/CassLamendola/path-planning" class="btn btn-primary github">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project">
+                <div class="card">
+                    <img class="card-img-top project-img" src="img/portfolio.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Site</h5>
+                        <p class="card-text">A website to display my portfolio. My first attempts at responsive design</p>
+                        <a href="#" class="btn btn-primary github">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project">
+                <div class="card">
+                    <img class="card-img-top project-img" src="img/memory-game.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Memory Game</h5>
+                        <p class="card-text">My implementation of the classic game of Concentration. Players match all of the cards to win the game.</p>
+                        <a href="https://github.com/CassLamendola/memory-game" class="btn btn-primary github">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 project">
+                <div class="card">
+                    <img class="card-img-top project-img" src="img/pixel-art.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Pixel Art Maker</h5>
+                        <p class="card-text">Specify size and color, then draw to create pixel art in the browser.</p>
+                        <a href="https://github.com/CassLamendola/pixel-art-maker" class="btn btn-primary github">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- work experience -->
+        <div class="row justify-content-center section" id="experience">
+            <h3>Work Experience</h3>
+        </div>
+        <div class="row">
+            <!-- table -->
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>Freelancer</td>
+                        <td>Designed a company website with Squarespace</td>
+                    </tr>
+                    <tr>
+                        <td>Udacity Mentor</td>
+                        <td>Mentored students in the Self-Driving Car Engineer program at Udacity</td>
+                    </tr>
+                    <tr>
+                        <td>Para-educator</td>
+                        <td>Assisted Special Education teachers at a high school</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- contact -->
+        <div class="row align-items-center section flex-column" id="contact">
+            <h3>Contact Me</h3>
+            <span>email: cass.lamendola@gmail.com</span>
+        </div>
+            <div class="row">
+                <div class="col-md-12  text-center">
+                    <a href="#" class="iconGitHub" title="GitHub"><i class="fa fa-github"></i></a>
+                    <a href="#" class="iconTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="iconLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
