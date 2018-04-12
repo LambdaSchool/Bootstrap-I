@@ -26,9 +26,9 @@
   width: 400px;
   height: 32px;
   color: #5e4f4f;
-  background: gray;
+  background: ghostwhite;
 }
 .container button:hover {
-  background: ghostwhite;
-  color: gray;
+  background: gray;
+  color: white;
 }
