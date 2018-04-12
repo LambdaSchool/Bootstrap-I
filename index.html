@@ -19,12 +19,12 @@
   <nav>
     <div class="container">
       <div class="row">
-        <nav class="navbar justify-content-center fixed-top navbar-light bg-light">
+        <div class="navbar justify-content-center fixed-top navbar-light bg-light jumbotron">
           <a class="nav-link active" href="#">Home</a>
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#">About</a>
           <a class="nav-link" href="#">Projects</a>
           <a class="nav-link" href="#">Contact</a>
-        </nav>
+        </div>
       </div>
     </div>
   </nav>
@@ -32,10 +32,12 @@
   <header class="header">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12">
-          <div class="title pt-5">
-            <h1 class="display-5 text-center text-white pt-10">Ari Mercado</h1>
-            <h6 class="text-white text-center">Hello, feel free to contact me.</h6>
+        <div class="col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Feel free to contact me at anytime except Monday - Sunday</p>
+            </div>
           </div>
         </div>
       </div>
@@ -62,7 +64,7 @@
 
         <div class="col-sm-6">
           <h3 class="text-center pb-3 lead">Work History</h3>
-          <ul class="list-group">
+            <ul class="list-group">
               <li class="list-group-item list-group-item-primary text-center">Student</li>
               <li class="list-group-item list-group-item-primary text-center">Spanish Radio Station Developer</li>
               <li class="list-group-item list-group-item-secondary text-center">Pool Lifeguard</li>
@@ -110,9 +112,27 @@
   <section class="contact">
     <div class="container">
       <h1 class="text-center text-primary border-top pt-5 pb-4">Contact</h1>
-
+      <div class="container">
+          <h4 class="text-center lead">lets shoot some endless emails</h3>            
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ari</td>
+                <td>Mercado</td>
+                <td>mercado7946@gmail.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
     </div>
-  </section>
+  </section> 
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
