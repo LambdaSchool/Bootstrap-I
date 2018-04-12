@@ -4,7 +4,7 @@
 }
 
 .jumbotron {
-    background-image: url("https://i.pinimg.com/474x/0f/bb/f0/0fbbf00d85712c6bae9663c0fa28720b--silicon-valley-hbo-big-hero-.jpg");
+    background: gray;
 }
 
 .jumbotron, h1, p {
@@ -14,3 +14,5 @@
 .card-text {
     color: black;
 }
+
+
