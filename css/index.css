@@ -1,0 +1,34 @@
+.container {
+  max-width: 800px;
+}
+.container .nav-top nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  height: 40px;
+  padding: 0 20px;
+  background: #494983;
+}
+.container .nav-top a {
+  color: #f1ebeb;
+}
+.container .contact {
+  margin-top: 40px;
+}
+.container .resume-photo {
+  margin-top: 40px;
+}
+.container .table {
+  background: #f5f2f2;
+}
+.container button {
+  width: 400px;
+  height: 32px;
+  color: #5e4f4f;
+  background: ghostwhite;
+}
+.container button:hover {
+  background: gray;
+  color: white;
+}
