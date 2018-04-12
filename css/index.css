@@ -1,0 +1,48 @@
+body {
+  padding-top: 40px;
+}
+.section {
+  padding: 20px 0;
+}
+nav {
+  background: #000;
+  -webkit-opacity: 0.8;
+  -moz-opactiy: 0.8;
+  opacity: 0.8;
+}
+nav a {
+  color: #FFF;
+}
+#about .jumbotron {
+  background: #FFF;
+}
+#projects .project {
+  margin-bottom: 1.5rem;
+}
+#projects .project .temp-box {
+  background: gray;
+  color: #FFF;
+  height: 300px;
+  width: 100%;
+}
+#projects .project .project-title {
+  margin-top: 1.5rem;
+}
+#projects .project .project-text {
+  margin-top: .75rem;
+}
+#skills .table td {
+  border: none;
+}
+#work-history .job-listing .timeframe {
+  background: gray;
+  color: #FFF;
+  padding: .5rem;
+  max-width: 125px;
+  width: 100%;
+}
+#work-history .job-listing .text-center:after {
+  content: "";
+  height: 100px;
+  width: 2px;
+}
