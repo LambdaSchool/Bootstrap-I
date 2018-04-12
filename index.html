@@ -16,135 +16,146 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+  <div class="wrapper">
+    <div class="container">
+      <div class="container text-center">
+        <div class="row" id="home">
+          <div class="col-12">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="jumbotron text-center">
-          <h1 class="display-4">My Name</h1>
-          <img class="img-fluid" alt="My photo" src="http://via.placeholder.com/350x150">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav  nav-fill w-100">
+                  <a class="nav-item nav-link" href="#home">Home</a>
+                  <a class="nav-item nav-link" href="#about">About</a>
+                  <a class="nav-item nav-link" href="#projects">Projects</a>
+                  <a class="nav-item nav-link" href="#experience">Experience</a>
+                  <a class="nav-item nav-link" href="#contact">Contact</a>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
-      </div>
-    </div>
+      </div><br>
 
-    <div class="row">
-      <div class="col-6">
-        <h3>About Me</h3>
-        <p>Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst. Curabitur ornare dolor eu sem interdum posuere. Etiam vehicula sem ut nisi vulputate, eu feugiat diam facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-      </div>
-      <div class="col-6">
-        <h3>Skills</h3>
-        <ul class="list-group">
-          <li class="list-group-item">CSS</li>
-          <li class="list-group-item">JavaScript</li>
-          <li class="list-group-item">HTML</li>
-          <li class="list-group-item">Bootstrap</li>
-          <li class="list-group-item">Python</li>
-        </ul>
-      </div>
-    </div>
-    <br><br>
-    <div class="row justify-content-center">
-      <h3>Projects</h3><br>
-    </div>
-    <div class="row">
-      <div class="col-4">
-        <div class="card">
-          <img class="card-img-top" src="http://holder.ninja/200x150.svg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jumbotron text-center">
+            <h3 class="display-4">Dil Som</h3><br>
+            <img class="img-fluid rounded-circle" alt="My photo" src="http://via.placeholder.com/350x350">
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card">
-          <img class="card-img-top" src="http://holder.ninja/200x150.svg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+      <div class="row" id="about">
+        <div class="col-6">
+          <h3>Skills</h3>
+          <ul class="list-group">
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">Bootstrap</li>
+            <li class="list-group-item">React</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <h3>About Me</h3>
+          <p>Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst. Curabitur ornare dolor eu sem interdum posuere. Etiam vehicula sem ut nisi vulputate, eu feugiat diam facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        </div>
+      </div>
+      <br><br>
+
+      <div class="row justify-content-center" id="projects">
+        <h3>Projects</h3><br>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="http://holder.ninja/200x150.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">Project One</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="row">
+                <div class="col-12">
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="http://holder.ninja/200x150.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">Project One</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="http://holder.ninja/200x150.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">Project One</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card">
-          <img class="card-img-top" src="http://holder.ninja/200x150.svg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+      <br>
+      <br>
+
+      <div class="row justify-content-center" id="experience">
+        <h3>Work Experience</h3>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td>job title</td>
+                <td>job description</td>
+              </tr>
+              <tr>
+                <td>job title</td>
+                <td>job description</td>
+              </tr>
+              <tr>
+                <td>job title</td>
+                <td>job description</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-    </div>
-    <br>
-    <br>
-    <div class="row justify-content-center">
-      <h3>Work Experience</h3>
-    </div>
-    <div class="row">
-      <table class="table table-bordered">
-        <tbody>
-          <tr>
-            <td>job title</td>
-            <td>job description</td>
-          </tr>
-          <tr>
-            <td>job title</td>
-            <td>job description</td>
-          </tr>
-          <tr>
-            <td>job title</td>
-            <td>job description</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br>
-    <div class="row justify-content-center">
-     <h3 class="justify-content-center">Contact Me</h3>
-    </div>
-    <div class="row justify-content-center">
-      <h6><p class="col-md-12 text-center">Call Me:</p></h6>
-    </div>
-     <div class="row">
-      <div class="col-md-12  text-center">
-        <ul class="social-network social-circle">
-          <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-          <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-          <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
+      <br>
+      <div class="row justify-content-center">
+        <h3 class="justify-content-center" id="contact">Contact Me</h3>
       </div>
+      <div class="row justify-content-center">
+        <h6>
+          <p class="col-md-12 text-center">Phone: 555-555-5555</p>
+        </h6>
+      </div>
+      <div class="row">
+        <div class="col-md-12  text-center">
+          <ul class="social-network social-circle">
+            <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <br>
     </div>
-    <br>
-    <br>
   </div>
-
   <!-- container -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
