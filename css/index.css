@@ -1,0 +1,47 @@
+.container-quicklinks {
+  display: flex;
+  justify-content: center;
+}
+.container-jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.container-jumbotron .jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.container-jumbotron .jumbotron .profilephoto {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 30px;
+}
+.container-favoritelanguages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.container-experiences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container-references {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.container-virtualcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}

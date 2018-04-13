@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
   <meta charset="utf-8">
 
-  <title>Digital Resume</title>
+  <title>My Digital Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
@@ -15,17 +15,122 @@
 </head>
 
 <body>
+<!-- Quick Links -->
+    <div class="container-quicklinks">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1></h1>
+                <button type="button" class="btn btn-primary">Website</button>
+                <button type="button" class="btn btn-secondary">GitHub</button>
+                <button type="button" class="btn btn-success">LinkedIn</button>
+                <button type="button" class="btn btn-danger">About.me</button>
+                <button type="button" class="btn btn-warning">Twitter</button>
+            </div>
+        </div>
+    </div><!-- container -->
 
+<!-- Jumbotron     -->
+    <div class="container-jumbotron">
+      <div class="row">
+          <div class="col-sm-12">
+              <h1></h1>
+
+              <div class="jumbotron">
+                <img class="profilephoto" src="img/profilephoto.jpg" alt="Profile photo">
+                <h1 class="display-4 text-center">Dante O. Cuales, Jr.</h1>
+                <p class="lead text-center">Software Engineer</p>
+                <hr class="my-4 text-center">
+                <p>Hello, I'm Dante, and I'm a Full Stack Software Engineer based in the Philippines. I graduated from Lambda School (Computer Science Major), a Y Combinator-backed education technology company based in Silicon Valley. I've been a Project Manager as well as a Front End Developer for the said company. After that, I worked with Airbnb as a Full Stack Software Developer.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+              </div>
+
+          </div>
+      </div>
+    </div><!-- container -->
+
+    <div class="container-favoritelanguages">
+      <div class="row">
+          <div class="col-sm-12">
+              <h1>Favorite Langauges</h1>
+              <ul class="list-group">
+                  <li class="list-group-item">JavaScript</li>
+                  <li class="list-group-item">React</li>
+                  <li class="list-group-item">Ruby</li>
+                </ul>
+          </div>
+      </div>
+    </div><!-- container -->
+
+    <div="container-experiences">
     <div class="container">
       <div class="row">
           <div class="col-sm-12">
-              <h1>Start Here!</h1>
+              <h1>Work Experience</h1>
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Company</th>
+                      <th scope="col">Position</th>
+                      <th scope="col">Number of Years</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Lambda School</th>
+                      <td>Project Manager</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Lambda School</th>
+                      <td>Frontend Software Engineer</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Airbnb</th>
+                      <td>Fullstack Software Engineer</td>
+                      <td>2</td>
+                    </tr>
+                  </tbody>
+                </table>
           </div>
       </div>
+    </div><!-- container -->
+
+    <div class="container-references">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>References</h1>
+                <ul class="list-group">
+                    <li class="list-group-item">Dre'Sean Williams, Project Manager, Lambda School</li>
+                    <li class="list-group-item">Austen Allred, CEO, Lambda School</li>
+                    <li class="list-group-item">Karen Zachary, Admissions Director, Lambda School</li>
+                </ul>
+            </div>
+        </div>
+    </div><!-- container -->
+  </div>
+
+  <div class="container-virtualcard">
+          <div class="row">
+              <div class="col-sm-12">
+                  <h1>Virtual Call Card</h1>
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="img/profilephoto.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Dante O. Cuales, Jr.</h5>
+                        <p class="card-text">email: danteocualesjr@gmail.com | +63 917 892 8033 | https://github.com/danteocualesjr</p>
+                        <a href="#" class="btn btn-primary">Jump to Homepage</a>
+                      </div>
+                    </div>
+              </div>
+          </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
 </body>
+
 </html>
