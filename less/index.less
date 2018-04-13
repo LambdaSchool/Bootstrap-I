@@ -1,5 +1,45 @@
-// Start here!
-@tamarillo: #a50d0d;
-@salem: #0da533;
+@astral: #327DA0;
+@spring-wood: #F8F4F1;
 
-@background-color: @salem;
+@main-color: @astral;
+@accent-color: lighten(@main-color, 30);
+@backdrop-color: @spring-wood;
+
+body {
+    background-color: @backdrop-color;
+}
+
+.jumbotron {
+    background-color: @main-color;
+    color: @backdrop-color;
+
+    .jumbo-divider {
+        background-color: @backdrop-color;
+    }
+}
+
+.list-group-item {
+    background-color: @backdrop-color;
+}
+
+h3, h5 {
+    color: @main-color;
+}
+
+h6 {
+    color: @accent-color;
+    font-style: italic;
+}
+
+hr {
+    background-color: @main-color;
+}
+
+strong {
+    color: @main-color;
+}
+
+.btn {
+    background-color: @main-color;
+    color: @backdrop-color;
+}

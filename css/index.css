@@ -1,0 +1,31 @@
+body {
+  background-color: #F8F4F1;
+}
+.jumbotron {
+  background-color: #327DA0;
+  color: #F8F4F1;
+}
+.jumbotron .jumbo-divider {
+  background-color: #F8F4F1;
+}
+.list-group-item {
+  background-color: #F8F4F1;
+}
+h3,
+h5 {
+  color: #327DA0;
+}
+h6 {
+  color: #8fc3dc;
+  font-style: italic;
+}
+hr {
+  background-color: #327DA0;
+}
+strong {
+  color: #327DA0;
+}
+.btn {
+  background-color: #327DA0;
+  color: #F8F4F1;
+}
