@@ -1,5 +1,6 @@
-.row .container-fluid{
+.container-fluid{
     width:100%;
+    
     
 }
 
@@ -10,11 +11,18 @@ h1{
 nav{
     background-color: darkred;
     height:30px;
+    width:100%;
         a{
             color:whitesmoke;
             font-weight:bold;
+            display:flex;
         }
     }
+.custom-photo{
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+}
 .objective{
     text-align: center;
 }
@@ -22,23 +30,12 @@ nav{
     text-align:center;
 }
 
-.card{
+.card-img{
     margin-bottom:20px;
-    @media (min-width: 768px) and (max-width: 991.98px) {
-        flex-direction:column;
-        }
-        .img-fluid{
-            margin: 0px 0;
-            
-        }
-        div .offset-md-1.col-md-3{
-            .img-fluid{
-                display:none;
-            }
-                }
-       }
-    }
-}
+    max-width: 290px !important;
+}  
+    
+    
 .copyright{
     text-align:center;
     font-weight:bold;
