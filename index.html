@@ -2,13 +2,14 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Digital Resume</title>
-
+ 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
-
+  
+  
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -109,16 +110,36 @@
           </tr>
         </tbody>
         </table>
+        <a id="back-to-top" href="javascript:void(0);" class="btn btn-secondary btn-lg" title="Click to return to the top of the page" style="display: none;">Top<span class="to-top-span"></span></a>
     </div>
     <div class="row footer">
         <div class="col-sm-12 mt-4">
         <p class="text-center">Copyright Cape Cod 2018</p>
         </div>
     </div>
+    <div class="row">
+        
+    </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $(window).scroll(function(){
+              if($(this).scrollTop() > 500){
+                  $('#back-to-top').fadeIn("slow");
+              }else{
+                  $('#back-to-top').fadeOut();
+              }
+          });
+          $('#back-to-top').click(function(){
+              $("html, body").animate({ scrollTop: 0 }, 900);
+              return false;
+          });
+      });
+      </script>
 </body>
 </html>
