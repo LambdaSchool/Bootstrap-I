@@ -7,6 +7,7 @@ body {
 }
 .jumbotron .jumbo-divider {
   background-color: #F8F4F1;
+  border: solid thin #F8F4F1;
 }
 .list-group-item {
   background-color: #F8F4F1;
@@ -21,6 +22,8 @@ h6 {
 }
 hr {
   background-color: #327DA0;
+  border: solid thin #327DA0;
+  margin-top: 0;
 }
 strong {
   color: #327DA0;
@@ -28,4 +31,31 @@ strong {
 .btn {
   background-color: #327DA0;
   color: #F8F4F1;
+}
+.progress {
+  background-color: #F8F4F1;
+}
+.english-out {
+  border: solid #327DA0;
+}
+.english {
+  background-color: #327DA0;
+}
+.html-out {
+  border: solid #FF5B0A;
+}
+.html {
+  background-color: #FF5B0A;
+}
+.javascript-out {
+  border: solid #edd403;
+}
+.javascript {
+  background-color: #edd403;
+}
+.html-text {
+  color: #FF5B0A;
+}
+.javascript-text {
+  color: #edd403;
 }

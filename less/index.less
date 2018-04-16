@@ -1,5 +1,7 @@
 @astral: #327DA0;
 @spring-wood: #F8F4F1;
+@dark-turbo: darken(#FCE203, 3);
+@blaze-orange: #FF5B0A;
 
 @main-color: @astral;
 @accent-color: lighten(@main-color, 30);
@@ -15,6 +17,7 @@ body {
 
     .jumbo-divider {
         background-color: @backdrop-color;
+        border: solid thin @backdrop-color;
     }
 }
 
@@ -33,6 +36,8 @@ h6 {
 
 hr {
     background-color: @main-color;
+    border: solid thin @main-color;
+    margin-top: 0;
 }
 
 strong {
@@ -42,4 +47,41 @@ strong {
 .btn {
     background-color: @main-color;
     color: @backdrop-color;
+}
+
+.progress {
+    background-color: @spring-wood;
+}
+
+.english-out {
+    border: solid @main-color;
+}
+
+.english {
+    background-color: @main-color;
+}
+
+.html-out {
+    border: solid @blaze-orange;
+}
+
+.html {
+    background-color: @blaze-orange;
+}
+
+.javascript-out {
+    border: solid @dark-turbo;
+}
+
+.javascript {
+    background-color: @dark-turbo;
+}
+
+
+.html-text {
+    color: @blaze-orange;
+}
+
+.javascript-text {
+    color: @dark-turbo;
 }
