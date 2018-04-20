@@ -4,10 +4,11 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Digital Resume</title>
+  <title>William VanDolah Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -17,11 +18,98 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+      
+      <div class="row"><!--Row Nav links.  Goal is to have block nav links with icons next to works-->
+        <div class="col-md-12">
+          <ul class="nav nav-pills justify-content-around my-3">
+            <li class="nav-item">
+                <a class="nav-link active bg-secondary" href="#">Home</a>                  
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">About</a>              
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Contact</a>                
+            </li>
+          </ul> <!--Nav links -->   
+        </div>       
+      </div> <!--Row Nav links -->
+
+      
+      <div class="row"><!-- Header This will contain background photo, my name, and maybe title?-->
+        <div class="col-md-12">
+            <div class="jumbotron custom-jumbo ">
+              <img src="img/Gila_River.JPG" alt="Gila River">
+              <h1 class="display-4">William VanDolah</h1>
+              <p class="lead">Full-Stack Web-Dev</p>          
+            </div>
+          </div>
+      </div><!-- Header -->
+      
+      <div class="row align-items-center border border-secondary p-2"><!-- Top Content.  This will have a short p about me with a picture of me to the right.  On small screens my picture will fall below -->
+        <div class="col-12 col-md-6">
+          <h1 class="display-4">About me</h1>
+          <p class="lead">Spicy jalapeno bacon ipsum dolor amet beef ribs short loin sirloin shankle, andouille chicken meatloaf pork alcatra flank frankfurter. Turducken kevin short ribs, ball tip tail chicken boudin doner spare ribs. Pastrami cow shoulder, leberkas turducken kielbasa pork chop frankfurter. Filet mignon ball tip boudin, burgdoggen beef ribs sirloin sausage picanha cow. Biltong bresaola beef, t-bone porchetta jerky leberkas shankle tail meatball picanha venison swine flank.</p>
+        </div>
+        <div class="col-12 col-md-6">
+            <img src="img/collective.jpg" alt="Old fat guys sitting at a table" class="img-thumbnail">
+        </div>
+        <div class="col-12 col-md-6">                       
+          <h3 class="">Contact Info</h3>
+          <ul class="list-group">
+            <li class="list-group-item"><b>Phone: </b>682-233-5044</li>
+            <li class="list-group-item"><b>Email: </b>william.vandolah@gmail.com</li>
+            <li class="list-group-item"><b>Social:</b>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>                    
+            </li>
+          </ul>       
+        </div>
+      </div><!-- Top Content -->
+
+      <div class="row mt-3 border border-secondary p-2"><!-- Middle Content. This will contain divs for work history, contact, skills-->
+        <div class="col-12"><h1 class="display-4">Expertise</h1></div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card custom-card" >
+              <div class="card-body">
+                <h5 class="card-title">Landman - Pardus Oil & Gas</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Nov 2013 - Dec 2017</h6>
+                <p class="card-text">Spicy jalapeno bacon ipsum dolor amet beef ribs short loin sirloin shankle, andouille chicken meatloaf pork alcatra flank frankfurter.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card custom-card">
+              <div class="card-body">
+                <h5 class="card-title">Lease Analyst - Chesapeake Energy</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Jun 2011 - Oct 2013</h6>
+                <p class="card-text">Spicy jalapeno bacon ipsum dolor amet beef ribs short loin sirloin shankle, andouille chicken meatloaf pork alcatra flank frankfurter.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card custom-card">
+              <div class="card-body">
+                <h5 class="card-title">Help Desk Support - Sprint</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Feb 2005 - Jun 2011</h6>
+                <p class="card-text">Spicy jalapeno bacon ipsum dolor amet beef ribs short loin sirloin shankle, andouille chicken meatloaf pork alcatra flank frankfurter.</p>
+              </div>
+          </div>
+        </div>
+      </div><!-- Middle Content -->
+      <div class="row footer m-4">
+          <div class="col-12">
+          <p class="text-center"><i class="far fa-copyright"></i>Copyright 2018</p>
           </div>
       </div>
+
+
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
