@@ -2,13 +2,14 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Digital Resume</title>
-
+ 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
-
+  
+  
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -17,15 +18,128 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
-      </div>
+      <div class="row justify-content-center">
+          <ul class="nav nav-tabs tabs">
+              <li class="nav-item ni">
+                <a class="nav-link active nla" href="#">Recipes</a>
+              </li>
+              <li class="nav-item ni">
+                <a class="nav-link active nla" href="#">Refrences</a>
+              </li>
+              <li class="nav-item ni">
+                <a class="nav-link active nla" href="#">About Me</a>
+              </li>
+              <li class="nav-item ni">
+                <a class="nav-link active nla" href="#">Other Things</a>
+              </li>
+            </ul>
+    </div>
+    <div class="row">
+        <div class="col-12">
+        <div class="jumbotron text-center">
+            <img src="img/download.jpg" class="img-fluid imgs" alt="A chef Knife">
+             <img src="img/kb.png" class="img-fluid imgs" alt="A Keyboard"> 
+              <h1 class="display-4 my-4">Sam Park - Lambda Student</h1>
+                <p class="lead">A Nerd Who Can Cook</p>
+                 <hr class="my-4">
+                   <p>I am a nerd who has been trained on the job to make food delicious. Asipring Software Engineer</p>
+                 <div class="card mt-3 mx-auto" style="width: 18rem;">
+                <img class="card-img-top rounded" src="img/steak.jpg" alt="Card image cap">
+               <div class="card-body">
+              <p class="card-text">Here's a dish I made, click the button below for this recipe and others just as delicious looking
+                  <small class="text-muted">Taste not guaranteed</small> 
+            </p>
+        </div>
+      </div>  
+            <p class="lead btnp text-center">
+            <a class="btn btn-secondary btn-lg mt-4" href="#" role="button">
+              Recipies<span class="badge badge-light bdg">:D</span></a>
+            </p>
+        </div>
+        </div>
+    </div>
+    <div class="row middle-content justify-content-center text-center mx-0 mb-4">
+        <div class="col-sm-9 m-0">
+        <h2>Some things you should know...</h2>
+        <p>Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst. Curabitur ornare dolor eu sem interdum posuere. Etiam vehicula sem ut nisi vulputate, eu feugiat diam facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed nec tempor nisl. Suspendisse et tristique ligula, non commodo ex. Praesent a vulputate nibh. Nulla ligula diam, molestie sed vestibulum sit amet, consectetur nec nulla. Etiam nec egestas sapien, ac volutpat mi.</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center text-center ml-0 mb-4 p-0 grplst">
+        <div class="col-sm-12 p-0">
+            <h4>Strengths</h4>
+             <ul class="list-group mb-4">
+              <li class="list-group-item list-group-item-dark">Cooking</li>
+               <li class="list-group-item">Eating what I cook</li>
+               <li class="list-group-item list-group-item-dark">Playing lots of video games</li>
+              <li class="list-group-item">Carpentry</li>
+            <li class="list-group-item list-group-item-dark">Not Sleeping Enough</li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="col-sm-12 lineimg px-0">
+      <img src="img/line.jpg" class="img-fluid line" alt="if only working on the kitchen line was as peaceful as this looks">
+    </div>
+
+    <div class="row table-row table-light table-hover mt-5 m-0 t2">
+        <h4 class="text-center mb-4 wh">Work History</h4>
+        <table class="table table-striped m-auto text-center">
+        <thead class="thead-dark">
+            <tr>
+              <th scope="col">Years</th>
+               <th scope="col">Company</th>
+              <th scope="col">Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">6</th>
+              <td>Cape Codder</td>
+            <td>Prep/Line Cook</td>
+          </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Main St. Cafe</td>
+            <td>Appetizer Specialist</td>
+          </tr>
+            <tr>
+              <th scope="row">5</th>
+                <td>Ship to Shore</td>
+            <td>Line Cook/Lead Cook</td>
+          </tr>
+        </tbody>
+        </table>
+        <a id="back-to-top" href="javascript:void(0);" class="btn btn-secondary btn-lg" title="Click to return to the top of the page" style="display: none;">Top<span class="to-top-span"></span></a>
+    </div>
+    <div class="row footer">
+        <div class="col-sm-12 mt-4">
+        <p class="text-center">Copyright Cape Cod 2018</p>
+        </div>
+    </div>
+    <div class="row">
+        
+    </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $(window).scroll(function(){
+              if($(this).scrollTop() > 500){
+                  $('#back-to-top').fadeIn("slow");
+              }else{
+                  $('#back-to-top').fadeOut();
+              }
+          });
+          $('#back-to-top').click(function(){
+              $("html, body").animate({ scrollTop: 0 }, 900);
+              return false;
+          });
+      });
+      </script>
 </body>
 </html>
