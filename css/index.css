@@ -1,5 +1,14 @@
 .container {
   max-width: 900px;
+  background: #007bff;
+}
+.nav-pills .nav-link {
+  color: white;
+}
+.custxt {
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
 }
 h1 {
   font-size: 2rem;
