@@ -1,0 +1,17 @@
+.navbar {
+  background: gray;
+  font-color: black;
+}
+.nav-link {
+  color: white;
+}
+.text-content {
+  border: 1px solid red;
+}
+.bg {
+  height: 100%;
+  background-image: url('img/girlandlaptop.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
