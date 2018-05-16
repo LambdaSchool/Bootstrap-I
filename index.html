@@ -68,9 +68,9 @@
     <div class="row">
   <div class="col-4">
     <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-tech-list" data-toggle="list" href="#list-tech" role="tab" aria-controls="home">My Technologies</a>
-      <a class="list-group-item list-group-item-action" id="list-web-links-list" data-toggle="list" href="#list-web-links" role="tab" aria-controls="profile">Around the Web</a>
-      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">My Classes</a>
+      <a class="list-group-item list-group-item-action active" id="list-tech-list" data-toggle="list" href="#list-tech" role="tab" aria-controls="tech">My Technologies</a>
+      <a class="list-group-item list-group-item-action" id="list-web-links-list" data-toggle="list" href="#list-web-links" role="tab" aria-controls="web-links">Around the Web</a>
+      <a class="list-group-item list-group-item-action" id="list-classes-list" data-toggle="list" href="#list-classes" role="tab" aria-controls="classes">My Classes</a>
       <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Contact Me</a>
     </div>
   </div>
@@ -86,14 +86,60 @@
         <i class="fas fa-terminal"></i>
         <i class="fab fa-git"></i>
       </div>
+
       <div class="tab-pane fade d-flex" id="list-web-links" role="tabpanel" aria-labelledby="list-profile-list">
         <i class="fab fa-github"></i>
         <i class="fab fa-codepen"></i>
         <i class="fab fa-stack-overflow"></i>
         <i class="fab fa-linkedin"></i>
       </div>
-      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+
+<!-- BEGIN TABLE -->
+      <div class="tab-pane fade table-striped" id="list-classes" role="tabpanel" aria-labelledby="list-classes-list">
+        <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Year</th>
+      <th scope="col">Class</th>
+      <th scope="col">Institution</th>
+      <th scope="col">Languages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>2018</td>
+      <td>Fullstack Web Development</td>
+      <td>Lambda School</td>
+      <td>MERN JS, C, Python/Django</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>2015</td>
+      <td>Computing for Scientists and Engineers</td>
+      <td>Johns Hopkins University</td>
+      <td>Matlab</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>2014</td>
+      <td>Intro to Programming in Java</td>
+      <td>Johns Hopkins University</td>
+      <td>Java</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>2011</td>
+      <td>Intro to Computer Science</td>
+      <td>Baltimore Polytechnic Institute</td>
+      <td>Python</td>
+    </tr>
+  </tbody>
+</table>
+</div> <!--END TABLE-->
+
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">stil here</div>
     </div>
   </div>
 </div>
