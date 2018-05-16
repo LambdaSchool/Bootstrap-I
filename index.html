@@ -1,31 +1,88 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Digital Resume</title>
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/index.css">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
-      </div>
-    </div><!-- container -->
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meet Raymond!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images\favicon.ico" />
+    <link rel="stylesheet" href="css\index.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
-</body>
+  </head>
+
+  <body class="container-fluid">
+    <header class="row justify-content-center">
+      <button type="button" class="btn-outline-light" data-toggle="modal" data-target="#exampleModal">
+      <h1 id="name" class="col-12">Raymond Garcia</h1>
+  </button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button onclick="showPicture()" class="btn btn-secondary">
+        <h5 class="modal-title" id="exampleModalLabel">Want a selfie?</h5>
+      </button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="mySelfie" src="img/selfie.png" alt="A beautiful selfie of me ;)">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary close-me" data-dismiss="modal">Tired of looking at me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <h2 class="col-12">Aspiring Web Developer</h2>
+    </header>
+    <main>
+      <section class="row">
+          <h2 class="section-name col-12">Work Experience</h2>
+          <h3 class="col-12">Resident Assistant</h3>
+          <p class="col-12">University of Texas Rio Grande Valley</p>
+          <p class="col-12">2016-2017</p>
+          <p class="description col-6 offset-3">In this position, I did a little of everything. Responsibilities included creating
+           events that promoted university health services, serving as a mentor to university students, and
+           conducting safety inspections of living facilities.</p>
+      </section>
+      <hr>
+      <section class="row">
+        <h2 class="section-name col-12">Education</h2>
+        <h3 class="col-12">B.A Psychology</h3>
+        <p class="col-12">University of Texas Rio Grande Valley</p>
+        <p class="col-12">2012-2017</p>
+      </section>
+      <section>
+      <hr>
+      <h2 class="section-name col-12">Web Development Proficiencies</h2>
+      <ul class="col-12">
+          <li>Javascript</li>
+          <li>CSS</li>
+          <li>HTML</li>
+      </ul>
+      </section>
+    </main>
+    <footer>
+      <h2>Let's Keep in Touch!</h2>
+      <div class="contact row justify-content-center">
+        <div class="btn btn-secondary btn-lg col-lg-2 col-md-7 col-sm-9 col-xs-1">
+          <a href="mailto:raymond_grc@yahoo.com"> Email</a>
+        </div>
+        <div class="btn btn-secondary btn-lg col-lg-2 col-md-7 col-sm-9 col-xs-1">
+          <a href="https://github.com/Raymondgrc" target="_blank" >GitHub</a>
+        </div>
+        <div class="btn btn-secondary btn-lg col-lg-2 col-md-7 col-sm-9 col-xs-1">
+          <a href="https://www.linkedin.com/in/raymond-garcia-703083b2/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="btn btn-secondary btn-lg col-lg-2 col-md-7 col-sm-9 col-xs-1">
+          <a href="https://www.facebook.com/Raymond.grc" target="_blank">Facebook</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
