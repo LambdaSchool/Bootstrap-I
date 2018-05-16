@@ -1,0 +1,20 @@
+.bg {
+  background: #aff4ff;
+}
+.bg2 {
+  background: #ccf7ff;
+}
+.curved {
+  border-radius: 20px;
+}
+.centered-doge {
+  left: 25%;
+  border-radius: 100px;
+}
+#007BFF .nav-link:hover {
+  color: #fff;
+  background: #007bff;
+}
+.text-center {
+  text-align: center;
+}

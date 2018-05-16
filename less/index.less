@@ -1,1 +1,36 @@
 // Start here!
+@col-bg: #aff4ff;
+@col-bg2: #ccf7ff;
+
+.bg {
+    background: @col-bg;
+}
+
+.bg2 {
+    background: @col-bg2;
+}
+
+.border-radius (@radius) {
+    border-radius: @radius;
+}
+
+.curved {
+    .border-radius(20px);
+}
+
+.centered-doge {
+    left: 25%;
+    .border-radius(100px);
+}
+
+.nav-link {
+    #007BFF
+    &:hover {
+        color: #fff;
+        background: #007bff;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
