@@ -30,15 +30,20 @@ nav.nav {
 }
 
 .row--portfolio {
-  margin: 40px auto 0;
+  margin: 60px auto 0;
 }
 
 .row--cards {
-  margin: 50px auto 0;
+  margin: 60px auto 0;
 
   .card {
     border: 0;
+    border-radius: 0;
     padding: 20px 0 0;
+
+    @media (max-width: 540px) {
+      margin-bottom: 30px;
+    }
   }
 
   .card-img-top {
@@ -47,6 +52,10 @@ nav.nav {
 
   .col-12:nth-child(1) {
 
+    .card {
+      border-top: 8px solid #1fe6fd;
+    }
+
     .card-img-top {
       width: 76px;
     }
@@ -54,12 +63,20 @@ nav.nav {
 
   .col-12:nth-child(2) {
 
+    .card {
+      border-top: 8px solid #47eacf;
+    }
+
     .card-img-top {
       width: 122px;
     }
   }
 
   .col-12:nth-child(3) {
+
+    .card {
+      border-top: 8px solid #a2f068;
+    }
 
     .card-img-top {
       width: 105px;
@@ -81,6 +98,8 @@ nav.nav {
   .container {
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+
 
     @media (max-width: 540px) {
       flex-direction: column;
@@ -88,13 +107,13 @@ nav.nav {
 
     .headshot {
       border-radius: 50%;
-      /*
-      box-shadow: 20px 20px  rgba(0,0,0,0.6);
-      -moz-box-shadow: 20px 20px  rgba(0,0,0,0.6);
-      -webkit-box-shadow: 20px 20px rgba(0,0,0,0.6);
-      -o-box-shadow: 20px 20px  rgba(0,0,0,0.6);
+      
+      box-shadow: 30px 30px  rgba(252,14,108,0.6);
+      -moz-box-shadow: 30px 30px  rgba(252,14,108,0.6);
+      -webkit-box-shadow: 30px 30px rgba(252,14,108,0.6);
+      -o-box-shadow: 30px 30px  rgba(252,14,108,0.6);
       border-radius:100%;
-      */
+      
     }
   }
 }
@@ -102,4 +121,5 @@ nav.nav {
 footer {
   text-align: center;
   font-size: .85rem;
+  opacity: .7;
 }
