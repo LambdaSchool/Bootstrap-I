@@ -7,7 +7,22 @@
 }
 .nav .nav-link {
   font-size: 30px;
-  color: red;
+  color: white;
+  font-weight: bold;
+}
+.nav .nav-link:hover {
+  font-weight: bold;
+  font-size: 50px;
+  color: purple;
+}
+.jumbotron {
+  background: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.jumbotron .display-4 {
+  font-weight: bold;
 }
 @media only screen and (min-width: 768px) {
   .jumbotron #pic-1 {
@@ -32,4 +47,7 @@
   .jumbotron #pic-2 {
     display: block;
   }
+}
+.table {
+  margin-top: 20px;
 }
