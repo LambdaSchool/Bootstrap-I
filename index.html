@@ -17,18 +17,83 @@
 
 <body>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12">
-        <h1>Start Here!</h1>
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand disabled" href="#">Resume</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+              <a class="nav-item nav-link" href="#">Portfolio</a>
+              <a class="nav-item nav-link" href="#">About</a>
+              <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+          </div>
       </div>
     </div>
   </div>
-  <!-- container -->
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/index.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h1>Terrance Danckert
+          <button type="button" class="btn-sm btn-warning">HIRE ME</button>
+        </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis provident odio accusantium quod corporis explicabo
+          est laboriosam? Officiis quod ut repudiandae libero, aut ipsum aliquid fuga minima, harum voluptatum perferendis.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row col-sm-12 col-med-12 col-lg-12">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="img/imac.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio</h5>
+            <p class="card-text">This is a list of all my projects.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/about.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">About</h5>
+            <p class="card-text">This will tell you all about me.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/contact.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Contact</h5>
+            <p class="card-text">Contact me @ 888-888-8888.</p>
+            <p>Email me @ blahblah@gmail.com</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- container -->
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/index.js"></script>
 </body>
 
 </html>
