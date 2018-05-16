@@ -1,0 +1,13 @@
+body {
+  font-family: 'Anton', sans-serif;
+}
+.top-gap {
+  height: 20px;
+}
+.card {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.card .card-title {
+  text-align: center;
+}
