@@ -1,0 +1,55 @@
+body {
+  background: black;
+}
+.container {
+  max-width: 1080px;
+}
+.row .col-xl {
+  text-align: center;
+  color: white;
+  font-family: Dosis;
+}
+.row .col-xl header h1 {
+  padding-bottom: 20px;
+  animation: moveInRight 1.5s;
+  text-decoration: underline;
+}
+.row .col-xl header h2 {
+  animation: moveInLeft 1.8s;
+}
+.row .col-xl .img-fluid {
+  animation: moveInBottom 1.8s;
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
