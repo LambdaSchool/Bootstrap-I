@@ -14,11 +14,3 @@ i {
   font-size: 8rem;
   margin-left: 40px;
 }
-#list-tech {
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-#list-web-links {
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
