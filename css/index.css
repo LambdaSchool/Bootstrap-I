@@ -1,21 +1,73 @@
+@media (min-width: 768px) {
+  .md-unhide-block {
+    display: block;
+  }
+}
 h1 {
-  font-size: 5rem;
   align-self: flex-end;
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .banner {
-  width: 110%;
+  width: 100%;
 }
 .title-banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.title-banner .title-banner-left {
-  text-align: end;
+.title-banner .title-banner-right {
+  display: none;
+}
+@media (min-width: 576px) {
+  .title-banner .title-banner-right {
+    text-align: end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .title-banner .title-banner-right {
+    flex-direction: column;
+  }
+}
+.title-banner .title-banner-right h4 {
+  font-size: 1.1rem;
+}
+@media (min-width: 768px) {
+  .title-banner .title-banner-right h4 {
+    font-size: 1.3rem;
+  }
+}
+.title-banner .title-banner-right .md-plus {
+  display: none;
+}
+@media (min-width: 768px) {
+  .title-banner .title-banner-right .md-plus {
+    display: block;
+  }
 }
 .experience {
   display: flex;
 }
 .experience .logo {
   width: 30px;
+}
+.headshot {
+  max-width: 33%;
 }
