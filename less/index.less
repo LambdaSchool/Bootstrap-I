@@ -1,1 +1,60 @@
 // Start here!
+// Variables
+@bgrd-color: darken(#e9ecef, 30%);
+@pd-size: 30px;
+
+// Header
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: @bgrd-color;
+  color: white;
+
+  .navbar {
+    .nav a {
+      color: white;
+      text-decoration: none;
+      padding-top: 5px;
+    }
+  }
+
+  img {
+    border-radius: 40px;
+  }
+
+  .jumbotron-content {
+    h1 {
+      padding-bottom: 10px;
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+// main-content
+.main-content {
+  .left {
+    border-right: 1px solid black;
+    padding-right: @pd-size;
+  }
+
+  .right {
+    padding-left: @pd-size;
+
+    .skills {
+      margin-top: 30px;
+
+      .progress {
+        height: 50px;
+        background: white;
+      }
+    }
+  }
+}
+
+.footer {
+  background: @bgrd-color;
+  border-radius: 5px;
+  margin: 40px 0;
+  color: white;
+  padding: 20px 10px;
+}
