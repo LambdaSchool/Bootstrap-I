@@ -13,6 +13,13 @@
 a {
   color: #0b3954;
 }
+.btn-tw {
+  background: #bfd7ea;
+}
+.twitter {
+  height: 15px;
+  width: 15px;
+}
 .jumbotron {
   background: #0b3954;
   border: 2px solid #e0ff4f;
@@ -33,7 +40,7 @@ h1 {
   border-radius: 5px;
   border: 1px solid #bfd7ea;
 }
-button {
+.button-all {
   background: #e0ff4f;
   color: #0b3954;
 }
