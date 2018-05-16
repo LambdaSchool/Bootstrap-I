@@ -1,0 +1,19 @@
+.container {
+  border: 2px red solid;
+}
+.jumbotron {
+  background-color: lightblue;
+}
+nav {
+  border: 2px red solid;
+  justify-content: space-around;
+}
+.main-content {
+  border: 2px red solid;
+}
+.main-content .left-content {
+  border: 2px red solid;
+}
+.main-content .right-content {
+  border: 2px red solid;
+}
