@@ -2,18 +2,24 @@
   max-width: 880px;
 }
 nav {
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 nav a {
   color: grey;
+}
+.jumbotron {
+  margin-bottom: 0px;
 }
 .jumbotron .btn {
   background: black;
   border: 1px solid white;
 }
 .custom-row {
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 .table-row {
   margin-top: 50px;
+}
+.footer-copyright {
+  margin-top: 20px;
 }
