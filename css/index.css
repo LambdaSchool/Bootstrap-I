@@ -3,7 +3,8 @@
  * 05/16/18
  *********************************/
 body {
-  background-image: url("img/mountains.jpg");
+  background-color: salmon;
+  border: 10px solid black;
 }
 h1,
 h2,
@@ -18,10 +19,12 @@ h6 {
   padding: 2%;
 }
 .container .row .card {
-  border: 2px solid red;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
 }
 .column-A {
-  background-color: black;
+  background-color: brown;
   border-right: .1rem solid white;
   flex-flow: column;
   justify-content: center;
@@ -46,12 +49,6 @@ h6 {
 }
 .column-A .progress {
   margin: 5% 0;
-}
-.column-B .jumbotron,
-.column-B .about_me,
-.column-B .list-group,
-.column-B .table {
-  border: 5px solid black;
 }
 .column-B .table {
   margin-top: 10%;
