@@ -1,0 +1,16 @@
+.center-text {
+  text-align: center;
+}
+.container .jumbotron img {
+  width: 100%;
+}
+.container .jumbotron h1,
+.container .jumbotron p {
+  text-align: center;
+}
+.container .body {
+  margin-bottom: 20px;
+}
+.container .cards {
+  margin-bottom: 10px;
+}
