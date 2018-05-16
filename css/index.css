@@ -1,0 +1,20 @@
+.jumbo {
+  background: #dddabb;
+  color: #373835;
+}
+.container {
+  width: 880px;
+}
+.navigation {
+  width: 100%;
+}
+nav {
+  border: 1px red solid;
+}
+.top-content {
+  text-align: center;
+  padding: 10px;
+}
+.top-content .jumbotron {
+  background: #ccc899;
+}
