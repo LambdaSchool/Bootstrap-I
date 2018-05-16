@@ -10,3 +10,11 @@
   display: block;
   border: 2px solid;
 }
+i {
+  font-size: 8rem;
+  margin-left: 40px;
+}
+#list-tech {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
