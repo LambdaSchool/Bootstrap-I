@@ -1,8 +1,14 @@
 .container-fluid {
   max-width: 900px;
 }
+.navbar-toggler {
+  background: #e0ff4f;
+  border: 1px solid #0b3954;
+}
 .navbar {
   background: #bfd7ea;
+  border: 2px solid #0b3954;
+  border-radius: 40px;
 }
 a {
   color: #0b3954;
@@ -10,7 +16,7 @@ a {
 .jumbotron {
   background: #0b3954;
   border: 2px solid #e0ff4f;
-  border-radius: 175px;
+  border-radius: 158px;
 }
 h1 {
   color: #e0ff4f;
@@ -23,13 +29,26 @@ h1 {
   color: #e0ff4f;
   border: 1px solid #e0ff4f;
 }
+.list-group {
+  border-radius: 5px;
+  border: 1px solid #bfd7ea;
+}
+button {
+  background: #e0ff4f;
+  color: #0b3954;
+}
+.button2 {
+  background: #0b3954;
+  color: #e0ff4f;
+}
+.button {
+  background: #e0ff4f;
+  color: #0b3954;
+}
 .card {
-  border: 2px solid #e0ff4f;
+  border: 2px solid #0b3954;
   background: #bfd7ea;
 }
 .card .card-title {
-  color: #0b3954;
-}
-small {
   color: #0b3954;
 }
