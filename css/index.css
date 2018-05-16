@@ -9,9 +9,24 @@
   border: 1px solid red;
 }
 .bg {
-  height: 100%;
   background-image: url('img/girlandlaptop.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.jumbotron {
+  background-color: lightpink;
+}
+.img-fluid {
+  height: 500px;
+  width: 100%;
+}
+.box {
+  display: flex;
+  width: 100%
+	width: 400px;
+}
+.nav-img {
+  height: 100px;
+  width: 200px;
 }
