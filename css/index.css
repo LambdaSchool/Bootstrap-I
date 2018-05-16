@@ -1,0 +1,13 @@
+.jumbotron {
+  background: #c2e8ff;
+  height: 90%;
+}
+img {
+  width: 20%;
+}
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: #c2e8ff;
+  color: gray;
+}
