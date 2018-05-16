@@ -62,11 +62,17 @@ h1 {
     display: block;
   }
 }
+.table {
+  background-color: rgba(254, 245, 128, 0.77);
+}
 .experience {
   display: flex;
 }
 .experience .logo {
   width: 30px;
+}
+.card {
+  background-color: rgba(139, 217, 213, 0.2);
 }
 .headshot {
   max-width: 33%;
