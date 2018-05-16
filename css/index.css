@@ -1,0 +1,12 @@
+.container-fluid {
+  maxwidth: 100%;
+  border: 1px solid red;
+  padding: 20px;
+}
+.nav {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav a {
+  color: purple;
+}
