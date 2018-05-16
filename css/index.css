@@ -2,8 +2,7 @@
   height: 200px;
 }
 .nav {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 .jumbo-btn {
   justify-content: center;
@@ -13,4 +12,13 @@
 }
 .prog-bar {
   margin-bottom: 15px;
+}
+.m-skills {
+  padding-top: 50px;
+}
+@media (max-width: 768px) {
+  table tbody tr td:last-child,
+  table thead tr th:last-child {
+    display: none;
+  }
 }
