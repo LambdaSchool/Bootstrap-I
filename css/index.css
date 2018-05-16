@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid red;
+  margin-top: 40px;
+}
+.nav {
+  width: 100%;
+  background: grey;
+  border: 5px solid white;
+}
+.nav .nav-item {
+  text-align: center;
+}
+.nav .nav-item .nav-link {
+  color: white;
+}
+.nav .nav-item .nav-link:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+.jumbotron {
+  border: 1px solid red;
+  padding-top: 0;
+}
