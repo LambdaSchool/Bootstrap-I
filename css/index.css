@@ -39,9 +39,3 @@ i {
   text-align: center;
   padding: 10px;
 }
-@media (max-width: 768px) {
-  .table {
-    width: 30%;
-    border: 3px solid green;
-  }
-}
