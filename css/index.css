@@ -10,6 +10,9 @@ nav a {
 .jumbotron {
   margin-bottom: 0px;
 }
+.jumbotron .table td {
+  word-break: break-all;
+}
 .jumbotron .btn {
   background: black;
   border: 1px solid white;
