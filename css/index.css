@@ -2,9 +2,43 @@
  * Alex McEvoy
  * 05/16/18
  *********************************/
-.nav-link .active {
-  color: #111;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+.container {
+  margin: 5%;
+  padding: 2%;
 }
 .container .row .card {
   border: 2px solid red;
+}
+.col-A {
+  background-color: black;
+  border-right: .1rem solid white;
+  flex-flow: column;
+  justify-content: center;
+  height: 100%;
+  color: blue;
+}
+.col-A img {
+  width: 90%;
+  margin: 5%;
+}
+.col-A h1,
+.col-A h3 {
+  color: white;
+}
+.col-A .card {
+  width: 70px%;
+}
+.col-A .bars {
+  margin-top: 50%;
+}
+.col-A .progress {
+  margin: 5% 0;
 }
