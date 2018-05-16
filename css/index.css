@@ -2,6 +2,9 @@
  * Alex McEvoy
  * 05/16/18
  *********************************/
+body {
+  background-image: url("img/mountains.jpg");
+}
 h1,
 h2,
 h3,
@@ -17,7 +20,7 @@ h6 {
 .container .row .card {
   border: 2px solid red;
 }
-.col-A {
+.column-A {
   background-color: black;
   border-right: .1rem solid white;
   flex-flow: column;
@@ -25,20 +28,37 @@ h6 {
   height: 100%;
   color: blue;
 }
-.col-A img {
+.column-A img {
   width: 90%;
   margin: 5%;
 }
-.col-A h1,
-.col-A h3 {
+.column-A h1,
+.column-A h3 {
   color: white;
 }
-.col-A .card {
-  width: 70px%;
+.column-A .card {
+  background: black;
+  border: 2px solid white;
+  width: 100%;
 }
-.col-A .bars {
+.column-A .bars {
   margin-top: 50%;
 }
-.col-A .progress {
+.column-A .progress {
   margin: 5% 0;
+}
+.column-B .jumbotron,
+.column-B .about_me,
+.column-B .list-group,
+.column-B .table {
+  border: 5px solid black;
+}
+.column-B .table {
+  margin-top: 10%;
+}
+.column-B .about_me {
+  width: 100%;
+  height: 100%;
+  padding: 25%;
+  text-align: center;
 }
