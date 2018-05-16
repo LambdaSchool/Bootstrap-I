@@ -37,3 +37,10 @@
   color: white;
   padding: 20px 10px;
 }
+.footer .awards {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.footer .contact p {
+  margin-bottom: 5px;
+}
