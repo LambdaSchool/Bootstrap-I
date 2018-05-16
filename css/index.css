@@ -20,6 +20,11 @@ i {
   font-size: 8rem;
   margin-left: 40px;
 }
+@media (max-width: 768px) {
+  i {
+    font-size: 4rem;
+  }
+}
 .experience {
   margin-bottom: 50px;
   height: 100%;
@@ -33,4 +38,10 @@ i {
   background: gray;
   text-align: center;
   padding: 10px;
+}
+@media (max-width: 768px) {
+  .table {
+    width: 30%;
+    border: 3px solid green;
+  }
 }

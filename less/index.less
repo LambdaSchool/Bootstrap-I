@@ -26,6 +26,10 @@
 i {
   font-size: 8rem;
   margin-left: 40px;
+
+  @media (max-width: 768px) { //Yes, should be "min-width", accidentally did a desktop first approach
+    font-size: 4rem;
+  }
 }
 
 .experience {
@@ -43,4 +47,11 @@ i {
   background: gray;
   text-align: center;
   padding: 10px;
+}
+
+.table {
+  @media (max-width: 768px) {
+  width: 30%;
+  border: 3px solid green;
+}
 }
