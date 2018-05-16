@@ -18,7 +18,10 @@
 .jumbotron p:last-child {
   font-size: 1.5rem;
 }
-.resume .col-3 ul li {
+.resume .col-4 ul {
+  align-items: center;
+}
+.resume .col-4 ul li {
   border: none;
 }
 .resume table th {
