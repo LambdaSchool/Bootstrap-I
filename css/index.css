@@ -12,4 +12,11 @@
 }
 .jum-style {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-style {
+  display: flex;
+  justify-content: center;
 }
