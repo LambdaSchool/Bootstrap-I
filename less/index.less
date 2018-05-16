@@ -2,8 +2,9 @@
 
 .container {
     max-width: 980px;
-}
+    width: 100%;
 
+}
 
 .nav-style{
 	display: flex;
@@ -13,7 +14,6 @@
 	
 	a{
 	color: gray;
-
 	}
 }
 
@@ -22,11 +22,16 @@
 	display: flex;
     	flex-direction: column;
     	align-items: center;
+	border-radius: 5px;
+
+	@media(max-width: 768px){
+        margin-left: 3%;
+        margin-right: 3%;
+	}
 
 	@media(max-width: 400px){
 	margin-left: 3%;
 	margin-right: 3%;
-
 	}
 
 
@@ -38,17 +43,26 @@
 }
 
 .middle-row{
-	 @media(max-width: 400px){
-        margin-left: 3%;
-        margin-right: 3%;
-
+	@media(max-width: 768px){
+        margin-left: 1%;
+        margin-right: 1%;
         }
+ 
+	@media(max-width: 400px){
+        margin-left: 0%;
+        margin-right: 0%;
+	}
 }
 
 .table-style{
+	@media(max-width: 768px){
+        margin-left: 3%;
+        margin-right: 3%;
+        }
+
 	   @media(max-width: 400px){
-        	margin-left: 3%;
-        	margin-right: 3%;
+           margin-left: 3%;
+           margin-right: 3%;
 	}
 
 }
