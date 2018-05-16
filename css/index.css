@@ -14,15 +14,15 @@ nav a {
 }
 img {
   width: 50%;
-  height: 20%;
 }
 .jumbotron {
-  background: #9797e4;
+  background: #f0c872;
 }
 .jumbotron .btn {
   border: 1px solid white;
   border-radius: 10px;
   display: flex;
+  font-size: 1.4rem;
 }
 .table-row {
   margin-top: 0px;
