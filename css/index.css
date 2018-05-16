@@ -1,0 +1,21 @@
+h1 {
+  font-size: 5rem;
+  align-self: flex-end;
+}
+.banner {
+  width: 110%;
+}
+.title-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-banner .title-banner-left {
+  text-align: end;
+}
+.experience {
+  display: flex;
+}
+.experience .logo {
+  width: 30px;
+}
