@@ -1,0 +1,15 @@
+.container {
+  max-width: 1000px;
+}
+.nav-style {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.nav-style a {
+  color: gray;
+}
+.jum-style {
+  width: 100%;
+}
