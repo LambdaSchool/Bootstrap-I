@@ -3,6 +3,7 @@ body {
 }
 .container {
   max-width: 980px;
+  border: 2px red soild;
 }
 .container .navbar {
   flex-wrap: nowrap;
