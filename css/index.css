@@ -6,17 +6,18 @@ html {
   font-size: 1.6rem;
 }
 nav {
-  padding: 20px 0;
-  background: #bc8fce;
+  padding: 10px 0;
+  background: #eb5c5c;
 }
 nav a {
   color: black;
 }
 img {
-  width: 70%;
+  width: 50%;
+  height: 20%;
 }
 .jumbotron {
-  background: #a2a2d6;
+  background: #9797e4;
 }
 .jumbotron .btn {
   border: 1px solid white;
@@ -24,11 +25,16 @@ img {
   display: flex;
 }
 .table-row {
-  margin-top: 20px;
+  margin-top: 0px;
+  margin-left: 20px;
 }
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
-  padding: 20px 0;
-  background: #d88888;
-  color: white;
+  margin-left: 40px;
+  padding: 0px;
+  background: #eb5c5c;
+  color: #111010;
 }
