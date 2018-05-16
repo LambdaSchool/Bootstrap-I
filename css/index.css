@@ -14,6 +14,9 @@ h1 {
   font-size: 2rem;
   font-style: italic;
 }
+.card-img-top {
+  height: 178.66px;
+}
 .table {
   padding: 0;
   margin: 0;
