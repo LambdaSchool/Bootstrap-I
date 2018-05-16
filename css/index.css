@@ -1,5 +1,12 @@
-.headshot {
-  height: 200px;
+.at-a-glance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 188.66px;
+  }
 }
 .nav {
   padding: 15px;
