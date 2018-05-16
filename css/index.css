@@ -16,7 +16,30 @@
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 400px) {
+  .jum-style {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
 .card-style {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 400px) {
+  .middle-row {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media (max-width: 400px) {
+  .table-style {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media (max-width: 400px) {
+  .list-group {
+    margin-bottom: 5%;
+  }
 }
