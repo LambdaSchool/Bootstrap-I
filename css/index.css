@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(270deg, black, grey, orange, red);
+}
+.container {
+  max-width: 1000px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.container h1 {
+  font-size: 30px;
+}
+.container .nav {
+  background: none;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .nav-item {
+  margin-bottom: 5px;
+}
+@media (max-width: 500px) {
+  .container .nav-item {
+    border-bottom: 2px solid black;
+  }
+}
+.container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container .row1 {
+  width: 100%;
+  text-align: center;
+}
