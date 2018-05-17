@@ -11,3 +11,6 @@
   width: 400px;
   height: 365px;
 }
+.main-content {
+  justify-content: center;
+}
