@@ -11,10 +11,18 @@ body {
 .nav-pills .nav-link {
   color: white;
 }
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jumbotron .lead {
+  visibility: hidden;
+}
 .custxt {
-  justify-content: center;
   margin-bottom: 20px;
   color: white;
+  justify-content: center;
 }
 h1 {
   font-size: 2rem;
