@@ -23,8 +23,7 @@
     .border-radius(100px);
 }
 
-.nav-link {
-    #007BFF
+.nav-item .nav-link {
     &:hover {
         color: #fff;
         background: #007bff;
@@ -33,4 +32,13 @@
 
 .text-center {
     text-align: center;
+}
+
+.override {
+        @media (min-width: 576px) {
+        .container {
+            width: 100%;
+            max-width: 720px
+        }
+    }
 }
