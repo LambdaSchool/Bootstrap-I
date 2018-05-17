@@ -1,0 +1,40 @@
+body {
+  background-color: #ffdb72;
+}
+body .button-main {
+  background-color: #f47a7a;
+  color: #ffdb72;
+  border-radius: 0;
+}
+body .button-main:hover {
+  background-color: #f36c6c;
+}
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-container nav a {
+  color: #f47a7a;
+}
+.nav-container nav a:hover {
+  color: #ffdb72;
+  background-color: #f47a7a;
+}
+.bio-container {
+  background-color: #f47a7a;
+}
+.bio-container .bio-blurb {
+  align-items: center;
+}
+.bio-container img {
+  border: 3px solid black;
+}
+.origin-container {
+  margin-top: 3%;
+}
+.origin-container .card {
+  background-color: rgba(0, 123, 255, 0.5);
+}
+.design-container {
+  margin-top: 7%;
+}
