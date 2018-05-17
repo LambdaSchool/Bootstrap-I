@@ -18,12 +18,18 @@
 a {
     color: #6C0F0D;
 
+    &:hover {
+        color: #EF8700;
+        text-decoration: underline;
+    }
+
     @media @phone {
         width: 100%;
         display: block;
         text-align: center;
         font-size: 1.5rem;
     }
+
 }
 .display-4 {
     display: flex;
@@ -50,9 +56,20 @@ p {
     background-color: #FFA400;
     border-color: #6C0F0D;
     margin-top: 20px;
+
+    &:hover {
+        background-color: #6C0F0D;
+        border-color: #FFA400;
+        border-width: .5rem;
+        margin-top: .4rem;
+    }
 }
 .btn-link {
     color: #6C0F0D;
+
+    &:hover {
+        color: #EF8700;
+    }
 }
 .table-row {
     margin: 10px 0 30px 0;
