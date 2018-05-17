@@ -18,36 +18,36 @@
 <body>
 
     <div class="container">
-        <div class="row">
-            <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link Active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Family</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Photos</a>
-                </li>
-              </ul>
-        </div>
-        <div class="jumbotron">
+        <div class="row jumbo-row">
+          <div class="jumbotron">
+            <div class="row nav-row">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link Active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Family</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Photos</a>
+                  </li>
+                </ul>
+            </div>
             <h1 class="display-4">Good Dog</h1>
             <p class="lead">My name is Kneesaa and I am named after Princess Kneesaa, an ewok from the Star Wars cartoons. Many people say that I look like a mix of an ewok and a sloth.</p>
             <hr class="my-4">
             <p>I am a very happy good dog. I like to floof, boof and play fetch.</p>
             <p class="lead">
-              <a id="jumbo-button" class="btn btn-primary btn-lg btn-custom" href="#" role="button">Portfolio</a>
+              <a id="jumbo-button" class="btn btn-primary btn-lg btn-custom" href="#" role="button">Dog Stuff</a>
             </p>
           </div>
-      <div class="row">
-          <div class="col-4">
-            <img src="img/kneesaaBlop.jpg" class="img-fluid blop" alt="Kneesaa Blop">
-          </div>
-          <div class="col-6 center">
+        </div> 
+      <div class="row header">
+        <div class="col-1"></div>
+        <div class="col-6 center-text">
             <div class="princess">
             <h1>Princess Kneesaa</h1>
             <ul class="list-group">
@@ -59,40 +59,18 @@
               </ul>
               </div>
           </div>
+          <div class="col-4 blop-img">
+            <img src="img/kneesaaBlop.jpg" class="img-fluid blop" alt="Kneesaa Blop">
+          </div>
+          <div class="col-1"></div>
+         
       </div> <!-- Row 1 -->
-      <div class="row menu-stuff">
-          <div class="col">
-              <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="img/kneesaaCloudMark.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Family</h5>
-                    <p class="card-text">Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst.</p>
-                    <a href="#" class="btn btn-primary">About Family</a>
-                  </div>
-                </div>
-          </div>
-          <div class="col">
-              <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="img/kneesaFaceTwo.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Day in the Life</h5>
-                    <p class="card-text">Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst.</p>
-                    <a href="#" class="btn btn-primary">Daily Routine</a>
-                  </div>
-                </div>
-          </div>
-          <div class="col">
-              <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="img/kneesaaFace.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Photo Gallery</h5>
-                    <p class="card-text">Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst.</p>
-                    <a href="#" class="btn btn-primary">See Photos</a>
-                  </div>
-                </div>
-          </div>
-        </div> <!-- Row 2 -->
-      <div class="row">
+      <div class="row row1">
+        <div class="col"></div>
+          <div class="col-3">
+              <img src="img/kneesaaOnFloor.jpg" class="img-fluid feet" alt="Kneesaa Laying Down">
+            </div>
+          <div class="col"></div>
         <div class="col-7 skills-table">
           <h1>Skills</h1>
           <table class="table table-striped">
@@ -133,11 +111,39 @@
           </table>
         </div>
         <div class="col"></div>
-        <div class="col-4">
-          <img src="img/kneesaaOnFloor.jpg" class="img-fluid feet" alt="Kneesaa Laying Down">
-        </div>
       </div> <!-- Row 3 -->
-      
+      <div class="row menu-stuff">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/kneesaaCloudMark.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Family</h5>
+                  <p class="card-text">Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst.</p>
+                  <a href="#" class="btn btn-primary">About Family</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/kneesaFaceTwo.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Day in the Life</h5>
+                  <p class="card-text">Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst.</p>
+                  <a href="#" class="btn btn-primary">Daily Routine</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/kneesaaFace.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Photo Gallery</h5>
+                  <p class="card-text">Maecenas tincidunt semper tortor, at efficitur urna elementum in. In hac habitasse platea dictumst.</p>
+                  <a href="#" class="btn btn-primary">See Photos</a>
+                </div>
+              </div>
+        </div>
+      </div> <!-- Row 2 -->
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
