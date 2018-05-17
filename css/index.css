@@ -27,7 +27,7 @@ img.nav-img {
   text-align: center;
   color: white;
   z-index: -4;
-  height: 670px;
+  height: 743px;
 }
 .name-content {
   height: 512px;
@@ -52,15 +52,16 @@ img.nav-img {
   width: 100%;
 }
 .box {
-  display: flex;
-  width: 100%
-	width: 400px;
+  width: 400px;
+}
+.card-title {
+  border: 1px solid black;
+  font-size: 16px;
 }
 .no-gutters {
   margin-top: 50px;
-}
-.card-img-top {
-  height: 300px;
+  width: 75%;
+  margin-left: 150px;
 }
 .carousel-item .active {
   height: 400px;
@@ -81,6 +82,22 @@ img.nav-img {
   background-color: black;
   opacity: 0.6;
   filter: alpha(opacity=60);
+  margin-top: 349px;
+}
+.motto {
+  margin-top: 450px;
+  height: 103px;
+  background-color: lightpink;
+  opacity: 0.8;
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+}
+.card-img-top {
+  height: 300px;
+}
+.card-title2 h5 {
+  font-size: 17px;
 }
 #letters {
   padding-top: 100px;
@@ -143,11 +160,6 @@ img.nav-img {
 .floating-letters-text.hidden li:nth-child(8) {
   transform: translateX(-100px) translateY(-400px);
 }
-.motto {
-  margin-top: 450px;
-  border: 1px solid white;
-  height: 103px;
-  background-color: lightpink;
-  opacity: 0.6;
-  height: 100px;
+footer {
+  margin-top: 50px;
 }
