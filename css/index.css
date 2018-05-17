@@ -7,3 +7,7 @@
 .nav {
   justify-content: flex-end;
 }
+.img-fluid {
+  width: 400px;
+  height: 365px;
+}
