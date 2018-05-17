@@ -1,0 +1,39 @@
+.container {
+  background: #4277ce;
+}
+.nav {
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 15px auto;
+}
+.nav .nav-item {
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #28549b;
+}
+.nav .nav-item:hover {
+  background: #1e3e73;
+}
+.nav .nav-item .nav-link {
+  color: white;
+}
+.blop {
+  border-radius: 25%;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu-stuff {
+  margin: 25px 0;
+}
+.skills-table {
+  height: 95%;
+  border-radius: 5px;
+  background: #b0b0b0;
+  margin-left: 15px;
+}
+.feet {
+  border-radius: 25%;
+}
