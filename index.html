@@ -8,7 +8,7 @@
   <title>Digital Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index.css"> 
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -18,36 +18,37 @@
 <body>
 
     <div class="container">
+        <div class="row">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link Active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Family</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Photos</a>
+                </li>
+              </ul>
+        </div>
         <div class="jumbotron">
             <h1 class="display-4">Good Dog</h1>
-            <p class="lead">My name is Kneesaa and I am named after Princess Kneesaa, and ewok from the Star Wars cartoons. Many people say that I look like a mix of an ewok and a sloth.</p>
+            <p class="lead">My name is Kneesaa and I am named after Princess Kneesaa, an ewok from the Star Wars cartoons. Many people say that I look like a mix of an ewok and a sloth.</p>
             <hr class="my-4">
             <p>I am a very happy good dog. I like to floof, boof and play fetch.</p>
             <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button">Portfolio</a>
+              <a id="jumbo-button" class="btn btn-primary btn-lg btn-custom" href="#" role="button">Portfolio</a>
             </p>
-          </div>
-          <div class="row">
-              <ul class="nav">
-                  <li class="nav-item">
-                    <a class="nav-link Active" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Family</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Photos</a>
-                  </li>
-                </ul>
           </div>
       <div class="row">
           <div class="col-4">
-            <img src="img/kneesaaBlop.jpg" class="img-fluid" alt="Kneesaa Blop">
+            <img src="img/kneesaaBlop.jpg" class="img-fluid blop" alt="Kneesaa Blop">
           </div>
-          <div class="col-6">
+          <div class="col-6 center">
+            <div class="princess">
             <h1>Princess Kneesaa</h1>
             <ul class="list-group">
                 <li class="list-group-item">Professional Pupper</li>
@@ -56,9 +57,10 @@
                 <li class="list-group-item">Living in Austin, TX</li>
                 <li class="list-group-item">Most bestest dog in the world</li>
               </ul>
+              </div>
           </div>
       </div> <!-- Row 1 -->
-      <div class="row">
+      <div class="row menu-stuff">
           <div class="col">
               <div class="card" style="width: 18rem;">
                   <img class="card-img-top" src="img/kneesaaCloudMark.jpg" alt="Card image cap">
@@ -91,7 +93,7 @@
           </div>
         </div> <!-- Row 2 -->
       <div class="row">
-        <div class="col-8">
+        <div class="col-7 skills-table">
           <h1>Skills</h1>
           <table class="table table-striped">
             <thead>
@@ -130,8 +132,9 @@
             </tbody>
           </table>
         </div>
+        <div class="col"></div>
         <div class="col-4">
-          <img src="img/kneesaaOnFloor.jpg" class="img-fluid" alt="Kneesaa Laying Down">
+          <img src="img/kneesaaOnFloor.jpg" class="img-fluid feet" alt="Kneesaa Laying Down">
         </div>
       </div> <!-- Row 3 -->
       
