@@ -1,39 +1,72 @@
-.container {
-  background: #4277ce;
+body {
+  background: #c4c4c4;
 }
-.nav {
+.container {
+  background: white;
+  border-radius: 15px;
+}
+.nav-row .nav {
   justify-content: space-evenly;
   width: 100%;
   margin: 15px auto;
 }
-.nav .nav-item {
-  border: 1px solid black;
+.nav-row .nav .nav-item {
+  border: 1px solid #dddddd;
   border-radius: 5px;
-  background: #28549b;
+  background: #dddddd;
 }
-.nav .nav-item:hover {
-  background: #1e3e73;
+.nav-row .nav .nav-item:hover {
+  background: #b7b7b7;
+  border: 1px solid #848484;
 }
-.nav .nav-item .nav-link {
-  color: white;
+.nav-row .nav .nav-item .nav-link {
+  color: black;
+}
+.jumbo-row {
+  width: 98%;
+  padding: 2rem 0.5rem 0.15rem;
+  margin: 15px auto 5px;
+}
+.jumbo-row .jumbotron {
+  background: #dddddd;
+  padding: 1rem 2rem;
+}
+.jumbo-row .jumbotron .btn-primary {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  background: #dddddd;
+  color: black;
+  background: #b7b7b7;
+  border: 1px solid #848484;
+}
+.jumbo-row .jumbotron .btn-primary:hover {
+  background: #b7b7b7;
+  border: 1px solid #848484;
+}
+.jumbo-row .jumbotron .btn-primary:hover {
+  background: #9d9d9d;
+}
+.header {
+  margin-bottom: 45px;
 }
 .blop {
-  border-radius: 25%;
+  border-radius: 5px;
 }
-.center {
+.center-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .menu-stuff {
+  padding-bottom: 50px;
   margin: 25px 0;
 }
 .skills-table {
   height: 95%;
   border-radius: 5px;
-  background: #b0b0b0;
+  background: #dddddd;
   margin-left: 15px;
 }
 .feet {
-  border-radius: 25%;
+  border-radius: 5px;
 }
