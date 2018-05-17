@@ -15,117 +15,136 @@
 </head>
 
 <body>
-
+    <header>
     <div class="container-fluid">   
     <div class="container">
         <div class="row">
            <ul class="nav nav-pills nav-fill navigation">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active active-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link link" href="#">About</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">Portfolio</a>
+               <a class="nav-link link" href="#">Portfolio</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">Blog</a>
+               <a class="nav-link link" href="#">Blog</a>
             </li>
             </ul>
-       </div>
-    <div class="main-content">          
+       </div>  
       <div class="row">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container top-content">
+        <div class="jumbotron jumbotron-fluid jumbo">
+                <div class="container top-content">   
                 <div class="col-3">
-                <img src="img/selfie.jpg" class="img-fluid float-left" alt="Responsive image">
+                <img src="img/selfie.jpg" class="img-fluid float-left selfie" alt="Responsive image">
                 </div>
               <h1 class="display-2 info">Erin Meredith</h1>
               <p class="lead">Lambda School student / Software engineer</p>
              </div>
-</div>
-
-        
+        </div>
       </div>
-      
-      <div class="row">
-        <div class="col-6">
+      </header>
+    <div class="container main-content">         
+      <div class="row middle-content">
+        <div class="col-7">
             <h2><span class="badge badge-secondary">Education</span></h2>
             <table class="table">
                 <thead>
-    <tr>
-      <th scope="col">School</th>
-      <th scope="col">Location</th>
-      <th scope="col">Years attended</th>
-      <th scope="col">Degree</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+                    <tr>
+                    <th scope="col">School</th>
+                    <th scope="col">Years attended</th>
+                    <th scope="col">Degree/Course of study</th>
+                 </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Lambda School</th>
+                    <td>2018 - present</td>
+                    <td>Computer Science/Web Development</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">University of Northern Colorado</th>
+                    <td>2008-2010</td>
+                    <td>B.S. Dietetics</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">UMBC</th>
+                    <td>1998-2001</td>
+                    <td>History</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">University of Leicester, UK</th>
+                    <td>1999-2000</td>
+                    <td>History</td>
+                    </tr>
+                </tbody>
+            </table>
 
         </div>
-        <div class="col-6">
-             <h2>About Erin</h2>
-             <p>short bio about me</p>
-      </div>
-    </div>
+        <div class="col-5 things">
+            <h3>Things I like to do...</h3>
+             <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/ESTHER.jpg" alt="Card image cap">
+                <ul class="list-group list-group-flush my-list">
+                    <li class="list-group-item ">Coding</li>
+                    <li class="list-group-item">Drawing/painting</li>
+                    <li class="list-group-item">Binge-watching Star Wars</li>
+                    <li class="list-group-item">Reciting random Monty Python quotes</li>
+            
+                </ul>
+             </div><!--card-->
+    </div><!--things-->
+      </div><!--row-->
       
-      <div class="row">
+      <div class="row bottom-content">
         
-        <div class="col-6">
+        <div class="col-7 employment">
             <h2><span class="badge badge-secondary">Employment</span></h2>
             <table class="table">
                 <thead>
-    <tr>
-      <th scope="col">Employer</th>
-      <th scope="col">Years</th>
-      <th scope="col">Duties</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+                    <tr>
+                    <th scope="col">Employer</th>
+                    <th scope="col">Years</th>
+                    <th scope="col">Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Paxton Media Group</th>
+                    <td>2016 - present</td>
+                    <td>Page Designer</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Georgia Nature Center</th>
+                    <td>2010 - 2013</td>
+                    <td>Accounting Assistant</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Durham School Services</th>
+                    <td>2007 - 2009</td>
+                    <td>Bus Driver</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div><!--employment-->
+        <div class="btn-group-vertical btn-group-lg">
+            <button type="button" class="btn btn-secondary green-button">Don't push the red button!</button>
+              <button type="button" class="btn btn-secondary red-button">PUSH ME!</button>
+            
+            
+                </div>
+              </div>
+            </div>
+            
         </div>
       </div>
       </div>
+    </div>
+    <footer>
+        <h5>Copyright Erin Meredith 2018</h5>
+    </footer>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>

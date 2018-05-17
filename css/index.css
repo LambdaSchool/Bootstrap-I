@@ -7,14 +7,42 @@
 }
 .navigation {
   width: 100%;
+  margin: 10px 0;
+  color: #6f826d;
 }
-nav {
-  border: 1px red solid;
+.navigation .link {
+  color: #6f826d;
 }
-.top-content {
+.jumbo {
+  background: #ccc899;
+  color: #373835;
+}
+.jumbo .top-content {
   text-align: center;
   padding: 10px;
 }
-.top-content .jumbotron {
-  background: #ccc899;
+.jumbo .top-content .selfie {
+  border: 7px double #6f826d;
+}
+.main-content .middle-content .badge-secondary {
+  background: #6f826d;
+}
+.main-content .bottom-content .employment {
+  border-top: 2px black solid;
+  padding-top: 20px;
+}
+.main-content .bottom-content .badge-secondary {
+  background: #6f826d;
+}
+.main-content .bottom-content .green-button {
+  background: #6f826d;
+}
+.main-content .bottom-content .red-button {
+  background: red;
+}
+footer {
+  text-align: center;
+  background: #6f826d;
+  color: white;
+  padding: 5px;
 }
