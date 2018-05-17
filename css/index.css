@@ -4,6 +4,9 @@ body {
 .container {
   max-width: 1080px;
 }
+.row {
+  padding-bottom: 70px;
+}
 .row .col-xl {
   text-align: center;
   color: white;
@@ -19,6 +22,28 @@ body {
 }
 .row .col-xl .img-fluid {
   animation: moveInBottom 1.8s;
+  border: 1px solid white;
+}
+.row .card {
+  margin: 0 auto;
+}
+.row .card-title {
+  color: red;
+}
+.card-body {
+  background: silver;
+}
+.card-body .list-group {
+  background: silver;
+}
+.card-body .list-group .list-group-item {
+  background: silver;
+}
+.card-body .btn {
+  background: gray;
+}
+.card-body .btn-pad {
+  margin-top: 45px;
 }
 @keyframes moveInRight {
   0% {
