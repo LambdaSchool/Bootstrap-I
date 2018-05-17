@@ -4,7 +4,7 @@
   background: #90a0af;
   color: white;
 }
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .header {
     flex-direction: column-reverse;
     align-items: center;
@@ -23,7 +23,7 @@
 .header img {
   border-radius: 40px;
 }
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .header img {
     width: 100px;
     height: 100px;
@@ -38,7 +38,7 @@
   border-right: 1px solid black;
   padding-right: 30px;
 }
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .main-content .left {
     border: 0;
   }
@@ -46,7 +46,7 @@
 .main-content .right {
   padding-left: 30px;
 }
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .main-content .right {
     padding-left: 13px;
   }
