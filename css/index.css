@@ -5,13 +5,30 @@
 .nav-item {
   padding: 20px 0;
 }
+@media (max-width: 400px) {
+  .nav-item {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+}
 a {
   color: #6C0F0D;
+}
+@media (max-width: 400px) {
+  a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+  }
 }
 .display-4 {
   display: flex;
   justify-content: center;
   color: #462000;
+  text-align: center;
 }
 img {
   display: block;
@@ -44,4 +61,9 @@ h2 {
 }
 .fillout {
   padding: 20px 20%;
+}
+@media (max-width: 576px) {
+  .card-header {
+    text-align: center;
+  }
 }
