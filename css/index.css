@@ -15,5 +15,14 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.my-icons div {
+  margin: 20px;
+}
+@media (min-width: 995px) {
+  .my-icons {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
