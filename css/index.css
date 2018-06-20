@@ -1,0 +1,27 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.border {
+  border: 1px solid red;
+}
+.container {
+  max-width: 1000px;
+  background: lightblue;
+  border: 1px solid red;
+}
+.custom-column {
+  border: 1px solid red;
+}
+.nav {
+  border: 1px solid red;
+}
+.work-experience {
+  border: 1px solid red;
+  margin-top: 50px;
+}
+.skills {
+  margin-top: 50px;
+}

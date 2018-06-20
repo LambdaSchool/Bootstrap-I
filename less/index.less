@@ -1,1 +1,45 @@
 // Start here!
+
+//============> variables
+
+//=============> mixins
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+//general styles
+
+.container {
+    max-width: 1000px;
+    background:lightblue;
+    .border();
+}
+
+.custom-column {
+    .border();
+}
+
+/// header styles
+
+.nav {
+ .border();
+}
+
+//work epxrience styles
+.work-experience {
+    .border();
+    margin-top: 50px;
+}
+
+//skills styles
+
+.skills {
+    margin-top:50px;
+}
