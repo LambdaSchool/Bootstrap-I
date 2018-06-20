@@ -1,0 +1,28 @@
+.container {
+  margin-top: 10%;
+  max-width: 880px;
+}
+.menu {
+  background: lavender;
+}
+.menu nav a {
+  color: #3d3c3c;
+}
+.top-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top-content .col .name h2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top-content .col .name h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron {
+  height: 300px;
+}
