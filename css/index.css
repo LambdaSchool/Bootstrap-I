@@ -1,0 +1,16 @@
+.jumbo-content .jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.jumbo-content .jumbotron h1 {
+  width: 100%;
+  text-align: center;
+}
+.jumbo-content .jumbotron p {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
