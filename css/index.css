@@ -1,10 +1,24 @@
 .nav {
   margin-top: 50px;
 }
+.row .bio-container {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+@media (max-width: 400) {
+  .row .bio-container {
+    flex-direction: column-reverse;
+  }
+}
 .card {
-  margin-top: 15px;
+  margin-top: 5px;
   background-color: lightslategray;
   color: white;
+}
+.selfie {
+  width: 70%;
+  margin-top: 5px;
 }
 .jumbo-highlight {
   margin-top: 15px;
@@ -20,4 +34,8 @@
 .portfolio .list-group-item .nav-link {
   background: lightslategrey;
   color: white;
+}
+.experience .comp-logo {
+  height: 40%;
+  width: 25%;
 }
