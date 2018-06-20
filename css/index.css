@@ -40,9 +40,17 @@ p {
 }
 .list-group-item.active {
   z-index: 2;
-  background-color: #f1f1f1;
-  border-color: #f1f1f1;
+  background-color: #eee;
+  border-color: #eee;
   color: #2E394D;
+}
+.custom-row-padding {
+  margin: 0 2rem;
+}
+@media (max-width: 575.98px) {
+  .custom-row-padding {
+    margin: 0 -15px;
+  }
 }
 nav {
   padding-top: 40px;
