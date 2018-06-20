@@ -1,0 +1,7 @@
+div {
+  border: 1px soild black;
+}
+div .test {
+  color: red;
+  border: 1px soild black;
+}
