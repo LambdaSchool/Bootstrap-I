@@ -3,11 +3,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  
 
-  <title>Digital Resume</title>
+  <title>Adam C G Lee</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -17,10 +19,60 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+      <div class="row header-row"> <!--Header -->
+          <div class="col-12 col-lg-5 col-xl-4 name-logo">
+              <h1>Adam C G Lee</h1>
           </div>
+          <div class="col-12 col-lg-7 col-xl-8">
+            <nav class="nav">
+              <a href="#">About Me</a>
+              <a href="#">Work Portfolio</a>
+              <a href="#">Photography</a>
+              <a href="#">Contact</a>
+            </nav>
+        </div>
+      </div>
+
+      <div class="row"> <!--Jumbotron -->
+        <div class="jumbotron jumbotron-fluid">
+          <h1 class="display-4">This is Adam.</h1>
+          <div class="row profile-image">
+            <img src="img/adamProfile300.jpg" class="rounded mx-auto d-block" alt="Picture of Adam being cool.">
+          </div>  
+          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <hr class="my-4">
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/adamleegamedesigner/" role="button"><img src="img/linkedinIcon.png" alt="Button to go to LinkedIn profile."></a>
+        </div>
+      </div>
+
+      <div class="row">  <!--Cards -->
+        <div class="col-12 cards-container">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div><!-- container -->
 

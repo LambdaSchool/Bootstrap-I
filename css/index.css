@@ -1,0 +1,43 @@
+.title-font {
+  font-family: 'Tangerine', serif;
+}
+body {
+  background: darkslategray;
+}
+.container .row {
+  border: 1px solid blue;
+}
+.container .header-row {
+  height: 150px;
+}
+.container .header-row .name-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Tangerine', serif;
+}
+.container .header-row .name-logo h1 {
+  color: white;
+  font-size: 4rem;
+  margin: 10px 0;
+}
+.container .header-row nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .header-row nav a {
+  color: white;
+}
+.container .jumbotron .jumbo-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
