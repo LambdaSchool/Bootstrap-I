@@ -1,0 +1,90 @@
+html {
+  font-size: 62.5%;
+}
+.container-fluid {
+  max-width: 900px;
+  margin-top: 30px;
+}
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  font-size: 1.8rem;
+}
+nav a {
+  color: black;
+}
+nav a:hover {
+  color: #08A096;
+}
+.user-basic-info {
+  background-color: #E9E8E7;
+  border: 5px solid grey;
+  box-shadow: 10px 15px;
+}
+.user-basic-info:hover {
+  background-color: #F5F5F4;
+}
+.user-basic-info h1 {
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+  font-family: 'Philosopher', serif;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.user-basic-info h2 {
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  font-size: 3rem;
+  color: #08A096;
+}
+.user-basic-info .img-container {
+  display: flex;
+  align-items: center;
+}
+.user-basic-info .img-container img {
+  border: 3px solid black;
+  width: 80%;
+  margin: 30px 10%;
+}
+.user-basic-info .table {
+  width: 80%;
+  margin: 40px auto;
+}
+.user-basic-info .user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.6em;
+  align-items: center;
+  text-align: center;
+  font-family: 'Philosopher', serif;
+  margin-bottom: 20px;
+}
+.user-basic-info .user-info .contact-buttons .btn {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  padding: 5px;
+}
+.about {
+  font-size: 1.8rem;
+  margin: 20px 3% 60px 3%;
+}
+.skills .user-basic-info {
+  height: 400px;
+}
+.skills .user-basic-info .progress-bars-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .user-basic-info .progress-bars-all p {
+  font-size: 1.8rem;
+}
+.skills .user-basic-info .progress-bars-all .progress {
+  width: 50%;
+  margin-bottom: 10px;
+}
