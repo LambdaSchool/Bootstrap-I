@@ -1,20 +1,11 @@
 .container{
   font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
   font-weight: thin;
-  border: 1px solid red;
 }
 
-.row{
-  border: 1px solid red;
-
-}
-
-.col{
-  border: 1px solid red;
-}
-
-.upper{
-  border: 1px solid red;
+.p{
+  font-size: .9rem;
 }
 
 .jumbotron{
@@ -29,13 +20,11 @@
 }
 
 .jumbotron .greenline{
-  height: 150px;
+  height: 175px;
   width: auto;
 }
 
 .name{
-  border: 1px solid red;
-  border-radius: 50%;
   padding: 12px;
   margin: 12px 0 12px 0;
   text-align: center;
@@ -43,7 +32,6 @@
 }
 
 .contact{
-  border: 1px solid red;
   padding: 12px;
   text-align: center;
   align-self: center;
@@ -63,7 +51,6 @@
 }
 
 .bottom-cards {
-  border: 1px solid red;
   justify-content: flex-end;
 }
 
@@ -74,7 +61,6 @@
 
 .custom-nav .nav{
   width: 100%;
-  border: 1px solid red;
   padding: 20px 2% 20px 2%;
   margin-bottom: 100px;
   align-self: end;
