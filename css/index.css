@@ -1,3 +1,10 @@
 .container {
   max-width: 880px;
 }
+.skills {
+  align-self: center;
+}
+.skills h3 {
+  display: flex;
+  justify-content: center;
+}
