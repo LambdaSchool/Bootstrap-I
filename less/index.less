@@ -35,11 +35,23 @@ h5 {
 .resume {
 	background: white;
 	margin: 20px auto;
+	.nav {
+		justify-content: flex-start;
+		.nav-link {
+			color: @nice-blue;
+		}
+		.nav-link:first-child{
+			padding-left: 3px;
+		}
+	}
 	.about-me {
 		padding-top: 20px;
 		padding-left: 50px;
 		padding-right: 30px;
 	}
+	.skills p{
+				margin-bottom: 5px;
+			}
 	.pic-name {
 		.flex-center;
 		background-color: @nice-blue;
@@ -66,18 +78,24 @@ h5 {
 		.left-column {
 			padding-left: 50px;
 			padding-right: 30px;
+			padding-bottom: 20px;
+			.badge {
+				margin-left: 10px;
+				font-size: 14px;
+				background-color: @lighter-blue;
+			}
 		}
 		.right-column {
 			background-color: @lighter-blue;
 			color: white;
+			padding-bottom: 20px;
 			.contact {
 				margin-top: 50px;
 				width: 100%;
-				height: 200px;
-				.flex-center;
-				padding-left: 20px;
-				p {
-					width: 100%;
+				padding: 0 20px;
+				li {
+					background-color:@lighter-blue;
+					height: 60px;
 				}
 			}
 			.education {
