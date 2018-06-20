@@ -72,3 +72,19 @@ nav a:hover {
   font-size: 1.8rem;
   margin: 20px 3% 60px 3%;
 }
+.skills .user-basic-info {
+  height: 400px;
+}
+.skills .user-basic-info .progress-bars-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .user-basic-info .progress-bars-all p {
+  font-size: 1.8rem;
+}
+.skills .user-basic-info .progress-bars-all .progress {
+  width: 50%;
+  margin-bottom: 10px;
+}
