@@ -18,3 +18,8 @@
     min-width: 1200px;
   }
 }
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
