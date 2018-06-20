@@ -29,3 +29,7 @@ img {
   -moz-box-shadow: 10px 4px 10px #10A0E0;
   box-shadow: 10px 4px 10px #10A0E0;
 }
+.table-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
