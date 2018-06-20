@@ -5,8 +5,11 @@
   width: 80%;
   margin: 0 auto;
 }
-.jumbotron .img-responsive {
+.jumbotron .container .img-responsive {
   width: 320px;
+}
+.jumbotron .container * {
+  margin-bottom: 20px;
 }
 .header nav {
   width: 100%;
@@ -18,8 +21,11 @@
   padding-right: 20px;
 }
 .main-content div {
-  display: inline-block;
+  margin-top: 30px;
 }
-.main-content div * {
-  display: inline-block;
+footer {
+  margin-top: 60px;
+  text-align: center;
+  background: gray;
+  color: white;
 }
