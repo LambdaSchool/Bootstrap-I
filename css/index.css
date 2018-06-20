@@ -12,17 +12,28 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-bottom: 3%;
 }
-.top-content .col .name h2 {
+.top-content .col .name h1,
+.top-content .col h2 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.top-content .col .name h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.mid-content {
+  margin-bottom: 5%;
 }
 .jumbotron {
   height: 300px;
+  margin-bottom: 0;
+}
+.btn {
+  background: #9b7bf3;
+  border: pink;
+}
+.btn:hover {
+  background: #464646;
+}
+.bottom {
+  margin-bottom: 100px;
 }
