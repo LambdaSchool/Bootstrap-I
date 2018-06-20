@@ -19,10 +19,10 @@
   <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" data-offset="50">
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Ash</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -51,14 +51,16 @@
     </div>
   </div>
 
-  <section id="about" class="py-5">
+  <hr>
+
+  <section id="about" class="py-3">
     <div class="container">
       <h2 class="text-center">About Me</h2>
       <div class="row mb-5">
-        <div class="col-6 col-sm-4">
+        <div class="col-6 col-sm-4 d-flex align-items-center">
           <img src="img/profile.jpg" alt="A picture of Mr. Ashwin" class="img-fluid img-rounded">
         </div>
-        <div class="col-6 col-sm-8">
+        <div class="col-6 col-sm-8 d-flex align-items-center">
           <p class="lead text-justify">
             Hi, I am Ashwin. I am a Frontend UI/UX Developer, and a prospective Lambda School
             graduate. Design is a powerful means of communication. A picture is worth
@@ -126,6 +128,85 @@
             </li>
           </ul>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="projects" class="py-3">
+    <div class="container">
+      <h2 class="text-center">Projects</h2>
+      <p class="lead">These are the projects that I have been working on.</p>
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Timelogger</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Daily time keeping web app</h6>
+              <p class="card-text">A small full stack web application that maintains a log of check in
+                times of users. It also features an Admin Dashboard to view reports.
+                More features are planned for this project on a fork.
+              </p>
+              <p>
+                Technology used: MongoDB/Mongoose, Express, NodeJS.
+              </p>
+              <div class="progress mb-2">
+                <div class="progress-bar w-100">Complete</div>
+              </div>
+              <a href="https://github.com/ashwins93/timelogger" target="_blank" class="card-link">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Impactful Tolerence</h5>
+              <h6 class="card-subtitle mb-2 text-muted">A web app to power your prodcutivity</h6>
+              <p class="card-text">
+                Building upon the previous project, this project is an ambitious web application
+                that provides a way to track the daily activities and provides detailed
+                graphical reports for the top level management for decision making
+                and planning. This project will soon be taken up and deployed to
+                cover a wide variety of users.
+              </p>
+              <p>
+                Technology used: MongoDB/Mongoose, Express, React, Redux, NodeJS.
+              </p>
+              <div class="progress mb-2">
+                <div class="progress-bar w-25">Initiated</div>
+              </div>
+              <a href="https://github.com/ashwins93/impactful-tolerence" target="_blank" class="card-link">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Expert Octo Giggle</h5>
+              <h6 class="card-subtitle mb-2 text-muted">An application that lets you manage sales budgeting and analysis</h6>
+              <p>
+                This is an ambitious project that provides a solution for one aspect of management
+                decision making viz. Sales budgeting and analysis. This project was
+                originally started for satisying the needs of one particular client
+                but all working on this project has currently been abandoned as the
+                contract was terminated prematurely. However, a more generalized
+                version of this project may be developed using the work done as a
+                base to cater the needs of small businesses.
+              </p>
+              <p>
+                Technology used: MongoDB/Mongoose, Express, React, Redux, NodeJS.
+              </p>
+              <div class="progress mb-2">
+                <div class="progress-bar w-50">Work halted</div>
+              </div>
+              <a href="https://github.com/ashwins93/expert-octo-giggle" target="_blank" class="card-link">View Project</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
