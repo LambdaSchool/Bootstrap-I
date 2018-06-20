@@ -15,7 +15,9 @@ background-color: #102951;
 }
 nav a {
   color: white;
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
+
 
 }
 nav a:hover { 
