@@ -1,0 +1,12 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 800px;
+  border: 2px solid red;
+}
+.custom-class {
+  border: 2px solid red;
+}
