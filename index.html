@@ -18,20 +18,23 @@
 
     <div class="container">
       
-      <div class="row center">
+      <div class="row custom-nav">
         <nav class="nav nav-pills nav-justified">
-        <a class="nav-item nav-link" href="#">Home</a>
-        <a class="nav-item nav-link" href="#">About</a>
+        <a class="nav-item nav-link active" href="#">Home</a>
+        <a class="nav-item nav-link" href="#">Backstory</a>
         <a class="nav-item nav-link" href="#">Portfolio</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
+        <a class="nav-item nav-link" href="#">Contact Info</a>
         </nav>
       </div>
-    
-      <div class="col custom-img">
+
+      <div class="row">
+        <div class="col custom-img">
         <img src="img/Pic for bootstrap 1.png" class="img-fluid" alt="Responsive image">
+        </div>
       </div>
-    
+
       <div class="row work-experience">
+        
         <div class="col custom-column">
           One of three columns
         </div>
@@ -44,12 +47,20 @@
       </div>
   
       <div class="row skills">
-          <div class="col-sm-12">
+          <div class="col custom-column">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+            </div>
+          </div> 
+          <div class="col custom-column">
               <h1>Deeez mah skillz</h1>
               <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
                     <th scope="col">First</th>
                     <th scope="col">Last</th>
                     <th scope="col">Handle</th>
@@ -60,19 +71,16 @@
                     <th scope="row">1</th>
                     <td>Mark</td>
                     <td>Otto</td>
-                    <td>@mdo</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td>Jacob</td>
                     <td>Thornton</td>
-                    <td>@fat</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
                     <td>Larry</td>
                     <td>the Bird</td>
-                    <td>@twitter</td>
                   </tr>
                 </tbody>
               </table>

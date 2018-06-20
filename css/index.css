@@ -7,6 +7,9 @@
 .border {
   border: 1px solid red;
 }
+.custom-margin-top {
+  margin-top: 50px;
+}
 .container {
   max-width: 1000px;
   background: lightblue;
@@ -19,6 +22,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.row {
+  margin-top: 50px;
+}
+.col {
+  padding-top: 10px;
+}
+.custom-nav {
+  margin-top: 0;
 }
 .nav {
   border: 1px solid red;
