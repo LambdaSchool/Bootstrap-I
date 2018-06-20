@@ -1,7 +1,10 @@
 // Start here!
+@background-color:#e5f4e5;
+
+
 
 body {
-    background:#e5f4e5;
+    background:@background-color;
 }
 
 .container {
@@ -14,11 +17,14 @@ max-width:1200px;
     position: fixed;
     top: 0;
     right:0;
-
+    
+   
     nav {
-        margin: 10px;
+        padding: 10px;
         display: flex;
         justify-content: space-around;
+        background: @background-color;
+       
       
     
 a {
@@ -33,7 +39,8 @@ a {
 }
 
 .home {
-    margin-top:100px;
+    margin-top:50px;
+    border:solid 2px black;
 }
 
 
@@ -44,8 +51,26 @@ a {
         font-family: cursive;  
     }
 
-.jumbotron {
-    margin-top:100px;
-    right:0;
+.img-fluid {
+    width: 500px;
+    margin-left:50px;
+    height: auto;
+
 }
+
+.jumbotron {
+    margin-top:200px;
+    right:0;
+    // flex-wrap: wrap;
+}
+
+
+ul  { 
+    width:auto;
+    background-color: @background-color;
+  .li{
+      width:auto;
+  }
+}
+
 

@@ -10,9 +10,10 @@ body {
   right: 0;
 }
 .custom-nav nav {
-  margin: 10px;
+  padding: 10px;
   display: flex;
   justify-content: space-around;
+  background: #e5f4e5;
 }
 .custom-nav nav a {
   text-decoration: none;
@@ -20,7 +21,8 @@ body {
   color: gray;
 }
 .home {
-  margin-top: 100px;
+  margin-top: 50px;
+  border: solid 2px black;
 }
 .about {
   letter-spacing: 10px;
@@ -28,7 +30,19 @@ body {
 .name {
   font-family: cursive;
 }
+.img-fluid {
+  width: 500px;
+  margin-left: 50px;
+  height: auto;
+}
 .jumbotron {
-  margin-top: 100px;
+  margin-top: 200px;
   right: 0;
+}
+ul {
+  width: auto;
+  background-color: #e5f4e5;
+}
+ul .li {
+  width: auto;
 }
