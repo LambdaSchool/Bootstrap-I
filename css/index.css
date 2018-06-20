@@ -23,6 +23,9 @@ body nav {
   justify-content: center;
   align-items: center;
 }
+body img {
+  margin-top: 40px;
+}
 body .list-group-custom {
   margin-top: 40px;
 }
