@@ -36,6 +36,17 @@ header {
 .jumbo-mumbo .jumbotron .jumbo-button {
   margin-top: 30px;
 }
+.jumbo-mumbo .btn {
+  background-color: lightseagreen;
+  border: 1px solid seagreen;
+  transition: background-color 1s ease;
+  border-radius: 10px;
+}
+.jumbo-mumbo .btn:hover {
+  background-color: seagreen;
+  border: 1px solid lightseagreen;
+  border-radius: 10px;
+}
 .work-history {
   display: flex;
   flex-direction: column;
@@ -53,7 +64,7 @@ header {
   font-size: 1.5rem;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  border: 1px solid grey;
-  background: grey;
+  border: 1px solid seagreen;
+  background: lightseagreen;
   color: white;
 }
