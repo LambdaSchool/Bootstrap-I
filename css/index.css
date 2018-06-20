@@ -1,0 +1,29 @@
+.main {
+  border: 1px solid black;
+}
+.JumboHeaderImg .container {
+  border: solid blue;
+}
+.top-content {
+  background: lightgray;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  border-radius: 5px;
+}
+.top-content .col-6 {
+  width: 300px;
+}
+.top-content .headshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-content .headshot .selfie {
+  margin-bottom: 10px;
+  margin-top: 0;
+  border-radius: 5px;
+  width: 300px;
+}
