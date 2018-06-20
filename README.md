@@ -30,13 +30,13 @@ Whenever you are introduced to new technology it's good to use something you're 
 </div>
 ```
 * You must use at least 4 of the following components listed here:
-    - Jumbotron
-    - List Group
-    - Badge
-    - Buttons
-    - Button group
-    - Card
-    - Nav
+    - Jumbotron lightweight flexible component 
+    - List Group list within the resume
+    <!-- - Badge adds highlighted badge next to item <span class="badge badge-secondary">New</span> -->
+    - Buttons buttons that contain action to them
+    - Button group different options within itself
+    - Card business card
+    - Nav 
 
 * Incorporate a responsive image of yourself somewhere on the site. (See example for ideas)
 
