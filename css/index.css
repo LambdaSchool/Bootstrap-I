@@ -1,0 +1,18 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1024px;
+  width: 100%;
+}
+.jumbotron {
+  background: #ffffff;
+}
+.personal-info {
+  padding-right: 100px;
+}
+.row {
+  margin-top: 25px;
+}
