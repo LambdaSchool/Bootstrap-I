@@ -1,0 +1,105 @@
+.container{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: thin;
+}
+
+.p{
+  font-size: .9rem;
+}
+
+.jumbotron{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.jumbotron .summary{
+  width: 50%;
+  font-size: 1.8rem;
+  border: 1px solid #F8DDD3;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #F8DDD3;
+}
+
+.jumbotron .greenline{
+  height: 175px;
+  width: auto;
+}
+
+.name{
+  padding: 12px;
+  margin: 12px 0 12px 0;
+  text-align: center;
+  align-self: center;
+}
+
+.contact{
+  padding: 12px;
+  text-align: center;
+  align-self: center;
+}
+
+
+.jumbotron{
+  margin: 20px 0 20px 0;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.bottom-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bottom-cards {
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+
+.card-body{
+  background-color: #F8DDD3;
+}
+
+.card-body .btn{
+  background-color: #F56C38;
+  border: 1px solid #F8DDD3;
+  border-radius: 10px;
+}
+
+
+
+.custom-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.custom-nav .nav{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px 2% 20px 2%;
+  margin-bottom: 100px;
+  border: 1px solid black;
+}
+
+.custom-nav .nav .nav-item{
+  font-family: 'Inconsolata', monospace;
+  background-color: #F56C38;
+  border: 1px solid #F56C38;
+  border-radius: 10px;
+  margin: 20px 5% 20px 5%;
+}
+
+.custom-nav .nav .nav-item a{
+  color: black;
+}
+
+.custom-nav .nav .nav-item a:hover{
+  background-color: #F8DDD3;
+  border-color: #F8DDD3
+}
