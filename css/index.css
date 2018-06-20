@@ -17,6 +17,11 @@
 
 .jumbotron .summary{
   width: 50%;
+  font-size: 1.8rem;
+  border: 1px solid #F8DDD3;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #F8DDD3;
 }
 
 .jumbotron .greenline{
@@ -52,7 +57,21 @@
 
 .bottom-cards {
   justify-content: flex-end;
+  margin-bottom: 20px;
 }
+
+
+.card-body{
+  background-color: #F8DDD3;
+}
+
+.card-body .btn{
+  background-color: #F56C38;
+  border: 1px solid #F8DDD3;
+  border-radius: 10px;
+}
+
+
 
 .custom-nav{
   display: flex;
@@ -60,14 +79,27 @@
 }
 
 .custom-nav .nav{
+  display: flex;
+  justify-content: space-evenly;
   width: 100%;
   padding: 20px 2% 20px 2%;
   margin-bottom: 100px;
-  align-self: end;
+  border: 1px solid black;
 }
 
-.custom-nav .nav a{
+.custom-nav .nav .nav-item{
   font-family: 'Inconsolata', monospace;
-  background-color: #FCF2B5;
-  border: 1px solid gray;
+  background-color: #F56C38;
+  border: 1px solid #F56C38;
+  border-radius: 10px;
+  margin: 20px 5% 20px 5%;
+}
+
+.custom-nav .nav .nav-item a{
+  color: black;
+}
+
+.custom-nav .nav .nav-item a:hover{
+  background-color: #F8DDD3;
+  border-color: #F8DDD3
 }
