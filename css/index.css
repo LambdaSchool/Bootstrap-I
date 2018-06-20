@@ -1,0 +1,37 @@
+.container {
+  background-color: aliceblue;
+}
+.container .me-img {
+  z-index: 1000;
+}
+.container .header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .header .name {
+  width: 100%;
+}
+.container .header .title {
+  width: 100%;
+}
+.container .nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .nav a {
+  width: 100%;
+}
+.container .main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
