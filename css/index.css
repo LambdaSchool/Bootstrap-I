@@ -18,21 +18,21 @@
     min-width: 1200px;
   }
 }
-nav {
+body nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.lists-row {
+body .list-group-custom {
   margin-top: 40px;
 }
-.lists-row .list-group-item-bold {
+body .list-group-custom .list-group-item-bold {
   font-weight: bold;
 }
-.tableheading {
+body .tableheading {
   margin-top: 40px;
 }
-footer {
+body footer {
   margin-top: 40px;
   display: flex;
   justify-content: center;
