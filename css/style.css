@@ -1,0 +1,953 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*.slicknav_menu{
+	display:none;
+}*/
+img{
+	max-width:100%;
+	height:auto;
+}
+.fix{
+	overflow:hidden;
+}
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+a:hover, a:focus {
+	outline:none;
+	border:none;
+	text-decoration:none;
+}
+
+.slicknav_menu {
+    display:none;
+}
+
+/* CSS reset End here */
+
+
+/* Template style start from here */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*.col-md-rightset-1 {
+    margin-right: 8.33333333%;
+}*/
+
+.col-mm-3 {
+    position: relative;
+    width: 33.33333333%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+
+/* Home Section Style*/
+
+.header_area {
+	background: url(img/headerback.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	padding-bottom: 185px;
+	text-align: center;
+}
+
+/*.header_top {
+	padding-top: 45px;
+	display: block;
+	overflow: hidden;
+}
+*/
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+
+.fixed_header {
+    background: transparent;
+    margin: 0;
+}
+
+.top-nav-collapse {
+    background: rgba(255, 255, 255, .9) ;
+    box-shadow: 0 0 5px #aaa;
+}
+
+.top-nav-collapse .container {
+    padding:15px !important;
+}
+
+
+#new_id {
+    float: right !important;
+}
+
+.logo_sec {
+    text-align: left;
+    margin-top: 13px;
+}
+
+.logo_sec a h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+	color: #649aea;
+	text-align: left;
+    display: inline-block;
+}
+
+
+
+.navbar-nav > li >.current a, .top-nav-collapse .navbar-nav > li >.current a, .top-nav-collapse .navbar-nav > li > a.current, .navbar-nav > li > a.current {
+    color: #222;
+    background-color: transparent !important;
+}
+
+.top-nav-collapse .navbar-nav > li > a, .navbar-nav > li > a {
+	margin: 0;
+	font-size: 14px;
+	color: #649AEA;
+	margin-left: 45px;
+    background-color: transparent !important;
+    background: transparent;
+	text-transform: uppercase;
+      -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+
+.top-nav-collapse .navbar-nav > li > a:hover {
+    color: #222;
+    background-color: transparent !important;
+}
+
+.top-nav-collapse .nav > li > a, .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 15px 0px !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent !important;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li.current.active a {
+    color: #fff;
+    background-color: transparent !important;
+}
+
+.top-nav-collapse .navbar-nav > li.current.active a, .top-nav-collapse .navbar-nav > li.current.active a:hover {
+    color: #222;
+    background-color: transparent !important;
+}
+
+
+.header_inner {
+	margin-top: 190px;
+}
+
+.header_inner h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	color: #ffffff;
+	font-style: normal;
+}
+
+.header_inner h1 {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	font-size: 75px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.header_inner a.banner_btn, .contact_btn {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 25px 50px;
+	background: #649AEA;
+	border-radius: 6px;
+}
+
+.header_inner a.banner_btn:hover, .contact_btn:hover {
+    color: #fff;
+}
+
+
+ /*Service Section Style*/
+
+.service_area {
+	background: #fff;
+	padding-bottom: 142px;
+}
+    
+    /*Every section's Title Style*/
+        .global_title {
+        	text-align: center;
+        }
+
+        .global_title h1 {
+        	padding-top: 120px;
+        	margin-bottom: 20px;
+        	font-size: 40px;
+        	font-weight: 700;
+        	color: #222222;
+        }
+
+        .global_title p {
+        	margin: 0;
+        	font-size: 16px;
+        	color: #777777;
+        	font-style: normal;
+        }
+    /*END*/
+
+.service_inner {
+	text-align: center;
+	margin-top: 75px;
+}
+
+.service_inner img {
+    border-radius: 50%;
+    text-transform: uppercase;
+      -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+
+.service_inner .col-mm-3:hover img {
+    box-shadow: 0 0 10px #AAAAAA;
+}
+
+.service_inner .col-mm-3:hover h4 {
+    color: #00ABEA;
+}
+
+.service_inner h4 {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #222222;
+	font-weight: 700;
+    text-transform: uppercase;
+      -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+
+.service_inner p {
+	margin: 0;
+	font-size: 14px;
+	color: #777777;
+	padding: 0 ;
+}
+
+ 
+/* Portfolio Section Style*/
+
+.portfolio_area {
+	background: #F7F7F7;
+	padding-bottom: 97px;
+}
+
+.project_filter {
+    text-align: center;
+}
+
+.project_menu {
+    display: inline-block;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.project_menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 15px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+    text-transform: uppercase;
+       -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+
+.project_menu li.active {
+    color: #00ABEA;
+}
+
+.project_menu li:hover {
+    color: #00ABEA;
+}
+
+.portfolio_items {
+    text-align: center;
+    width: 100%;
+    /*overflow: hidden;*/
+    display: block;
+}
+
+.single_port {
+    display: none;
+    margin: 0 18.5px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.single_port:first-child, .fourth {
+    margin-left: 0 !important;
+}
+
+.single_port:last-child, .third {
+    margin-right: 0 !important;
+}
+
+.single_port_inner {
+    -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+
+.single_port:hover .item_footer h3 {
+    color: #00ABEA;
+}
+
+.single_port_inner:hover  {
+    box-shadow: 0px 5px 10px #989898 !important;
+}
+
+.item_footer {
+    background: #FFFFFF;
+    padding: 30px 0;
+    display: block;
+}
+
+.item_footer h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+    -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+
+.item_footer p {
+    font-size: 14px;
+    color: #737373;
+    font-style: normal;
+    margin: 0;
+}
+
+
+ /*About US Section Style*/
+
+.about_us_area {
+    background: #fff;
+    padding-bottom: 97px;
+}
+
+.aboutus_inner {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.aboutus_inner p {
+    margin: 0;
+    padding: 0 5px;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #777777;
+}
+
+.aboutus_inner img {
+    margin-top: 75px;
+}
+
+.team_area {
+    background: #F9F9F9;
+    padding-bottom: 97px;
+    text-align: center;
+}
+
+.team_members {
+    margin-top: 80px;
+}
+
+.team_members img {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    border: 8px solid #fff;
+}
+
+.team_members h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222222;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.team_members p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #777777;
+}
+
+.team_members li {
+    display: inline-block;
+    list-style: none;
+}
+
+.team_members li a {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 10px;
+    border: 3px solid #222222;
+    border-radius: 50%;
+    color: #222222;
+    width: 40px;
+    height: 40px;
+    -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+
+.team_members li a.twitter:hover {
+    background: #00ACED;
+    border: 3px solid #00ACED;
+    color: #fff;
+}
+
+.team_members li a.facebook:hover {
+    background: #3B5998;
+    border: 3px solid #3B5998;
+    color: #fff;
+}
+
+.team_members li a.pinterest:hover {
+    background: #CB2028;
+    color: #fff;
+    border: 3px solid #CB2028;
+}
+
+.team_members li a.google:hover {
+    background: #D21819;
+    border: 3px solid #D21819;
+    color: #fff;
+}
+
+.team_members li a i {
+    margin-top: 8px;
+}
+
+.team_text p {
+    padding: 50px 260px;
+    font-size: 16px;
+    color: #777777;
+    margin: 0;
+}
+
+.brands_area {
+}
+
+.clients {
+    text-align: center;
+    padding: 60px 0;
+    background:#fff;
+}
+
+.single_clients {
+    display: inline-block;
+    margin: 0 22.5px;
+}
+
+
+ /*Contact us Section Style*/
+
+.contact_us_area {
+    background-color: #222222;
+}
+
+.contact_us_area_inner {
+    background: url(img/map.png);
+    background-size: 614px 636px;
+    background-repeat: no-repeat;
+    background-position: right 155px;
+    padding-bottom: 122px;
+}
+
+.contact_us_area .global_title h1 {
+    color: #fff;
+}
+
+.contact_form {
+    margin-top: 75px;
+}
+
+.inputs {
+    width: 50%;
+    display: block;
+    float: left;
+    padding-right: 15px;
+}
+
+.inputs input {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 0;
+    font-weight: 700;
+    outline: none;
+}
+
+.inputs input::-moz-placeholder {
+    color: #bbbbbb;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.inputs input::-webkit-input-placeholder  {
+    color: #bbbbbb;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+
+.textarea_sec {
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+
+}
+
+.contact_form form textarea {
+    border: 0;
+    border-radius: 4px;
+    width: 100%;
+    min-height: 240px;
+    padding: 20px;
+    resize: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.contact_form form textarea::-moz-placeholder {
+    color: #bbbbbb;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.contact_form form textarea::-webkit-input-placeholder  {
+    color: #bbbbbb;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+
+.button_sec {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.contact_btn {
+    margin-top: 30px;
+}
+
+
+.footer_area {
+    padding: 20px 0;
+    background: #FFFFFF;
+}
+
+.footer_area p {
+    font-size: 14px;
+    color: #555555;
+    text-align: left;
+    margin: 0;
+    margin-top: 11px;
+}
+
+.social_icons {
+    padding-left: 10%;
+}
+
+.social_icons a {
+    height: 40px;
+    width: 40px;
+    background: #222222;
+    display: inline-block;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    margin: 0 5px;
+}
+
+
+ /*CSS Button Hover*/
+
+ .hvr-ripple-out::before {
+    border: #649AEA solid 5px !important;
+    border-radius: 6px !important;
+}
+
+
+/* scroll top button*/
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 15px;
+    background: rgba(89, 145, 229, .5);
+    color: #222;
+    font-size: 28px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+    -webkit-transition: bottom 150ms linear;
+    -moz-transition: bottom 150ms linear;
+    transition: bottom 150ms linear;
+}
+
+#scrollUp:hover {
+    color: #fff;
+    background: rgba(89, 145, 229, .7);
+    padding-bottom: 25px
+}
