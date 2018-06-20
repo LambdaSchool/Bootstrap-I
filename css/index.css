@@ -13,3 +13,6 @@
 .container .footer {
   margin-top: 50px;
 }
+.container #accordion {
+  padding-bottom: 30px;
+}
