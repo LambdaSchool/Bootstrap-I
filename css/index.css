@@ -23,3 +23,9 @@ nav {
   justify-content: center;
   align-items: center;
 }
+.lists-row {
+  margin-top: 20px;
+}
+.list-group-item-bold {
+  font-weight: bold;
+}
