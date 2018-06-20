@@ -1,0 +1,104 @@
+// // Mixins below variables
+// #keegansButton() {
+//   .btn {
+//     width: 200px;
+//     text-align: center;
+//     padding: 20px;
+//     display: block;
+//     border: 1px solid black;
+//     background-color: white;
+//     &:hover {
+//       background-color: darken(white, 10%);
+//     }
+//   }// button
+// }//footerStyle namespace
+
+.btn-keegan {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 0;
+  margin-top: 40px;
+}
+
+.button-maker (@width, @height, @bg-color, @border) {
+  width: @width;
+  height: @height;
+  background-color: @bg-color;
+  border: @border;
+  color: white;
+  .center;
+}
+
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 0 0 #333;
+  box-shadow: 3px 3px 0 0 #333;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  active {
+    -webkit-box-shadow: 0 0 0 0 #333;
+    box-shadow: 0 0 0 0 #333;
+    transform: translate(2px,2px);
+    background: white;
+    color: black;
+    border-color: black;
+  }
+}
+
+.border-radius (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.opacity (@opacity: 0.5) {
+  -webkit-opacity: @opacity;
+  -moz-opacity: @opacity;
+  opacity: @opacity;
+}
+
+.box-shadow (@string) {
+  -webkit-box-shadow: @string;
+  -moz-box-shadow: @string;
+  box-shadow: @string;
+}
+
+.rotate (@deg) {
+  -webkit-transform: rotate(@deg);
+  -moz-transform: rotate(@deg);
+  -ms-transform: rotate(@deg);
+  -o-transform: rotate(@deg);
+}
+
+.skew (@deg, @deg2) {
+  -webkit-transform: skew(@deg, @deg2);
+  -moz-transform: skew(@deg, @deg2);
+  -ms-transform: skew(@deg, @deg2);
+  -o-transform: skew(@deg, @deg2);
+}
+
+.flex (@display, @justify, @align, @direction) {
+  display: @display;
+  justify-content: @justify;
+  align-items: @align;
+  flex-direction: @direction;
+}
