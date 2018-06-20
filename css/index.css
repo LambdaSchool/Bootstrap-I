@@ -29,10 +29,19 @@ footer {
   align-items: center;
 }
 .index .info-deck .info-card .card-body .coloring {
-  background: #003057;
   height: 330px;
   width: 100%;
 }
+.index .info-deck .info-card .card-body .wgu-coloring {
+  background: #003057;
+}
+.index .info-deck .info-card .card-body .lambda-coloring {
+  background: black;
+}
 .index .info-deck .info-card .card-body .logo {
   transform: translateY(-40px);
+}
+.index .info-deck .info-card .card-body .logo .lambda-logo {
+  height: 140px;
+  width: 140px;
 }
