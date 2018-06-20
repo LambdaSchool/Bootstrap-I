@@ -2,9 +2,3 @@
   max-width: 900px;
   margin: 0 auto;
 }
-.container .jumbotron {
-  flex-direction: row;
-}
-.container .jumbotron img {
-  max-width: 50%;
-}
