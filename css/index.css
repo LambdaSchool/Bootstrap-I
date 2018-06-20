@@ -74,10 +74,7 @@ h5 {
   color: #079992;
 }
 .resume .main-info .left-column {
-  padding: 20px 30px 20px 50px;
-  padding-left: 50px;
-  padding-right: 30px;
-  padding-bottom: 20px;
+  padding: 1rem 30px 20px 50px;
 }
 .resume .main-info .left-column .badge {
   margin-left: 10px;
@@ -109,6 +106,7 @@ h5 {
   width: 100%;
   margin-top: 50px;
   padding-left: 30px;
+  margin-bottom: 20px;
 }
 .resume .main-info .right-column .education h4 {
   margin-bottom: 2px;
