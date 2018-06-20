@@ -53,13 +53,14 @@ h5 {
 				margin-bottom: 5px;
 			}
 	.pic-name {
+		top: 0;
 		.flex-center;
 		background-color: @nice-blue;
 	}
 	img {
 		border-radius: 50%;
 		padding: 20px;
-		width: 240px;
+		max-width: 240px;
 	}
 	.name {
 		width: 100%;
@@ -83,6 +84,13 @@ h5 {
 				margin-left: 10px;
 				font-size: 14px;
 				background-color: @lighter-blue;
+			}
+			.work h5 {
+				color: grey;
+			}
+			.sub {
+				display:flex;
+				justify-content: space-between;
 			}
 		}
 		.right-column {

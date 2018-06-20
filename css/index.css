@@ -38,6 +38,7 @@ h5 {
   margin-bottom: 5px;
 }
 .resume .pic-name {
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -46,7 +47,7 @@ h5 {
 .resume img {
   border-radius: 50%;
   padding: 20px;
-  width: 240px;
+  max-width: 240px;
 }
 .resume .name {
   width: 100%;
@@ -71,6 +72,13 @@ h5 {
   margin-left: 10px;
   font-size: 14px;
   background-color: #38ada9;
+}
+.resume .main-info .left-column .work h5 {
+  color: grey;
+}
+.resume .main-info .left-column .sub {
+  display: flex;
+  justify-content: space-between;
 }
 .resume .main-info .right-column {
   background-color: #38ada9;
