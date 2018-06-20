@@ -19,3 +19,7 @@ img {
 .row .round {
   border-radius: 300px;
 }
+.customHeading {
+  margin-top: 10%;
+  margin-left: 50%;
+}
