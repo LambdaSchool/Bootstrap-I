@@ -16,16 +16,62 @@
 
 <body>
 
+    <header>
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="nav justify-content-end">
+                  <a href="#" class="nav-link active">Home</a>
+                  <a href="#" class="nav-link disabled">Portfolio</a>
+                </nav>
+            </div>
+        </div>
+      </div><!-- navigation -->
+
+      <img src="img/less-is-more.png" alt="header-img" class="img-fluid mx-auto d-block">
+
+      <div class="arrow">
+        <a href="#"></a>
+      </div><!-- arrow -->
+
+      <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          </div>
+        </div>
+      </div><!-- jumbotron -->
+
+    </header><!-- header -->
+
+
+    
+    <!-- Sidebar -->
     <div class="container">
       <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+        <div class="col-3">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Education</a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Experience</a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Current Projects</a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Open Source</a>
           </div>
+        </div>
+        <div class="col-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, dolorem sapiente nostrum et, distinctio accusantium quibusdam voluptatibus sed voluptas molestiae incidunt aliquam quisquam, quidem rerum debitis earum tempore quod. Neque!</div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, voluptatem obcaecati aperiam sequi quibusdam velit nobis quae enim nisi delectus. Nisi, in? Similique, at deleniti. Nesciunt rerum repudiandae asperiores nulla!</div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nemo cupiditate, reprehenderit earum eveniet sequi neque aperiam ea pariatur quibusdam iusto. Similique alias consequuntur quidem placeat aut error sint adipisci?</div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nemo cupiditate, reprehenderit earum eveniet sequi neque aperiam ea pariatur quibusdam iusto. Similique alias consequuntur quidem placeat aut error sint adipisci?</div>
+          </div>
+        </div>
       </div>
-    </div><!-- container -->
+    </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
+
