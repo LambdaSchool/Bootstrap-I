@@ -1,3 +1,28 @@
+nav a {
+  text-decoration: none;
+  color: lightgrey;
+}
+nav a:hover {
+  color: teal;
+}
+nav .btn {
+  color: lightgrey;
+  background: teal;
+  border: none;
+}
+nav .btn:hover {
+  color: white;
+  background: #A54764;
+}
+.jumbotron .btn {
+  color: lightgrey;
+  background: teal;
+  border: none;
+}
+.jumbotron .btn:hover {
+  color: white;
+  background: #A54764;
+}
 .list-group {
   margin: 20px 0;
 }
