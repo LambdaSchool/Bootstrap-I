@@ -1,13 +1,38 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
   max-width: 900px;
 }
 .container .nav {
   display: flex;
   justify-content: space-around;
-  padding: 20px 0;
+  padding: 15px 0;
+}
+.container .nav a {
+  width: 80px;
+  height: 30px;
+  background-color: #15b3e7;
+  color: white;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .nav a:hover {
+  background-color: #0d6b8a;
 }
 .container .top-content {
   border: 1px solid lightgray;
+  width: 100%;
+  margin: auto;
 }
 .container .top-content .my-name {
   padding: 5px;
@@ -20,7 +45,15 @@
 }
 .container .top-content .image-container .my-image {
   width: 200px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .container .middle-table {
-  padding: 20px 0;
+  border: 1px solid lightgray;
+  padding-top: 5px;
+  margin: 20px 0;
 }

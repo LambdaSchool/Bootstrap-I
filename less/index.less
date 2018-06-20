@@ -1,4 +1,6 @@
 // Start here!
+@import "mixin.less";
+
 .container {
     max-width: 900px;
 
@@ -6,13 +8,19 @@
         // border: 1px solid blue;
         display: flex;
         justify-content: space-around;
-        padding: 20px 0;
+        padding: 15px 0;
+
+        a {
+            .button-maker(200px, 20px, rgb(21, 179, 231), white)
+        }
 
        
     }
     
     .top-content {
         border: 1px solid lightgray;
+        width: 100%;
+        margin: auto;
 
         .my-name {
             padding: 5px;
@@ -26,12 +34,15 @@
 
             .my-image {   
                 width: 200px;
+                .border-radius(20px);
             }
         }
     }
 
     .middle-table {
-        padding: 20px 0;
+        border: 1px solid lightgray;
+        padding-top: 5px;
+        margin: 20px 0;
     }
 
         
