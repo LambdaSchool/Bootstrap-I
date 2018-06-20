@@ -1,8 +1,13 @@
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
 
 .main-content {
   margin-top: 50px;
-
 
   .main-content__web-dev {
 
@@ -31,10 +36,15 @@
 
     .work-education {
       margin-top: 50px;
+
+      a.active .text-muted {
+        color: white !important;
+      }  
     }
 
     .main-content__history--work h2, .main-content__history--education h2 {
       .center;
+      margin-bottom: 20px;
     }
   }
 }

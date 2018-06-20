@@ -16,8 +16,8 @@
 .main-header .main-header__nav a {
   font-size: 1.1rem;
 }
-.main-header .main-header__nav li {
-  margin-right: 3rem;
+.main-header .main-header__nav a:hover {
+  background-color: #0062cc;
 }
 .main-overview {
   margin-top: 60px;
@@ -53,6 +53,10 @@
   margin-top: 20px;
   max-width: 800px;
 }
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 .main-content {
   margin-top: 50px;
 }
@@ -79,15 +83,22 @@
 .main-content .main-content__history .work-education {
   margin-top: 50px;
 }
+.main-content .main-content__history .work-education a.active .text-muted {
+  color: white !important;
+}
 .main-content .main-content__history .main-content__history--work h2,
 .main-content .main-content__history .main-content__history--education h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 .main-footer {
   background-color: #323D4F;
   margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 20px 0 0 0;
   color: white;
