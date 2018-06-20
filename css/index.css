@@ -1,0 +1,7 @@
+.container {
+  border: 1px solid red;
+  max-width: 880px;
+}
+.container .paper {
+  background: oldlace;
+}
