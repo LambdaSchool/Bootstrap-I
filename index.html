@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Digital Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,16 +15,6 @@
 </head>
 
 <body>
-
-<!-- 
-TODO:
-Jumbotron
-List Group
-Badge
-Buttons
-Button group
-Card
-Nav -->
 
     <div class="container">
       <!-- HEADER -->
@@ -63,7 +53,11 @@ Nav -->
   <div class="card-body">
     <h5 class="card-title">SK!LLZ</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-<div class="btn btn-dark">8@NG</div>
+<!-- <div class="btn btn-dark">8@NG</div> -->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+ 8@NG
+</button>
+
   </div>
 </div>
         </div>
@@ -96,6 +90,55 @@ Nav -->
           </div>
       </div>
     </div><!-- container -->
+
+    <!-- MODAL -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">SK!LLZ</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="close-modal" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

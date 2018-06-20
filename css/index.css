@@ -35,3 +35,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.container .modal .modal-footer {
+  display: flex;
+  justify-content: center;
+}
+.container .modal .modal-footer button .close-modal {
+  width: 100%;
+}
