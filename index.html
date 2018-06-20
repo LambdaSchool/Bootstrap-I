@@ -9,8 +9,6 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
 
-
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <!--[if lt IE 9]>
@@ -21,24 +19,37 @@
 <body>
 
     <div class="container main">
+
       <div class="row intro">
         <div class="test-boxes">
+          <div class="row">
+            <div class="top-boxes">
 
+
+            </div><!--top-boxes-->
+          </div><!--row-->
+        </div><!--test-boxes-->
+      </div> <!--row intro-->
+
+      <div class="name-pic row">
+
+        <div class="col-xs-12 med-6 col-6">
+            <h1>Michael Kerbleski</h1>
         </div>
-            <div class="col-xs-12 med-6 col-6">
-                <h1>Michael Kerbleski</h1>
-            </div>
-            <figure class="figure picture col-xs-12 med-6 col-6">
-              <img src="img/dali-boat.jpg" class="figure-img img-fluid rounded" alt="a metaphorical picture of Michael as dali's boat.">
-              <figcaption class="figure-caption">Me. Arriving home after a long journey.</figcaption>
-            </figure>
-        </div><!-- name row-->
+
+        <figure >
+          <img class="figure picture col-xs-12 med-6 col-6 center" src="img/dali-boat.jpg" class="figure-img img-fluid rounded" alt="a metaphorical picture of Michael as dali's boat.">
+          <figcaption class="figure-caption">Me. Arriving home after a long journey.</figcaption>
+        </figure>
+
+      </div><!-- name row-->
+
         <div class="row about-me-row">
           <div class="col-sm-4">
             <h2>About Me</h2>
             <div class="row paragraph-row">
               <div class="">
-                <p class="col-12 intro-paragraph">I am a fullstack web-developer hailing from Albuquerque New Mexico. Previously I have worked in marketing, video production and education.</p>
+                <p class="col-12 intro-paragraph">I am a fullstack web-developer hailing from Albuquerque, New Mexico. Previously I have worked in marketing, video production and education.</p>
               </div>
             </div>
           </div>
@@ -58,67 +69,92 @@
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>HTML</td>
+              <td>Pretty decent if you ask me</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>CSS</td>
+              <td>not to bad</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
+              <td>Javascript</td>
+              <td>Can solve a for loop with my eyes open</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="work">
-        <h1>Professional Life</h1>
-          <div class="segment">
-            <h3>Company</h3>
-            <h4>Title</h4>
-            <p>description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="segment">
-            <h3>Company</h3>
-            <h4>Title</h4>
-            <p>description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="segment">
-            <h3>Company</h3>
-            <h4>Title</h4>
-            <p>description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="segment">
-            <h3>Company</h3>
-            <h4>Title</h4>
-            <p>description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h1 class="col-12">Professional Life</h1>
+        <div class="row work-row">
+
+          <div class="card col-4" style="width: 18rem;">
+            <img class="card-img-top" src="img/vr-lab.jpg" alt="michael putting VR googles on a student">
+            <div class="card-body">
+              <h4 class="card-title">Immersive Virtual Reality Lab</h4>
+              <h5 class="card-subtitle">360 Video Specialist</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="details.html" class="btn btn-primary">Details</a>
+            </div>
           </div>
 
+          <div class="card col-4" style="width: 18rem;">
+            <img class="card-img-top" src="img/ski.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Vail Valley Foundation</h4>
+              <h5 class="card-subtitle">Job Title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="details.html" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+
+          <div class="card col-4" style="width: 18rem;">
+            <img class="card-img-top" src="img/stars.gif" alt="gif of observatory dome shifting in unison with the milkey way in the background">
+            <div class="card-body">
+              <h4 class="card-title">Marketing - Northern Arizona University</h4>
+              <h5 class="card-subtitle">Job Title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="details.html" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
       </div>
+
+      </div>
+
       <div class="school">
         <h1>Education</h1>
-        <div class="segment">
-          <h3>Company</h3>
-          <h4>Title</h4>
-          <p>description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="row">
+          <div class="card col-4" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Northern Arizona University</h4>
+              <h5 class="card-subtitle">Job Title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="details.html" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+          <div class="card col-4" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Northern Arizona University</h4>
+              <h5 class="card-subtitle">B.A. Film</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="details.html" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+          <div class="card col-4" style="width: 18rem;">
+            <img class="card-img-top" src="img/prep-logo.png" alt="sandia prep logo - 5 triangles forming a circle">
+            <div class="card-body">
+              <h4 class="card-title">Sandia Prep High School</h4>
+              <h5 class="card-subtitle">Job Title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="details.html" class="btn btn-primary">Details</a>
+            </div>
+          </div>
         </div>
-        <div class="segment">
-          <h3>Company</h3>
-          <h4>Title</h4>
-          <p>description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="segment">
-          <h3>Company</h3>
-          <h4>Title</h4>
-          <p>description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
+      </div><!--school-->
 
     </div><!-- container -->
 

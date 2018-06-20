@@ -126,6 +126,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.intro {
+  height: 100px;
+  background-color: green;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .picture {
   border: 1px solid red;
 }
