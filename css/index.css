@@ -126,10 +126,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.intro {
-  height: 100px;
-  background-color: green;
-}
 .center {
   display: flex;
   justify-content: center;
@@ -146,4 +142,14 @@ table {
 }
 .table-skills {
   margin-left: 10px;
+}
+.intro {
+  height: 100px;
+  background-color: green;
+}
+.table-img {
+  max-height: 30px;
+}
+.cards img {
+  padding: 3px;
 }
