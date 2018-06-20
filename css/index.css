@@ -3,5 +3,19 @@ div {
 }
 div .test {
   color: red;
-  border: 1px soild black;
+}
+nav {
+  font-size: 50px;
+  position: fixed;
+  justify-content: center;
+  margin-bottom: ;
+}
+img {
+  max-width: 300px;
+}
+.row .start {
+  margin-top: 10%;
+}
+.row .round {
+  border-radius: 300px;
 }
