@@ -25,6 +25,9 @@
 .home .main-heading-content {
   font-size: 50px;
 }
+.home .title {
+  margin-top: 20px;
+}
 .home p {
   font-size: 35px;
 }
@@ -41,4 +44,19 @@
   text-align: center;
   color: white;
   background: #D23535;
+}
+.bottom {
+  margin-top: 10px;
+  width: 560px;
+  height: auto;
+}
+.bottom .list-group {
+  display: flex;
+  align-items: center;
+}
+.bottom .list-group-item {
+  width: 600px;
+  margin-top: 5px;
+  color: black;
+  background: #FDDC09;
 }
