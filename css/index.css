@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.me {
+  max-width: 300px;
+  max-height: 300px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  border: green 1px solid;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
