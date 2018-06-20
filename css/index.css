@@ -1,6 +1,24 @@
 .container {
   border: 1px solid red;
 }
+header {
+  height: 100px;
+}
 .header-nav {
   justify-content: flex-end;
+}
+.header-nav a {
+  color: black;
+  font-size: 1.5rem;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  transition: background-color 0.5s ease;
+}
+.header-nav a:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+.jumbo-mumbo {
+  padding: 0 15px;
 }
