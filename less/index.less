@@ -1,12 +1,3 @@
-// Colors
-
-@turquoise-blue:#43EAE8;
-@aquamarine: #89FAD8;
-@shocking-pink: #EB28D5;
-@inch-worm: #8BEB28;
-@golden-fizz: #F6F437;
-@tango: #F06114;
-@electric-violet: #A739EA;
 
 // Mixins
 
@@ -14,6 +5,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow:    @string;
+	box-shadow:         @string;
 }
 
 
@@ -42,3 +39,11 @@
       .center;
       background-color: #10A0E0;
   }
+
+  .jumbotron{
+      img{
+        .box-shadow(10px 4px 10px #10A0E0);
+      }
+  }
+
+  

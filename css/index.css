@@ -24,3 +24,8 @@ img {
   align-items: center;
   background-color: #10A0E0;
 }
+.jumbotron img {
+  -webkit-box-shadow: 10px 4px 10px #10A0E0;
+  -moz-box-shadow: 10px 4px 10px #10A0E0;
+  box-shadow: 10px 4px 10px #10A0E0;
+}
