@@ -3,17 +3,13 @@
 }
 nav {
   padding: 20px 0;
+  margin-right: 300px;
+
 }
 nav a {
   color: black;
 }
-.jumbotron {
-  background: offwhite;
-}
-.jumbotron .btn {
-  background: gray;
-  border: 1px solid white;
-}
+
 .table-row {
   margin-top: 20px;
 }
@@ -22,4 +18,12 @@ nav a {
   padding: 20px 0;
   background: gray;
   color: white;
+}
+img {
+  margin-left: 20px;
+}
+
+.jumbotron {
+  
+  
 }
