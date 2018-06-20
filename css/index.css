@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   justify-content: center;
 }
@@ -28,4 +29,15 @@ nav {
   margin: 20px;
   border-radius: 10px;
   align-self: auto;
+=======
+.row1 {
+  text-align: center;
+}
+.card-header {
+  text-align: center;
+}
+.display-6 {
+  text-align: center;
+  background: grey;
+>>>>>>> b5fbb6f2e0a25ab56ff1ce989c9615d26086ad70
 }
