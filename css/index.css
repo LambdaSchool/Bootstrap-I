@@ -6,9 +6,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.jumbotron {
-  padding: 0;
-}
 .nav {
   background-color: indigo;
   background-image: -webkit-gradient(linear, left top, right top, from(indigo), to(lightgray));
@@ -24,4 +21,21 @@ body {
 }
 .nav .nav-link {
   color: lightgray;
+}
+.nav-col {
+  padding: 0;
+}
+.jumbotron {
+  padding: 0;
+}
+.text-content {
+  background: lightsteelblue;
+  border: 1px solid black;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.2);
+  -moz-box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.2);
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.2);
 }
