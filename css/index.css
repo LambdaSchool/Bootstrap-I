@@ -20,9 +20,16 @@
 .col {
   padding-top: 10px;
 }
+.jumbotron {
+  margin-bottom: 0;
+}
+.table {
+  margin-bottom: 0;
+}
 .custom-column {
   border: 2px groove goldenrod;
   margin: 5px;
+  padding-bottom: 10px;
 }
 .custom-img {
   display: flex;
