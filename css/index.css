@@ -13,8 +13,8 @@ nav a {
   padding: 1rem;
 }
 .jumbotron .btn {
-  background: gray;
-  border: 1px solid white;
+  background: #3B7FBA;
+  color: white;
 }
 .table-row {
   margin-top: 20px;
