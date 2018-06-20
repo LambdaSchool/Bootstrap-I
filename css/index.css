@@ -15,3 +15,20 @@
   background: #98A246;
   border-color: gray;
 }
+.btn:hover {
+  color: gray;
+  background: #FBFDED;
+  border-color: gray;
+}
+.badge {
+  background: #98A246;
+}
+a {
+  color: #98A246;
+}
+a:hover {
+  color: #FBFDED;
+}
+.card {
+  height: 98%;
+}
