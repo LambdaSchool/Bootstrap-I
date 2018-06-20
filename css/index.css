@@ -16,7 +16,7 @@
   background: #98A246;
   border-color: gray;
   max-width: 60%;
-  align-self: center;
+  align-self: flex-start;
 }
 .btn:hover {
   color: gray;
@@ -45,4 +45,5 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-content: center;
 }
