@@ -1,0 +1,60 @@
+.center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-row nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.header-row nav a {
+  text-decoration: none;
+  color: black;
+}
+.header-row nav a:hover {
+  color: #cccccc;
+}
+.header-row img-of-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header-row img {
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.top-content .gaming {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top-content .gaming p span {
+  font-style: italic;
+  font-weight: bold;
+}
+.top-content .gaming title {
+  display: flex;
+  justify-content: center;
+}
+.mid-content .bullet-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mid-content .title {
+  font-size: 2.0rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mid-content .skills {
+  margin-bottom: 5px;
+  padding-top: 15px;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
