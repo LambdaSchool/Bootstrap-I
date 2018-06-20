@@ -10,6 +10,9 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -28,19 +31,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home
+            <a class="nav-item nav-link active" href="#landing">Home
               <span class="sr-only">(current)</span>
             </a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Projects</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
           </div>
         </div>
       </div>
     </nav>
   </header>
 
-  <div class="landing">
+  <div id="landing" class="landing">
     <div class="title">
       <h1 class="text-light display-3 text-center">Ashwin
       </h1>
@@ -48,13 +51,85 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h1 class="display-4">Start Here!</h1>
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center">About Me</h2>
+      <div class="row mb-5">
+        <div class="col-6 col-sm-4">
+          <img src="img/profile.jpg" alt="A picture of Mr. Ashwin" class="img-fluid img-rounded">
+        </div>
+        <div class="col-6 col-sm-8">
+          <p class="lead text-justify">
+            Hi, I am Ashwin. I am a Frontend UI/UX Developer, and a prospective Lambda School
+            graduate. Design is a powerful means of communication. A picture is worth
+            thousand words. Design is beautiful. I love chocolates, flat design and
+            JavaScript. I also happen to be an accountant whois also interested mathematics
+            and chess.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <h3>Professional Skills</h3>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Skill</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Quick Study</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Expert in Documentation</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Soft Skills</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>
+                  <i class="fab fa-git"></i> Git flow</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>
+                  <i class="fab fa-python"></i> Automation with python
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3>Preferred Tech Stack</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <i class="fas fa-database"></i>
+              MongoDB
+            </li>
+            <li class="list-group-item">
+              <i class="fab fa-js"></i>
+              Express
+            </li>
+            <li class="list-group-item">
+              <i class="fab fa-react"></i>
+              React
+            </li>
+            <li class="list-group-item">
+              <i class="fab fa-node-js"></i>
+              Node
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+
   <!-- container -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
