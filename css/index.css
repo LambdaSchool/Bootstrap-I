@@ -224,6 +224,8 @@ nav a:hover {
   margin-top: 50px;
 }
 .work-section {
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
   font-size: 1.1rem;
   line-height: 1.5;
   color: black;
@@ -236,7 +238,10 @@ nav a:hover {
   align-self: none;
   flex-flow: none;
 }
-.work-section .last-rows {
+.work-section .last-words {
+  width: 44%;
+}
+.work-section .contact {
   width: 44%;
 }
 footer {
@@ -247,6 +252,7 @@ footer {
   flex-wrap: none;
   align-content: none;
   font-size: 3rem;
+  margin-top: 50px;
 }
 footer h1 {
   margin-right: 2%;
