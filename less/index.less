@@ -1,5 +1,10 @@
 // =================== Variables
 
+@phone: ~"(min-width: 576px)";
+@tablet: ~"(min-width: 768px)";
+@laptop: ~"(min-width: 992px)";
+@desktop: ~"(min-width: 1200px)";
+
 // =================== Mixins
 
 .border-radius (@radius: 5px) {
@@ -48,7 +53,11 @@
    background-image: -o-linear-gradient(left, @startColor, @endColor);
 }
 
-// =================== CSS
+// General styles
+
+body {
+    background: lavender;
+}
 
 .center {
     display: flex;
@@ -56,8 +65,12 @@
     align-items: center;
 }
 
+.jumbotron {
+    padding: 0;
+}
+
 .nav {
-    .horizontal-gradient(darkorchid, lightgray);
+    .horizontal-gradient(indigo, lightgray);
 
     ul {
         display: flex;
@@ -70,3 +83,4 @@
     }
 }
 
+// index.html styles

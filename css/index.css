@@ -1,15 +1,21 @@
+body {
+  background: lavender;
+}
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.jumbotron {
+  padding: 0;
+}
 .nav {
-  background-color: darkorchid;
-  background-image: -webkit-gradient(linear, left top, right top, from(darkorchid), to(lightgray));
-  background-image: -webkit-linear-gradient(left, darkorchid, lightgray);
-  background-image: -moz-linear-gradient(left, darkorchid, lightgray);
-  background-image: -ms-linear-gradient(left, darkorchid, lightgray);
-  background-image: -o-linear-gradient(left, darkorchid, lightgray);
+  background-color: indigo;
+  background-image: -webkit-gradient(linear, left top, right top, from(indigo), to(lightgray));
+  background-image: -webkit-linear-gradient(left, indigo, lightgray);
+  background-image: -moz-linear-gradient(left, indigo, lightgray);
+  background-image: -ms-linear-gradient(left, indigo, lightgray);
+  background-image: -o-linear-gradient(left, indigo, lightgray);
 }
 .nav ul {
   display: flex;
