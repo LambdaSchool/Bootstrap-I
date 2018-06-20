@@ -23,16 +23,11 @@ h5 {
   font-size: 25px;
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
 .nav-custom .nav-link:hover {
   color: red;
 }
 .jumbotron .col-md-12 {
   background-color: white;
-}
-.jumbotron .col-md-12 .img-custom img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
