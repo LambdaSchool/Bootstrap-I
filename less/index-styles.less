@@ -11,6 +11,28 @@
     .info-card {
       height: 330px;
       width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 25px;
+
+      .card-body {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .coloring {
+          background: @wgu-blue;
+          height: 330px;
+          width: 100%;
+        }
+
+        .logo {
+          transform: translateY(-40px);
+        }
+      }
     }
   }
 

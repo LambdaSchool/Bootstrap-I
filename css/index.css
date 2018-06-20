@@ -16,4 +16,23 @@ footer {
 .index .info-deck .info-card {
   height: 330px;
   width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+}
+.index .info-deck .info-card .card-body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.index .info-deck .info-card .card-body .coloring {
+  background: #003057;
+  height: 330px;
+  width: 100%;
+}
+.index .info-deck .info-card .card-body .logo {
+  transform: translateY(-40px);
 }
