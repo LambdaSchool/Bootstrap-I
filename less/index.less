@@ -28,6 +28,34 @@ i {
   margin-right: 10px;
 }
 
+/* Beginning  */
+
+#introduction {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: white;
+  z-index: 1031;
+  .flex-center();
+  flex-direction: column;
+  transition: display 1s;
+
+  .first {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  .second {
+    .first;
+    animation-delay: 1.5s;
+  }
+  .third {
+    .first;
+    animation-delay: 3s;
+  }
+}
+
 /* Landing Styles */
 .landing {
   width: 100%;
@@ -39,6 +67,7 @@ i {
   .flex-center();
 
   .title {
+    opacity: 0;
     display: flex;
     align-items: flex-start;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
@@ -60,4 +89,12 @@ i {
 
 footer {
   font-size: 0.8rem;
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }
