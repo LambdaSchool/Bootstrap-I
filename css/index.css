@@ -38,7 +38,10 @@ footer {
 .index .info-deck .info-card .card-body .lambda-coloring {
   background: black;
 }
-.index .info-deck .info-card .card-body .logo {
+.index .info-deck .info-card .card-body .github-coloring {
+  background: black;
+}
+.index .info-deck .info-card .card-body .logo img {
   transform: translateY(-40px);
 }
 .index .info-deck .info-card .card-body .logo .lambda-logo {
