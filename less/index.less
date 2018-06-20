@@ -1,1 +1,132 @@
 // Start here!
+body {
+	background:#F1F3F5;
+}
+
+h1 {
+	font-size: 30px;
+	color: @nice-blue;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+@nice-blue: #079992;
+@lighter-blue: #38ada9;
+
+.flex-center() {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.resume {
+	background: white;
+	margin: 20px auto;
+	.nav {
+		justify-content: flex-start;
+		.nav-link {
+			color: @nice-blue;
+		}
+		.nav-link:first-child{
+			padding-left: 3px;
+		}
+	}
+	.about-me {
+		padding-top: 20px;
+		padding-left: 50px;
+		padding-right: 30px;
+	}
+	.skills p {
+		margin-bottom: 5px;
+	}
+	.pic-name {
+		top: 0;
+		.flex-center;
+		background-color: @nice-blue;
+	}
+	img {
+		border-radius: 50%;
+		padding: 20px;
+		max-width: 240px;
+		height: 200;
+	}
+	.name {
+		width: 100%;
+		.flex-center;
+		color: white;
+	}
+	.description {
+		width: 100%;
+		.flex-center;
+		color: #d1d8e0;
+	}
+
+	.title {
+		display: flex;
+		.icon {
+			font-size: 1.5em;
+			margin-right: 10px;
+			color: @nice-blue;
+		}
+	}
+}
+
+.resume {
+	.main-info {
+		.left-column {
+			padding: 1rem 30px 20px 50px;
+			.badge {
+				margin-left: 10px;
+				font-size: 14px;
+				background-color: @lighter-blue;
+			}
+			.work h5 {
+				color: grey;
+			}
+			.sub {
+				display:flex;
+				justify-content: space-between;
+			}
+		}
+		.right-column {
+			background-color: @lighter-blue;
+			color: white;
+			padding-bottom: 20px;
+			.contact {
+				margin-top: 50px;
+				width: 100%;
+				padding: 0 20px;
+				li {
+					background-color:@lighter-blue;
+					height: 60px;
+				}
+			}
+			.education {
+				width: 100%;
+				margin-top: 50px;
+				padding-left: 30px;
+				margin-bottom: 20px;
+				h4 {
+					margin-bottom: 2px;
+				}
+				p {
+					margin-bottom: 2px;
+				}
+			}
+		}
+	}
+}

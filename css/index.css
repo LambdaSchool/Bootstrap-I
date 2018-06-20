@@ -1,0 +1,116 @@
+body {
+  background: #F1F3F5;
+}
+h1 {
+  font-size: 30px;
+  color: #079992;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+}
+.resume {
+  background: white;
+  margin: 20px auto;
+}
+.resume .nav {
+  justify-content: flex-start;
+}
+.resume .nav .nav-link {
+  color: #079992;
+}
+.resume .nav .nav-link:first-child {
+  padding-left: 3px;
+}
+.resume .about-me {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.resume .skills p {
+  margin-bottom: 5px;
+}
+.resume .pic-name {
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #079992;
+}
+.resume img {
+  border-radius: 50%;
+  padding: 20px;
+  max-width: 240px;
+  height: 200;
+}
+.resume .name {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+.resume .description {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #d1d8e0;
+}
+.resume .title {
+  display: flex;
+}
+.resume .title .icon {
+  font-size: 1.5em;
+  margin-right: 10px;
+  color: #079992;
+}
+.resume .main-info .left-column {
+  padding: 1rem 30px 20px 50px;
+}
+.resume .main-info .left-column .badge {
+  margin-left: 10px;
+  font-size: 14px;
+  background-color: #38ada9;
+}
+.resume .main-info .left-column .work h5 {
+  color: grey;
+}
+.resume .main-info .left-column .sub {
+  display: flex;
+  justify-content: space-between;
+}
+.resume .main-info .right-column {
+  background-color: #38ada9;
+  color: white;
+  padding-bottom: 20px;
+}
+.resume .main-info .right-column .contact {
+  margin-top: 50px;
+  width: 100%;
+  padding: 0 20px;
+}
+.resume .main-info .right-column .contact li {
+  background-color: #38ada9;
+  height: 60px;
+}
+.resume .main-info .right-column .education {
+  width: 100%;
+  margin-top: 50px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+.resume .main-info .right-column .education h4 {
+  margin-bottom: 2px;
+}
+.resume .main-info .right-column .education p {
+  margin-bottom: 2px;
+}
