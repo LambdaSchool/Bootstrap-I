@@ -24,8 +24,11 @@ nav {
   align-items: center;
 }
 .lists-row {
-  margin-top: 20px;
+  margin-top: 40px;
 }
-.list-group-item-bold {
+.lists-row .list-group-item-bold {
   font-weight: bold;
+}
+.tableheading {
+  margin-top: 40px;
 }
