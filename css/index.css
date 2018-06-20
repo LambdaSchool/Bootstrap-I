@@ -2,7 +2,25 @@
   max-width: 900px;
 }
 .container .nav {
-  border: 1px solid blue;
   display: flex;
   justify-content: space-around;
+  padding: 20px 0;
+}
+.container .top-content {
+  border: 1px solid lightgray;
+}
+.container .top-content .my-name {
+  padding: 5px;
+  width: 100%;
+}
+.container .top-content .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .top-content .image-container .my-image {
+  width: 200px;
+}
+.container .middle-table {
+  padding: 20px 0;
 }
