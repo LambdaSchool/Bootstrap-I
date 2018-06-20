@@ -1,4 +1,15 @@
 // Start here!
-.yes {
-    font-size: 1px;
+.border(@color){
+    border: 2px solid @color;
+}
+
+#jumbo {
+    .border(orange);
+    }
+
+#skills {
+    .border(green);
+}
+.jumbotron {
+    justify-content: center;
 }
