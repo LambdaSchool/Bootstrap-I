@@ -175,7 +175,6 @@ h5 {
   background: black;
 }
 .custom-nav {
-  position: fixed;
   top: 0;
 }
 nav {
@@ -216,4 +215,23 @@ nav:hover {
   flex-direction: none;
   flex-wrap: none;
   align-content: none;
+}
+.work-section {
+  margin-top: 50px;
+}
+.work-section {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: space-between;
+  align-items: none;
+  align-content: none;
+  align-self: none;
+  flex-flow: none;
+}
+.work-section .last-rows {
+  width: 44%;
 }
