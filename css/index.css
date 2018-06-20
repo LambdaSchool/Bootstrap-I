@@ -1,0 +1,14 @@
+.nav {
+  margin-top: 50px;
+}
+.card {
+  margin-top: 15px;
+  background-color: lightslategray;
+  color: white;
+}
+.jumbo-highlight {
+  background-color: lightsteelblue;
+}
+.jumbo-highlight .jumbo-body {
+  background-color: lightsteelblue;
+}
