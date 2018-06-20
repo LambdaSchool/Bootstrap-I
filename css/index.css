@@ -1,16 +1,31 @@
 html {
   font-size: 62.5%;
 }
+.container-fluid {
+  max-width: 900px;
+  margin-top: 30px;
+}
 .container {
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 60px;
+}
+nav {
+  font-size: 1.8rem;
+}
+nav a {
+  color: black;
+}
+nav a:hover {
+  color: #08A096;
 }
 .user-basic-info {
   background-color: #E9E8E7;
   border: 5px solid grey;
   box-shadow: 10px 15px;
+}
+.user-basic-info:hover {
+  background-color: #F5F5F4;
 }
 .user-basic-info h1 {
   text-align: center;
@@ -44,8 +59,8 @@ html {
   font-family: 'Philosopher', serif;
   margin-bottom: 20px;
 }
-.user-basic-info .user-info .blockquote {
-  font-size: 2.2rem;
-  color: #8C030F;
-  font-family: 'Philosopher', serif;
+.user-basic-info .user-info .contact-buttons .btn {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  padding: 5px;
 }
