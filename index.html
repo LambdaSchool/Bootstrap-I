@@ -17,112 +17,108 @@
 </head>
 
 <body>
+  <div class="container main">
 
-    <div class="container main">
+    <div class="nav row">
+      <a class="col-3" href="#">nav</a>
+      <a class="col-3" href="#">nav</a>
+      <a class="col-3" href="#">nav</a>
+      <a class="col-3" href="#">nav</a>
+    </div><!--nav-->
 
-        <div class="nav row ">
-          <a class="nav col-3" href="#">nav</a>
-          <a class="nav col-3" href="#">nav</a>
-          <a class="nav col-3" href="#">nav</a>
-          <a class="nav col-3" href="#">nav</a>
-        </div><!--top-boxes-->
 
-        <div class="intro">
-          <div class="name-and-pic row">
+    <div class="intro row">
+      <div class="col-xs-12 med-6 col-6">
+          <h1>Michael Kerbleski</h1>
+      </div>
+      <figure >
+        <img class="figure picture col-xs-12 med-6 col-6 center" src="img/dali-boat.jpg" class="figure-img img-fluid rounded" alt="a metaphorical picture of Michael as dali's boat.">
+        <figcaption class="figure-caption">Me. Arriving home after a long journey.</figcaption>
+      </figure>
+    </div><!--intro rox-->
 
-        <div class="col-xs-12 med-6 col-6">
-            <h1>Michael Kerbleski</h1>
-        </div>
 
-        <figure >
-          <img class="figure picture col-xs-12 med-6 col-6 center" src="img/dali-boat.jpg" class="figure-img img-fluid rounded" alt="a metaphorical picture of Michael as dali's boat.">
-          <figcaption class="figure-caption">Me. Arriving home after a long journey.</figcaption>
-        </figure>
+    <div class="row about">
+      <div class="col-sm-4">
+        <h3>About Me</h3>
+      </div>
+      <div class="row">
+          <p class="col-med-12 intro-paragraph">Fullstack web-developer (in training) hailing from Albuquerque, New Mexico. Previously: Marketing, Video production, Virtual Reality and Education.</p>
+      </div>
+    </div><!--aboutmerow-->
 
-      </div><!-- name row-->
-      </div> <!--intro-->
 
-      <div class="row about-me">
-        <div class="col-sm-4">
-          <h3>About Me</h3>
-        </div>
-        <div class="row paragraph-row">
-            <p class="col-med-12 intro-paragraph">Fullstack web-developer (in training) hailing from Albuquerque, New Mexico. Previously: Marketing, Video production, Virtual Reality and Education.</p>
-        </div>
-      </div><!--aboutmerow-->
-
-      <div class="row  table-skills">
-        <h2>Skills</h2>
-        <table class="table thead-dark table-hover ">
-          <thead class="thead-dark">
-            <tr>
-
-              <th scope="col" class="col--1">The Skill</th>
-              <!-- <th scope="col">Last</th> -->
-              <th scope="col" class="col-8">The Level</th>
-              <th scope="col" class="col-1">The Link</th>
-              <th scope="col" class="col-1">Mas!</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>HTML</td>
-              <td>Pretty decent, if you ask me</td>
-              <td><img class="table-img img-fluid" href="https://github.com/MKerbleski" src="img/github.png"  alt="Responsive image"></td>
-            </tr>
-            <tr>
-              <th scope="row">CSS</th>
-              <td>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                  </div>
+    <div class="row skills">
+      <h2>Skills</h2>
+      <table class="table thead-dark table-hover ">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col" class="col--1">The Skill</th>
+            <th scope="col" class="col-8">The Level</th>
+            <th scope="col" class="col-1">The Link</th>
+          </tr>
+        </thead>
+      <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Pretty decent, if you ask me</td>
+            <td><img class="table-img img-fluid" href="https://github.com/MKerbleski" src="img/github.png"  alt="Responsive image"></td>
+          </tr>
+          <tr>
+            <th scope="row">CSS</th>
+            <td>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
                 </div>
-              </td>
-              <td><img class="table-img img-fluid" href="https://github.com/MKerbleski" src="img/github.png"  alt="Responsive image"></td>
-            </tr>
-            <tr>
-              <th scope="row">Javascript</th>
-              <td>Can solve for loops with my eyes open</td>
-              <td><img class="table-img img-fluid" href="https://github.com/MKerbleski" src="img/github.png"  alt="Responsive image"></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="work">
-        <h1 class="col-12">Professional Life</h1>
-        <div class="row work-row">
+              </div>
+            </td>
+            <td><img class="table-img img-fluid" href="https://github.com/MKerbleski" src="img/github.png"  alt="Responsive image"></td>
+          </tr>
+          <tr>
+            <th scope="row">Javascript</th>
+            <td>Can solve for loops with my eyes open</td>
+            <td><img class="table-img img-fluid" href="https://github.com/MKerbleski" src="img/github.png"  alt="Responsive image"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-          <div class="card col-4" style="width: 18rem;">
-            <img class="card-img-top" src="img/vr-lab.jpg" alt="michael putting VR googles on a student">
-            <div class="card-body">
-              <h4 class="card-title">Immersive Virtual Reality Lab</h4>
-              <h5 class="card-subtitle">360 Video Specialist</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="details.html" class="btn btn-primary">Details</a>
-            </div>
+
+    <div class="work">
+      <h1 class="col-12">Professional Life</h1>
+      <div class="row work-row">
+
+        <div class="card col-4" style="width: 18rem;">
+          <img class="card-img-top" src="img/vr-lab.jpg" alt="michael putting VR googles on a student">
+          <div class="card-body">
+            <h4 class="card-title">Immersive Virtual Reality Lab</h4>
+            <h5 class="card-subtitle">360 Video Specialist</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="details.html" class="btn btn-primary">Details</a>
           </div>
+        </div>
 
-          <div class="card col-4" style="width: 18rem;">
-            <img class="card-img-top" src="img/ski.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Vail Valley Foundation</h4>
-              <h5 class="card-subtitle">Job Title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="details.html" class="btn btn-primary">Details</a>
-            </div>
+        <div class="card col-4" style="width: 18rem;">
+          <img class="card-img-top" src="img/ski.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Vail Valley Foundation</h4>
+            <h5 class="card-subtitle">Job Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="details.html" class="btn btn-primary">Details</a>
           </div>
+        </div>
 
-          <div class="card col-4" style="width: 18rem;">
-            <img class="card-img-top" src="img/stars.gif" alt="gif of observatory dome shifting in unison with the milkey way in the background">
-            <div class="card-body">
-              <h4 class="card-title">Marketing - Northern Arizona University</h4>
-              <h5 class="card-subtitle">Job Title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="details.html" class="btn btn-primary">Details</a>
-            </div>
+        <div class="card col-4" style="width: 18rem;">
+          <img class="card-img-top" src="img/stars.gif" alt="gif of observatory dome shifting in unison with the milkey way in the background">
+          <div class="card-body">
+            <h4 class="card-title">Marketing - Northern Arizona University</h4>
+            <h5 class="card-subtitle">Job Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="details.html" class="btn btn-primary">Details</a>
           </div>
         </div>
       </div>
+    </div>
 
 
 

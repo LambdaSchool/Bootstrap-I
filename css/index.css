@@ -138,18 +138,12 @@ table {
   border: 1px solid green;
 }
 .intro {
-  background: light-green;
-}
-.table-skills {
-  margin-left: 10px;
-}
-.intro {
-  height: 100px;
+  height: 300px;
   background-color: green;
 }
 .table-img {
   max-height: 30px;
 }
-.cards img {
-  padding: 3px;
+.table-skills {
+  margin-left: 10px;
 }
