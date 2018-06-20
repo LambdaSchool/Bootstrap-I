@@ -1,0 +1,42 @@
+.container{
+  font-family: 'Raleway', sans-serif;
+  font-weight: thin;
+  border: 1px solid red;
+}
+
+.row{
+  border: 1px solid red;
+}
+
+.col{
+  border: 1px solid red;
+}
+
+.upper{
+  border: 1px solid red;
+}
+
+.name{
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 12px;
+  margin: 12px 0 12px 0;
+  text-align: center;
+  align-self: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact{
+  border: 1px solid red;
+  padding: 12px;
+  text-align: center;
+  align-self: center;
+}
+
+
+.jumbotron{
+  margin: 20px 0 20px 0;
+  border: 1px solid gray;
+  background-color: white;
+  img-fluid:
+}
