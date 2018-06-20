@@ -168,10 +168,8 @@ h5 {
   width: 100%;
   max-width: 880px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 .container-fluid {
-  border: 2px solid black;
   background: black;
 }
 .custom-nav {
@@ -234,4 +232,16 @@ nav:hover {
 }
 .work-section .last-rows {
   width: 44%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+  flex-wrap: none;
+  align-content: none;
+  font-size: 3rem;
+}
+footer h1 {
+  margin-right: 2%;
 }
