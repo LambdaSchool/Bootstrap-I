@@ -1,7 +1,34 @@
+body {
+  background: #e5f4e5;
+}
 .container {
   max-width: 1200px;
 }
 .custom-nav {
   position: fixed;
   top: 0;
+  right: 0;
+}
+.custom-nav nav {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.custom-nav nav a {
+  text-decoration: none;
+  display: flex;
+  color: gray;
+}
+.home {
+  margin-top: 100px;
+}
+.about {
+  letter-spacing: 10px;
+}
+.name {
+  font-family: cursive;
+}
+.jumbotron {
+  margin-top: 100px;
+  right: 0;
 }
