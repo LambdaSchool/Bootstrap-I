@@ -14,22 +14,29 @@ footer {
   margin-bottom: 20px;
 }
 .index .info-deck .info-card {
-  height: 330px;
-  width: 250px;
+  min-height: 330px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 25px;
 }
+.index .info-deck .info-card .c-ft {
+  display: flex;
+  justify-content: center;
+}
 .index .info-deck .info-card .card-body {
-  height: 100%;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.index .info-deck .info-card .card-body h5 {
+  display: flex;
+  justify-content: center;
+}
 .index .info-deck .info-card .card-body .coloring {
-  height: 330px;
+  height: 25%;
   width: 100%;
 }
 .index .info-deck .info-card .card-body .wgu-coloring {
