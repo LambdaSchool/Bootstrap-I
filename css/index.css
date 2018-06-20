@@ -1,3 +1,6 @@
+body {
+  background-image: url(https://www.vanseodesign.com/blog/wp-content/uploads/2011/10/background-3.jpg);
+}
 div {
   border: 1px soild black;
 }
@@ -22,4 +25,7 @@ img {
 .customHeading {
   margin-top: 10%;
   margin-left: 50%;
+}
+.customButton {
+  border: 10px soild red;
 }
