@@ -1,0 +1,37 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header nav {
+  top: 0;
+  position: fixed;
+  background-color: #e9ecef;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+header .jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
