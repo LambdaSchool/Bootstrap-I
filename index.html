@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -18,12 +18,186 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+    <div class="container-fluid">
+      <header class="container-fluid main-header">
+        <div class="row">
+          <div class="col-6 main-header__logo">
+            <h1>Alberto Funk</h1>
           </div>
-      </div>
+          <div class="col-6 main-header__nav">
+            <nav>
+              <ul class="nav">
+                <li class="nav-item about"><a class="nav-link badge badge-pill badge-light" href="#">About</a></li>
+                <li class="nav-item contact"><a class="nav-link badge badge-pill badge-light" href="#">Contact</a></li>
+                <li class="nav-item projects"><a class="nav-link badge badge-pill badge-light" href="#">Projects</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="container main-overview">
+        <div class="row main-overview__img">
+          <img class="profile-pic" src="img/profile-pic.jpg" alt="#">
+        </div>
+        <div class="row main-overview__title">
+          <h1>Alberto Funk</h1>
+        </div>
+        <div class="row main-overview__seperator">
+          <img class="seperator-pic" src="img/page-divider.png" alt="#">
+        </div>
+        <div class="row main-overview__content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui, officia, dolorum corporis a exercitationem, velit nisi suscipit sapiente numquam necessitatibus saepe soluta! Quam, voluptas minus? Nisi quibusdam culpa dolore!</p>
+        </div>   
+      </section>
+
+      <hr>
+
+      <main class="main-content">
+        <section class="container main-content__web-dev">
+          <h1>Web Development</h1>
+          <div class="row top">
+            <div class="col-6 col-md-4 item">
+              <div class="card" style="width: 17rem;">
+                <img class="card-img-top" src="img/javascript.png" alt="javascript">
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 item">
+              <div class="card" style="width: 17rem;">
+                <img class="card-img-top" src="img/react.png" alt="javascript">
+                <div class="card-body">
+                  <h5 class="card-title">React</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 item">
+              <div class="card" style="width: 17rem;">
+                <img class="card-img-top" src="img/node.png" alt="javascript">
+                <div class="card-body">
+                  <h5 class="card-title">Node</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 item">
+              <div class="card" style="width: 17rem;">
+                <img class="card-img-top" src="img/mongo.png" alt="javascript">
+                <div class="card-body">
+                  <h5 class="card-title">MongoDB</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 item">
+              <div class="card" style="width: 17rem;">
+                <img class="card-img-top" src="img/graphql.png" alt="javascript">
+                <div class="card-body">
+                  <h5 class="card-title">GraphQL</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 item">
+              <div class="card" style="width: 17rem;">
+                <img class="card-img-top" src="img/docker.png" alt="javascript">
+                <div class="card-body">
+                  <h5 class="card-title">Docker</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!--End Web Dev-->
+
+        <hr>
+
+        <section class=" container main-content__history">
+          <h1>Work and Education</h1>
+          <div class="row work-education">
+            <div class="col-6 main-content__history--work">
+              <div>
+                <h2>Work History</h2>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">List group item heading</h5>
+                      <small>3 days ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small>Donec id elit non mi porta.</small>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">List group item heading</h5>
+                      <small class="text-muted">3 days ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Donec id elit non mi porta.</small>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">List group item heading</h5>
+                      <small class="text-muted">3 days ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Donec id elit non mi porta.</small>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 main-content__history--education">
+              <div>
+                <h2>Education History</h2>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">List group item heading</h5>
+                      <small>3 days ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small>Donec id elit non mi porta.</small>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">List group item heading</h5>
+                      <small class="text-muted">3 days ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Donec id elit non mi porta.</small>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">List group item heading</h5>
+                      <small class="text-muted">3 days ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Donec id elit non mi porta.</small>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="container main-footer">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright Beto Funk Productions 2018</p>
+          </div>
+        </div>
+      </footer>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
