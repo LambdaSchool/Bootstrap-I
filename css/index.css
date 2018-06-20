@@ -10,6 +10,7 @@ nav a {
 }
 .jumbotron {
   background: #3B7FBA;
+  color: white;
   padding: 1rem;
   margin-bottom: 0;
   border-bottom: 4px solid #829CBC;
@@ -22,6 +23,13 @@ nav a {
   background: #C3C3C3;
   margin: 0 auto;
   border-bottom: 4px solid #829CBC;
+}
+.card {
+  background: #1D3461;
+  color: white;
+}
+.icons {
+  background: black;
 }
 .table-row {
   margin-top: 20px;
