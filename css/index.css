@@ -32,3 +32,12 @@ nav {
 .tableheading {
   margin-top: 40px;
 }
+footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  border-top: 1px dashed dodgerblue;
+}
