@@ -6,6 +6,7 @@
 
 .row{
   border: 1px solid red;
+
 }
 
 .col{
@@ -16,6 +17,22 @@
   border: 1px solid red;
 }
 
+.jumbotron{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.jumbotron .summary{
+  width: 50%;
+}
+
+.jumbotron .greenline{
+  height: 150px;
+  width: auto;
+}
+
 .name{
   border: 1px solid red;
   border-radius: 50%;
@@ -23,7 +40,6 @@
   margin: 12px 0 12px 0;
   text-align: center;
   align-self: center;
-  font-family: 'Raleway', sans-serif;
 }
 
 .contact{
@@ -38,5 +54,34 @@
   margin: 20px 0 20px 0;
   border: 1px solid gray;
   background-color: white;
-  img-fluid:
+}
+
+.bottom-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bottom-cards {
+  border: 1px solid red;
+  justify-content: flex-end;
+}
+
+.custom-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.custom-nav .nav{
+  width: 100%;
+  border: 1px solid red;
+  padding: 20px 2% 20px 2%;
+  margin-bottom: 100px;
+  align-self: end;
+}
+
+.custom-nav .nav a{
+  font-family: 'Inconsolata', monospace;
+  background-color: #FCF2B5;
+  border: 1px solid gray;
 }
