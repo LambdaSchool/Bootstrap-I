@@ -6,9 +6,9 @@
   justify-content: center;
   margin: 0 auto;
 }
-@media (max-width: 400) {
+@media (min-wdith: 540px) {
   .row .bio-container {
-    flex-direction: column-reverse;
+    align-items: center;
   }
 }
 .card {
@@ -35,7 +35,7 @@
   background: lightslategrey;
   color: white;
 }
-.experience .comp-logo {
-  height: 40%;
-  width: 25%;
+.comp-logo {
+  height: 75px ;
+  width: 75px;
 }
