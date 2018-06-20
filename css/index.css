@@ -1,0 +1,15 @@
+.container {
+  max-width: 900px;
+}
+.container nav {
+  padding: 20px 0;
+}
+.container nav a {
+  color: black;
+}
+.container .skills {
+  border-right: 1px solid lightgray;
+}
+.container .footer {
+  margin-top: 50px;
+}
