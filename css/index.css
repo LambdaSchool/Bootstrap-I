@@ -28,11 +28,16 @@
   font-size: 50px;
 }
 .home p {
-  font-size: 25px;
+  font-size: 35px;
 }
 .home .list-group-item {
   margin: 10px;
-  width: 560px;
+  width: 200px;
   font-size: 20px;
   text-align: center;
+  color: white;
+  background: #D23535;
+}
+.home .contact {
+  font-size: 20px;
 }
