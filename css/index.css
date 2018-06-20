@@ -1,0 +1,17 @@
+.content-boxes {
+  background: gray;
+  color: white;
+  margin: 5px;
+}
+.container {
+  padding-left: 150px;
+}
+.summary,
+.skills {
+  background: gray;
+  color: white;
+  margin: 5px;
+}
+li {
+  color: black;
+}
