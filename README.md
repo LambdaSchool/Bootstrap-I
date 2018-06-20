@@ -3,7 +3,7 @@ Bootstrap provides a layout grid system, components and much more but it's up to
 
 ## Project 1 - Build a digital resume
 
-Whenever you are introduced to new technology it's good to use something your familiar with against something new.  All of you should be familiar with your own resumes.  Lets introduce your resume to a new concept: bootstrap.  By the end of this project, you will have a single page version of your resume that is fully responsive.  You could use this resume in many instances in your future, so make it count!
+Whenever you are introduced to new technology it's good to use something you're familiar with against something new.  All of you should be familiar with your own resumes.  Lets introduce your resume to a new concept: bootstrap.  By the end of this project, you will have a single page version of your resume that is fully responsive.  You could use this resume in many instances in your future, so make it count!
 
 ## Prerequisites
 
