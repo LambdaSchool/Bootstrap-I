@@ -1,6 +1,27 @@
 // Start here!
+//Mixins and Variables
+@hint-of-yellow: #FBFDED;
+@sycamore: #98A246;
+
+@jumbo-color: @hint-of-yellow;
+@interactables: @sycamore;
+
 .container {
   max-width: 900px;
   margin: 0 auto;
 }
 
+.jumbotron {
+  background:@hint-of-yellow;
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.btn {
+  background: @sycamore;
+  border-color: gray;
+}

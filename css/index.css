@@ -2,3 +2,16 @@
   max-width: 900px;
   margin: 0 auto;
 }
+.jumbotron {
+  background: #FBFDED;
+}
+.jumbotron .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.btn {
+  background: #98A246;
+  border-color: gray;
+}
