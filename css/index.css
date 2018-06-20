@@ -10,13 +10,19 @@
 .container {
   max-width: 1000px;
   background: lightblue;
-  border: 1px solid red;
 }
 .custom-column {
   border: 1px solid red;
 }
+.custom-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .nav {
   border: 1px solid red;
+  width: 100%;
 }
 .work-experience {
   border: 1px solid red;
