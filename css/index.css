@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-}
 html,
 body {
   height: 100%;
@@ -22,11 +19,20 @@ h5 {
   max-width: 880px;
   margin: auto;
 }
-.col-12 .nav {
-  justify-content: space-around;
-  font-size: 2.5rem;
-  margin: 10px;
+.nav-custom {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
-.col-12 .nav .nav-link:hover {
+.nav-custom .nav-link:hover {
   color: red;
+}
+.jumbotron .col-md-12 {
+  background-color: white;
+}
+.jumbotron .col-md-12 .img-custom img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
