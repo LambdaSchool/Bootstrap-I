@@ -6,12 +6,7 @@
 .container {
   max-width: 600px;
 }
-.custom-nav {
-  position: fixed;
-  top: 0;
-}
 .custom-nav nav {
-  margin: 10px;
   padding: 10px 0;
   display: flex;
   justify-content: space-around;
@@ -20,9 +15,12 @@
   color: black;
 }
 .home {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 560px;
   height: auto;
+}
+.home .jumbotron {
+  background: #FDDC09;
 }
 .home .main-heading-content {
   font-size: 50px;
@@ -30,14 +28,17 @@
 .home p {
   font-size: 35px;
 }
+@media (max-width: 500px) {
+  .home p {
+    font-size: 20px;
+    width: 300px;
+  }
+}
 .home .list-group-item {
-  margin: 10px;
-  width: 200px;
+  margin: 20px 0;
+  width: 240px;
   font-size: 20px;
   text-align: center;
   color: white;
   background: #D23535;
-}
-.home .contact {
-  font-size: 20px;
 }
