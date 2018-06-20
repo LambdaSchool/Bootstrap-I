@@ -26,8 +26,8 @@
           </nav>
       </div>
 
-      <div class="row bio-container">
-        <div class="card bio-text style="width: 500px" col-6">  
+      <div class="row bio-container ">
+        <div class="col-6 card bio-text style="width: 500px"">  
           <div class="card-body">
 
             <h2 class="card-title">BIO</h2>
@@ -43,12 +43,20 @@
         </div><!-- card bio -->
 
         <div class="col-6">
-            <img src="/img/Selfie.jpg" class="img-fluid" alt="Picture of C. Michael Boegner">
+            <img src="C:\Documents\Code\Bootstrap-Project-I\img\Selfie.jpg" class="img-fluid" alt="Picture of C. Michael Boegner">
         </div><!-- img-fluid -->
       </div><!-- row bio-container --> 
        
        <div class="row jumbo-highlight">
-          <div class="jumbotron jumbotron-fluid jumbo-body">
+
+          <ul class="list-group col-6 portfolio">
+              <li class="list-group-item"> <a class="nav-link" href="#">Project 1</a></li>
+              <li class="list-group-item"> <a class="nav-link" href="#">Project 2</a></li>
+              <li class="list-group-item"> <a class="nav-link" href="#">Project 3</a></li>
+              <li class="list-group-item"> <a class="nav-link" href="#">Project 4</a></li>
+            </ul>
+
+          <div class="jumbotron jumbotron-fluid jumbo-body col-6">
             
             <h1 class="display-4 jumbo-body">Skills</h1>
             <p class="lead jumbo-body">Here are my skills and certifications:</p>
@@ -64,10 +72,35 @@
        </div>
 
        <div class="row">
-         <ul class="list-group">
+         <table class="table">
+            <thead>
+                <tr>
+                  <th scope="col">Dates</th>
+                  <th scope="col">Company</th>
+                  <th scope="col">Title</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                <tr>
+                  <th scope="row">Feb 2016 - June 2018</th>
+                  <td>Laser Spine Institute</td>
+                  <td>Manager of Consult Operations/Business Analyst/Data and Reporting Systems Manager</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                </tr>
+              </tbody>
+         </table>
 
-         </ul>
-       
        </div>
     
     
