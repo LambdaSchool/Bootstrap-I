@@ -1,0 +1,68 @@
+.btn-keegan {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 0;
+  margin-top: 40px;
+}
+.pointer:hover {
+  cursor: pointer;
+}
+.shadow {
+  -webkit-box-shadow: 3px 3px 0 0 #333;
+  box-shadow: 3px 3px 0 0 #333;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.shadow:hover,
+.shadow active {
+  -webkit-box-shadow: 0 0 0 0 #333;
+  box-shadow: 0 0 0 0 #333;
+  transform: translate(2px, 2px);
+  background: white;
+  color: black;
+  border-color: black;
+}
+body,
+html {
+  font-family: SF Pro Text, Hanken Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.jumbotron {
+  background: white;
+}
+.list-group-item.active {
+  z-index: 2;
+  background-color: #f1f1f1;
+  border-color: #f1f1f1;
+  color: #2E394D;
+}
+nav {
+  padding-top: 40px;
+}
+nav a {
+  font-size: 1em;
+  margin: 1rem;
+  color: #2E394D;
+}
+nav a:hover {
+  color: #7387ab;
+}
+.main-img {
+  background-color: #fff;
+  -moz-box-shadow: 0 3px 13px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 3px 13px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 13px rgba(0, 0, 0, 0.2);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 125px;
+  margin-bottom: 44px;
+}
