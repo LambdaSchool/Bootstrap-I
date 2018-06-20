@@ -1,3 +1,38 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
-  border: 1px solid red;
+  max-width: 600px;
+}
+.custom-nav {
+  position: fixed;
+  top: 0;
+}
+.custom-nav nav {
+  margin: 10px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.custom-nav nav a {
+  color: black;
+}
+.home {
+  margin-top: 100px;
+  width: 560px;
+  height: auto;
+}
+.home .main-heading-content {
+  font-size: 50px;
+}
+.home p {
+  font-size: 25px;
+}
+.home .list-group-item {
+  margin: 10px;
+  width: 560px;
+  font-size: 20px;
+  text-align: center;
 }
