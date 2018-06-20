@@ -5,7 +5,7 @@
   text-align: center;
 }
 .border {
-  border: 1px solid red;
+  border: 2px groove goldenrod;
 }
 .custom-margin-top {
   margin-top: 50px;
@@ -14,30 +14,31 @@
   max-width: 1000px;
   background: lightblue;
 }
-.custom-column {
-  border: 1px solid red;
-}
-.custom-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 .row {
   margin-top: 50px;
 }
 .col {
   padding-top: 10px;
 }
+.custom-column {
+  border: 2px groove goldenrod;
+  margin: 5px;
+}
+.custom-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 0;
+}
 .custom-nav {
   margin-top: 0;
 }
 .nav {
-  border: 1px solid red;
+  border: 2px groove goldenrod;
   width: 100%;
 }
 .work-experience {
-  border: 1px solid red;
   margin-top: 50px;
 }
 .skills {
