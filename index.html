@@ -1,31 +1,270 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Resume</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" data-offset="56">
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+  <div id="introduction">
+    <div class="display-3 text-center first">
+      Hi, my name is Ashwin
+    </div>
+    <div class="display-3 text-center second">Are you ready?</div>
+    <button class="btn btn-outline-secondary btn-lg mt-3 third">Let's Go >></button>
+
+  </div>
+
+  <header>
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Ash</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#landing">Home
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
           </div>
+        </div>
       </div>
-    </div><!-- container -->
+    </nav>
+  </header>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+  <div id="landing" class="landing">
+    <div class="title">
+      <h1 class="text-light display-3 text-center">Ashwin
+      </h1>
+      <div class="lead text-light">UI/UX Developer</div>
+    </div>
+  </div>
+
+  <hr>
+
+  <section id="about" class="py-3">
+    <div class="container">
+      <h2 class="text-center">About Me</h2>
+      <div class="row mb-5">
+        <div class="col-6 col-sm-4 d-flex align-items-center">
+          <img src="img/profile.jpg" alt="A picture of Mr. Ashwin" class="img-fluid img-rounded">
+        </div>
+        <div class="col-6 col-sm-8 d-flex align-items-center">
+          <p class="lead text-justify">
+            Hi, I am Ashwin. I am a Frontend UI/UX Developer, and a prospective Lambda School
+            graduate. Design is a powerful means of communication. A picture is worth
+            thousand words. Design is beautiful. I love chocolates, flat design and
+            JavaScript. I also happen to be an accountant whois also interested mathematics
+            and chess.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <h3>Professional Skills</h3>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Skill</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Quick Study</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Expert in Documentation</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Soft Skills</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>
+                  <i class="fab fa-git"></i> Git flow</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>
+                  <i class="fab fa-python"></i> Automation with python
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3>Preferred Tech Stack</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <i class="fas fa-database"></i>
+              MongoDB
+            </li>
+            <li class="list-group-item">
+              <i class="fab fa-js"></i>
+              Express
+            </li>
+            <li class="list-group-item">
+              <i class="fab fa-react"></i>
+              React
+            </li>
+            <li class="list-group-item">
+              <i class="fab fa-node-js"></i>
+              Node
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="projects" class="py-3">
+    <div class="container">
+      <h2 class="text-center">Projects</h2>
+      <p class="lead">These are the projects that I have been working on.</p>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Timelogger</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Daily time keeping web app</h6>
+              <p class="card-text">A small full stack web application that maintains a log of check in
+                times of users. It also features an Admin Dashboard to view reports.
+                More features are planned for this project on a fork.
+              </p>
+              <p>
+                Technology used: MongoDB/Mongoose, Express, NodeJS.
+              </p>
+              <div class="progress mb-2">
+                <div class="progress-bar w-100">Complete</div>
+              </div>
+              <a href="https://github.com/ashwins93/timelogger" target="_blank" class="card-link">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Impactful Tolerence</h5>
+              <h6 class="card-subtitle mb-2 text-muted">A web app to power your prodcutivity</h6>
+              <p class="card-text">
+                Building upon the previous project, this project is an ambitious web application
+                that provides a way to track the daily activities and provides detailed
+                graphical reports for the top level management for decision making
+                and planning. This project will soon be taken up and deployed to
+                cover a wide variety of users.
+              </p>
+              <p>
+                Technology used: MongoDB/Mongoose, Express, React, Redux, NodeJS.
+              </p>
+              <div class="progress mb-2">
+                <div class="progress-bar w-25">Initiated</div>
+              </div>
+              <a href="https://github.com/ashwins93/impactful-tolerence" target="_blank" class="card-link">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Expert Octo Giggle</h5>
+              <h6 class="card-subtitle mb-2 text-muted">An application that lets you manage sales budgeting and analysis</h6>
+              <p>
+                This is an ambitious project that provides a solution for one aspect of management
+                decision making viz. Sales budgeting and analysis. This project was
+                originally started for satisying the needs of one particular client
+                but all working on this project has currently been abandoned as the
+                contract was terminated prematurely. However, a more generalized
+                version of this project may be developed using the work done as a
+                base to cater the needs of small businesses.
+              </p>
+              <p>
+                Technology used: MongoDB/Mongoose, Express, React, Redux, NodeJS.
+              </p>
+              <div class="progress mb-2">
+                <div class="progress-bar w-50">Work halted</div>
+              </div>
+              <a href="https://github.com/ashwins93/expert-octo-giggle" target="_blank" class="card-link">View Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="contact" class="py-3">
+    <div class="container">
+      <h2 class="text-center">Contact</h2>
+      <p>
+        I would love to hear from you, whether you want to hire me or collaborate with me
+        or simply want to drop a hi. If you are a JavaScript lover like me, then
+        we probably have a lot in common to discuss. I would be happy to hear your
+        ideas. In any case, this is how you can reach me.
+      </p>
+      <ul>
+        <li>
+          <i class="fab fa-facebook-square"></i>
+          <a href="https://www.facebook.com/metalhulk105" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/aswinjeganath" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/ashwins93/" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/ashwins93" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:aswinjeganath@gmail.com">GMail</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light py-2">
+    <div class="text-center">&copy; Copyright 2018</div>
+  </footer>
+
+  <!-- container -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
