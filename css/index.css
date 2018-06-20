@@ -2,10 +2,8 @@
   font-family: 'Tangerine', serif;
 }
 body {
-  background: darkslategray;
-}
-.container .row {
-  border: 1px solid blue;
+  background-color: darkslategray;
+  background-image: url("img/background.jpg");
 }
 .container .header-row {
   height: 150px;
@@ -30,14 +28,49 @@ body {
 .container .header-row nav a {
   color: white;
 }
+.container .jumbotron {
+  -webkit-box-shadow: 10px 10px 8px black;
+  -moz-box-shadow: 10px 10px 8px black;
+  box-shadow: 10px 10px 8px black;
+}
 .container .jumbotron .jumbo-intro {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.container .jumbotron .jumbo-intro .profile-img {
+  -webkit-box-shadow: 10px 10px 8px black;
+  -moz-box-shadow: 10px 10px 8px black;
+  box-shadow: 10px 10px 8px black;
+}
+.container .prev-exp {
+  width: 100%;
+  height: 60px;
+  background: white;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 10px 10px 8px black;
+  -moz-box-shadow: 10px 10px 8px black;
+  box-shadow: 10px 10px 8px black;
+}
 .container .cards-container {
+  margin: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+}
+.container .cards-container .card {
+  -webkit-box-shadow: 10px 10px 8px black;
+  -moz-box-shadow: 10px 10px 8px black;
+  box-shadow: 10px 10px 8px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .cards-container .card-img-top {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px 0;
 }
