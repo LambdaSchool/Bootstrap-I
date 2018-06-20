@@ -1,22 +1,21 @@
 
 .jumbotron {
-  background-color: #68a9cc;
-  justify-content: center;
+  background-color: #9eb3d6;
  
 }
 
 .container {
-  max-width: 700px;
+  max-width: 2000px;
   background-color: #c2d3ef;
 }
 nav {
   padding: 20px 0;
-  margin-right: 200px;
+  margin-right: 500px;
 background-color: #102951;
 }
 nav a {
   color: white;
-
+  justify-content: space-between;
 
 }
 nav a:hover { 
@@ -50,3 +49,4 @@ body {
 .justify-content-end {
   background-color: #102951
 }
+
