@@ -1,0 +1,8 @@
+.container {
+  max-width: 900px;
+}
+.container .nav {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-around;
+}
