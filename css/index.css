@@ -1,0 +1,80 @@
+body {
+  background: lightgrey;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+}
+.resume {
+  background: white;
+  margin: 20px auto;
+}
+.resume .about-me {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.resume .pic-name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #079992;
+}
+.resume img {
+  border-radius: 50%;
+  padding: 20px;
+  width: 240px;
+}
+.resume .name {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+.resume .description {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #d1d8e0;
+}
+.resume .main-info .left-column {
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.resume .main-info .right-column {
+  background-color: #38ada9;
+  color: white;
+}
+.resume .main-info .right-column .contact {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.resume .main-info .right-column .contact p {
+  width: 100%;
+  text-align: center;
+}
+.resume .main-info .right-column .education {
+  width: 100%;
+}
+.resume .main-info .right-column .education h4 {
+  margin-bottom: 2px;
+}
+.resume .main-info .right-column .education p {
+  margin-bottom: 2px;
+}
