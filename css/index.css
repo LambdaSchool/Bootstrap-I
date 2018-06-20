@@ -1,0 +1,21 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  background-color: darkorchid;
+  background-image: -webkit-gradient(linear, left top, right top, from(darkorchid), to(lightgray));
+  background-image: -webkit-linear-gradient(left, darkorchid, lightgray);
+  background-image: -moz-linear-gradient(left, darkorchid, lightgray);
+  background-image: -ms-linear-gradient(left, darkorchid, lightgray);
+  background-image: -o-linear-gradient(left, darkorchid, lightgray);
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.nav .nav-link {
+  color: lightgray;
+}

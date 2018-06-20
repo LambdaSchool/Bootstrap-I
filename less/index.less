@@ -1,7 +1,5 @@
 // =================== Variables
 
-
-
 // =================== Mixins
 
 .border-radius (@radius: 5px) {
@@ -50,10 +48,25 @@
    background-image: -o-linear-gradient(left, @startColor, @endColor);
 }
 
-.center() {
+// =================== CSS
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-// =================== CSS
+.nav {
+    .horizontal-gradient(darkorchid, lightgray);
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .nav-link {
+        color: lightgray;
+    }
+}
+
