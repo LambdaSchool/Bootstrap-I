@@ -17,11 +17,47 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+      <header class="row header">
+        <div class="col-sm-12">
+              <div class="nav header-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+              </div>
           </div>
+      </header>
+
+      <div class="row">
+          <div class="card col-sm-4">
+              <img class="card-img-top" src="img/profile.jpg" alt="Profile">
+              <div class="card-body">
+                <h5 class="card-title">Das G. MA - Project Manager / Web Developer </h5>
+                <p class="card-text">Prince2  and  Professional  Agile/Scrum  certified,  experienced  
+                  Project Manager Looking for new ways to improve my coding skills. 
+                  So lets talk about your next Project!   </p>
+                <a href="#" class="btn btn-primary">More About Me</a>
+              </div>
+            </div>
+            <div class="jumbotron col-sm-8">
+                <h1 class="display-4">Technologies Used</h1>
+                <p class="lead"><img src="img/full-stack-development.jpg" alt="full-stack-development"></p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              </div>
+          </div>
+          
       </div>
+
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
