@@ -1,0 +1,9 @@
+#jumbo {
+  border: 2px solid orange;
+}
+#skills {
+  border: 2px solid green;
+}
+.jumbotron {
+  justify-content: center;
+}
