@@ -1,1 +1,78 @@
 // Start here!
+
+//============> variables
+
+//=============> mixins
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.border {
+    border: 2px groove goldenrod;
+}
+
+.custom-margin-top {
+    margin-top:50px;
+}
+
+//general styles
+
+.container {
+    max-width: 1000px;
+    background:lightblue;
+}
+
+
+
+.row {
+    .custom-margin-top();
+}
+
+.col {
+    padding-top: 10px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.table {
+    margin: 0;
+}
+
+.custom-column {
+    .border();
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+.custom-img {
+    .center();
+    padding-top: 0;
+
+}
+/// header styles
+
+.custom-nav {
+    margin-top: 0;
+}
+
+.nav {
+ .border();
+ width: 100%;
+}
+
+//work epxrience styles
+.work-experience {
+    margin-top: 50px;
+}
+
+//skills styles
+
+.skills {
+    margin-top:50px;
+}
