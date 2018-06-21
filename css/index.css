@@ -44,8 +44,15 @@
   font-size: 1.5rem;
   border-radius: 10px;
 }
+.jumbo-mumbo .card .img-fluid {
+  max-width: 300px;
+  padding: 0 15px;
+}
 .jumbo-mumbo .card .aboutme {
   margin-left: 0;
+}
+.jumbo-mumbo .card .das {
+  max-width: 150px;
 }
 .jumbo-mumbo .jumbotron {
   padding: 15px;
