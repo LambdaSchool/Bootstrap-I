@@ -1,1 +1,116 @@
-// Start here!
+// General Styles
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    // font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+//-------------------------body code------------------------------
+
+.container-fluid{
+    
+    //-----needs to be fixed------
+    img{
+        width: 100%;
+    }
+}
+
+.container {
+    max-width: 880px;
+    margin: auto;
+    // border: 1px solid red;
+}
+
+//---Header-----
+.nav-custom{
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    
+    .nav-link{
+
+        &:hover{
+            color:red;
+            font-family: 'Cedarville Cursive', cursive;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    }
+}
+//---Header-----
+
+//-----box info-----
+.jumbotron{
+
+    .col-md-12{
+        background-color: white;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    h1{
+        font-family: 'Cedarville Cursive', cursive;
+    }
+
+    h2{
+        text-decoration: underline;
+    }
+
+}
+//-----box info-----
+
+//------bootstrap cards--------
+.cards{
+    // border: 2px solid red;
+    margin-top: -85px;
+}
+
+.card{
+    // border: 2px solid blue;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+//----------------------------
+
+//----------Hire Me Buttons------------------
+.col-md-6{
+
+    button{
+        
+        .btn-green{
+
+            &:hover{
+                color: green;
+                border-radius: 5px;
+            }
+        }
+
+        .btn-red{
+
+            &:hover{
+                color: red;
+                border-radius: 5px;
+            }
+
+        }
+    }
+}
+//-------------------------------------------
+
+//-----------------------------------------------------------------------
