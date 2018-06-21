@@ -17,12 +17,190 @@
 <body>
 
     <div class="container">
-      <div class="row">
+
+      <!-- Nav Divs -->
+      <div class="row container-fluid">
           <div class="col-sm-12">
-              <h1>Start Here!</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a class="navbar-brand" href="#">Sawyer Zincone</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Portfolio
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Web Dev</a>
+                      <a class="dropdown-item" href="#">JavaScript Projects</a>
+                      <a class="dropdown-item" href="#">Python Projects</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+      </div> <!-- End Nav Div-->
+
+      <!-- Jumbotron -->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jumbotron jumbotron-fluid vertical-align text-center">
+            <h1 class="display-4 ">Sawyer Zincone</h1>
+              <p>
+                Web Developer
+                Programmer
+                Data-Wrangler
+              </p>
+              <p class="lead">
+                <a class="btn btn-lg btn-dark" href="#" role="button">Learn more</a>
+              </p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- About -->
+      <div class="row about-section container">
+          <div class="col-12 col-md-6 vertical-align">
+              <div class="card text-center">
+                  <h5 class="card-header">About Me</h5>
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus itaque ad culpa saepe odit! Atque, asperiores! Ipsam accusantium mollitia veniam quidem, debitis iure cum sed commodi enim consequatur numquam. Magnam!</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-6 about-img">
+            <img src="img/zincone_profile_June6_18.jpg" class="img-fluid" alt="A Picture of Sawyer Zincone">
           </div>
       </div>
-    </div><!-- container -->
+
+      <!-- Contact -->
+      <div class="row">
+        <div class="col-12 vertical-align-center">
+            <div class="card text-white mb-3 text-center contact-header">
+                <h5 class="card-header">Experience</h5>
+            
+            <table class="table table-hover table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Team</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">Years</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Nuggets</td>
+                    <td>SF</td>
+                    <td>2017-18</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Kings</td>
+                    <td>SF</td>
+                    <td>2015-17</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Pacers</td>
+                    <td>SF</td>
+                    <td>2014-2015</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+      <div class="row">
+        <div class="col-12">
+
+            <div class="card-columns">
+                <div class="card">
+                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title that wraps to a new line</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="card p-3">
+                  <blockquote class="blockquote mb-0 card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">
+                      <small class="text-muted">
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                    <footer class="blockquote-footer">
+                      <small>
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card text-center">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img" src="..." alt="Card image">
+                </div>
+                <div class="card p-3 text-right">
+                  <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">
+                      <small class="text-muted">
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+      </div>
+
+
+  </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
