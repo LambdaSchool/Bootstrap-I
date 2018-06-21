@@ -2,11 +2,19 @@
   max-width: 880px;
 }
 .skills {
-  align-self: center;
+  max-height: 500px;
 }
 .skills h3 {
   display: flex;
   justify-content: center;
+}
+.skills .card {
+  margin-top: 2%;
+}
+.dark-card {
+  border: 1px solid red;
+  display: flex;
+  align-self: flex-end;
 }
 .copyright {
   justify-content: center;
