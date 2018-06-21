@@ -1,6 +1,11 @@
 // Start here!
 @background-color:#e5f4e5;
-
+.center {
+    flex:display;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 
 
 body {
@@ -17,6 +22,7 @@ max-width:1200px;
     position: fixed;
     top: 0;
     right:0;
+    z-index: 1;
     
    
     nav {
@@ -40,37 +46,42 @@ a {
 
 .home {
     margin-top:50px;
+    padding-top:50px;
     border:solid 2px black;
 }
 
 
     .about{
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     }
     .name {
         font-family: cursive;  
+        letter-spacing: 6px;
     }
+
+.top-content{
+   margin-top:50px;}
+
 
 .img-fluid {
     width: 500px;
-    margin-left:50px;
+    // margin-left:50px;
     height: auto;
-
-}
-
-.jumbotron {
-    margin-top:200px;
-    right:0;
-    // flex-wrap: wrap;
 }
 
 
-ul  { 
+.list-group  { 
+    // justify-content: center;
     width:auto;
     background-color: @background-color;
-  .li{
+    line-height: 20px;
+.list-group-item{
       width:auto;
+      text-align: center;
   }
+.title-li {
+    font-weight: bolder;
+}
 }
 
 

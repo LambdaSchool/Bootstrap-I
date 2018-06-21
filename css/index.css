@@ -1,3 +1,9 @@
+.center {
+  flex: display;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 body {
   background: #e5f4e5;
 }
@@ -8,6 +14,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 1;
 }
 .custom-nav nav {
   padding: 10px;
@@ -22,27 +29,32 @@ body {
 }
 .home {
   margin-top: 50px;
+  padding-top: 50px;
   border: solid 2px black;
 }
 .about {
-  letter-spacing: 10px;
+  letter-spacing: 15px;
 }
 .name {
   font-family: cursive;
+  letter-spacing: 6px;
+}
+.top-content {
+  margin-top: 50px;
 }
 .img-fluid {
   width: 500px;
-  margin-left: 50px;
   height: auto;
 }
-.jumbotron {
-  margin-top: 200px;
-  right: 0;
-}
-ul {
+.list-group {
   width: auto;
   background-color: #e5f4e5;
+  line-height: 20px;
 }
-ul .li {
+.list-group .list-group-item {
   width: auto;
+  text-align: center;
+}
+.list-group .title-li {
+  font-weight: bolder;
 }
