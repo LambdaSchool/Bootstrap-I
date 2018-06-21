@@ -1,3 +1,6 @@
+.container {
+  max-width: 1200px;
+}
 header {
   height: 100px;
 }
@@ -41,6 +44,7 @@ header {
   border: 1px solid seagreen;
   transition: background-color 1s ease;
   border-radius: 10px;
+  margin: 10px 10px;
 }
 .jumbo-mumbo .btn:hover {
   background-color: seagreen;
