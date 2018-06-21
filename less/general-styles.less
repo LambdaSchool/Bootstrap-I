@@ -13,10 +13,13 @@ body {
 .nav {
     .horizontal-gradient(indigo, lightgray);
 
-    ul {
-        display: flex;
-        justify-content: space-between;
-        width: 50%;
+    li {
+        text-align: center;
+        width: 100%;
+
+        @media @phone {
+            width: auto;
+        }
     }
 
     .nav-link {

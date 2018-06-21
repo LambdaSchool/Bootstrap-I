@@ -14,10 +14,14 @@ body {
   background-image: -ms-linear-gradient(left, indigo, lightgray);
   background-image: -o-linear-gradient(left, indigo, lightgray);
 }
-.nav ul {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
+.nav li {
+  text-align: center;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .nav li {
+    width: auto;
+  }
 }
 .nav .nav-link {
   color: lightgray;
