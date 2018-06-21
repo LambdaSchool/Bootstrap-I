@@ -9,6 +9,9 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -17,12 +20,18 @@
 
 <body>
   <header class="container-fluid">
-    <nav class="navbar navbar-light">
-      <a class="navbar-brand" href="#">Home</a>
-      <a class="navbar-brand" href="#">About</a>
-      <a class="navbar-brand" href="#">Contact</a>
-    </nav>
     <div class="jumbotron jumbotron-fluid row col-12">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link " href="#"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#main-content"><i class="fas fa-thumbs-up"></i> About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-address-card"></i> Contact</a>
+        </li>
+      </ul>
       <div class="container text-center">
         <h1 class="display-4">Charles Cortinas</h1>
         <p class="lead">Developer in training</p>
@@ -36,6 +45,127 @@
       </div>
     </div>
   </header>
+
+  <div id="main-content" class="container main-content">
+    <div class="row about">
+      <div class="col-6">
+        <h2>About Me   <i class="fas fa-book-open"></i> </h2>
+        <h5>I'm currently a student studying Computer Science at Lambda School in order to become a software developer. Graduation date is February 1, 2019. I have no formal education in this field currently.</h5>
+      </div>
+      <div class="col-6">
+        <img src="img/placeholder1.png" alt="placeholder">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 skills">
+        <h1>Skills</h1>
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Years Worked</th>
+              <th scope="col">Company Name</th>
+              <th scope="col">Position</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-6 projects">
+        <h1>Projects</h1>
+        <ul class="list-group">
+          <li class="list-group-item"><a href="https://github.com/sherlock270/User-Interface">User-Interface</a></li>
+          <li class="list-group-item"><a href="https://github.com/sherlock270/UI-II-Flexbox">UI II Flexbox</a></li>
+          <li class="list-group-item"><a href="https://github.com/sherlock270/Responsive-Web-Design">Responsive Web Design</a></li>
+          <li class="list-group-item"><a href="https://github.com/sherlock270/Sprint-Challenge--UI-Responsive">Sprint Challenge- UI Responsive</a></li>
+          <li class="list-group-item"><a href="https://github.com/sherlock270/Preprocessing-Part-I">Preprocessing Part I</a></li>
+          <li class="list-group-item"><a href="https://github.com/sherlock270/Preprocessing-Part-II">Preprocessing Part II</a></li>
+          <li class="list-group-item"><a href="https://github.com/sherlock270/Bootstrap-Project-I">Bootstrap Project I</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 work-experience">
+        <h1>Work Experience</h1>
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Years Worked</th>
+              <th scope="col">Company Name</th>
+              <th scope="col">Position</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-6 education">
+        <h1>Education</h1>
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">School Name</th>
+              <th scope="col">Degree Earned</th>
+              <th scope="col">Graduation Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="text-center">
+    <h6><i class="fas fa-copyright"></i>2018 Cortinas Industries</h6>
+  </footer>
   <!-- container -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
