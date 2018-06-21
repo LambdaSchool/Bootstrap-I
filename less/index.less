@@ -1,1 +1,62 @@
-// Start here!
+//============= Variables
+@cHeight: 20rem;
+//============= Mixins
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//============= General Styles
+.container {
+    width:900px;
+}
+.container .nav {
+    .center-content;
+    width: 100%;
+    align-self: flex-end;
+}
+.container .main {
+    .center-content;
+    width: 100%;
+    .jumbotron {
+        width: 100%;
+        .top {
+        width: 100%;
+        height: @cHeight;
+        }
+        .bottom {
+        width: 100%;
+        height: @cHeight;
+        }
+    }
+}
+.container .info {
+    .center-content;
+    width: 100%;
+    .card {
+        .center-content;
+        h1 {
+            align-self: center;
+        }
+        .reason {
+            height: 10px;
+            border-radius:15%;
+            top:0;
+        }
+    }
+}
+.contact {
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+    button {
+        right:0;
+    }
+}
+footer {
+    .center-content;
+    width: 100%;
+}
+img {
+    height: @cHeight;
+}
