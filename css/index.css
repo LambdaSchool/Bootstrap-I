@@ -1,8 +1,8 @@
 body {
   background: lavender;
 }
-.btn-primary {
-  color: black;
+.btn-secondary {
+  color: whitesmoke;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
