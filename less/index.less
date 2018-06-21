@@ -1,1 +1,70 @@
 // Start here!
+//Mixins and Variables
+@hint-of-yellow: #FBFDED;
+@sycamore: #98A246;
+
+@jumbo-color: @hint-of-yellow;
+@interactables: @sycamore;
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.navbar{
+  background: @sycamore;
+}
+.jumbotron {
+  background:@hint-of-yellow;
+  margin: 30px 0;
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+.btn {
+  background: @sycamore;
+  border-color: gray;
+  max-width: 60%;
+  align-self: flex-start;
+  &:hover {
+    color: gray;
+    background: @hint-of-yellow;
+    border-color: gray;
+  }
+}
+
+.badge {
+  background: @sycamore;
+}
+
+a {
+  color: @sycamore;
+
+  &:hover {
+    color: @hint-of-yellow;
+  }
+}
+
+.card {
+  height: 98%;
+ 
+}
+
+.footer{
+  margin-top: 30px;
+}
+
+h4 {
+  margin-top: 40px;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+}

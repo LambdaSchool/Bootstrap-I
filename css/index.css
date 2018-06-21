@@ -1,0 +1,52 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.navbar {
+  background: #98A246;
+}
+.jumbotron {
+  background: #FBFDED;
+  margin: 30px 0;
+}
+.jumbotron .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.btn {
+  background: #98A246;
+  border-color: gray;
+  max-width: 60%;
+  align-self: flex-start;
+}
+.btn:hover {
+  color: gray;
+  background: #FBFDED;
+  border-color: gray;
+}
+.badge {
+  background: #98A246;
+}
+a {
+  color: #98A246;
+}
+a:hover {
+  color: #FBFDED;
+}
+.card {
+  height: 98%;
+}
+.footer {
+  margin-top: 30px;
+}
+h4 {
+  margin-top: 40px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+}
