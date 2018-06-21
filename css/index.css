@@ -40,6 +40,13 @@
   border: none;
   margin-bottom: 32px;
 }
+.jumbo-mumbo .card .dasgma {
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+.jumbo-mumbo .card .aboutme {
+  margin-left: 0;
+}
 .jumbo-mumbo .jumbotron {
   padding: 15px;
   display: flex;
