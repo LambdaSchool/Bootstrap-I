@@ -1,0 +1,61 @@
+body {
+  background-color: lightblue;
+}
+body .mainspace {
+  background-color: white;
+  padding: 40px;
+}
+.jumbotron {
+  background-color: orange;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+.jumbotron .container .row {
+  margin: 0;
+}
+.jumbotron .container .jumbo-text {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .jumbotron .container .dragonball {
+    display: none;
+  }
+}
+.jumbotron .container img {
+  width: 100%;
+}
+.abilities {
+  text-align: center;
+}
+.about h2 {
+  text-align: center;
+}
+.power {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.power .table {
+  text-align: center;
+}
+.col {
+  margin: 25px 0;
+}
+.bottom .battles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.bottom .btn-primary {
+  background-color: orange;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+.card {
+  margin: 0 auto;
+}
+.card .card-body {
+  text-align: center;
+}
