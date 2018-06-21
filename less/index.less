@@ -3,34 +3,42 @@
 
 .container {
   max-width: 880px;
-  width: 100%;
-  background-color: black;
-
-}
-
-.jumbotron {
-  justify-content: center;
-}
-
-
-.row {
-  flex-wrap: wrap;
-}
-
-.jumbotron {
-  flex-wrap: wrap;
-}
-
-.think-sizing {
   margin: 0 auto;
 }
 
 
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+
+
+
+.think-sizing {
+  height: auto;
+  max-width: 450px;
+  width: 100%;
+  border: 3px solid black;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.jumbotron {
+  flex-wrap: wrap;
+  max-width: 450px;
+  height: 275px;
+}
+
 .card {
   align-items: center;
   flex-wrap: wrap;
-  align-items: center;
 }
+
 .card-img-top {
   height: 60px;
   width: 100px;
@@ -44,3 +52,7 @@
   .btn .btn-primary {
     align-items: center;
   }
+
+.employers {
+  margin: 20px;
+}
