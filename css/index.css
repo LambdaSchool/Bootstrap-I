@@ -20,9 +20,18 @@ footer {
   align-items: center;
   border-radius: 25px;
 }
-.index .info-deck .info-card .c-ft {
-  display: flex;
-  justify-content: center;
+.index .info-deck .info-card .card-header {
+  height: 25%;
+  width: 100%;
+}
+.index .info-deck .info-card .wgu-coloring {
+  background: #003057;
+}
+.index .info-deck .info-card .lambda-coloring {
+  background: black;
+}
+.index .info-deck .info-card .github-coloring {
+  background: black;
 }
 .index .info-deck .info-card .card-body {
   width: 100%;
@@ -30,28 +39,27 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: white;
 }
 .index .info-deck .info-card .card-body h5 {
   display: flex;
   justify-content: center;
 }
-.index .info-deck .info-card .card-body .coloring {
-  height: 25%;
-  width: 100%;
-}
-.index .info-deck .info-card .card-body .wgu-coloring {
-  background: #003057;
-}
-.index .info-deck .info-card .card-body .lambda-coloring {
-  background: black;
-}
-.index .info-deck .info-card .card-body .github-coloring {
-  background: black;
-}
 .index .info-deck .info-card .card-body .logo img {
-  transform: translateY(-40px);
+  transform: translateY(-45px);
 }
 .index .info-deck .info-card .card-body .logo .lambda-logo {
   height: 140px;
   width: 140px;
+}
+.index .info-deck .info-card .card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .info-deck .info-card .card-footer p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
