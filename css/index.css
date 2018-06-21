@@ -23,6 +23,19 @@ nav .btn:hover {
   color: white;
   background: #A54764;
 }
+.card-stretch {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+@media (max-width: 576px) {
+  .card-stretch {
+    flex-direction: column;
+  }
+}
+.card-stretch .card {
+  margin: 10px;
+}
 .list-group {
   margin: 20px 0;
 }
