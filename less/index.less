@@ -4,7 +4,7 @@
 .content-boxes {
   background: gray;
   color: white;
-  margin: 5px;
+  margin: 5px 15px;
 }
 
 @tablet: ~"(max-width: 768px)";
@@ -29,12 +29,24 @@
   }
 }
 
-.middle-content {
+.middle-content, {
   background: #063B4D;
+}
+
+.education, .work-history {
+  table {
+    background:  #063B4D;
+  }
 }
 
 .bottom-content {
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+  }
 }
 
 .summary, .skills,{

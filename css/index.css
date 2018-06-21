@@ -1,7 +1,7 @@
 .content-boxes {
   background: gray;
   color: white;
-  margin: 5px;
+  margin: 5px 15px;
 }
 .container {
   max-width: 880;
@@ -21,14 +21,23 @@
 .middle-content {
   background: #063B4D;
 }
+.education table,
+.work-history table {
+  background: #063B4D;
+}
 .bottom-content {
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.bottom-content h2 {
+  text-align: center;
 }
 .summary,
 .skills {
   background: gray;
   color: white;
-  margin: 5px;
+  margin: 5px 15px;
 }
 li {
   color: black;
