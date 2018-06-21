@@ -1,0 +1,117 @@
+.main-header {
+  padding: 20px 0;
+  background-color: #323D4F;
+}
+.main-header .main-header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main-header .main-header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-header .main-header__nav a {
+  font-size: 1.1rem;
+}
+.main-header .main-header__nav a:hover {
+  background-color: #0062cc;
+}
+.main-overview {
+  margin-top: 60px;
+}
+.main-overview__img,
+.main-overview__title,
+.main-overview__seperator,
+.main-overview__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-overview__img img {
+  width: 40%;
+  border: solid 1px black;
+  border-radius: 50%;
+}
+.main-overview__title {
+  margin-top: 20px;
+}
+.main-overview__title h1 {
+  font-size: 3.5rem;
+}
+.main-overview__seperator img {
+  width: 40%;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.main-overview__content {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 800px;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.main-content {
+  margin-top: 50px;
+}
+.main-content .main-content__web-dev h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+.main-content .main-content__web-dev .top {
+  margin-top: 40px;
+}
+.main-content .main-content__web-dev .top .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main-content .main-content__web-dev .table-tools {
+  margin-top: 100px;
+}
+.main-content .main-content__web-dev .table-tools h2 {
+  text-align: center;
+}
+.main-content .main-content__web-dev .table-tools table {
+  margin-top: 20px;
+}
+.main-content hr {
+  margin: 80px 0;
+}
+.main-content .main-content__history {
+  margin-top: 50px;
+}
+.main-content .main-content__history h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+.main-content .main-content__history .work-education {
+  margin-top: 50px;
+}
+.main-content .main-content__history .work-education a.active .text-muted {
+  color: white !important;
+}
+.main-content .main-content__history .main-content__history--work h2,
+.main-content .main-content__history .main-content__history--education h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.main-footer {
+  background-color: #323D4F;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0 0 0;
+  color: white;
+}
