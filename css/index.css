@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: green 1px solid;
+}
+.container .row {
+  display: flex;
+  justify-content: center;
+}
+.container .row .card {
+  margin: 50px 0;
+}
+.container .row .me {
+  margin-top: 50px;
+  max-width: 300px;
+  max-height: 300px;
+}
+.container .row .outside .buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
