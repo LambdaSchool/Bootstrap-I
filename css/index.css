@@ -1,6 +1,15 @@
 body {
   background: lavender;
 }
+.btn-primary {
+  color: black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 .center {
   display: flex;
   justify-content: center;
