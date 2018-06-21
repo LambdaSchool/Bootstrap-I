@@ -1,7 +1,7 @@
 body {
   background: lavender;
 }
-.btn-secondary {
+.btn-info {
   color: whitesmoke;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -9,6 +9,14 @@ body {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.card-bg {
+  background-color: lightsteelblue;
+  background: -webkit-gradient(linear, left top, left bottom, from(lightsteelblue), to(steelblue));
+  background: -webkit-linear-gradient(top, lightsteelblue, steelblue);
+  background: -moz-linear-gradient(top, lightsteelblue, steelblue);
+  background: -ms-linear-gradient(top, lightsteelblue, steelblue);
+  background: -o-linear-gradient(top, lightsteelblue, steelblue);
 }
 .center {
   display: flex;
@@ -40,6 +48,9 @@ body {
 }
 .jumbotron {
   padding: 0;
+}
+.form-group {
+  padding: 5px;
 }
 .text-content {
   background: lightsteelblue;
