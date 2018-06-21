@@ -3,9 +3,6 @@
   color: white;
   margin: 5px 15px;
 }
-.container {
-  max-width: 880;
-}
 .card p {
   font-size: 1em;
   line-height: 1;
@@ -13,13 +10,13 @@
 .table {
   background: gray;
 }
-@media (max-width: 768px) {
-  .card-self {
-    display: none;
-  }
-}
 .middle-content {
   background: #063B4D;
+}
+@media (min-width: 576px) {
+  .middle-content {
+    justify-content: center;
+  }
 }
 .education table,
 .work-history table {

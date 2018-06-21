@@ -7,12 +7,20 @@
   margin: 5px 15px;
 }
 
-@tablet: ~"(max-width: 768px)";
-@desktop: ~"(max-width: 992px)";
+@small: ~"(min-width: 576px)";
+@medium: ~"(min-width: 798px)";
 
-.container {
-  max-width: 880;
-}
+// body {
+//   max-width: 950px;
+//   width:100%;
+//   display: flex;
+//   justify-content: center;
+// }
+// .home {
+//   max-width: 880px;
+//   display: flex;
+//   justify-content: center;
+// }
 
 .card p {
   font-size: 1em;
@@ -24,13 +32,15 @@
 }
 
 .card-self {
-  @media @tablet {
-    display: none;
-  }
+  
 }
 
 .middle-content, {
   background: #063B4D;
+
+  @media @small {
+    justify-content: center;
+  }
 }
 
 .education, .work-history {
