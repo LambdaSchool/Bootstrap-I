@@ -11,7 +11,30 @@
 @desktop: ~"(max-width: 992px)";
 
 .container {
-  padding-left: 150px;
+  max-width: 880;
+}
+
+.card p {
+  font-size: 1em;
+  line-height: 1;
+}
+
+.table {
+  background: gray;
+}
+
+.card-self {
+  @media @tablet {
+    display: none;
+  }
+}
+
+.middle-content {
+  background: #063B4D;
+}
+
+.bottom-content {
+  margin-top: 50px;
 }
 
 .summary, .skills,{

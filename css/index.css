@@ -4,7 +4,25 @@
   margin: 5px;
 }
 .container {
-  padding-left: 150px;
+  max-width: 880;
+}
+.card p {
+  font-size: 1em;
+  line-height: 1;
+}
+.table {
+  background: gray;
+}
+@media (max-width: 768px) {
+  .card-self {
+    display: none;
+  }
+}
+.middle-content {
+  background: #063B4D;
+}
+.bottom-content {
+  margin-top: 50px;
 }
 .summary,
 .skills {
