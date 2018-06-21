@@ -30,6 +30,15 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.container .main-content .content-card {
+  width: 100%;
+}
+.container .main-content .content-card .card-img-top {
+  padding: 7%;
+}
+.container .main-content .skills .card-img-top {
+  padding: 1%;
+}
 .container .footer {
   display: flex;
   flex-wrap: wrap;
