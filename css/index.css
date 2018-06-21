@@ -1,0 +1,47 @@
+.nav {
+  margin-top: 50px;
+}
+.row .bio-container {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+@media (min-wdith: 540px) {
+  .row .bio-container {
+    align-items: center;
+  }
+}
+.card {
+  margin-top: 5px;
+  background-color: lightslategray;
+  color: white;
+}
+.selfie {
+  width: 70%;
+  margin-top: 5px;
+}
+.jumbo-highlight {
+  margin-top: 15px;
+  background-color: lightsteelblue;
+  align-items: center;
+}
+.portfolio-header {
+  margin-left: 20px;
+}
+.jumbo-highlight .jumbo-body {
+  background-color: lightsteelblue;
+}
+.portfolio .list-group-item {
+  background: royalblue;
+}
+.portfolio .list-group-item .nav-link {
+  background: lightslategrey;
+  color: white;
+}
+.table-header {
+  margin-top: 20px;
+}
+.comp-logo {
+  height: 75px ;
+  width: 75px;
+}
