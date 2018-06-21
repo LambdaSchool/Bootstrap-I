@@ -1,16 +1,19 @@
 // Start here!
+@desktop: ~"(max-width: 992px)";
+@tablet: ~"(max-width: 767px)";
+@phone: ~"(max-width: 575px)";
+
 body{
     background-color: lightblue;
     .mainspace{
         background-color: white;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding: 40px;
     }
 }
 .jumbotron{
     background-color: orange;
     border: 2px solid blue;
-    
+    border-radius: 10px;
 
     .container{
         
@@ -23,9 +26,15 @@ body{
             align-items: center;
         }
 
+        .dragonball{
+            @media @tablet{
+                display: none;
+            }
+        }
+
         img{
             width: 100%;
-        }
+        }        
     }
 }
 
@@ -42,18 +51,35 @@ body{
 .power{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
     .table{
         text-align: center;
     }
 }
 
-.battles{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+
+.col{
+    margin:25px 0;
 }
 
-.row{
-    margin:50px 0;
+.bottom{    
+    .battles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;        
+    }
+    .btn-primary{
+        background-color: orange;
+        border: 2px solid blue;
+        border-radius: 10px;
+    } 
 }
+
+ .card{
+     margin: 0 auto;
+     .card-body{
+         text-align: center;
+     }
+ }
