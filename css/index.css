@@ -1,0 +1,66 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-container {
+  display: flex;
+  flex-direction: wrap;
+  margin-top: 0;
+}
+.jumbotron {
+  background: #ffffff;
+}
+.jumbotron-row {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+.personal-info {
+  padding-right: 20px 100px;
+  margin: 0;
+}
+.personal-info p {
+  color: #3A3C40;
+}
+.row {
+  padding: 20px;
+}
+.main-row {
+  margin-top: 0;
+  padding: 0;
+}
+.icon-row {
+  margin-top: 150px;
+  padding-bottom: 50px;
+}
+.experience-col {
+  background: #3A3C40;
+  color: #ffffff;
+  padding: 50px 50px 50px 100px;
+}
+.experience-col h4 {
+  color: #7BDEE4;
+}
+.experience-col p {
+  color: #cccccc;
+}
+.experience-col .yellow {
+  background: yellow;
+  height: 10px;
+}
+.experience-col .black {
+  background: black;
+  height: 10px;
+}
+.experience-col .green {
+  background: green;
+  height: 10px;
+}
+.experience-col .teal {
+  background: teal;
+  height: 10px;
+}
+.experience-col .blueviolet {
+  background: blueviolet;
+  height: 10px;
+}
