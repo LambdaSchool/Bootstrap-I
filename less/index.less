@@ -1,4 +1,4 @@
-// Start here!
+
 //Variables 
 @ecruwhite: #F2EDDC;
 
@@ -12,19 +12,46 @@ body {
     height: 100%;
 }
 
-.me {
-    max-width: 300px;
-    max-height: 300px;
+
+
+.container {
+    .center;
+    width: 100%;
+    height: 100%;
+    border: green 1px solid;
+
+    .row {
+        .center;
+
+        .card {
+            margin: 50px 0;
+        }
+        
+       
+        .me {
+            margin-top: 50px;
+            max-width: 300px;
+            max-height: 300px;
+        }
+
+        .outside {
+            
+            .buttons {
+                .center;
+                margin-top: 30px;
+            }
+        }
+    }
 }
 
 
 
-.container {
-    position: relative;
-    width: 100%;
-    .center;
-    height: 100%;
-    border: green 1px solid;
+.center {
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 //     .page {
 //         width: 100%;
@@ -54,12 +81,3 @@ body {
 //         position: absolute;
 //         top: 400px;
 //     }
-}
-
-
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
