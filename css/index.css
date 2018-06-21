@@ -1,29 +1,44 @@
-.main {
-  border: 1px solid black;
+body {
+  background: linear-gradient(to right, #f8faf9, #eaeeec);
 }
-.JumboHeaderImg .container {
-  border: solid blue;
+.main .navbar .nav-link {
+  color: #B0A5AB;
 }
-.top-content {
-  background: lightgray;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  width: 90%;
+.main .navbar .nav-link.active {
+  background-color: #ACCACD;
+}
+.main .top-content {
+  margin: auto;
   height: auto;
-  border-radius: 5px;
 }
-.top-content .col-6 {
-  width: 300px;
+.main .top-content .education .list-group-item {
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1E6DE;
 }
-.top-content .headshot {
+.main .top-content .education .list-group-item:hover {
+  background-color: #E2A797;
+}
+.main .top-content .headshot {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.top-content .headshot .selfie {
+.main .top-content .headshot .selfie {
+  border: 5px solid #E2A797;
   margin-bottom: 10px;
-  margin-top: 0;
+  margin-top: 10px;
   border-radius: 5px;
-  width: 300px;
+  width: 400px;
+}
+.main .btn-outline-info {
+  color: #B0A5AB;
+  background-color: transparent;
+  background-image: none;
+  border-color: #CDE3E4;
+}
+.main .btn-outline-info:hover {
+  background-color: #CDE3E4;
 }

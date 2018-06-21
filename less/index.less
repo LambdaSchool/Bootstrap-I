@@ -1,47 +1,83 @@
+// variables-----
+@nav-button-color: #ACCACD;
+@link-color:#B0A5AB;
+@button-color:#CDE3E4;
+@border-color:#E2A797;
+@list-color:#F1E6DE;
+
 
 // -------mixins-----
 .center-stuff() {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
   }
 
 // Start here!
-
+body{
+    background: linear-gradient(to right, rgb(248,250,249), rgb(234,238,236));
+      
+    // background-color:rgb(235,238,239);
+}
 .main{
-    border: 1px solid black;
     
-}
-
-.JumboHeaderImg{
-    .container{
-        border: solid blue;
-    }
-}
-
-    .top-content{
-    background: lightgray;
-    display:flex;
-    flex-flow:row;
-    justify-content: center;
-    width: 90%;
-    height: auto;
-    border-radius: 5px;
-    
-    
-    
-    .col-6{
-        width:300px;
-    }
-
-    .headshot{
-        .selfie{
-            margin-bottom: 10px;
-            margin-top:0;
-            border-radius: 5px;
-            width: 300px; 
-        }
-        .center-stuff
-    }  
+    .navbar{
+       .nav-link{
+            color:@link-color;
         
+       }
+       .nav-link.active{
+        background-color:@nav-button-color;
+    }
+    }
+    .top-content{
+        // background: lavenderblush;
+        margin:auto;
+        height: auto;
+
+        
+        .education{
+            // display:flex;
+            // justify-content: center;
+            
+            .list-group-item{
+                min-width: 300px;
+                .center-stuff();
+                 background-color:@list-color;
+                     &:hover{
+                         background-color:@border-color;
+                     }
+             }
+        }
+    
+        .headshot{
+               .center-stuff();
+                .selfie{    
+                border:5px solid @border-color;
+                margin-bottom: 10px;
+                margin-top:10px;
+                border-radius: 5px;
+                width: 400px;
+                
+                
+            }
+            
+        }  
+            
+    }
+    .btn-outline-info {
+        color:@link-color;
+        background-color: transparent;
+        background-image: none;
+        border-color:@button-color;
+        &:hover{
+            background-color: @button-color;
+        }
+        
+    }
 }
+
+
+
+
+  
