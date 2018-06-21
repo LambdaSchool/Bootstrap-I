@@ -34,3 +34,23 @@
 .experience-col h4 {
   color: #7BDEE4;
 }
+.experience-col .yellow {
+  background: yellow;
+  height: 10px;
+}
+.experience-col .black {
+  background: black;
+  height: 10px;
+}
+.experience-col .green {
+  background: green;
+  height: 10px;
+}
+.experience-col .teal {
+  background: teal;
+  height: 10px;
+}
+.experience-col .blueviolet {
+  background: blueviolet;
+  height: 10px;
+}
