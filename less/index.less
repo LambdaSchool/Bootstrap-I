@@ -1,1 +1,53 @@
+
+// Mixins
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow:    @string;
+	box-shadow:         @string;
+}
+
+
 // Start here!
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+
+  .row{
+      margin: 20px auto;
+  }
+
+  .nav{
+      .center;
+
+  }
+
+  img{
+      height: 100%;
+  }
+
+  .footer{
+      .center;
+      background-color: #10A0E0;
+  }
+
+  .jumbotron{
+      img{
+        .box-shadow(10px 4px 10px #10A0E0);
+      }
+  }
+
+  .table-row{
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  

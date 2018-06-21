@@ -1,6 +1,9 @@
 .container {
   max-width: 900px;
 }
+.row{
+  border: 1px solid red;
+}
 nav {
   padding: 20px 0;
 }
