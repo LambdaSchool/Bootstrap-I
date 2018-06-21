@@ -201,6 +201,9 @@ nav a:hover {
 .navbar-brand {
   color: white;
 }
+.test {
+  color: red;
+}
 .home {
   margin-top: 50px;
 }
