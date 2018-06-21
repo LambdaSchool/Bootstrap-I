@@ -16,13 +16,12 @@ body {
   right: 0;
   z-index: 1;
 }
-.custom-nav nav {
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
+.custom-nav .nav {
+  width: 100%;
+  justify-content: space-evenly;
   background: #e5f4e5;
 }
-.custom-nav nav a {
+.custom-nav .nav a {
   text-decoration: none;
   display: flex;
   color: gray;
@@ -42,7 +41,7 @@ body {
 .top-content {
   margin-top: 50px;
 }
-.img-fluid {
+.jena-img {
   width: 500px;
   height: auto;
 }
