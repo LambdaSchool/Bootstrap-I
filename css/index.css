@@ -1,0 +1,50 @@
+.container {
+    max-width: 900px;
+  }
+  nav { 
+    color: white;
+    border: 1px black;
+    padding: 20px 0;
+   
+  }
+  nav a {
+    color: whitesmoke;
+    margin-bottom: 200px;
+  }
+  .sig{
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+    
+ }
+
+    .small-logo {
+            max-width: 40%;
+    }
+
+  .jumbotron {
+    background: offwhite;
+    opacity: .8;
+    
+
+  }
+  .jumbotron .btn {
+    background: gray;
+    border: 1px solid white;
+  }
+  
+
+  .text-block {
+    background: offwhite;
+    opacity: .8;
+}
+  .table-row {
+    margin-top: 20px;
+  }
+  .footer {
+    margin-top: 20px;
+    padding: 20px 0;
+    background: gray;
+    color: white;
+  }
+  
