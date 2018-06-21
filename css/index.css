@@ -6,15 +6,31 @@
 .container {
   max-width: 900px;
 }
+.container .top-image {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.container .top-image .card-img-top {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 .container .nav {
   display: flex;
   justify-content: space-around;
   padding: 15px 0;
 }
 .container .nav a {
-  width: 80px;
+  width: 75px;
   height: 30px;
-  background-color: #15b3e7;
+  background-color: rgba(26, 26, 26, 0.829);
   color: white;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -27,12 +43,18 @@
   align-items: center;
 }
 .container .nav a:hover {
-  background-color: #0d6b8a;
+  background-color: rgba(0, 0, 0, 0.829);
 }
 .container .top-content {
   border: 1px solid lightgray;
   width: 100%;
   margin: auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .container .top-content .my-name {
   padding: 5px;
@@ -45,15 +67,66 @@
 }
 .container .top-content .image-container .my-image {
   width: 200px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 65%;
+  -moz-border-radius: 65%;
+  border-radius: 65%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  padding: 15px 0;
+}
+.container .top-content .image-container .my-image:hover {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
 .container .middle-table {
   border: 1px solid lightgray;
   padding-top: 5px;
   margin: 20px 0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.container .interests {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.container .card-section .card {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.container .card-section .card .img-fluid {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.container .footer {
+  border: 1px solid rgba(26, 26, 26, 0.829);
+  margin: auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: rgba(26, 26, 26, 0.829);
+  color: white;
+}
+.container .footer .footer-container .copyright-text {
+  margin: auto;
 }
