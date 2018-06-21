@@ -1,6 +1,9 @@
 body {
   background: lavender;
 }
+table {
+  background: lightsteelblue !important;
+}
 .btn-info {
   color: whitesmoke;
   -webkit-border-radius: 5px;
