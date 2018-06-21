@@ -2,40 +2,40 @@
 html{
     font-size: 62.5%;
     font-family: "Acme";
+    @desktop{
     width: 100%;
     .reset-padding-margin;
-}
-.container{
+    }
+}//html
+
+.container-fluid{
     background-color: black;
     color: @base-color;
-    margin: 0 auto;
+    @desktop{
+        .reset-padding-margin;
+        }
 }
 
 header{
-    display: flex;
-    height: 5%;
+    .center;
     nav{
-        display: flex;
-        align-items: center;
-        .reset-padding-margin;
+        border: 1px solid pink;
+        background-color:black;
+        .opacity(0.75);
         .header-img{
             align-self: flex-start;
-            width: 15%;
         }//header-img
         a{
             color: @base-color;
-            align-self: flex-end;
             text-decoration: none;
             .center;
             font-size: 1.5rem;
-            padding: 0 1.5rem;
         }//a
     }//nav
 }//header
 
 .row{
     .center;
-    margin:0;
     padding: 1rem 2rem;
     .name{
         font-size: 4rem;
@@ -65,7 +65,6 @@ header{
         background-color:black;
     }
     .content{
-        padding: 1rem 0;
         font-size: 1.5rem;
         font-weight: bold;
     }
@@ -118,7 +117,6 @@ header{
     }
     .btn{
         height: 50%;
-        width: 100%;
         background-color: @base-color;
         border-color:@base-color;
     }

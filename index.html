@@ -16,45 +16,47 @@
 </head>
 
 <body>
-    <div class="container">
-      <header>
-        <nav>
-          <img class="header-img" src="https://sep.yimg.com/ay/yhst-95178242420387/heisenberg-t-shirt-breaking-bad-los-pollos-hermanos-meth-tee-14.jpg" alt="Heisenberg">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+    <div class="container-fluid">
+      <header class="d-flex m-0 sticky-top">
+        <nav class="d-flex p-0 col-12">
+          <img class="header-img align-items-start col-3 h-10" src="https://sep.yimg.com/ay/yhst-95178242420387/heisenberg-t-shirt-breaking-bad-los-pollos-hermanos-meth-tee-14.jpg" alt="Heisenberg">
+          <a href="#" class="justify-content-end px-5">Home</a>
+          <a href="#" class="justify-content-end px-5">About</a>
+          <a href="#" class="justify-content-end px-5">Contact</a>
         </nav>
       </header>
       <div class="row">
-          <div class="name col-sm-12">
+          <div class="name col-12">
               Walter Hartwell White
               <p>Teacher / Chemist / Cook</p>
           </div>
-          <img class="self-portrait" src="http://pixel.nymag.com/imgs/daily/vulture/2013/09/26/26-breaking-bad-need-to-know-2.w529.h352.jpg" alt="self-portrait">
-      </div><!--intro-->
+          <img class="self-portrait w-100" src="http://pixel.nymag.com/imgs/daily/vulture/2013/09/26/26-breaking-bad-need-to-know-2.w529.h352.jpg" alt="self-portrait">
+      </div><!-- intro -->
 
-      <div class="row">
-        <table class="resume-content">
+    <div class="container-fluid"> 
+      <div class="row d-flex justify-content-center px-0">
+          <table class="resume-content col-12">
               <thead class="thead-light">
-                  <tr class="col-sm-12">  
-                    <th scope="col" class="column-title column-style-one">Education</th>
-                    <th scope="col" class="column-title column-style-one">Experience</th>
-                    <th scope="col" class="column-title column-style-one">Cancer</th>
+                  <tr class="col-12">  
+                    <th class="col-4 column-title column-style-one">Education</th>
+                    <th class="col-4 column-title column-style-one">Experience</th>
+                    <th class="col-4 column-title column-style-one">Cancer</th>
                   </tr>
                   <tr>
-                    <td rowspan="3" class="column-title content">California Institute of Technology - PhD in Chemistry with Emphasis in X-ray Crystallography</td>
+                    <td rowspan="3" class="column-title content py-1">California Institute of Technology <br>PhD in Chemistry <br> Emphasis in X-ray Crystallography</td>
                     <td class="column-title content">Gray Matter Technologies - Co-founder/Principal Investigator</td>
-                    <td rowspan="3" class="column-title content"><button class="donate">DONATE</button></td>
+                    <td rowspan="3" class="column-title content py-1"><button class="donate">DONATE</button></td>
                   </tr><!-- row 1 -->
                   <tr>
-                    <td class="column-title content">J. P. Wynne High School - Chair, Department of Science</td>
+                    <td class="column-title content py-1">J. P. Wynne High School - Chair, Department of Science</td>
                   </tr><!-- row 2 -->
                   <tr>
-                    <td class="column-title content">Los Pollos Hermanos - Executive Chef</td>
+                    <td class="column-title content py-1">Los Pollos Hermanos - Executive Chef</td>
                   </tr><!-- row 3 -->
               </thead>
-        </table><!--Resume content table-->
-      </div><!-- body -->
+          </table><!--Resume content table-->
+      </div>
+    </div><!-- body -->
 
       <div class="jumbotron">
           <section class="left-column col-sm-6">

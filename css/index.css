@@ -1,32 +1,40 @@
 html {
   font-size: 62.5%;
   font-family: "Acme";
+}
+@desktop {
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
-.container {
+.container-fluid {
   background-color: black;
   color: #3F8A4F;
+}
+@desktop {
   margin: 0 auto;
+  padding: 0;
 }
 header {
   display: flex;
-  height: 5%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
 }
 header nav {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+  border: 1px solid pink;
+  background-color: black;
+  -webkit-opacity: 0.75;
+  -moz-opacity: 0.75;
+  opacity: 0.75;
 }
 header nav .header-img {
   align-self: flex-start;
-  width: 15%;
 }
 header nav a {
   color: #3F8A4F;
-  align-self: flex-end;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -35,7 +43,6 @@ header nav a {
   align-self: center;
   text-align: center;
   font-size: 1.5rem;
-  padding: 0 1.5rem;
 }
 .row {
   display: flex;
@@ -44,7 +51,6 @@ header nav a {
   align-content: center;
   align-self: center;
   text-align: center;
-  margin: 0;
   padding: 1rem 2rem;
 }
 .row .name {
@@ -62,7 +68,7 @@ header nav a {
   font-size: 2rem;
 }
 .resume-content {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -85,7 +91,6 @@ header nav a {
   background-color: black;
 }
 .resume-content .content {
-  padding: 1rem 0;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -142,7 +147,6 @@ header nav a {
 }
 .card-section .btn {
   height: 50%;
-  width: 100%;
   background-color: #3F8A4F;
   border-color: #3F8A4F;
 }
@@ -165,6 +169,6 @@ header nav a {
   text-align: center;
 }
 .reset-padding-margin {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
