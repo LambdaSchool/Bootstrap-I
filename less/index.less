@@ -1,4 +1,15 @@
 // Start here!
+.button-maker() {
+	color: lightgrey;
+    background: teal;
+    border: none;
+  }
+
+  .button-hover() {
+    color: white;
+    background: #A54764;
+  }
+
 nav a {
     text-decoration: none;
     color: lightgrey;
@@ -8,50 +19,18 @@ nav a {
     }
 }
 
-nav .btn {
-    color: lightgrey;
-    background: teal;
-    border: none;
+.btn {
+    .button-maker;
 
     &:hover {
-        color: white;
-        background: #A54764;
+        .button-hover;
     }
 }
 
-.jumbotron .btn {
-    color: lightgrey;
-    background: teal;
-    border: none;
 
-    &:hover {
-        color: white;
-        background: #A54764;
-    }
-}
 
-.card-stretch {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
 
-    @media (max-width: 992px) {
 
-    }
-    
-    @media (max-width: 576px) {
-        flex-direction: column;
-    }
-
-.card {
-    margin: 10px 0;
-    
-    }
-
-    img {
-    
-    }
-}
 
 .card-body {
 }
@@ -69,3 +48,4 @@ nav .btn {
     background: teal;
     color: white;
 }
+

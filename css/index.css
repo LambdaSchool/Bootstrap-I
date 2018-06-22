@@ -5,36 +5,14 @@ nav a {
 nav a:hover {
   color: teal;
 }
-nav .btn {
+.btn {
   color: lightgrey;
   background: teal;
   border: none;
 }
-nav .btn:hover {
+.btn:hover {
   color: white;
   background: #A54764;
-}
-.jumbotron .btn {
-  color: lightgrey;
-  background: teal;
-  border: none;
-}
-.jumbotron .btn:hover {
-  color: white;
-  background: #A54764;
-}
-.card-stretch {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0;
-}
-@media (max-width: 576px) {
-  .card-stretch {
-    flex-direction: column;
-  }
-}
-.card-stretch .card {
-  margin: 10px 0;
 }
 .list-group {
   margin: 20px 0;
