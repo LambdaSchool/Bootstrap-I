@@ -6,6 +6,7 @@
 @list-color:#F1E6DE;
 @list-hover:#EBD8DA;
 @nav-hover-color:#D9E8E9;
+@blockquote-color:#EDE8EF;
 
 // -------mixins-----
 .center-stuff() {
@@ -42,9 +43,14 @@ body{
         height: auto;
 
         
-        .education{
-            // display:flex;
-            // justify-content: center;
+        .leftcolumn{
+            .blockquote{
+                margin-top:5px;
+                margin-bottom:5px;
+                padding:3px;
+                background-color:@blockquote-color;
+                border-radius: 5px;
+            }
             
             .list-group-item{
                 min-width: 300px;
@@ -62,7 +68,7 @@ body{
                 .selfie{    
                 border:5px solid @border-color;
                 margin-bottom: 10px;
-                margin-top:10px;
+                // margin-top:10px;
                 border-radius: 5px;
                 width: 300px;
                 

@@ -16,14 +16,21 @@ body {
   margin: auto;
   height: auto;
 }
-.main .top-content .education .list-group-item {
+.main .top-content .leftcolumn .blockquote {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 3px;
+  background-color: #EDE8EF;
+  border-radius: 5px;
+}
+.main .top-content .leftcolumn .list-group-item {
   min-width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #F1E6DE;
 }
-.main .top-content .education .list-group-item:hover {
+.main .top-content .leftcolumn .list-group-item:hover {
   background-color: #ecded3;
 }
 .main .top-content .headshot {
@@ -34,7 +41,6 @@ body {
 .main .top-content .headshot .selfie {
   border: 5px solid #E2A797;
   margin-bottom: 10px;
-  margin-top: 10px;
   border-radius: 5px;
   width: 300px;
 }
