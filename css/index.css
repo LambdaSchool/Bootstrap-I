@@ -1,0 +1,98 @@
+.btn-custom {
+  background-color: lightseagreen;
+  border: 1px solid seagreen;
+  transition: background-color 1s ease;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.btn-custom:hover {
+  background-color: seagreen;
+  border: 1px solid lightseagreen;
+  border-radius: 10px;
+}
+.container {
+  max-width: 1200px;
+}
+.header-nav {
+  justify-content: flex-end;
+}
+.header-nav a {
+  color: black;
+  font-size: 1.1rem;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  transition: background-color 0.7s ease;
+}
+.header-nav a:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+.header-nav a.active {
+  background-color: lightseagreen;
+  color: white;
+}
+.jumbo-mumbo {
+  padding: 0 15px;
+  padding-bottom: 15px;
+}
+.jumbo-mumbo .card {
+  border: none;
+  margin-bottom: 32px;
+}
+.jumbo-mumbo .card .dasgma {
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+.jumbo-mumbo .card .img-fluid {
+  max-width: 300px;
+  padding: 0 15px;
+}
+.jumbo-mumbo .card .aboutme {
+  margin-left: 0;
+}
+.jumbo-mumbo .card .das {
+  max-width: 150px;
+}
+.jumbo-mumbo .jumbotron {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jumbo-mumbo .jumbotron .lead {
+  margin-top: 30px;
+}
+.jumbo-mumbo .jumbotron .jumbo-button {
+  margin-top: 30px;
+}
+.jumbo-mumbo .btn {
+  background-color: lightseagreen;
+  border: 1px solid seagreen;
+  transition: background-color 1s ease;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.jumbo-mumbo .btn:hover {
+  background-color: seagreen;
+  border: 1px solid lightseagreen;
+  border-radius: 10px;
+}
+.work-history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.work-history h1 {
+  margin-bottom: 20px;
+}
+.footer-row {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid seagreen;
+  background: lightseagreen;
+  color: white;
+}

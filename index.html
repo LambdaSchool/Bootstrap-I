@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -16,16 +17,139 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+  <div class="container">
+    <header class="row header">
+      <div class="col-sm-12">
+        <div class="nav header-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </div>
       </div>
-    </div><!-- container -->
+    </header>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+    <div class="row jumbo-mumbo">
+      <div class="card col-sm-5">
+        <img class="img-fluid card-img-top" src="img/profile2.jpg" alt="Profile">
+        <div class="card-body">
+          <span class="badge badge-info dasgma">Das G. MA</span>
+          <h5>Project Manager / Web Developer</h5>
+          <p class="card-text">Prince2 and Professional Agile/Scrum certified, experienced Project Manager Looking for new ways to improve my
+            coding skills. So lets talk about your next Project! </p>
+          <a href="#" class="btn btn-primary btn-md aboutme">More About Me</a>
+        </div>
+        <table class="table table-hover col-sm-5">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Skills</th>
+              <th>Exp 1-10</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Soft Skills</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Negotiation</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Scheduling</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Critical Thinking</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Project Management</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Team Building</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>HTML</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>CSS</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="jumbotron col-sm-7">
+        <h1 class="display-4">Technologies</h1>
+        <p class="lead">
+          <img class="img-fluid" src="img/full-stack-development.jpg" alt="full-stack-development">
+        </p>
+        <hr class="my-4">
+        <p>
+          <img class="img-fluid" src="img/html5.png" alt="front-end"> HTML5, CSS3 and JS used for the front-end.</p>
+        <p>
+          <img class="img-fluid" src="img/php.png" alt="php"> PHP is utilized for the back-end development.</p>
+        <p>
+          <img class="img-fluid" src="img/database.png" alt="database"> SQL used for to create robust databases.</p>
+        <a class="btn btn-primary btn-md jumbo-button" href="#" role="button">Find Out More</a>
+
+        <div class="embed-responsive embed-responsive-21by9">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/_Nua3Cjdik0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="list-group work-history">
+      <h1>Experience</h1>
+      <a class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Project Manager @ IT–iTech LLC @ Long Beach, CA </h5>
+          <big class="text-muted">2016 - 2017</big>
+        </div>
+      </a>
+      <a class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Business Owner @ CWT LTD @ London</h5>
+          <big class="text-muted">2011 - 2014</big>
+        </div>
+      </a>
+      <a class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Project Coordinator @ BBG @ UK</h5>
+          <big class="text-muted">2005 - 2014</big>
+        </div>
+      </a>
+    </div>
+    <footer class="row">
+      <div class="col-sm-12 footer-row">
+        <p>Copyright &copy Das G. MA</p>
+      </div>  
+      </footer>
+  </div><!-- container -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
