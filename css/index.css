@@ -2,7 +2,12 @@ body {
   background: linear-gradient(to right, #f8faf9, #eaeeec);
 }
 .main .navbar .nav-link {
+  padding: 2px;
+  margin: 0 2px 0 2px;
   color: #B0A5AB;
+}
+.main .navbar .nav-link:hover {
+  background-color: #D9E8E9;
 }
 .main .navbar .nav-link.active {
   background-color: #ACCACD;
@@ -19,7 +24,7 @@ body {
   background-color: #F1E6DE;
 }
 .main .top-content .education .list-group-item:hover {
-  background-color: #E2A797;
+  background-color: #ecded3;
 }
 .main .top-content .headshot {
   display: flex;
@@ -31,7 +36,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
   border-radius: 5px;
-  width: 400px;
+  width: 300px;
 }
 .main .btn-outline-info {
   color: #B0A5AB;

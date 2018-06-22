@@ -4,7 +4,8 @@
 @button-color:#CDE3E4;
 @border-color:#E2A797;
 @list-color:#F1E6DE;
-
+@list-hover:#EBD8DA;
+@nav-hover-color:#D9E8E9;
 
 // -------mixins-----
 .center-stuff() {
@@ -23,7 +24,12 @@ body{
     
     .navbar{
        .nav-link{
+            padding: 2px;
+            margin:0 2px 0 2px;
             color:@link-color;
+            &:hover{
+                background-color:@nav-hover-color
+            }
         
        }
        .nav-link.active{
@@ -45,7 +51,8 @@ body{
                 .center-stuff();
                  background-color:@list-color;
                      &:hover{
-                         background-color:@border-color;
+                         background-color:
+                            darken(@list-color,3%);
                      }
              }
         }
@@ -57,7 +64,7 @@ body{
                 margin-bottom: 10px;
                 margin-top:10px;
                 border-radius: 5px;
-                width: 400px;
+                width: 300px;
                 
                 
             }
