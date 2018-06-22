@@ -1,0 +1,59 @@
+.center {
+  flex: display;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+body {
+  background: #e5f4e5;
+}
+.container {
+  max-width: 1200px;
+}
+.custom-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.custom-nav .nav {
+  width: 100%;
+  justify-content: space-evenly;
+  background: #e5f4e5;
+}
+.custom-nav .nav a {
+  text-decoration: none;
+  display: flex;
+  color: gray;
+}
+.home {
+  margin-top: 50px;
+  padding-top: 50px;
+  border: solid 2px black;
+}
+.about {
+  letter-spacing: 15px;
+}
+.name {
+  font-family: cursive;
+  letter-spacing: 6px;
+}
+.top-content {
+  margin-top: 50px;
+}
+.jena-img {
+  width: 500px;
+  height: auto;
+}
+.list-group {
+  width: auto;
+  background-color: #e5f4e5;
+  line-height: 20px;
+}
+.list-group .list-group-item {
+  width: auto;
+  text-align: center;
+}
+.list-group .title-li {
+  font-weight: bolder;
+}
