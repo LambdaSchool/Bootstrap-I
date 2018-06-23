@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -15,13 +16,86 @@
 </head>
 
 <body>
-
-    <div class="container">
+    <div class="container-fluid">
+      <header class="d-flex m-0 sticky-top">
+        <nav class="d-flex p-0 col-12">
+          <img class="header-img align-items-start col-3 h-10" src="https://sep.yimg.com/ay/yhst-95178242420387/heisenberg-t-shirt-breaking-bad-los-pollos-hermanos-meth-tee-14.jpg" alt="Heisenberg">
+          <a href="#" class="justify-content-end px-5">Home</a>
+          <a href="#" class="justify-content-end px-5">About</a>
+          <a href="#" class="justify-content-end px-5">Contact</a>
+        </nav>
+      </header>
       <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+          <div class="name col-12">
+              Walter Hartwell White
+              <p>Teacher / Chemist / Cook</p>
           </div>
+          <img class="self-portrait w-100" src="http://pixel.nymag.com/imgs/daily/vulture/2013/09/26/26-breaking-bad-need-to-know-2.w529.h352.jpg" alt="self-portrait">
+      </div><!-- intro -->
+
+    <div class="container-fluid"> 
+      <div class="row d-flex justify-content-center px-0">
+          <table class="resume-content col-12">
+              <thead class="thead-light">
+                  <tr class="col-12">  
+                    <th class="col-4 column-title column-style-one">Education</th>
+                    <th class="col-4 column-title column-style-one">Experience</th>
+                    <th class="col-4 column-title column-style-one">Cancer</th>
+                  </tr>
+                  <tr>
+                    <td rowspan="3" class="column-title content py-1">California Institute of Technology <br>PhD in Chemistry <br> Emphasis in X-ray Crystallography</td>
+                    <td class="column-title content">Gray Matter Technologies - Co-founder/Principal Investigator</td>
+                    <td rowspan="3" class="column-title content py-1"><button class="donate">DONATE</button></td>
+                  </tr><!-- row 1 -->
+                  <tr>
+                    <td class="column-title content py-1">J. P. Wynne High School - Chair, Department of Science</td>
+                  </tr><!-- row 2 -->
+                  <tr>
+                    <td class="column-title content py-1">Los Pollos Hermanos - Executive Chef</td>
+                  </tr><!-- row 3 -->
+              </thead>
+          </table><!--Resume content table-->
       </div>
+    </div><!-- body -->
+
+      <div class="jumbotron">
+          <section class="left-column col-sm-6">
+            <h1 class="display-4">Address:</h1>
+            <p class="lead">308 Negra Arroyo Lane, <br> Albuquerque, New Mexico.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Come Find Me :D</a>
+          </section>
+            <img class="jumbotron" src="http://www.moleculewear.com/images/expand_molecule_meth.gif" alt="meth molecule">
+      </div><!-- jumbotron -->
+   
+      <div class="card-section">
+          <div class="card col-sm-4" style="width: 18rem;">
+              <img class="card-img-top" src="https://www.centeronaddiction.org/sites/default/files/meth.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Crystals, You Say?</h5>
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <a href="#" class="btn btn-primary">Longest, Clearest Glass You'll Ever See</a>
+              </div>
+          </div><!--left-->
+          <div class="card col-sm-4" style="width: 18rem;">
+              <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/A1N530gXE7L._SX355_.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">It's More Than Fried Chicken</h5>
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <a href="#" class="btn btn-primary">More Addicting Than Fried Chicken</a>
+              </div>
+          </div><!--mid-->
+          <div class="card col-sm-4" style="width: 18rem;">
+              <img class="card-img-top" src="https://sites.psu.edu/siowfa14/wp-content/uploads/sites/13467/2014/11/bluemeth.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Learn From The Best</h5>
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <a href="#" class="btn btn-primary">Highest Purity</a>
+              </div>
+          </div><!--right-->
+      </div><!-- cards -->
+      <div class="copyright">
+          <p>Copyright WHW 2018</p>
+      </div><!-- Copyright -->
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>

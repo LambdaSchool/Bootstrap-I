@@ -1,0 +1,174 @@
+html {
+  font-size: 62.5%;
+  font-family: "Acme";
+}
+@desktop {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.container-fluid {
+  background-color: black;
+  color: #3F8A4F;
+}
+@desktop {
+  margin: 0 auto;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+header nav {
+  border: 1px solid pink;
+  background-color: black;
+  -webkit-opacity: 0.75;
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+}
+header nav .header-img {
+  align-self: flex-start;
+}
+header nav a {
+  color: #3F8A4F;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.row .name {
+  font-size: 4rem;
+}
+.row .self-portait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+.row p {
+  font-size: 2rem;
+}
+.resume-content {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  color: black;
+  background-color: #3F8A4F;
+}
+.resume-content .column-title {
+  text-decoration: underline;
+  font-size: 3rem;
+  border-left: .5rem solid black;
+  border-right: 0.5rem solid black;
+}
+.resume-content .column-style-one {
+  color: #3F8A4F;
+  border: 0.5rem solid #3F8A4F;
+  background-color: black;
+}
+.resume-content .content {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.donate {
+  color: black;
+  background-color: #3F8A4F;
+  box-shadow: 5px 2px black;
+  font-weight: bold;
+  height: 6rem;
+}
+.donate:hover {
+  color: #daeede;
+}
+.jumbotron {
+  display: flex;
+  background-color: black;
+  color: #3F8A4F;
+}
+.jumbotron .left-column .display-4 {
+  font-size: 6rem;
+}
+.jumbotron .left-column .lead {
+  font-size: 3rem;
+}
+.jumbotron .left-column .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  height: 25%;
+  width: 50%;
+  background-color: #3F8A4F;
+  border-color: #3F8A4F;
+}
+.card-section {
+  display: flex;
+  font-size: 2rem;
+}
+.card-section .card {
+  background-color: lightgray;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.card-section .card:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.card-section .card-text {
+  font-size: 1.2rem;
+}
+.card-section .btn {
+  height: 50%;
+  background-color: #3F8A4F;
+  border-color: #3F8A4F;
+}
+.copyright {
+  color: #3F8A4F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+.reset-padding-margin {
+  margin: 0 auto;
+  padding: 0;
+}

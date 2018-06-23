@@ -1,1 +1,132 @@
 // Start here!
+html{
+    font-size: 62.5%;
+    font-family: "Acme";
+    @desktop{
+    width: 100%;
+    .reset-padding-margin;
+    }
+}//html
+
+.container-fluid{
+    background-color: black;
+    color: @base-color;
+    @desktop{
+        .reset-padding-margin;
+        }
+}
+
+header{
+    .center;
+    nav{
+        border: 1px solid pink;
+        background-color:black;
+        .opacity(0.75);
+        .header-img{
+            align-self: flex-start;
+        }//header-img
+        a{
+            color: @base-color;
+            text-decoration: none;
+            .center;
+            font-size: 1.5rem;
+        }//a
+    }//nav
+}//header
+
+.row{
+    .center;
+    padding: 1rem 2rem;
+    .name{
+        font-size: 4rem;
+    }//name
+    .self-portait{
+        .center;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+
+.resume-content{
+    .reset-padding-margin;
+    .center;
+    color: black;
+    background-color:@base-color;
+    .column-title{
+        text-decoration: underline;
+        font-size: 3rem;
+        border-left: .5rem solid black;
+        border-right: .5rem solid black
+    }
+    .column-style-one{
+        color:@base-color;
+        border: .5rem solid @base-color;
+        background-color:black;
+    }
+    .content{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}//resume-content
+
+.donate{
+    color: black;
+    background-color:@base-color;
+    box-shadow: 5px 2px black;
+    font-weight: bold;
+    height: 6rem;
+    &:hover{
+        color: lighten(@base-color, 50%);
+    }
+}
+
+.jumbotron{
+    display:flex;
+    background-color:black;
+    color:@base-color;
+    .left-column{
+        .display-4{
+            font-size: 6rem;
+        }
+        .lead{
+            font-size: 3rem;
+        }
+        .btn{
+            .center;
+            height: 25%;
+            width: 50%;
+            background-color: @base-color;
+            border-color:@base-color;
+        }
+    }
+}//jumbotron
+
+.card-section{
+    display:flex;
+    font-size: 2rem;
+    .card{
+        background-color:lightgray;
+        .opacity(0.5);
+        &:hover{
+            .opacity(1.0);
+        }
+    }
+    .card-text{
+        font-size:1.2rem;
+    }
+    .btn{
+        height: 50%;
+        background-color: @base-color;
+        border-color:@base-color;
+    }
+}
+
+.copyright{
+    color: @base-color;
+    .center;
+    font-size: 1.5rem;
+}
+
+//=======Mixins
+@import "mixins.less";
