@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(to right, #f8faf9, #eaeeec);
+}
+.main .navbar .nav-link {
+  padding: 2px;
+  margin: 0 2px 0 2px;
+  color: #B0A5AB;
+}
+.main .navbar .nav-link:hover {
+  background-color: #D9E8E9;
+}
+.main .navbar .nav-link.active {
+  background-color: #ACCACD;
+}
+.main .top-content {
+  margin: auto;
+  height: auto;
+}
+.main .top-content .leftcolumn .blockquote {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 3px;
+  background-color: #EDE8EF;
+  border-radius: 5px;
+}
+.main .top-content .leftcolumn .list-group-item {
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1E6DE;
+}
+.main .top-content .leftcolumn .list-group-item:hover {
+  background-color: #ecded3;
+}
+.main .top-content .headshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .top-content .headshot .selfie {
+  border: 5px solid #E2A797;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+.main .btn-outline-info {
+  color: #B0A5AB;
+  background-color: transparent;
+  background-image: none;
+  border-color: #CDE3E4;
+}
+.main .btn-outline-info:hover {
+  background-color: #CDE3E4;
+}

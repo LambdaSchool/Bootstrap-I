@@ -1,1 +1,96 @@
+// variables-----
+@nav-button-color: #ACCACD;
+@link-color:#B0A5AB;
+@button-color:#CDE3E4;
+@border-color:#E2A797;
+@list-color:#F1E6DE;
+@list-hover:#EBD8DA;
+@nav-hover-color:#D9E8E9;
+@blockquote-color:#EDE8EF;
+
+// -------mixins-----
+.center-stuff() {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 // Start here!
+body{
+    background: linear-gradient(to right, rgb(248,250,249), rgb(234,238,236));
+      
+    // background-color:rgb(235,238,239);
+}
+.main{
+    
+    .navbar{
+       .nav-link{
+            padding: 2px;
+            margin:0 2px 0 2px;
+            color:@link-color;
+            &:hover{
+                background-color:@nav-hover-color
+            }
+        
+       }
+       .nav-link.active{
+        background-color:@nav-button-color;
+    }
+    }
+    .top-content{
+        // background: lavenderblush;
+        margin:auto;
+        height: auto;
+
+        
+        .leftcolumn{
+            .blockquote{
+                margin-top:5px;
+                margin-bottom:5px;
+                padding:3px;
+                background-color:@blockquote-color;
+                border-radius: 5px;
+            }
+            
+            .list-group-item{
+                min-width: 300px;
+                .center-stuff();
+                 background-color:@list-color;
+                     &:hover{
+                         background-color:
+                            darken(@list-color,3%);
+                     }
+             }
+        }
+    
+        .headshot{
+               .center-stuff();
+                .selfie{    
+                border:5px solid @border-color;
+                margin-bottom: 10px;
+                // margin-top:10px;
+                border-radius: 5px;
+                width: 300px;
+                
+                
+            }
+            
+        }  
+            
+    }
+    .btn-outline-info {
+        color:@link-color;
+        background-color: transparent;
+        background-image: none;
+        border-color:@button-color;
+        &:hover{
+            background-color: @button-color;
+        }
+        
+    }
+}
+
+
+
+
+  
