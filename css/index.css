@@ -1,0 +1,17 @@
+.container {
+  max-width: 880px;
+}
+.skills h3 {
+  display: flex;
+  justify-content: center;
+}
+.skills .card {
+  margin-top: 3%;
+}
+.skills .card .card-header {
+  width: 100%;
+  text-align: center;
+}
+.copyright {
+  justify-content: center;
+}
