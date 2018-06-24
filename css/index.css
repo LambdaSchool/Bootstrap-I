@@ -1,18 +1,15 @@
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .container {
-  max-width: 600px;
+  max-width: 800px;
 }
-.custom-nav nav {
-  padding: 10px 0;
+.container .custom-navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  background: #FE5F02;
+  border-radius: 20px;
 }
-.custom-nav nav a {
-  color: black;
+.container .custom-navbar a {
+  margin: 5px 20px;
+  color: white;
 }
 .home {
   margin-top: 50px;
