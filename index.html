@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Digital Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -17,12 +17,146 @@
 <body>
 
     <div class="container">
+      <!-- HEADER -->
+    <img class="card-img-top me-img" src="./assets/me-jumbo.jpg" alt="Card image cap">
+    <div class="jumbotron jumbotron-fluid header">
+
+      <h1 class="display-4 col-md-6 name ">Erik Kimsey</h1>
+<h1 class="display-4 col-md-6 title">JS Developer</h1>
+    </div>
+      <!-- HEADER -->
+
+      <!-- NAV -->
       <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+        <ul class="nav">
+          <li class="nav-item">
+<a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+<a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+<a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+<a class="nav-link disabled" href="#">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+<!-- NAV -->
+
+<!-- MAIN CONTENT -->
+      <div class="row main-content">
+<div class="skills content-card col-4">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="./assets/js.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">SK!LLZ</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<!-- <div class="btn btn-dark">8@NG</div> -->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+ 8@NG
+</button>
+
+  </div>
+</div>
+        </div>
+<div class="work content-card col-4">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="./assets/resume.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">PROJ3KT5</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<div class="btn btn-dark">Z00M</div>
+  </div>
+</div>
+        </div>
+<div class="about content-card col-4">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="./assets/me.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">@80UT M3</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<div class="btn btn-dark">TH3 50UL</div>
+  </div>
+</div>
+        </div>
+      </div>
+<!-- MAIN CONTENT -->
+      <div class="row footer">
+            <div class="col-md-3 footer-name">ERIK KIMSEY</div>
+            <div class="col-md-3 footer-title">JAVASCRIPT DEVELOPER</div>
+            <div class="col-md-3 footer-contact">kimseyerik@gmail.com</div>
           </div>
       </div>
     </div><!-- container -->
+
+    <!-- MODAL -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">SK!LLZ</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Javascript</th>
+      <th scope="col">HTML/CSS</th>
+      <th scope="col">Tools</th>
+      <th scope="col">Design</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">ES6</td>
+      <td>HTML5</td>
+      <td>Webpack</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td scope="row">NodeJS</td>
+      <td>LESS</td>
+      <td>Gulp</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td scope="row">React</td>
+      <td>SASS</td>
+      <td>npm</td>
+      <td>@twitter</td>
+    </tr>
+<tr>
+  <td scope="row">Angular</td>
+  <td>Bootstrap</td>
+  <td>the Bird</td>
+  <td>@twitter</td>
+</tr>
+<tr>
+  <td scope="row">P5.JS</td>
+  <td>Mobile-first/Responsive</td>
+  <td>the Bird</td>
+  <td>@twitter</td>
+</tr>
+<tr>
+  <td scope="row">D3.JS</td>
+  <td>Animate.css</td>
+  <td>the Bird</td>
+  <td>@twitter</td>
+</tr>
+  </tbody>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="close-modal" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

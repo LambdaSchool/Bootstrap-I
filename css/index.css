@@ -1,0 +1,54 @@
+.container {
+  background-color: aliceblue;
+}
+.container .me-img {
+  z-index: 1000;
+}
+.container .header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .header .name {
+  width: 100%;
+}
+.container .header .title {
+  width: 100%;
+}
+.container .nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .nav a {
+  width: 100%;
+}
+.container .main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .main-content .content-card {
+  width: 100%;
+}
+.container .main-content .content-card .card-img-top {
+  padding: 7%;
+}
+.container .main-content .skills .card-img-top {
+  padding: 1%;
+}
+.container .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2% auto;
+}
+.container .modal .modal-footer {
+  display: flex;
+  justify-content: center;
+}
+.container .modal .modal-footer button .close-modal {
+  width: 100%;
+}
