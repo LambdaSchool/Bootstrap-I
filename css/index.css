@@ -1,0 +1,32 @@
+.nav {
+  justify-content: flex-end;
+}
+.nav a {
+  text-align: right;
+  color: rgba(0, 0, 0, 0.863);
+}
+.jumbotron {
+  color: white;
+  text-align: center;
+  background-image: url("../img/bg5.jpg");
+  background-size: contain;
+}
+.jumbotron h1,
+.jumbotron p {
+  width: 100%;
+}
+.jumbotron p:last-child {
+  font-size: 1.5rem;
+}
+.resume .col-4 ul {
+  align-items: center;
+}
+.resume .col-4 ul li {
+  border: none;
+}
+.resume table th {
+  border-top: none;
+}
+.about {
+  justify-content: space-between;
+}
