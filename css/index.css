@@ -1,0 +1,21 @@
+.container {
+  max-width: 1000px;
+}
+nav {
+  padding: 20px 0;
+}
+.navbar span {
+  font-family: cursive;
+  color: red;
+}
+nav a {
+  color: black;
+}
+.fa {
+  font-size: 100px;
+}
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
