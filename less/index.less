@@ -1,1 +1,85 @@
 // Start here!
+@import "mixin.less";
+
+.container {
+    max-width: 900px;
+
+    .top-image {
+        .border-radius(15px);
+
+        .card-img-top {
+            .border-radius(15px);
+        }
+    }
+
+    .nav {
+        // border: 1px solid blue;
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 0;
+
+        a {
+            .button-maker(200px, 20px, rgba(26, 26, 26, 0.829), white)
+        }  
+    }
+    
+    .top-content {
+        border: 1px solid lightgray;
+        width: 100%;
+        margin: auto;
+        .border-radius(15px);
+        // color: white;
+
+        .my-name {
+            padding: 5px;
+            width: 100%;
+        }
+
+        .image-container {
+            .center;
+
+            .my-image {   
+                width: 200px;
+                .border-radius(65%);
+                padding: 15px 0;
+                &:hover {
+                    .opacity;
+                }
+            }
+        }
+    }
+
+    .middle-table {
+        border: 1px solid lightgray;
+        padding-top: 5px;
+        margin: 20px 0;
+        .border-radius(15px);
+    }
+
+    .interests {
+        .border-radius(15px);
+    }
+
+    .card-section .card {
+        .border-radius(15px);
+
+        .img-fluid {
+            .border-radius(15px);
+        }
+    }
+
+    .footer {
+        border: 1px solid rgba(26, 26, 26, 0.829);
+        margin: auto;
+        .border-radius(15px);
+        background-color: rgba(26, 26, 26, 0.829);
+        color: white;
+
+        .footer-container .copyright-text {
+            margin: auto;
+        }     
+    }
+
+        
+
+}
