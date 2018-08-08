@@ -1,0 +1,19 @@
+.container .check {
+  border: 1px solid red;
+}
+.container .jumbotron {
+  border: 1px solid blue;
+}
+.container .jumbotron img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+}
+.container .digital {
+  border: 1px solid black;
+}
+.container .card {
+  border: 1px solid red;
+}
