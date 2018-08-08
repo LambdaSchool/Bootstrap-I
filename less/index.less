@@ -1,1 +1,33 @@
 // Start here!
+body{
+background-image:linear-gradient(270deg, black, grey, orange, red);
+}
+
+.container{
+max-width:1000px;
+	h1 {
+	font-size:30px;
+	}
+background:fade(white, 60%);
+	.nav {
+	background:none;
+	margin-top:10px;
+	flex-wrap:wrap;
+	align-items:center;
+	}
+	.nav-item{
+	margin-bottom:5px;
+	@media(max-width:500px){
+	border-bottom:2px solid black;
+	}
+	}
+	.cards {
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	}
+	.row1{
+	width:100%;
+	text-align:center;
+	}
+}
