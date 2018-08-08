@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Digital Resume</title>
+  <title>Arthur's Digital Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
@@ -17,11 +17,141 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#Skill">Skillset</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Footer">Contact</a>
+            </li>
+          </ul>
+        <div class="row" id="Skill">
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://i.gyazo.com/c01e2304eb7f98a64753e73386075c47.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Arthur Pisakhov</h5>
+                            <p>BS in Biomed and CS Major</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://www.valuecoders.com/blog/wp-content/uploads/2017/09/11-Top-Programming-Trends-To-Look-For-In-20172.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lambda School Graduate</h5>
+                            <p>Connections to global platforms</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://www.teachermagazine.com.au/files/ce-image/cache/1c03ffc10fd4ef6a/Computing-programming-and-coding-in-schools_855_513_48.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Proficient in Multiple Languages</h5>
+                            <p>Html, CSS, Javascript, Python, C#</p>
+                          </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+        <div class="row" id="About">
+            <div class="card" style="width: 16rem;">
+                <img class="card-img-top" src="https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_400x400.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Lambda School Graduate</h5>
+                  <p class="card-text">Endearing programmer looking to further his career and knowledge in computer programming. Avid gamer, lifter, and crypto enthusiast. </p>
+                  <a href="https://lambdaschool.com/" class="btn btn-primary">Lambda School</a>
+                </div>
+              </div>
+            <div class="col-sm-6">
+                <h4>Skillset</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">Skillsets</li>
+                    <li class="list-group-item list-group-item-primary">Programming</li>
+                    <li class="list-group-item list-group-item-secondary">Coding</li>
+                    <li class="list-group-item list-group-item-success">Bartending</li>
+                    <li class="list-group-item list-group-item-danger">Medicine</li>
+                    <li class="list-group-item list-group-item-warning">Training</li>
+                  </ul>
+            </div>
+        </div>
+        <div class="row table-row no-gutters" id="Portfolio">
+            <h4>Work History</h4>
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">yrs</th>
+                    <th scope="col">Company</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">Skill</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mount Sinai Hospital</td>
+                    <td>Lab Research</td>
+                    <td>Medicine</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Coney Island Hospital</td>
+                    <td>Assistant Director of Anesthesiology</td>
+                    <td>Medicine</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Metro Grill</td>
+                    <td>Bartender</td>
+                    <td>Mixology</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="row" id="Footer">
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Contact Me</h5>
+                  <p class="card-text">If you wish to work on something together or
+                    just become acquainted then feel free to leave me your email address and a short message, I shall respond as
+                    soon as i can.</p>
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Your Email Address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name@Domain.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Your Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                  <br>
+                  <a href="#Home" class="btn btn-primary">Return to Top</a>
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
