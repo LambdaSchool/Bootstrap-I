@@ -3,26 +3,117 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Digital Resume</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
+<script>
+  var bleep = new Audio();
+  bleep.src = "rip.mp3"
+</script>
+
 </head>
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+  <div class="container">
+    <div class="row justify-content">
+        <nav class="nav ">
+        <a class="nav-link active" href="#">I am groot</a>
+        <a class="nav-link" href="#">I am groot</a>
+        <a class="nav-link" href="#">I am groot</a>
+        <a class="nav-link" href="#">I am groot</a>
+        </nav>
+    </div>
+
+    <div class="jumbotron">
+        <img src="https://memegenerator.net/img/images/16588191.jpg">
+        <h1 class="display-4">I am groot</h1>
+        <p class="lead">I am groot I am groot I am groot I am groot I am groot I am groot I am groot I am groot I am groot I am groot.</p>
+        <hr class="my-4">
+        <p>I am groot I am groot I am groot I am groot I am groot I am groot I am groot I am groot I am groot.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button" onmousedown="bleep.play()">I am groot</a>
+    </div>
+
+    <a href="#" onmousedown="bleep.play()">Click</a>
+
+    <h2>
+      GROOTS
+    </h2>
+
+    <div class="row skills">
+      <div class="col">
+        HTML
       </div>
-    </div><!-- container -->
+
+      <div class="col">
+        CSS
+      </div>
+
+      <div class="col">
+        Javascript
+      </div>
+
+      <div class="col">
+        jQuery
+      </div>
+
+      <div class="col">
+        Python
+      </div>
+
+      <div class="col">
+        Django
+      </div>
+    </div>
+
+    <div class="row table-row no-gutters">
+            <h4>Groot History</h4>
+            <table class="table table-striped">
+            <thead>
+                <tr>
+                <th scope="col">Yrs</th>
+                <th scope="col">Company</th>
+                <th scope="col">Title</th>
+                <th scope="col">Tech Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1 groot</th>
+                <td>Groot</td>
+                <td>Groot Engineer</td>
+                <td>I am groot</td>
+                </tr>
+                <tr>
+                <th scope="row">2 groots</th>
+                <td>Groot</td>
+                <td>Groot Scientist</td>
+                <td>I am groot</td>
+                </tr>
+                <tr>
+                <th scope="row">3 groots</th>
+                <td>Groot</td>
+                <td>Groot Ops</td>
+                <td>I am groot</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <div class="row footer">
+            <div class="col-sm-12">
+            <p class="text-center">Copyright 20-groot-teen</p>
+            </div>
+        </div>
+</div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

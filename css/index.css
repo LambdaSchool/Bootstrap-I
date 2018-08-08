@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    justify-content: center;
+}
+
+
+.jumbotron {
+    background: white;
+}
+
+.jumbotron img {
+    margin-left: 10%;
+}
+
+h2 {
+    margin-bottom: 5%;
+}
+
+.skills {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.skills div {
+    border: 1px solid black;
+    margin: 5% 15%;
+    padding: 4%;
+    background: rgb(204, 204, 201);
+}
