@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -16,16 +17,140 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+              aria-selected="true">Home</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-skills" role="tab" aria-controls="nav-profile"
+              aria-selected="false">Skills</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact"
+              aria-selected="false">Future Projects</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact"
+              aria-selected="false">References</a>
           </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"></div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"></div>
+        </div>
+      </div><!-- col -->
+    </div><!--row -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <div class="row">
+            <div class="col-md-7">
+              <h1 class="display-8">Jameson Brown - Web Developer</h1>
+              <p class="lead">Making real websites for real people</p>
+            </div>
+            <div class = "col-md-4" >
+              <img src = "img/profile-pic.jpg" class = "img-fluid">
+            </div>
+          </div>
+          <hr class="my-4">
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Start Your Journey</a>
+          </p>
+        </div><!-- jumbotron -->
+      </div><!-- col -->
+    </div><!-- row -->
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="skills-header">Skills</h1>
+        <ul class="list-group"><!-- skills list -->
+          <li class="list-group-item">CSS Professional</li>
+          <li class="list-group-item">Bootstrap Wizard</li>
+          <li class="list-group-item">Javascript Master</li>
+          <li class="list-group-item">HTML Dominator</li>
+          <li class="list-group-item">Full Stack Connoisseur</li>
+        </ul><!-- skills list -->
+      </div><!-- col -->
+    </div><!-- row -->
+    <hr>
+    <div class="row align-items-center">
+      <div class="col-md-12 d-flex justify-content-center">
+        <h1>Future Projects</h1>
       </div>
-    </div><!-- container -->
+    </div><!-- row -->
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Rock Paper Scissors Img">
+          <div class="card-body">
+            <h5 class="card-title">Super Rock Paper Scissors</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Github Repo</a>
+            <a href="#" class="btn btn-primary">Webpage</a>
+          </div>
+        </div><!-- card-->
+      </div><!-- col -->
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="AI Decision Maker Img">
+          <div class="card-body">
+            <h5 class="card-title">AI Decision Maker</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Github Repo</a>
+            <a href="#" class="btn btn-primary">Webpage</a>
+          </div>
+        </div>
+      </div><!-- col -->
+    </div><!-- row -->
+    <hr>
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+        <h1>References</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Chuck</td>
+              <td>Norris</td>
+              <td>He will contact you</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Bruce</td>
+              <td>Lee</td>
+              <td>Contact the otherworld</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Tony</td>
+              <td>Stark</td>
+              <td>Contact Jarvis at 259-203-5940</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- col -->
+    </div>
+    <!--- row -->
+  </div>
+  <!-- container -->
+
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
