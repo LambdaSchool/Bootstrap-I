@@ -1,1 +1,98 @@
-// Start here!
+// Variables
+
+@main-color: #dddddd;
+
+// Mixins
+
+.buttons() {
+    border: 1px solid @main-color;
+    border-radius: 5px;
+    background: @main-color;
+
+    &:hover {
+        background: darken(@main-color, 15%);
+        border: 1px solid darken(@main-color, 35%);
+    }
+}
+
+// General Styles
+
+body {
+    background: darken(@main-color, 10%);
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+}
+
+.nav-row {
+
+    .nav {
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 15px auto;
+
+        .nav-item {
+            .buttons;
+
+            .nav-link {
+                color: black;
+            }
+        }
+    }
+}
+
+.jumbo-row {
+    width: 98%;
+    padding: 2rem 0.5rem 0.15rem;
+    margin: 15px auto 5px;
+
+    .jumbotron {
+        background: @main-color;
+        padding: 1rem 2rem;
+
+        .btn-primary {
+            .buttons;
+            color: black;
+            background: darken(@main-color, 15%);
+            border: 1px solid darken(@main-color, 35%);
+
+            &:hover {
+                background: darken(@main-color, 25%);
+            }
+        }
+    }
+}
+
+.header {
+    margin-bottom: 45px;
+}
+
+.blop {
+    border-radius: 5px;
+} 
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.menu-stuff {
+    padding-bottom: 50px;
+    margin: 25px 0;
+}
+
+.skills-table {
+    height: 95%;
+    border-radius: 5px;
+    background: @main-color;
+    margin-left: 15px;
+}
+
+.feet {
+    border-radius: 5px;
+}
