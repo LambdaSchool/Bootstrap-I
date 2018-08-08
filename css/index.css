@@ -1,0 +1,61 @@
+/*********************************
+ * Alex McEvoy
+ * 05/16/18
+ *********************************/
+body {
+  background-color: salmon;
+  border: 10px solid black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+.container {
+  margin: 5%;
+  padding: 2%;
+}
+.container .row .card {
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+}
+.column-A {
+  background-color: brown;
+  border-right: .1rem solid white;
+  flex-flow: column;
+  justify-content: center;
+  height: 100%;
+  color: blue;
+}
+.column-A img {
+  width: 90%;
+  margin: 5%;
+}
+.column-A h1,
+.column-A h3 {
+  color: white;
+}
+.column-A .card {
+  background: black;
+  border: 2px solid white;
+  width: 100%;
+}
+.column-A .bars {
+  margin-top: 50%;
+}
+.column-A .progress {
+  margin: 5% 0;
+}
+.column-B .table {
+  margin-top: 10%;
+}
+.column-B .about_me {
+  width: 100%;
+  height: 100%;
+  padding: 25%;
+  text-align: center;
+}
