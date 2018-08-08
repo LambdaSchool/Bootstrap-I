@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: #90a0af;
+  color: white;
+}
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .header .navbar {
+    display: none;
+  }
+}
+.header .navbar .nav a {
+  color: white;
+  text-decoration: none;
+  padding-top: 5px;
+}
+.header img {
+  border-radius: 40px;
+}
+@media (max-width: 576px) {
+  .header img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+}
+.header .jumbotron-content h1 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+.main-content .left {
+  border-right: 1px solid black;
+  padding-right: 30px;
+}
+@media (max-width: 576px) {
+  .main-content .left {
+    border: 0;
+  }
+}
+.main-content .right {
+  padding-left: 30px;
+}
+@media (max-width: 576px) {
+  .main-content .right {
+    padding-left: 13px;
+  }
+}
+.main-content .right .skills {
+  margin-top: 30px;
+}
+.main-content .right .skills .progress {
+  height: 50px;
+  background: white;
+}
+.footer {
+  background: #90a0af;
+  border-radius: 5px;
+  margin: 40px 0;
+  color: white;
+  padding: 20px 10px;
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .footer .col-4 {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+.footer .awards {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+@media (max-width: 768px) {
+  .footer .awards {
+    border: 0;
+  }
+}
+.footer .contact p {
+  margin-bottom: 5px;
+}
