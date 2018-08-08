@@ -1,0 +1,84 @@
+h1 {
+
+    align-self: flex-end;
+    font-size: 1.5rem;
+
+    @media @md {
+        font-size: 3rem
+    }
+
+    @media @lg {
+        font-size: 5rem;
+    }
+    }
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.title-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title-banner-right {
+        display: none;
+
+        @media @sm {
+            text-align: end;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-right: 10px;
+        }
+
+
+        @media @lg {
+
+            flex-direction: column;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+            @media @md {
+                font-size: 1.3rem;
+            }
+            
+        }
+    
+        .md-plus {
+            display: none;
+            .md-unhide-block;
+        }
+
+    }
+    
+
+}
+
+.table {
+    background-color: @table-color;
+}
+
+
+.experience {
+    display: flex;
+    .logo {
+        width: 30px;
+        // display: inline-block;
+    }
+
+}
+
+.card {
+        background-color: @card-text-bg;
+}
+
+.headshot {
+    max-width: 33%;
+}
