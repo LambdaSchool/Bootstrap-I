@@ -1,0 +1,11 @@
+.container {
+  max-width: 880px;
+  background-color: #d6b86d;
+}
+.nav {
+  color: black;
+}
+.jumbotron {
+  justify-content: center;
+  background-color: light grey;
+}
