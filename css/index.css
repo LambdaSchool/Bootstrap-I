@@ -1,0 +1,26 @@
+.container-fluid {
+  maxwidth: 100%;
+  border: 1px solid red;
+  padding: 20px;
+  justify-content: center;
+}
+.nav {
+  justify-content: space-evenly;
+  align-items: center;
+  background: lightpink;
+}
+.nav a {
+  color: purple;
+}
+.jumbotron {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: gold;
+}
+.Sania {
+  color: hotpink;
+  font-size: 5rem;
+}
