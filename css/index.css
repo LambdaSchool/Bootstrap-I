@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  background: linear-gradient(180deg, white, blue, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  max-width: 900px;
+  background: #007bff;
+}
+.nav-pills .nav-link {
+  color: white;
+}
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jumbotron .lead {
+  visibility: hidden;
+}
+.custxt {
+  margin-bottom: 20px;
+  color: white;
+  justify-content: center;
+}
+h1 {
+  font-size: 2rem;
+  font-style: italic;
+}
+.card-img-top {
+  height: 178.66px;
+}
+.table {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.table .table {
+  background: #007bff;
+}
