@@ -1,0 +1,96 @@
+body {
+  background: black;
+}
+.container {
+  max-width: 1080px;
+}
+.row {
+  padding-bottom: 70px;
+}
+.row .col-xl {
+  text-align: center;
+  color: white;
+  font-family: Dosis;
+}
+.row .col-xl header h1 {
+  padding-bottom: 20px;
+  animation: moveInRight 1.5s;
+  text-decoration: underline;
+}
+.row .col-xl header h2 {
+  animation: moveInLeft 1.8s;
+}
+.row .col-xl .img-fluid {
+  animation: moveInBottom 1.8s;
+  border: 1px solid white;
+}
+.row .card {
+  margin: 0 auto;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+.row .card-title {
+  color: red;
+}
+.card-body {
+  background: silver;
+}
+.card-body .list-group {
+  background: silver;
+}
+.card-body .list-group .list-group-item {
+  background: silver;
+}
+.card-body .btn {
+  background: gray;
+}
+.card-body .btn-pad {
+  margin-top: 45px;
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
