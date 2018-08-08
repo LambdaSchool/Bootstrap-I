@@ -16,16 +16,98 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <nav class="nav col-sm-12 justify-content-between">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Resume</a>
+        <a class="nav-link" href="#">Store</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+    </div><!--Header row-->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <img src="img/internetmeme.jpg" alt="Aliens meme with caption: Internet">
+        <h1 class="display-4">Tom Camilleri</h1>
+        <p class="lead">Tech Extraordinaire</p>
       </div>
-    </div><!-- container -->
+    </div> <!--jumbotron-->
+    <div class="row body">
+      <div class="col-sm-6">
+        <h1>Who am I?</h1>
+        <p>I am a person who enjoys making webpages! I can make bootstrap web pages using preprocessing techniques from less.
+        Right now I am implementing my bootstrap know-how in this webpage. Pretty cool, right?</p>
+      </div><!--Paragraph Div-->
+      <div class="col-sm-6">
+        <h1>I know how to...</h1>
+        <ul class="list-group">
+          <li class="list-group-item">Work in a team!</li>
+          <li class="list-group-item">Make cool projects</li>
+          <li class="list-group-item">Curate adaptive websites</li>
+          <li class="list-group-item">Manage my time</li>
+          <li class="list-group-item">Focus on the task at hand</li>
+        </ul>
+      </div><!--List Item Div-->
+    </div><!--Row1-->
+    <div class="row">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Yrs</th>
+            <th scope="col">Company</th>
+            <th scope="col">Title</th>
+            <th scope="col">Tech Used</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Cafe Holland</td>
+            <td>Server</td>
+            <td>flat top grill</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Larry's Market</td>
+            <td>Caterer</td>
+            <td>chafing dishes</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Jimmy John's</td>
+            <td>Delivery</td>
+            <td>slicing machine</td>
+          </tr>
+        </tbody>
+      </table>
+    </div><!--Row 2-->
+    <div class="row">
+      <h1>Projects I've made</h1>
+    </div>
+    <div class="row cards">
+      <div class="card col-sm-4" style="width: 18rem;">
+        <img class="card-img-top" src="img/project1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Responsive Web Design</h5>
+          <p class="card-text">Everything responsive. No more fixed widths!</p>
+          <a href="https://github.com/tommycam/Responsive-Web-Design" class="btn btn-primary">Github Link</a>
+        </div>
+      </div>
+      <div class="card col-sm-4" style="width: 18rem;">
+        <img class="card-img-top" src="img/project2.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">PreProcessing</h5>
+          <p class="card-text">Working with Less! So much fun!</p>
+          <a href="https://github.com/tommycam/Preprocessing-Part-I" class="btn btn-primary">Github Link</a>
+        </div>
+      </div>
+    </div>
+  </div><!-- container -->
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
