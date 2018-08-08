@@ -1,0 +1,48 @@
+.jumbo {
+  background: #dddabb;
+  color: #373835;
+}
+.container {
+  width: 880px;
+}
+.navigation {
+  width: 100%;
+  margin: 10px 0;
+  color: #6f826d;
+}
+.navigation .link {
+  color: #6f826d;
+}
+.jumbo {
+  background: #ccc899;
+  color: #373835;
+}
+.jumbo .top-content {
+  text-align: center;
+  padding: 10px;
+}
+.jumbo .top-content .selfie {
+  border: 7px double #6f826d;
+}
+.main-content .middle-content .badge-secondary {
+  background: #6f826d;
+}
+.main-content .bottom-content .employment {
+  border-top: 2px black solid;
+  padding-top: 20px;
+}
+.main-content .bottom-content .badge-secondary {
+  background: #6f826d;
+}
+.main-content .bottom-content .green-button {
+  background: #6f826d;
+}
+.main-content .bottom-content .red-button {
+  background: red;
+}
+footer {
+  text-align: center;
+  background: #6f826d;
+  color: white;
+  padding: 5px;
+}
