@@ -1,3 +1,5 @@
+View this project here: https://alec-jordan-digital-resume.glitch.me/
+
 # Bootstrap I
 Bootstrap provides a layout grid system, components and much more but it's up to us how we should use them. To get better at using bootstrap, you need to build projects that utilize the grid and incorporate components.
 

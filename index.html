@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -8,6 +9,7 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,16 +18,151 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bottom">Experience</a>
+          </li>
+        </ul>
       </div>
-    </div><!-- container -->
+      <!--Nav-->
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="jumbotron">
+          <h1 class="display-4">Alec Jordan, Web Developer</h1>
+          <p class="lead">I'm a front-end developer who is training to become a fullstack engineer</p>
+          <hr class="my-2">
+          <img src="img/Jumbo-image.jpg" alt="Techy jumbo image" class="img-fluid jumbo-img">
+          <a class="btn btn-primary btn-lg" href="#bottom" role="button">Learn more</a>
+
+          <div class="row">
+            <div class="col-6">
+              <h1>About Me</h1>
+              <p>I graduated from Johns Hopkins University with a degree in psychology. Throughout my time, I spent a lot of time taking technology courses. I've had a passion for technology for many years and have been working on coding projects
+                since high school. Check out my Github for a catalog of the projects that I've worked on.
+              </p>
+            </div>
+            <div class="col-6 mx-auto">
+              <img src="img/Pro Headshot copy.jpg" alt="An image of the site's creator" class="img-fluid prof-pic mx-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row experience" id="bottom">
+      <div class="col-12">
+        <h1>Experience</h1>
+      </div>
+      <div class="col-md-4 col-sm-4 col-6">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-tech-list" data-toggle="list" href="#list-tech" role="tab" aria-controls="tech">My Technologies</a>
+          <a class="list-group-item list-group-item-action" id="list-web-links-list" data-toggle="list" href="#list-web-links" role="tab" aria-controls="web-links">Around the Web</a>
+          <a class="list-group-item list-group-item-action" id="list-classes-list" data-toggle="list" href="#list-classes" role="tab" aria-controls="classes">My Classes</a>
+          <a class="list-group-item list-group-item-action" id="list-contact-list" data-toggle="list" href="#list-contact" role="tab" aria-controls="contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-8 col-6">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active tech" id="list-tech" role="tabpanel" aria-labelledby="list-home-list">
+            <i class="fab fa-js-square"></i>
+            <!--These are effecting the layout, need to change visibility to display none-->
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-node"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-less"></i>
+            <i class="fas fa-terminal"></i>
+            <i class="fab fa-git"></i>
+          </div>
+
+          <div class="tab-pane fade" id="list-web-links" role="tabpanel" aria-labelledby="list-profile-list">
+            <a class="my-links" href="https://github.com/TheDeterminator" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="my-links" href="https://codepen.io/WordJord/" target="_blank"><i class="fab fa-codepen"></i></a>
+            <a class="my-links" href="https://stackoverflow.com/users/8666116/alec-jordan?tab=profile" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+            <a class="my-links" href="https://www.linkedin.com/in/alec-jordan-673b138b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+
+          <!-- BEGIN TABLE -->
+          <div class="tab-pane fade table-striped" id="list-classes" role="tabpanel" aria-labelledby="list-classes-list">
+            <div class="table-responsive-md">
+              <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Class</th>
+                    <th scope="col">Institution</th>
+                    <th scope="col">Languages</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>2018</td>
+                    <td>Fullstack Web Development</td>
+                    <td>Lambda School</td>
+                    <td>MERN JS, C, Python/Django</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>2015</td>
+                    <td>Computing for Scientists and Engineers</td>
+                    <td>Johns Hopkins University</td>
+                    <td>Matlab</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>2014</td>
+                    <td>Intro to Programming in Java</td>
+                    <td>Johns Hopkins University</td>
+                    <td>Java</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>2011</td>
+                    <td>Intro to Computer Science</td>
+                    <td>Baltimore Polytechnic Institute</td>
+                    <td>Python</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!--END TABLE-->
+
+          <div class="tab-pane fade" id="list-contact" role="tabpanel" aria-labelledby="list-contact-list">
+            <p>Email: alec.jordan.cs@gmail.com <br> Phone: (443)-977-8027</p>
+          </div>
+        </div>
+        <!-- This won't disappear for some reason -->
+
+      </div>
+    </div>
+
+    <div class="row footer">
+      <div class="col-12">
+        <h3>&#169; 2018 FontAwesomeSauce</h1>
+  </div>
+</div>
+
+  </div>
+
+
+  <!-- container -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
