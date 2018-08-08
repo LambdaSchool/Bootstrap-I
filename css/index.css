@@ -1,0 +1,26 @@
+.bg {
+  background: #aff4ff;
+}
+.bg2 {
+  background: #ccf7ff;
+}
+.curved {
+  border-radius: 20px;
+}
+.centered-doge {
+  left: 25%;
+  border-radius: 100px;
+}
+.nav-item .nav-link:hover {
+  color: #fff;
+  background: #007bff;
+}
+.text-center {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .override .container {
+    width: 100%;
+    max-width: 720px;
+  }
+}
