@@ -1,0 +1,53 @@
+.container {
+  background-image: url("../img/matrix-code.jpg");
+}
+.nav {
+  width: 100%;
+  justify-content: space-evenly;
+}
+.nav .nav-link {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.nav .nav-link:hover {
+  font-weight: bold;
+  font-size: 50px;
+  color: purple;
+}
+.jumbotron {
+  background: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.jumbotron .display-4 {
+  font-weight: bold;
+}
+@media only screen and (min-width: 768px) {
+  .jumbotron #pic-1 {
+    display: block;
+  }
+  .jumbotron #pic-2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .jumbotron #pic-1 {
+    display: none;
+  }
+  .jumbotron #pic-2 {
+    display: block;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .jumbotron #pic-1 {
+    display: none;
+  }
+  .jumbotron #pic-2 {
+    display: block;
+  }
+}
+.table {
+  margin-top: 20px;
+}

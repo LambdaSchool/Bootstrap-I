@@ -1,1 +1,45 @@
-// Start here!
+.container {
+    background-image: url("../img/matrix-code.jpg");
+}
+
+.nav {
+    width: 100%;
+    justify-content: space-evenly;
+    .nav-link {
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        &:hover {
+            font-weight: bold;
+            font-size: 50px;
+            color: purple;
+        }
+    }
+}
+
+.jumbotron {
+    background:none;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    .display-4 {
+        font-weight: bold;
+    }
+    @media only screen and (min-width: 768px) { 
+        #pic-1 { display: block; }
+        #pic-2 { display: none; }
+        }
+        
+        @media only screen and (min-width: 480px) and (max-width: 767px) { 
+        #pic-1 { display: none; }
+        #pic-2 { display: block; }
+        }
+        
+        @media only screen and (max-width: 479px) { 
+        #pic-1 { display: none; }
+        #pic-2 { display: block; } 
+        }
+}
+.table {
+    margin-top: 20px;
+}
