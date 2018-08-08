@@ -17,11 +17,150 @@
 <body>
 
     <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+        <ul class="nav justify-content-center"><!--NAV START-->
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul> <!--NAV END-->
+
+        <div class="row"><!--JUMBORTRON START-->
+          <div class="col-md-12 jumbo">
+              <div class="jumbotron">
+                <h1 class="display-4">LeBron James</h1>
+                <img src="img/download.jpg" class="img" alt="LeBron James">
+                <p class="lead">I am a professional basketball player for any team I choose.</p>
+                <hr class="my-4">
+                <p>I am arguably the most well rounded player who's ever played the game. Some say I'm better than Michael, most agree I'm better than kobe. Please click on the button below if you would like to jump on the bandwagon.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">G.O.A.T.</a>
+                </p>
+              </div>
           </div>
-      </div>
+        </div><!--JUMBOTRON END-->
+
+        <div class="row table-row no-gutters"><!--INFOR TABLE START-->
+          <h4>Team History</h4>
+          <table class="table table-striped">
+              <thead>
+                  <tr>
+                  <th scope="col">Yrs</th>
+                  <th scope="col">Team</th>
+                  <th scope="col">Rings</th>
+                  <th scope="col">Hairline</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                  <th scope="row">2003-10</th>
+                  <td>Cavs</td>
+                  <td>No</td>
+                  <td>Good</td>
+                  </tr>
+                  <tr>
+                  <th scope="row">2010-14</th>
+                  <td>Heat</td>
+                  <td>2</td>
+                  <td>Okay</td>
+                  </tr>
+                  <tr>
+                  <th scope="row">2014-present</th>
+                  <td>Cavs</td>
+                  <td>1</td>
+                  <td>Bad</td>
+                  </tr>
+              </tbody>
+              </table>
+        </div><!--INFO TABLE END-->
+
+        <div class="row"><!--ROW TWO INFO START-->
+          <div class="col-sm-6">
+            <h2>Information for haters:</h2>
+            <p>Many people have a difficult time accepting that their favorite athlete is inferior. I have provided some helpful information boxes that might help convince you otherwise. If you find that this is not pursuasive enough, please fill out your information below.</p>
+          </div>
+          <div class="col-sm-6">
+              <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Defense
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        One of the best defensive players in the game, I can shut down any opposing player 1 - 5. If that's not enough, I've also memorized all of my opponent's offensive sets so I know what you're going to do before you do it. Don't get me started on shot blocking.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Offense
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        Although I may not be the most clutch shooter of all time, I get my points by shooting high-percentage shots and being an absolute bulldozer on fast breaks.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Basketball IQ
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        I study more game film than anyone on the planet.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div><!--ROW TWO INFO END-->
+
+        <div class="row"><!--FILLOUT FORM START-->
+          <div class="col-lg-12 fillout">
+              <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Favorite Team</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter team">
+                    <small id="emailHelp" class="form-text text-muted">If you're a Utah Jazz fan, don't waste my time.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Full Name</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="enter name">
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Automatically sign me up for Steph Curry fan club</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Cry-baby</button>
+                </form>
+          </div>
+        </div><!--FILOUT FORM END-->
+
+        <div class="row footer">
+            <div class="col-sm-12">
+            <p class="text-center">Copyright Jebron Lames</p>
+            </div>
+        </div>
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
