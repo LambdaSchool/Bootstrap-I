@@ -1,1 +1,68 @@
 // Start here!
+
+
+.content-boxes {
+  background: gray;
+  color: white;
+  margin: 5px 15px;
+}
+
+@small: ~"(min-width: 576px)";
+@medium: ~"(min-width: 798px)";
+
+// body {
+//   max-width: 950px;
+//   width:100%;
+//   display: flex;
+//   justify-content: center;
+// }
+// .home {
+//   max-width: 880px;
+//   display: flex;
+//   justify-content: center;
+// }
+
+.card p {
+  font-size: 1em;
+  line-height: 1;
+}
+
+.table {
+  background: gray;
+}
+
+.card-self {
+  
+}
+
+.middle-content, {
+  background: #063B4D;
+
+  @media @small {
+    justify-content: center;
+  }
+}
+
+.education, .work-history {
+  table {
+    background:  #063B4D;
+  }
+}
+
+.bottom-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.summary, .skills,{
+  .content-boxes;
+}
+
+li {
+  color: black;
+}
