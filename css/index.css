@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  color: green;
+}
+.container .nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.container .nav-link {
+  color: red;
+}
+.container .jumbotron-fluid .img-thumbnail {
+  max-width: 75%;
+}
+.container .jumbotron-fluid .img-thumbnail:hover {
+  img: url('http://www.online-image-editor.com//styles/2014/images/example_image.png');
+}
+.container .jumbotron-fluid .container {
+  background-color: plum;
+}
+.container .footer {
+  color: magenta;
+}
+.container .hide-reference {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
