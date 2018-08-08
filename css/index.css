@@ -1,0 +1,13 @@
+body {
+  background-image: linear-gradient(240deg, purple, blue, red, orange);
+}
+.container {
+  background: rgba(255, 255, 255, 0.6);
+}
+.container img {
+  max-width: 300px;
+  max-height: 400px;
+}
+.list-unstyled {
+  margin-bottom: 1%;
+}
