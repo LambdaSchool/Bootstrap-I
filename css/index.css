@@ -1,0 +1,31 @@
+.at-a-glance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 188.66px;
+  }
+}
+.nav {
+  padding: 15px;
+}
+.jumbo-btn {
+  justify-content: center;
+}
+.job {
+  padding-bottom: 15px;
+}
+.prog-bar {
+  margin-bottom: 15px;
+}
+.m-skills {
+  padding-top: 50px;
+}
+@media (max-width: 768px) {
+  table tbody tr td:last-child,
+  table thead tr th:last-child {
+    display: none;
+  }
+}
