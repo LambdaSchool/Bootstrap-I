@@ -16,12 +16,93 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1>Start Here!</h1>
+    <div class="container background1">
+      <div class="row background">
+          <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Personal Projects</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Websites</a>
+                  <a class="dropdown-item" href="#">Mobile Applications</a>
+                  <a class="dropdown-item" href="#">UI/UX</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Game Development</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Bio</a>
+              </li>
+            </ul>
+            <div class="col-sm-12">
+              <h1>Welcome!</h1>
           </div>
-      </div>
+      </div><!-- first row -->
+
+        <div class="row">
+            <div class="jumbotron jumbotron-fluid col-12">
+                <div class="container">
+                  <h1 class="display-4"/> Digital Resume </h1>
+                  <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                  <img src= "jpg/jumbo.jpg" alt="jumbotron image" height="300px" width="600px;"/>
+                </div>
+            </div>  
+        </div> <!-- second row -->
+
+        <div class="row">
+            <button type="button" class="btn btn-primary btn-lg btn-block">Click Here for Resume Word Doc Format</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block">Click Here for Resume .PDF Format</button>
+        </div><!-- third row -->
+
+        <div class="row">
+            <div class="card col-6" style="width: 18rem;">
+                <div class="card-header" >
+                  Featured Skills
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML5/CSS3</li>
+                  <li class="list-group-item">LESS/Bootstrap</li>
+                  <li class="list-group-item">Javascript</li>
+                </ul>
+              </div>
+            </div>   <!--fourth row  -->
+
+            <div class="row">
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">References</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Contact</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@m.otto@aol.com</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>JacobThornton@gmail.com</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>Birdwalk33@hotmail.com</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div><!-- fifth row -->
     </div><!-- container -->
 
     <script src="js/jquery-3.3.1.min.js"></script>

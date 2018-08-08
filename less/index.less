@@ -1,1 +1,53 @@
 // Start here!
+@col-background:lightgray;
+
+.background1{
+background: white;
+}
+
+.background{
+    background:@col-background;
+}
+
+.jumbotron{
+    background:white;
+}
+
+.card{
+margin-left:250px;
+}
+
+.card-header{
+    display:flex;
+    justify-content:center;
+}
+
+.list-group-item{
+    display:flex;
+    justify-content: center;
+}
+
+.nav-link{
+    &:hover{
+        background: #007bff;
+        color:white;
+    }
+}
+
+body{
+    background: lightslategray;
+}
+
+
+/*.table-hover{
+    background:white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}*/
+
+/*.table-hover:scope{
+display:flex;
+flex-wrap:wrap;
+justify-content: flex-center;
+}*/
