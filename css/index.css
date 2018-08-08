@@ -1,0 +1,27 @@
+nav a {
+  text-decoration: none;
+  color: lightgrey;
+}
+nav a:hover {
+  color: teal;
+}
+.btn {
+  color: lightgrey;
+  background: teal;
+  border: none;
+}
+.btn:hover {
+  color: white;
+  background: #A54764;
+}
+.list-group {
+  margin: 20px 0;
+}
+.table {
+  margin: 20px 0;
+}
+.footer {
+  padding-top: 20px;
+  background: teal;
+  color: white;
+}
