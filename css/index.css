@@ -1,0 +1,41 @@
+div .test {
+  color: red;
+}
+nav {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+nav A {
+  border: 1px dotted red;
+  margin-right: 10px;
+}
+img {
+  max-width: 300px;
+}
+.row .start {
+  margin-top: 10%;
+}
+.row .round {
+  border-radius: 300px;
+}
+.customHeading {
+  margin-top: 10%;
+  margin-left: 50%;
+}
+.shadow {
+  box-shadow: 10px 5px 5px red;
+}
+.margin {
+  margin-right: 10%;
+}
+.custom {
+  margin-top: 10%;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
