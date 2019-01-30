@@ -1,0 +1,44 @@
+html {
+  color: #373c42;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.top-gap {
+  height: 20px;
+}
+.link {
+  color: black;
+}
+.card {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.card .card-title {
+  text-align: center;
+}
+.my-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.my-icons div {
+  margin: 20px 0 auto;
+}
+@media (min-width: 995px) {
+  .my-icons {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.my-proficencies {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.my-proficencies div {
+  padding: 10px;
+  margin: 20px 0 auto;
+}
